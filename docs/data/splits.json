@@ -1,0 +1,176 @@
+{
+ "updated": "2026-11-19T22:26:59.219071-05:00",
+ "error": null,
+ "games": [
+  {
+   "event_id": "35048907",
+   "away": "VCU",
+   "home": "Santa Clara",
+   "when": "Thu 11/19 \u00b7 10:35 PM ET",
+   "markets": {
+    "moneyline": [
+     {
+      "label": "Santa Clara",
+      "odds": -130,
+      "handle": 92,
+      "bets": 68,
+      "model_agrees": true
+     },
+     {
+      "label": "VCU",
+      "odds": 110,
+      "handle": 8,
+      "bets": 32,
+      "model_agrees": false
+     }
+    ],
+    "spread": [
+     {
+      "label": "Santa Clara -1.5",
+      "odds": -118,
+      "handle": 81,
+      "bets": 80,
+      "model_agrees": "True"
+     },
+     {
+      "label": "VCU +1.5",
+      "odds": -102,
+      "handle": 19,
+      "bets": 20,
+      "model_agrees": "False"
+     }
+    ],
+    "total": [
+     {
+      "label": "Over 163.5",
+      "odds": -115,
+      "handle": 96,
+      "bets": 65,
+      "model_agrees": "False"
+     },
+     {
+      "label": "Under 163.5",
+      "odds": -105,
+      "handle": 4,
+      "bets": 35,
+      "model_agrees": "True"
+     }
+    ]
+   },
+   "espn_id": "401917536",
+   "model": {
+    "margin": 6.46,
+    "total": 161.61,
+    "home_spread": -6.5
+   }
+  },
+  {
+   "event_id": "35050142",
+   "away": "Kansas",
+   "home": "Houston",
+   "when": "Thu 11/19 \u00b7 11:00 PM ET",
+   "markets": {
+    "moneyline": [
+     {
+      "label": "Houston",
+      "odds": -166,
+      "handle": 83,
+      "bets": 78,
+      "model_agrees": null
+     },
+     {
+      "label": "Kansas",
+      "odds": 140,
+      "handle": 17,
+      "bets": 22,
+      "model_agrees": null
+     }
+    ],
+    "spread": [
+     {
+      "label": "Houston -3.5",
+      "odds": -108,
+      "handle": 52,
+      "bets": 61,
+      "model_agrees": null
+     },
+     {
+      "label": "Kansas +3.5",
+      "odds": -112,
+      "handle": 48,
+      "bets": 39,
+      "model_agrees": null
+     }
+    ],
+    "total": [
+     {
+      "label": "Over 151.5",
+      "odds": -105,
+      "handle": 99,
+      "bets": 67,
+      "model_agrees": null
+     },
+     {
+      "label": "Under 151.5",
+      "odds": -115,
+      "handle": 1,
+      "bets": 33,
+      "model_agrees": null
+     }
+    ]
+   },
+   "espn_id": "401921028",
+   "model": {
+    "margin": 12.71,
+    "total": 155.25,
+    "home_spread": -12.5
+   }
+  },
+  {
+   "event_id": "35048908",
+   "away": "Tarleton State",
+   "home": "USC",
+   "when": "Thu 11/19 \u00b7 11:00 PM ET",
+   "markets": {
+    "spread": [
+     {
+      "label": "USC -28.5",
+      "odds": -112,
+      "handle": 16,
+      "bets": 77,
+      "model_agrees": "False"
+     },
+     {
+      "label": "Tarleton State +28.5",
+      "odds": -108,
+      "handle": 84,
+      "bets": 23,
+      "model_agrees": "True"
+     }
+    ],
+    "total": [
+     {
+      "label": "Over 158.5",
+      "odds": -110,
+      "handle": 95,
+      "bets": 50,
+      "model_agrees": "True"
+     },
+     {
+      "label": "Under 158.5",
+      "odds": -110,
+      "handle": 5,
+      "bets": 50,
+      "model_agrees": "False"
+     }
+    ]
+   },
+   "espn_id": "401926773",
+   "model": {
+    "margin": 25.78,
+    "total": 158.54,
+    "home_spread": -26.0
+   }
+  }
+ ]
+}

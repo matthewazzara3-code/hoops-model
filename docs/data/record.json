@@ -1,0 +1,15 @@
+{
+ "overall": {
+  "w": 0,
+  "l": 0,
+  "p": 0,
+  "units": 0,
+  "roi": 0.0,
+  "win_pct": 0.0,
+  "avg_clv": null,
+  "clv_n": 0
+ },
+ "by_market": {},
+ "curve": [],
+ "pending": 3
+}

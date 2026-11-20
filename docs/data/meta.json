@@ -1,0 +1,35 @@
+{
+ "updated": "2026-11-19T22:26:59.219071-05:00",
+ "slate": "2026-11-19",
+ "model_version": "1.0",
+ "games_fit": 1032,
+ "data_through": "2026-11-18",
+ "hca_pts": {
+  "conference": 2.9,
+  "non_conference": 5.2
+ },
+ "league_total": 150.2,
+ "rules": {
+  "spread": {
+   "min_edge": 3.0,
+   "min_ev": 0.05
+  },
+  "total": {
+   "min_edge": 4.5,
+   "min_ev": 0.05
+  },
+  "moneyline": {
+   "min_ev": 0.08,
+   "min_odds": -250,
+   "max_odds": 250
+  },
+  "min_games": 0
+ },
+ "log": [
+  "Fit on 1032 games through 2026-11-18",
+  "New pick: VCU @ Santa Clara Santa Clara -1.5 (-118) EV 19.0%",
+  "New pick: VCU @ Santa Clara Santa Clara ML (-130) EV 21.2%",
+  "New pick: Houston @ Kansas Under 151.5 (-115) EV 17.4%",
+  "Splits: 3 games, 4 sides with handle >= bets + 30"
+ ]
+}

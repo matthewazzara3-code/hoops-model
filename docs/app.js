@@ -52,8 +52,9 @@ function gameState(g) {
 }
 
 /* ---------- board ---------- */
-function teamRow(t, other, showScore) {
-  const cls = showScore && t.score != null && other.score != null ? (t.score > other.score ? 'win' : 'lose') : '';
+function teamRow(t, other, state) {
+  const showScore = state !== 'pre';
+  const cls = state === 'post' && t.score != null && other.score != null ? (t.score > other.score ? 'win' : 'lose') : '';
   return `<div class="team">${t.logo ? `<img src="${esc(t.logo)}" alt="" loading="lazy" onerror="this.style.visibility='hidden'">` : ''}${t.rank ? `<span class="rk">${t.rank}</span>` : ''}<span class="nm">${esc(t.short || t.name)}</span></div>
           <div class="score ${cls}">${showScore && t.score != null ? t.score : ''}</div>`;
 }
@@ -89,7 +90,7 @@ function boardCard(g0) {
   const pills = Object.values(pickBy).map(p => `<span class="pill">${esc(p.label)} ${odds(p.odds)}${p.result ? ` · ${p.result}` : ''}</span>`).join('');
   return `<div class="card ${pills ? 'haspick' : ''}">
     <div class="ghead">${stateTag(g)}<span>${g.neutral ? 'Neutral · ' : ''}${esc(g.tv || '')}</span></div>
-    <div class="teams">${teamRow(g.away, g.home, show)}${teamRow(g.home, g.away, show)}</div>
+    <div class="teams">${teamRow(g.away, g.home, g.state)}${teamRow(g.home, g.away, g.state)}</div>
     <div class="mkt head"><span></span><span>DraftKings</span><span>Model</span><span class="r" style="text-align:right">Edge</span></div>
     ${rows}
     <div class="ghead" style="margin:6px 0 0"><span>Proj ${m.away_pts ?? ''}, ${m.home_pts ?? ''} · pace ${m.pace ?? ''}</span><span>Win ${pct(1 - (m.home_win ?? .5))} / ${pct(m.home_win)}</span></div>
@@ -158,7 +159,7 @@ function renderLive() {
   gs.sort((a, b) => order[a.state] - order[b.state] || a.date.localeCompare(b.date));
   const pickGames = new Set(S.picks.filter(p => !p.result).map(p => p.game_id));
   $('#live-list').innerHTML = gs.map(g => `<div class="sc ${g.state}"><div class="ghead">${stateTag(g)}<span>${pickGames.has(g.id) ? '<span class="pill">Pick</span>' : esc(g.tv || '')}</span></div>
-    <div class="teams">${teamRow(g.away, g.home, g.state !== 'pre')}${teamRow(g.home, g.away, g.state !== 'pre')}</div></div>`).join('') || '<div class="empty">No games right now.</div>';
+    <div class="teams">${teamRow(g.away, g.home, g.state)}${teamRow(g.home, g.away, g.state)}</div></div>`).join('') || '<div class="empty">No games right now.</div>';
 }
 
 /* ---------- sharp money ---------- */

@@ -141,7 +141,8 @@ def main():
     logs: list[str] = []
     log = lambda m: (logs.append(m), print(m))  # noqa: E731
     now = datetime.now(ET)
-    today = date.fromisoformat(a.date) if a.date else now.date()
+    # before 6am ET the slate is still yesterday's (late games finish after midnight)
+    today = date.fromisoformat(a.date) if a.date else (now - timedelta(hours=6)).date()
     season = season_for(today)
     fetch = espn.fetch_scoreboard
 

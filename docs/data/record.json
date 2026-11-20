@@ -1,17 +1,54 @@
 {
  "overall": {
   "w": 0,
-  "l": 0,
+  "l": 3,
   "p": 0,
-  "units": 0,
-  "roi": 0.0,
+  "units": -3.0,
+  "roi": -100.0,
   "win_pct": 0.0,
-  "avg_clv": null,
-  "clv_n": 0
+  "avg_clv": 0.0,
+  "clv_n": 3
  },
- "by_market": {},
- "curve": [],
- "pending": 3,
+ "by_market": {
+  "total": {
+   "w": 0,
+   "l": 1,
+   "p": 0,
+   "units": -1.0,
+   "roi": -100.0,
+   "win_pct": 0.0,
+   "avg_clv": 0.0,
+   "clv_n": 1
+  },
+  "spread": {
+   "w": 0,
+   "l": 1,
+   "p": 0,
+   "units": -1.0,
+   "roi": -100.0,
+   "win_pct": 0.0,
+   "avg_clv": 0.0,
+   "clv_n": 1
+  },
+  "moneyline": {
+   "w": 0,
+   "l": 1,
+   "p": 0,
+   "units": -1.0,
+   "roi": -100.0,
+   "win_pct": 0.0,
+   "avg_clv": 0.0,
+   "clv_n": 1
+  }
+ },
+ "curve": [
+  {
+   "date": "2026-11-19",
+   "units": -3.0,
+   "day": -3.0
+  }
+ ],
+ "pending": 47,
  "model_sharp_agree": {
   "w": 0,
   "l": 0,
@@ -34,6 +71,6 @@
    "clv_n": 0
   },
   "by_market": {},
-  "pending": 0
+  "pending": 21
  }
 }

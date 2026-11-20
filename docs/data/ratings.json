@@ -1,238 +1,238 @@
 {
- "updated": "2026-11-20T00:13:41.673225-05:00",
- "through": "2026-11-18",
+ "updated": "2026-11-20T07:43:44.725199-05:00",
+ "through": "2026-11-19",
  "teams": [
   {
    "team_id": "356",
    "team": "Illinois Fighting Illini",
    "games": 5,
-   "adj_o": 126.1,
-   "adj_d": 87.2,
-   "adj_em": 38.9,
+   "adj_o": 126.0,
+   "adj_d": 87.4,
+   "adj_em": 38.6,
    "adj_t": 78.6
   },
   {
    "team_id": "248",
    "team": "Houston Cougars",
-   "games": 5,
-   "adj_o": 118.2,
-   "adj_d": 87.6,
-   "adj_em": 30.6,
-   "adj_t": 66.3
+   "games": 6,
+   "adj_o": 121.3,
+   "adj_d": 88.3,
+   "adj_em": 33.0,
+   "adj_t": 67.2
   },
   {
    "team_id": "150",
    "team": "Duke Blue Devils",
    "games": 5,
-   "adj_o": 111.7,
-   "adj_d": 82.5,
-   "adj_em": 29.2,
-   "adj_t": 74.7
+   "adj_o": 112.0,
+   "adj_d": 83.0,
+   "adj_em": 29.0,
+   "adj_t": 74.8
   },
   {
    "team_id": "142",
    "team": "Missouri Tigers",
    "games": 5,
-   "adj_o": 116.1,
-   "adj_d": 87.2,
-   "adj_em": 28.9,
-   "adj_t": 71.1
+   "adj_o": 116.3,
+   "adj_d": 87.6,
+   "adj_em": 28.7,
+   "adj_t": 71.2
   },
   {
    "team_id": "2641",
    "team": "Texas Tech Red Raiders",
    "games": 5,
-   "adj_o": 104.8,
-   "adj_d": 77.3,
-   "adj_em": 27.5,
+   "adj_o": 104.9,
+   "adj_d": 77.5,
+   "adj_em": 27.4,
    "adj_t": 68.5
   },
   {
    "team_id": "238",
    "team": "Vanderbilt Commodores",
    "games": 5,
-   "adj_o": 114.1,
+   "adj_o": 114.2,
    "adj_d": 87.0,
-   "adj_em": 27.1,
+   "adj_em": 27.2,
    "adj_t": 69.8
   },
   {
    "team_id": "41",
    "team": "UConn Huskies",
    "games": 5,
-   "adj_o": 113.3,
-   "adj_d": 86.5,
-   "adj_em": 26.8,
-   "adj_t": 66.6
+   "adj_o": 113.5,
+   "adj_d": 86.4,
+   "adj_em": 27.1,
+   "adj_t": 66.5
   },
   {
-   "team_id": "2305",
-   "team": "Kansas Jayhawks",
-   "games": 5,
-   "adj_o": 113.9,
-   "adj_d": 87.3,
-   "adj_em": 26.7,
-   "adj_t": 76.5
+   "team_id": "57",
+   "team": "Florida Gators",
+   "games": 7,
+   "adj_o": 121.4,
+   "adj_d": 94.5,
+   "adj_em": 27.0,
+   "adj_t": 68.9
   },
   {
    "team_id": "158",
    "team": "Nebraska Cornhuskers",
    "games": 5,
-   "adj_o": 112.7,
+   "adj_o": 112.8,
    "adj_d": 86.2,
    "adj_em": 26.5,
    "adj_t": 69.4
   },
   {
-   "team_id": "57",
-   "team": "Florida Gators",
+   "team_id": "2305",
+   "team": "Kansas Jayhawks",
    "games": 6,
-   "adj_o": 119.5,
-   "adj_d": 94.1,
-   "adj_em": 25.4,
-   "adj_t": 69.1
+   "adj_o": 115.0,
+   "adj_d": 89.3,
+   "adj_em": 25.7,
+   "adj_t": 77.4
+  },
+  {
+   "team_id": "30",
+   "team": "USC Trojans",
+   "games": 5,
+   "adj_o": 113.1,
+   "adj_d": 88.5,
+   "adj_em": 24.6,
+   "adj_t": 75.7
   },
   {
    "team_id": "2599",
    "team": "St. John's Red Storm",
    "games": 5,
    "adj_o": 111.1,
-   "adj_d": 86.6,
-   "adj_em": 24.4,
+   "adj_d": 86.8,
+   "adj_em": 24.3,
    "adj_t": 76.5
   },
   {
    "team_id": "26",
    "team": "UCLA Bruins",
    "games": 5,
-   "adj_o": 113.7,
-   "adj_d": 89.5,
-   "adj_em": 24.1,
-   "adj_t": 69.6
-  },
-  {
-   "team_id": "127",
-   "team": "Michigan State Spartans",
-   "games": 5,
-   "adj_o": 112.6,
+   "adj_o": 113.8,
    "adj_d": 89.6,
-   "adj_em": 23.0,
-   "adj_t": 70.1
-  },
-  {
-   "team_id": "251",
-   "team": "Texas Longhorns",
-   "games": 4,
-   "adj_o": 115.6,
-   "adj_d": 93.1,
-   "adj_em": 22.5,
-   "adj_t": 70.8
+   "adj_em": 24.2,
+   "adj_t": 69.6
   },
   {
    "team_id": "130",
    "team": "Michigan Wolverines",
    "games": 4,
-   "adj_o": 113.4,
-   "adj_d": 91.0,
+   "adj_o": 113.5,
+   "adj_d": 91.1,
    "adj_em": 22.4,
-   "adj_t": 81.1
+   "adj_t": 81.0
   },
   {
-   "team_id": "12",
-   "team": "Arizona Wildcats",
+   "team_id": "127",
+   "team": "Michigan State Spartans",
    "games": 5,
-   "adj_o": 116.4,
-   "adj_d": 94.2,
-   "adj_em": 22.2,
-   "adj_t": 74.6
+   "adj_o": 112.0,
+   "adj_d": 89.7,
+   "adj_em": 22.4,
+   "adj_t": 70.1
   },
   {
    "team_id": "145",
    "team": "Ole Miss Rebels",
    "games": 4,
-   "adj_o": 106.3,
-   "adj_d": 84.2,
+   "adj_o": 106.5,
+   "adj_d": 84.4,
    "adj_em": 22.0,
-   "adj_t": 72.2
+   "adj_t": 72.1
+  },
+  {
+   "team_id": "12",
+   "team": "Arizona Wildcats",
+   "games": 5,
+   "adj_o": 116.2,
+   "adj_d": 94.3,
+   "adj_em": 21.9,
+   "adj_t": 74.7
+  },
+  {
+   "team_id": "251",
+   "team": "Texas Longhorns",
+   "games": 5,
+   "adj_o": 114.8,
+   "adj_d": 93.1,
+   "adj_em": 21.7,
+   "adj_t": 70.3
   },
   {
    "team_id": "258",
    "team": "Virginia Cavaliers",
    "games": 6,
-   "adj_o": 115.3,
+   "adj_o": 115.6,
    "adj_d": 94.3,
-   "adj_em": 21.0,
+   "adj_em": 21.3,
    "adj_t": 71.5
-  },
-  {
-   "team_id": "2390",
-   "team": "Miami Hurricanes",
-   "games": 5,
-   "adj_o": 105.1,
-   "adj_d": 84.5,
-   "adj_em": 20.6,
-   "adj_t": 74.2
   },
   {
    "team_id": "139",
    "team": "Saint Louis Billikens",
    "games": 4,
-   "adj_o": 113.6,
-   "adj_d": 93.2,
-   "adj_em": 20.4,
-   "adj_t": 76.2
+   "adj_o": 114.2,
+   "adj_d": 93.1,
+   "adj_em": 21.1,
+   "adj_t": 76.1
   },
   {
-   "team_id": "30",
-   "team": "USC Trojans",
-   "games": 4,
-   "adj_o": 110.9,
-   "adj_d": 90.6,
-   "adj_em": 20.3,
-   "adj_t": 76.9
+   "team_id": "245",
+   "team": "Texas A&M Aggies",
+   "games": 6,
+   "adj_o": 112.3,
+   "adj_d": 91.8,
+   "adj_em": 20.5,
+   "adj_t": 80.9
+  },
+  {
+   "team_id": "2390",
+   "team": "Miami Hurricanes",
+   "games": 5,
+   "adj_o": 105.0,
+   "adj_d": 84.6,
+   "adj_em": 20.4,
+   "adj_t": 74.2
   },
   {
    "team_id": "269",
    "team": "Marquette Golden Eagles",
    "games": 5,
    "adj_o": 104.0,
-   "adj_d": 83.8,
-   "adj_em": 20.2,
+   "adj_d": 83.9,
+   "adj_em": 20.1,
    "adj_t": 70.0
-  },
-  {
-   "team_id": "99",
-   "team": "LSU Tigers",
-   "games": 5,
-   "adj_o": 106.3,
-   "adj_d": 86.6,
-   "adj_em": 19.7,
-   "adj_t": 74.5
   },
   {
    "team_id": "252",
    "team": "BYU Cougars",
    "games": 5,
-   "adj_o": 115.3,
-   "adj_d": 95.8,
-   "adj_em": 19.4,
-   "adj_t": 75.3
+   "adj_o": 115.2,
+   "adj_d": 95.4,
+   "adj_em": 19.8,
+   "adj_t": 75.2
   },
   {
-   "team_id": "277",
-   "team": "West Virginia Mountaineers",
+   "team_id": "99",
+   "team": "LSU Tigers",
    "games": 5,
-   "adj_o": 110.1,
-   "adj_d": 90.8,
-   "adj_em": 19.3,
-   "adj_t": 66.6
+   "adj_o": 106.4,
+   "adj_d": 86.9,
+   "adj_em": 19.4,
+   "adj_t": 74.5
   },
   {
    "team_id": "45",
    "team": "George Washington Revolutionaries",
    "games": 5,
    "adj_o": 107.7,
-   "adj_d": 88.5,
+   "adj_d": 88.6,
    "adj_em": 19.2,
    "adj_t": 71.0
   },
@@ -240,278 +240,287 @@
    "team_id": "239",
    "team": "Baylor Bears",
    "games": 5,
-   "adj_o": 111.0,
-   "adj_d": 92.1,
-   "adj_em": 18.9,
-   "adj_t": 73.3
-  },
-  {
-   "team_id": "328",
-   "team": "Utah State Aggies",
-   "games": 5,
-   "adj_o": 115.3,
-   "adj_d": 96.4,
-   "adj_em": 18.8,
-   "adj_t": 74.8
-  },
-  {
-   "team_id": "2250",
-   "team": "Gonzaga Bulldogs",
-   "games": 4,
-   "adj_o": 114.2,
-   "adj_d": 95.5,
-   "adj_em": 18.7,
-   "adj_t": 70.7
+   "adj_o": 111.2,
+   "adj_d": 92.3,
+   "adj_em": 19.0,
+   "adj_t": 73.4
   },
   {
    "team_id": "2132",
    "team": "Cincinnati Bearcats",
    "games": 5,
-   "adj_o": 105.6,
+   "adj_o": 106.0,
    "adj_d": 87.0,
-   "adj_em": 18.6,
+   "adj_em": 18.9,
    "adj_t": 71.3
+  },
+  {
+   "team_id": "328",
+   "team": "Utah State Aggies",
+   "games": 5,
+   "adj_o": 115.2,
+   "adj_d": 96.4,
+   "adj_em": 18.8,
+   "adj_t": 74.9
   },
   {
    "team_id": "305",
    "team": "DePaul Blue Demons",
    "games": 5,
-   "adj_o": 103.9,
-   "adj_d": 85.4,
-   "adj_em": 18.5,
-   "adj_t": 67.0
+   "adj_o": 104.0,
+   "adj_d": 85.6,
+   "adj_em": 18.4,
+   "adj_t": 67.1
   },
   {
-   "team_id": "245",
-   "team": "Texas A&M Aggies",
-   "games": 5,
-   "adj_o": 108.7,
-   "adj_d": 90.7,
-   "adj_em": 18.0,
-   "adj_t": 80.5
+   "team_id": "2250",
+   "team": "Gonzaga Bulldogs",
+   "games": 4,
+   "adj_o": 113.6,
+   "adj_d": 95.4,
+   "adj_em": 18.3,
+   "adj_t": 70.6
   },
   {
    "team_id": "2633",
    "team": "Tennessee Volunteers",
    "games": 4,
-   "adj_o": 101.5,
-   "adj_d": 83.5,
+   "adj_o": 101.7,
+   "adj_d": 83.7,
    "adj_em": 18.0,
-   "adj_t": 67.0
-  },
-  {
-   "team_id": "2294",
-   "team": "Iowa Hawkeyes",
-   "games": 4,
-   "adj_o": 113.0,
-   "adj_d": 94.9,
-   "adj_em": 18.0,
-   "adj_t": 63.6
-  },
-  {
-   "team_id": "66",
-   "team": "Iowa State Cyclones",
-   "games": 4,
-   "adj_o": 101.8,
-   "adj_d": 85.1,
-   "adj_em": 16.7,
-   "adj_t": 69.5
-  },
-  {
-   "team_id": "135",
-   "team": "Minnesota Golden Gophers",
-   "games": 5,
-   "adj_o": 107.8,
-   "adj_d": 91.2,
-   "adj_em": 16.7,
-   "adj_t": 63.1
-  },
-  {
-   "team_id": "2272",
-   "team": "High Point Panthers",
-   "games": 5,
-   "adj_o": 103.2,
-   "adj_d": 86.7,
-   "adj_em": 16.5,
-   "adj_t": 70.1
-  },
-  {
-   "team_id": "167",
-   "team": "New Mexico Lobos",
-   "games": 4,
-   "adj_o": 110.2,
-   "adj_d": 93.9,
-   "adj_em": 16.2,
-   "adj_t": 74.1
+   "adj_t": 67.1
   },
   {
    "team_id": "2608",
    "team": "Saint Mary's Gaels",
    "games": 5,
-   "adj_o": 114.5,
-   "adj_d": 98.5,
-   "adj_em": 16.0,
-   "adj_t": 72.9
+   "adj_o": 115.9,
+   "adj_d": 97.9,
+   "adj_em": 18.0,
+   "adj_t": 72.6
+  },
+  {
+   "team_id": "277",
+   "team": "West Virginia Mountaineers",
+   "games": 6,
+   "adj_o": 110.5,
+   "adj_d": 92.7,
+   "adj_em": 17.9,
+   "adj_t": 66.2
+  },
+  {
+   "team_id": "2294",
+   "team": "Iowa Hawkeyes",
+   "games": 4,
+   "adj_o": 112.9,
+   "adj_d": 95.1,
+   "adj_em": 17.8,
+   "adj_t": 63.5
+  },
+  {
+   "team_id": "135",
+   "team": "Minnesota Golden Gophers",
+   "games": 5,
+   "adj_o": 108.3,
+   "adj_d": 91.1,
+   "adj_em": 17.2,
+   "adj_t": 63.2
+  },
+  {
+   "team_id": "66",
+   "team": "Iowa State Cyclones",
+   "games": 4,
+   "adj_o": 101.9,
+   "adj_d": 85.1,
+   "adj_em": 16.8,
+   "adj_t": 69.0
+  },
+  {
+   "team_id": "167",
+   "team": "New Mexico Lobos",
+   "games": 4,
+   "adj_o": 110.1,
+   "adj_d": 93.8,
+   "adj_em": 16.3,
+   "adj_t": 74.4
+  },
+  {
+   "team_id": "2272",
+   "team": "High Point Panthers",
+   "games": 6,
+   "adj_o": 104.7,
+   "adj_d": 88.5,
+   "adj_em": 16.2,
+   "adj_t": 70.5
   },
   {
    "team_id": "333",
    "team": "Alabama Crimson Tide",
    "games": 5,
    "adj_o": 115.4,
-   "adj_d": 99.6,
-   "adj_em": 15.9,
-   "adj_t": 81.4
-  },
-  {
-   "team_id": "2628",
-   "team": "TCU Horned Frogs",
-   "games": 4,
-   "adj_o": 106.4,
-   "adj_d": 90.8,
-   "adj_em": 15.7,
-   "adj_t": 76.5
-  },
-  {
-   "team_id": "259",
-   "team": "Virginia Tech Hokies",
-   "games": 5,
-   "adj_o": 111.6,
-   "adj_d": 96.4,
-   "adj_em": 15.2,
-   "adj_t": 73.3
+   "adj_d": 99.4,
+   "adj_em": 16.0,
+   "adj_t": 81.6
   },
   {
    "team_id": "197",
    "team": "Oklahoma State Cowboys",
    "games": 4,
-   "adj_o": 109.0,
-   "adj_d": 93.9,
-   "adj_em": 15.1,
-   "adj_t": 77.9
+   "adj_o": 108.9,
+   "adj_d": 93.4,
+   "adj_em": 15.4,
+   "adj_t": 77.8
   },
   {
    "team_id": "84",
    "team": "Indiana Hoosiers",
    "games": 5,
-   "adj_o": 112.4,
-   "adj_d": 97.3,
-   "adj_em": 15.0,
+   "adj_o": 112.5,
+   "adj_d": 97.4,
+   "adj_em": 15.1,
    "adj_t": 69.4
   },
   {
-   "team_id": "2752",
-   "team": "Xavier Musketeers",
+   "team_id": "259",
+   "team": "Virginia Tech Hokies",
    "games": 5,
-   "adj_o": 100.0,
-   "adj_d": 85.3,
+   "adj_o": 111.7,
+   "adj_d": 96.5,
+   "adj_em": 15.1,
+   "adj_t": 73.3
+  },
+  {
+   "team_id": "152",
+   "team": "NC State Wolfpack",
+   "games": 5,
+   "adj_o": 111.4,
+   "adj_d": 96.6,
+   "adj_em": 14.8,
+   "adj_t": 70.8
+  },
+  {
+   "team_id": "194",
+   "team": "Ohio State Buckeyes",
+   "games": 6,
+   "adj_o": 114.0,
+   "adj_d": 99.3,
    "adj_em": 14.7,
-   "adj_t": 79.6
-  },
-  {
-   "team_id": "97",
-   "team": "Louisville Cardinals",
-   "games": 3,
-   "adj_o": 108.8,
-   "adj_d": 94.2,
-   "adj_em": 14.6,
-   "adj_t": 73.1
-  },
-  {
-   "team_id": "221",
-   "team": "Pittsburgh Panthers",
-   "games": 5,
-   "adj_o": 106.3,
-   "adj_d": 91.7,
-   "adj_em": 14.6,
-   "adj_t": 68.6
-  },
-  {
-   "team_id": "21",
-   "team": "San Diego State Aztecs",
-   "games": 5,
-   "adj_o": 107.6,
-   "adj_d": 93.3,
-   "adj_em": 14.4,
-   "adj_t": 71.5
+   "adj_t": 68.7
   },
   {
    "team_id": "2509",
    "team": "Purdue Boilermakers",
    "games": 5,
-   "adj_o": 114.3,
-   "adj_d": 99.9,
-   "adj_em": 14.3,
-   "adj_t": 65.1
+   "adj_o": 114.5,
+   "adj_d": 99.8,
+   "adj_em": 14.6,
+   "adj_t": 65.0
   },
   {
-   "team_id": "2",
-   "team": "Auburn Tigers",
+   "team_id": "2628",
+   "team": "TCU Horned Frogs",
    "games": 5,
-   "adj_o": 109.1,
-   "adj_d": 94.8,
-   "adj_em": 14.3,
-   "adj_t": 70.4
+   "adj_o": 107.9,
+   "adj_d": 93.3,
+   "adj_em": 14.6,
+   "adj_t": 77.0
+  },
+  {
+   "team_id": "2752",
+   "team": "Xavier Musketeers",
+   "games": 5,
+   "adj_o": 100.1,
+   "adj_d": 85.4,
+   "adj_em": 14.6,
+   "adj_t": 79.6
+  },
+  {
+   "team_id": "221",
+   "team": "Pittsburgh Panthers",
+   "games": 5,
+   "adj_o": 106.2,
+   "adj_d": 91.8,
+   "adj_em": 14.5,
+   "adj_t": 68.7
+  },
+  {
+   "team_id": "87",
+   "team": "Notre Dame Fighting Irish",
+   "games": 7,
+   "adj_o": 115.5,
+   "adj_d": 101.0,
+   "adj_em": 14.5,
+   "adj_t": 71.5
+  },
+  {
+   "team_id": "21",
+   "team": "San Diego State Aztecs",
+   "games": 5,
+   "adj_o": 107.3,
+   "adj_d": 93.5,
+   "adj_em": 13.8,
+   "adj_t": 71.4
   },
   {
    "team_id": "61",
    "team": "Georgia Bulldogs",
    "games": 5,
-   "adj_o": 111.1,
-   "adj_d": 97.4,
-   "adj_em": 13.7,
-   "adj_t": 73.8
-  },
-  {
-   "team_id": "152",
-   "team": "NC State Wolfpack",
-   "games": 4,
-   "adj_o": 109.4,
-   "adj_d": 96.1,
-   "adj_em": 13.3,
-   "adj_t": 70.1
-  },
-  {
-   "team_id": "87",
-   "team": "Notre Dame Fighting Irish",
-   "games": 6,
-   "adj_o": 114.3,
-   "adj_d": 101.1,
-   "adj_em": 13.2,
-   "adj_t": 72.3
+   "adj_o": 111.0,
+   "adj_d": 97.6,
+   "adj_em": 13.4,
+   "adj_t": 74.0
   },
   {
    "team_id": "326",
    "team": "Texas State Bobcats",
    "games": 6,
    "adj_o": 109.3,
-   "adj_d": 96.1,
-   "adj_em": 13.2,
-   "adj_t": 68.1
+   "adj_d": 96.0,
+   "adj_em": 13.3,
+   "adj_t": 67.7
   },
   {
-   "team_id": "68",
-   "team": "Boise State Broncos",
-   "games": 4,
-   "adj_o": 110.6,
-   "adj_d": 97.7,
-   "adj_em": 13.0,
-   "adj_t": 80.5
+   "team_id": "2",
+   "team": "Auburn Tigers",
+   "games": 6,
+   "adj_o": 108.9,
+   "adj_d": 96.0,
+   "adj_em": 12.9,
+   "adj_t": 69.5
   },
   {
    "team_id": "2674",
    "team": "Valparaiso Beacons",
    "games": 4,
    "adj_o": 103.6,
-   "adj_d": 90.6,
-   "adj_em": 13.0,
+   "adj_d": 90.7,
+   "adj_em": 12.9,
    "adj_t": 72.2
+  },
+  {
+   "team_id": "2670",
+   "team": "VCU Rams",
+   "games": 4,
+   "adj_o": 107.3,
+   "adj_d": 94.5,
+   "adj_em": 12.7,
+   "adj_t": 71.6
+  },
+  {
+   "team_id": "68",
+   "team": "Boise State Broncos",
+   "games": 4,
+   "adj_o": 110.7,
+   "adj_d": 98.0,
+   "adj_em": 12.7,
+   "adj_t": 80.5
   },
   {
    "team_id": "344",
    "team": "Mississippi State Bulldogs",
    "games": 5,
-   "adj_o": 109.2,
-   "adj_d": 96.7,
+   "adj_o": 109.4,
+   "adj_d": 96.8,
    "adj_em": 12.6,
    "adj_t": 72.5
   },
@@ -519,45 +528,45 @@
    "team_id": "2750",
    "team": "Wright State Raiders",
    "games": 5,
-   "adj_o": 109.7,
+   "adj_o": 109.3,
    "adj_d": 97.4,
-   "adj_em": 12.3,
+   "adj_em": 11.9,
    "adj_t": 69.5
   },
   {
-   "team_id": "194",
-   "team": "Ohio State Buckeyes",
-   "games": 5,
-   "adj_o": 112.3,
-   "adj_d": 100.2,
-   "adj_em": 12.0,
-   "adj_t": 68.4
+   "team_id": "2253",
+   "team": "Grand Canyon Lopes",
+   "games": 4,
+   "adj_o": 105.9,
+   "adj_d": 94.1,
+   "adj_em": 11.9,
+   "adj_t": 74.7
+  },
+  {
+   "team_id": "97",
+   "team": "Louisville Cardinals",
+   "games": 4,
+   "adj_o": 107.5,
+   "adj_d": 95.6,
+   "adj_em": 11.8,
+   "adj_t": 73.1
   },
   {
    "team_id": "183",
    "team": "Syracuse Orange",
    "games": 5,
    "adj_o": 108.3,
-   "adj_d": 96.4,
-   "adj_em": 11.9,
+   "adj_d": 96.6,
+   "adj_em": 11.8,
    "adj_t": 71.5
-  },
-  {
-   "team_id": "2253",
-   "team": "Grand Canyon Lopes",
-   "games": 4,
-   "adj_o": 105.8,
-   "adj_d": 93.8,
-   "adj_em": 11.9,
-   "adj_t": 74.7
   },
   {
    "team_id": "58",
    "team": "South Florida Bulls",
    "games": 5,
    "adj_o": 112.0,
-   "adj_d": 100.5,
-   "adj_em": 11.6,
+   "adj_d": 100.6,
+   "adj_em": 11.4,
    "adj_t": 74.9
   },
   {
@@ -565,224 +574,242 @@
    "team": "Stephen F. Austin Lumberjacks",
    "games": 4,
    "adj_o": 105.5,
-   "adj_d": 94.0,
-   "adj_em": 11.5,
+   "adj_d": 94.2,
+   "adj_em": 11.3,
    "adj_t": 70.5
+  },
+  {
+   "team_id": "2540",
+   "team": "UC Santa Barbara Gauchos",
+   "games": 5,
+   "adj_o": 109.6,
+   "adj_d": 98.3,
+   "adj_em": 11.3,
+   "adj_t": 66.4
+  },
+  {
+   "team_id": "2724",
+   "team": "Wichita State Shockers",
+   "games": 5,
+   "adj_o": 108.9,
+   "adj_d": 97.8,
+   "adj_em": 11.1,
+   "adj_t": 71.0
   },
   {
    "team_id": "2751",
    "team": "Wyoming Cowboys",
    "games": 5,
-   "adj_o": 106.1,
-   "adj_d": 94.8,
-   "adj_em": 11.3,
+   "adj_o": 106.2,
+   "adj_d": 95.0,
+   "adj_em": 11.1,
    "adj_t": 67.1
   },
   {
    "team_id": "2306",
    "team": "Kansas State Wildcats",
    "games": 4,
-   "adj_o": 106.3,
+   "adj_o": 106.2,
    "adj_d": 95.2,
-   "adj_em": 11.1,
+   "adj_em": 10.9,
    "adj_t": 75.4
-  },
-  {
-   "team_id": "93",
-   "team": "Murray State Racers",
-   "games": 5,
-   "adj_o": 107.0,
-   "adj_d": 96.1,
-   "adj_em": 10.9,
-   "adj_t": 79.2
-  },
-  {
-   "team_id": "2541",
-   "team": "Santa Clara Broncos",
-   "games": 5,
-   "adj_o": 110.1,
-   "adj_d": 99.3,
-   "adj_em": 10.9,
-   "adj_t": 77.9
   },
   {
    "team_id": "2320",
    "team": "Lamar Cardinals",
    "games": 4,
    "adj_o": 107.4,
-   "adj_d": 96.5,
-   "adj_em": 10.9,
-   "adj_t": 78.7
-  },
-  {
-   "team_id": "275",
-   "team": "Wisconsin Badgers",
-   "games": 4,
-   "adj_o": 105.3,
-   "adj_d": 94.5,
+   "adj_d": 96.6,
    "adj_em": 10.8,
-   "adj_t": 74.3
+   "adj_t": 78.7
   },
   {
    "team_id": "2571",
    "team": "South Dakota State Jackrabbits",
    "games": 5,
-   "adj_o": 104.2,
-   "adj_d": 93.5,
-   "adj_em": 10.7,
-   "adj_t": 67.7
+   "adj_o": 104.5,
+   "adj_d": 93.9,
+   "adj_em": 10.6,
+   "adj_t": 67.6
+  },
+  {
+   "team_id": "2507",
+   "team": "Providence Friars",
+   "games": 5,
+   "adj_o": 102.1,
+   "adj_d": 91.7,
+   "adj_em": 10.5,
+   "adj_t": 74.1
+  },
+  {
+   "team_id": "235",
+   "team": "Memphis Tigers",
+   "games": 4,
+   "adj_o": 116.1,
+   "adj_d": 105.8,
+   "adj_em": 10.4,
+   "adj_t": 74.7
   },
   {
    "team_id": "156",
    "team": "Creighton Bluejays",
    "games": 5,
    "adj_o": 104.0,
-   "adj_d": 93.5,
-   "adj_em": 10.5,
+   "adj_d": 93.7,
+   "adj_em": 10.3,
    "adj_t": 72.0
+  },
+  {
+   "team_id": "164",
+   "team": "Rutgers Scarlet Knights",
+   "games": 6,
+   "adj_o": 111.5,
+   "adj_d": 101.2,
+   "adj_em": 10.3,
+   "adj_t": 71.7
   },
   {
    "team_id": "153",
    "team": "North Carolina Tar Heels",
    "games": 4,
-   "adj_o": 104.4,
-   "adj_d": 94.0,
-   "adj_em": 10.4,
+   "adj_o": 104.3,
+   "adj_d": 94.2,
+   "adj_em": 10.2,
    "adj_t": 73.2
   },
   {
-   "team_id": "235",
-   "team": "Memphis Tigers",
-   "games": 4,
-   "adj_o": 116.0,
-   "adj_d": 105.6,
-   "adj_em": 10.4,
-   "adj_t": 74.6
-  },
-  {
-   "team_id": "2724",
-   "team": "Wichita State Shockers",
+   "team_id": "8",
+   "team": "Arkansas Razorbacks",
    "games": 5,
-   "adj_o": 108.4,
-   "adj_d": 98.0,
-   "adj_em": 10.4,
-   "adj_t": 70.9
-  },
-  {
-   "team_id": "179",
-   "team": "St. Bonaventure Bonnies",
-   "games": 4,
-   "adj_o": 106.3,
-   "adj_d": 96.0,
-   "adj_em": 10.3,
-   "adj_t": 68.1
-  },
-  {
-   "team_id": "2507",
-   "team": "Providence Friars",
-   "games": 5,
-   "adj_o": 101.9,
-   "adj_d": 91.7,
+   "adj_o": 110.7,
+   "adj_d": 100.5,
    "adj_em": 10.2,
-   "adj_t": 74.1
+   "adj_t": 71.8
   },
   {
    "team_id": "103",
    "team": "Boston College Eagles",
    "games": 5,
    "adj_o": 107.3,
-   "adj_d": 97.1,
-   "adj_em": 10.2,
+   "adj_d": 97.2,
+   "adj_em": 10.1,
    "adj_t": 62.2
   },
   {
-   "team_id": "8",
-   "team": "Arkansas Razorbacks",
-   "games": 5,
-   "adj_o": 110.8,
-   "adj_d": 100.9,
-   "adj_em": 9.9,
-   "adj_t": 71.8
+   "team_id": "2287",
+   "team": "Illinois State Redbirds",
+   "games": 6,
+   "adj_o": 108.2,
+   "adj_d": 98.1,
+   "adj_em": 10.1,
+   "adj_t": 68.0
   },
   {
-   "team_id": "2670",
-   "team": "VCU Rams",
-   "games": 3,
-   "adj_o": 106.1,
-   "adj_d": 96.3,
+   "team_id": "93",
+   "team": "Murray State Racers",
+   "games": 6,
+   "adj_o": 107.5,
+   "adj_d": 97.8,
    "adj_em": 9.8,
-   "adj_t": 71.5
+   "adj_t": 79.9
   },
   {
-   "team_id": "2540",
-   "team": "UC Santa Barbara Gauchos",
-   "games": 4,
-   "adj_o": 106.2,
-   "adj_d": 96.6,
-   "adj_em": 9.6,
-   "adj_t": 67.1
+   "team_id": "52",
+   "team": "Florida State Seminoles",
+   "games": 5,
+   "adj_o": 109.1,
+   "adj_d": 99.4,
+   "adj_em": 9.7,
+   "adj_t": 75.2
   },
   {
-   "team_id": "232",
-   "team": "Charleston Cougars",
-   "games": 4,
-   "adj_o": 109.4,
-   "adj_d": 99.8,
-   "adj_em": 9.6,
-   "adj_t": 75.5
+   "team_id": "275",
+   "team": "Wisconsin Badgers",
+   "games": 5,
+   "adj_o": 107.1,
+   "adj_d": 97.7,
+   "adj_em": 9.4,
+   "adj_t": 73.0
   },
   {
    "team_id": "202",
    "team": "Tulsa Golden Hurricane",
    "games": 4,
    "adj_o": 108.2,
-   "adj_d": 98.6,
-   "adj_em": 9.5,
-   "adj_t": 71.9
+   "adj_d": 98.8,
+   "adj_em": 9.4,
+   "adj_t": 72.0
   },
   {
    "team_id": "2711",
    "team": "Western Michigan Broncos",
    "games": 5,
-   "adj_o": 103.1,
-   "adj_d": 93.8,
-   "adj_em": 9.4,
+   "adj_o": 103.2,
+   "adj_d": 93.9,
+   "adj_em": 9.3,
    "adj_t": 67.5
   },
   {
-   "team_id": "52",
-   "team": "Florida State Seminoles",
+   "team_id": "2541",
+   "team": "Santa Clara Broncos",
+   "games": 6,
+   "adj_o": 108.7,
+   "adj_d": 99.7,
+   "adj_em": 9.0,
+   "adj_t": 78.1
+  },
+  {
+   "team_id": "179",
+   "team": "St. Bonaventure Bonnies",
    "games": 5,
-   "adj_o": 109.0,
-   "adj_d": 99.6,
-   "adj_em": 9.4,
-   "adj_t": 75.2
+   "adj_o": 106.7,
+   "adj_d": 97.7,
+   "adj_em": 9.0,
+   "adj_t": 67.0
   },
   {
    "team_id": "2026",
    "team": "App State Mountaineers",
    "games": 4,
-   "adj_o": 101.3,
-   "adj_d": 92.1,
-   "adj_em": 9.1,
-   "adj_t": 62.7
+   "adj_o": 101.2,
+   "adj_d": 92.3,
+   "adj_em": 8.9,
+   "adj_t": 62.8
+  },
+  {
+   "team_id": "2440",
+   "team": "Nevada Wolf Pack",
+   "games": 5,
+   "adj_o": 105.7,
+   "adj_d": 96.8,
+   "adj_em": 8.9,
+   "adj_t": 70.9
   },
   {
    "team_id": "257",
    "team": "Richmond Spiders",
    "games": 5,
-   "adj_o": 104.6,
-   "adj_d": 95.5,
-   "adj_em": 9.1,
+   "adj_o": 104.5,
+   "adj_d": 95.7,
+   "adj_em": 8.9,
    "adj_t": 72.1
+  },
+  {
+   "team_id": "2502",
+   "team": "Portland State Vikings",
+   "games": 6,
+   "adj_o": 105.5,
+   "adj_d": 96.7,
+   "adj_em": 8.8,
+   "adj_t": 74.6
   },
   {
    "team_id": "9",
    "team": "Arizona State Sun Devils",
    "games": 5,
-   "adj_o": 109.1,
-   "adj_d": 100.2,
-   "adj_em": 8.9,
+   "adj_o": 109.3,
+   "adj_d": 100.5,
+   "adj_em": 8.8,
    "adj_t": 66.3
   },
   {
@@ -790,81 +817,45 @@
    "team": "UT Martin Skyhawks",
    "games": 5,
    "adj_o": 101.3,
-   "adj_d": 92.6,
-   "adj_em": 8.6,
+   "adj_d": 92.7,
+   "adj_em": 8.7,
    "adj_t": 73.0
   },
   {
    "team_id": "154",
    "team": "Wake Forest Demon Deacons",
    "games": 5,
-   "adj_o": 105.2,
-   "adj_d": 96.7,
-   "adj_em": 8.5,
-   "adj_t": 68.4
-  },
-  {
-   "team_id": "2483",
-   "team": "Oregon Ducks",
-   "games": 3,
-   "adj_o": 111.5,
-   "adj_d": 103.1,
+   "adj_o": 105.3,
+   "adj_d": 96.9,
    "adj_em": 8.4,
-   "adj_t": 69.0
-  },
-  {
-   "team_id": "2440",
-   "team": "Nevada Wolf Pack",
-   "games": 5,
-   "adj_o": 106.0,
-   "adj_d": 97.7,
-   "adj_em": 8.3,
-   "adj_t": 70.8
+   "adj_t": 68.4
   },
   {
    "team_id": "350",
    "team": "UNC Wilmington Seahawks",
    "games": 5,
-   "adj_o": 107.6,
-   "adj_d": 99.4,
-   "adj_em": 8.3,
-   "adj_t": 77.1
+   "adj_o": 107.7,
+   "adj_d": 99.5,
+   "adj_em": 8.2,
+   "adj_t": 77.0
   },
   {
    "team_id": "279",
    "team": "Pacific Tigers",
    "games": 5,
-   "adj_o": 100.1,
-   "adj_d": 91.8,
-   "adj_em": 8.2,
+   "adj_o": 100.2,
+   "adj_d": 92.0,
+   "adj_em": 8.1,
    "adj_t": 65.0
   },
   {
-   "team_id": "164",
-   "team": "Rutgers Scarlet Knights",
+   "team_id": "2550",
+   "team": "Seton Hall Pirates",
    "games": 5,
-   "adj_o": 110.7,
-   "adj_d": 102.6,
+   "adj_o": 100.1,
+   "adj_d": 92.0,
    "adj_em": 8.1,
-   "adj_t": 72.2
-  },
-  {
-   "team_id": "2086",
-   "team": "Butler Bulldogs",
-   "games": 5,
-   "adj_o": 105.2,
-   "adj_d": 97.1,
-   "adj_em": 8.1,
-   "adj_t": 75.5
-  },
-  {
-   "team_id": "2057",
-   "team": "Belmont Bruins",
-   "games": 5,
-   "adj_o": 100.4,
-   "adj_d": 92.4,
-   "adj_em": 8.0,
-   "adj_t": 70.0
+   "adj_t": 65.6
   },
   {
    "team_id": "46",
@@ -876,39 +867,48 @@
    "adj_t": 67.8
   },
   {
-   "team_id": "2534",
-   "team": "Sam Houston Bearkats",
+   "team_id": "2057",
+   "team": "Belmont Bruins",
    "games": 5,
-   "adj_o": 106.4,
-   "adj_d": 98.7,
-   "adj_em": 7.7,
-   "adj_t": 76.7
-  },
-  {
-   "team_id": "171",
-   "team": "Columbia Lions",
-   "games": 5,
-   "adj_o": 104.9,
-   "adj_d": 97.3,
-   "adj_em": 7.7,
-   "adj_t": 69.8
+   "adj_o": 100.4,
+   "adj_d": 92.6,
+   "adj_em": 7.8,
+   "adj_t": 70.0
   },
   {
    "team_id": "2567",
    "team": "SMU Mustangs",
    "games": 5,
-   "adj_o": 106.6,
-   "adj_d": 99.0,
-   "adj_em": 7.6,
+   "adj_o": 106.7,
+   "adj_d": 99.1,
+   "adj_em": 7.7,
    "adj_t": 76.2
+  },
+  {
+   "team_id": "171",
+   "team": "Columbia Lions",
+   "games": 5,
+   "adj_o": 105.0,
+   "adj_d": 97.4,
+   "adj_em": 7.6,
+   "adj_t": 69.8
+  },
+  {
+   "team_id": "2534",
+   "team": "Sam Houston Bearkats",
+   "games": 5,
+   "adj_o": 105.9,
+   "adj_d": 98.6,
+   "adj_em": 7.3,
+   "adj_t": 76.8
   },
   {
    "team_id": "2377",
    "team": "McNeese Cowboys",
    "games": 3,
-   "adj_o": 113.7,
-   "adj_d": 106.2,
-   "adj_em": 7.5,
+   "adj_o": 113.6,
+   "adj_d": 106.4,
+   "adj_em": 7.2,
    "adj_t": 71.9
   },
   {
@@ -916,45 +916,54 @@
    "team": "Maryland Terrapins",
    "games": 4,
    "adj_o": 108.4,
-   "adj_d": 101.0,
-   "adj_em": 7.4,
+   "adj_d": 101.1,
+   "adj_em": 7.2,
    "adj_t": 72.2
   },
   {
-   "team_id": "2579",
-   "team": "South Carolina Gamecocks",
-   "games": 5,
-   "adj_o": 105.4,
-   "adj_d": 98.1,
-   "adj_em": 7.2,
-   "adj_t": 66.0
+   "team_id": "204",
+   "team": "Oregon State Beavers",
+   "games": 6,
+   "adj_o": 107.7,
+   "adj_d": 100.6,
+   "adj_em": 7.1,
+   "adj_t": 73.0
   },
   {
    "team_id": "2635",
    "team": "Tennessee Tech Golden Eagles",
    "games": 6,
    "adj_o": 105.6,
-   "adj_d": 98.4,
-   "adj_em": 7.2,
-   "adj_t": 79.5
+   "adj_d": 98.5,
+   "adj_em": 7.1,
+   "adj_t": 79.4
+  },
+  {
+   "team_id": "147",
+   "team": "Montana State Bobcats",
+   "games": 6,
+   "adj_o": 105.9,
+   "adj_d": 98.9,
+   "adj_em": 7.0,
+   "adj_t": 67.1
   },
   {
    "team_id": "213",
    "team": "Penn State Nittany Lions",
    "games": 6,
-   "adj_o": 107.9,
-   "adj_d": 100.9,
+   "adj_o": 108.0,
+   "adj_d": 101.1,
    "adj_em": 6.9,
    "adj_t": 71.1
   },
   {
-   "team_id": "96",
-   "team": "Kentucky Wildcats",
+   "team_id": "2579",
+   "team": "South Carolina Gamecocks",
    "games": 5,
-   "adj_o": 107.9,
-   "adj_d": 101.2,
+   "adj_o": 105.2,
+   "adj_d": 98.5,
    "adj_em": 6.7,
-   "adj_t": 69.8
+   "adj_t": 66.1
   },
   {
    "team_id": "231",
@@ -966,895 +975,913 @@
    "adj_t": 70.7
   },
   {
+   "team_id": "222",
+   "team": "Villanova Wildcats",
+   "games": 5,
+   "adj_o": 104.3,
+   "adj_d": 97.7,
+   "adj_em": 6.6,
+   "adj_t": 70.6
+  },
+  {
    "team_id": "98",
    "team": "Western Kentucky Hilltoppers",
    "games": 5,
    "adj_o": 97.9,
-   "adj_d": 91.2,
-   "adj_em": 6.6,
+   "adj_d": 91.4,
+   "adj_em": 6.5,
    "adj_t": 75.1
   },
   {
-   "team_id": "2550",
-   "team": "Seton Hall Pirates",
-   "games": 4,
-   "adj_o": 97.0,
-   "adj_d": 90.5,
-   "adj_em": 6.5,
-   "adj_t": 66.8
-  },
-  {
-   "team_id": "222",
-   "team": "Villanova Wildcats",
-   "games": 5,
-   "adj_o": 104.2,
+   "team_id": "2086",
+   "team": "Butler Bulldogs",
+   "games": 6,
+   "adj_o": 104.1,
    "adj_d": 97.7,
    "adj_em": 6.5,
-   "adj_t": 70.5
+   "adj_t": 75.5
   },
   {
    "team_id": "295",
    "team": "Old Dominion Monarchs",
    "games": 6,
    "adj_o": 103.1,
-   "adj_d": 96.7,
-   "adj_em": 6.4,
+   "adj_d": 96.8,
+   "adj_em": 6.3,
    "adj_t": 67.1
   },
   {
-   "team_id": "2287",
-   "team": "Illinois State Redbirds",
+   "team_id": "228",
+   "team": "Clemson Tigers",
    "games": 5,
-   "adj_o": 105.7,
-   "adj_d": 99.3,
-   "adj_em": 6.4,
-   "adj_t": 67.0
+   "adj_o": 110.3,
+   "adj_d": 104.0,
+   "adj_em": 6.3,
+   "adj_t": 65.1
+  },
+  {
+   "team_id": "96",
+   "team": "Kentucky Wildcats",
+   "games": 5,
+   "adj_o": 107.3,
+   "adj_d": 101.0,
+   "adj_em": 6.2,
+   "adj_t": 69.2
   },
   {
    "team_id": "256",
    "team": "James Madison Dukes",
    "games": 5,
    "adj_o": 106.9,
-   "adj_d": 100.6,
-   "adj_em": 6.3,
-   "adj_t": 69.0
-  },
-  {
-   "team_id": "147",
-   "team": "Montana State Bobcats",
-   "games": 5,
-   "adj_o": 103.6,
-   "adj_d": 97.6,
-   "adj_em": 6.1,
-   "adj_t": 66.7
-  },
-  {
-   "team_id": "228",
-   "team": "Clemson Tigers",
-   "games": 5,
-   "adj_o": 109.8,
-   "adj_d": 103.9,
-   "adj_em": 5.9,
-   "adj_t": 65.2
-  },
-  {
-   "team_id": "204",
-   "team": "Oregon State Beavers",
-   "games": 5,
-   "adj_o": 107.0,
-   "adj_d": 101.1,
-   "adj_em": 5.9,
-   "adj_t": 73.3
+   "adj_d": 100.9,
+   "adj_em": 6.0,
+   "adj_t": 69.1
   },
   {
    "team_id": "227",
    "team": "Rhode Island Rams",
    "games": 5,
-   "adj_o": 104.6,
+   "adj_o": 104.8,
    "adj_d": 99.1,
-   "adj_em": 5.5,
+   "adj_em": 5.7,
    "adj_t": 68.2
+  },
+  {
+   "team_id": "2900",
+   "team": "St. Thomas Tommies",
+   "games": 7,
+   "adj_o": 111.3,
+   "adj_d": 105.9,
+   "adj_em": 5.4,
+   "adj_t": 67.8
+  },
+  {
+   "team_id": "2483",
+   "team": "Oregon Ducks",
+   "games": 4,
+   "adj_o": 109.7,
+   "adj_d": 104.4,
+   "adj_em": 5.3,
+   "adj_t": 68.6
+  },
+  {
+   "team_id": "232",
+   "team": "Charleston Cougars",
+   "games": 5,
+   "adj_o": 108.0,
+   "adj_d": 102.6,
+   "adj_em": 5.3,
+   "adj_t": 74.1
   },
   {
    "team_id": "3084",
    "team": "Utah Valley Wolverines",
    "games": 3,
-   "adj_o": 102.3,
-   "adj_d": 97.2,
-   "adj_em": 5.0,
+   "adj_o": 102.5,
+   "adj_d": 97.4,
+   "adj_em": 5.1,
    "adj_t": 76.8
   },
   {
    "team_id": "300",
    "team": "UC Irvine Anteaters",
    "games": 4,
-   "adj_o": 97.7,
-   "adj_d": 92.8,
-   "adj_em": 4.9,
-   "adj_t": 73.4
-  },
-  {
-   "team_id": "2348",
-   "team": "Louisiana Tech Bulldogs",
-   "games": 5,
-   "adj_o": 96.6,
-   "adj_d": 91.7,
-   "adj_em": 4.8,
-   "adj_t": 65.1
-  },
-  {
-   "team_id": "2244",
-   "team": "George Mason Patriots",
-   "games": 5,
-   "adj_o": 101.8,
-   "adj_d": 97.1,
-   "adj_em": 4.7,
-   "adj_t": 64.6
-  },
-  {
-   "team_id": "249",
-   "team": "North Texas Mean Green",
-   "games": 4,
-   "adj_o": 98.9,
-   "adj_d": 94.2,
-   "adj_em": 4.7,
-   "adj_t": 67.6
+   "adj_o": 97.3,
+   "adj_d": 92.7,
+   "adj_em": 4.6,
+   "adj_t": 73.7
   },
   {
    "team_id": "292",
    "team": "UT Rio Grande Valley Vaqueros",
    "games": 5,
-   "adj_o": 99.0,
-   "adj_d": 94.4,
-   "adj_em": 4.6,
-   "adj_t": 67.6
+   "adj_o": 99.1,
+   "adj_d": 94.6,
+   "adj_em": 4.5,
+   "adj_t": 67.7
   },
   {
    "team_id": "2335",
    "team": "Liberty Flames",
    "games": 4,
-   "adj_o": 110.3,
-   "adj_d": 105.7,
-   "adj_em": 4.6,
-   "adj_t": 65.2
+   "adj_o": 109.9,
+   "adj_d": 105.6,
+   "adj_em": 4.4,
+   "adj_t": 65.1
   },
   {
-   "team_id": "236",
-   "team": "Chattanooga Mocs",
-   "games": 5,
-   "adj_o": 107.4,
-   "adj_d": 103.1,
+   "team_id": "249",
+   "team": "North Texas Mean Green",
+   "games": 4,
+   "adj_o": 98.8,
+   "adj_d": 94.5,
    "adj_em": 4.3,
-   "adj_t": 72.4
+   "adj_t": 67.5
+  },
+  {
+   "team_id": "2244",
+   "team": "George Mason Patriots",
+   "games": 5,
+   "adj_o": 101.6,
+   "adj_d": 97.4,
+   "adj_em": 4.2,
+   "adj_t": 64.6
   },
   {
    "team_id": "2229",
    "team": "Florida International Panthers",
    "games": 4,
    "adj_o": 103.5,
-   "adj_d": 99.2,
-   "adj_em": 4.3,
-   "adj_t": 80.6
+   "adj_d": 99.3,
+   "adj_em": 4.2,
+   "adj_t": 80.5
   },
   {
-   "team_id": "24",
-   "team": "Stanford Cardinal",
+   "team_id": "2348",
+   "team": "Louisiana Tech Bulldogs",
+   "games": 6,
+   "adj_o": 96.4,
+   "adj_d": 92.5,
+   "adj_em": 3.9,
+   "adj_t": 64.9
+  },
+  {
+   "team_id": "25",
+   "team": "California Golden Bears",
+   "games": 6,
+   "adj_o": 104.6,
+   "adj_d": 100.9,
+   "adj_em": 3.8,
+   "adj_t": 71.4
+  },
+  {
+   "team_id": "236",
+   "team": "Chattanooga Mocs",
    "games": 5,
-   "adj_o": 100.9,
-   "adj_d": 96.7,
-   "adj_em": 4.2,
-   "adj_t": 67.5
+   "adj_o": 107.1,
+   "adj_d": 103.4,
+   "adj_em": 3.8,
+   "adj_t": 72.4
   },
   {
    "team_id": "2110",
    "team": "Central Arkansas Bears",
    "games": 5,
-   "adj_o": 102.5,
-   "adj_d": 98.7,
+   "adj_o": 102.6,
+   "adj_d": 98.8,
    "adj_em": 3.8,
-   "adj_t": 73.4
+   "adj_t": 73.5
   },
   {
    "team_id": "193",
    "team": "Miami (OH) RedHawks",
    "games": 4,
    "adj_o": 105.7,
-   "adj_d": 101.9,
+   "adj_d": 102.0,
    "adj_em": 3.7,
    "adj_t": 76.1
   },
   {
-   "team_id": "2603",
-   "team": "Saint Joseph's Hawks",
+   "team_id": "276",
+   "team": "Marshall Thundering Herd",
    "games": 5,
-   "adj_o": 97.3,
-   "adj_d": 93.8,
-   "adj_em": 3.6,
-   "adj_t": 76.1
-  },
-  {
-   "team_id": "2350",
-   "team": "Loyola Chicago Ramblers",
-   "games": 5,
-   "adj_o": 100.8,
-   "adj_d": 97.5,
-   "adj_em": 3.3,
-   "adj_t": 69.7
-  },
-  {
-   "team_id": "2199",
-   "team": "Eastern Michigan Eagles",
-   "games": 4,
-   "adj_o": 102.3,
-   "adj_d": 99.0,
-   "adj_em": 3.3,
-   "adj_t": 67.5
-  },
-  {
-   "team_id": "526",
-   "team": "Florida Gulf Coast Eagles",
-   "games": 6,
-   "adj_o": 105.3,
-   "adj_d": 102.1,
-   "adj_em": 3.2,
-   "adj_t": 69.6
-  },
-  {
-   "team_id": "2429",
-   "team": "Charlotte 49ers",
-   "games": 5,
-   "adj_o": 105.9,
-   "adj_d": 102.8,
-   "adj_em": 3.1,
-   "adj_t": 65.1
+   "adj_o": 98.1,
+   "adj_d": 94.6,
+   "adj_em": 3.5,
+   "adj_t": 76.7
   },
   {
    "team_id": "82",
    "team": "UIC Flames",
    "games": 5,
    "adj_o": 100.8,
-   "adj_d": 97.7,
-   "adj_em": 3.1,
+   "adj_d": 97.3,
+   "adj_em": 3.5,
    "adj_t": 65.3
   },
   {
-   "team_id": "276",
-   "team": "Marshall Thundering Herd",
+   "team_id": "2350",
+   "team": "Loyola Chicago Ramblers",
    "games": 5,
-   "adj_o": 98.2,
-   "adj_d": 95.0,
+   "adj_o": 101.0,
+   "adj_d": 97.5,
+   "adj_em": 3.5,
+   "adj_t": 69.7
+  },
+  {
+   "team_id": "2603",
+   "team": "Saint Joseph's Hawks",
+   "games": 5,
+   "adj_o": 97.4,
+   "adj_d": 93.9,
+   "adj_em": 3.4,
+   "adj_t": 76.1
+  },
+  {
+   "team_id": "2429",
+   "team": "Charlotte 49ers",
+   "games": 5,
+   "adj_o": 105.7,
+   "adj_d": 102.4,
+   "adj_em": 3.2,
+   "adj_t": 65.2
+  },
+  {
+   "team_id": "2199",
+   "team": "Eastern Michigan Eagles",
+   "games": 4,
+   "adj_o": 102.4,
+   "adj_d": 99.3,
    "adj_em": 3.1,
-   "adj_t": 76.7
+   "adj_t": 67.5
+  },
+  {
+   "team_id": "526",
+   "team": "Florida Gulf Coast Eagles",
+   "games": 6,
+   "adj_o": 105.4,
+   "adj_d": 102.2,
+   "adj_em": 3.1,
+   "adj_t": 69.6
   },
   {
    "team_id": "79",
    "team": "Southern Illinois Salukis",
    "games": 4,
    "adj_o": 102.7,
-   "adj_d": 99.7,
-   "adj_em": 2.9,
+   "adj_d": 100.0,
+   "adj_em": 2.8,
    "adj_t": 73.0
   },
   {
-   "team_id": "2230",
-   "team": "Fordham Rams",
-   "games": 5,
-   "adj_o": 101.5,
-   "adj_d": 98.8,
+   "team_id": "24",
+   "team": "Stanford Cardinal",
+   "games": 6,
+   "adj_o": 102.0,
+   "adj_d": 99.3,
    "adj_em": 2.7,
-   "adj_t": 68.5
+   "adj_t": 65.7
+  },
+  {
+   "team_id": "198",
+   "team": "Oral Roberts Golden Eagles",
+   "games": 5,
+   "adj_o": 97.9,
+   "adj_d": 95.3,
+   "adj_em": 2.6,
+   "adj_t": 67.8
   },
   {
    "team_id": "2198",
    "team": "Eastern Kentucky Colonels",
    "games": 5,
    "adj_o": 97.9,
-   "adj_d": 95.2,
-   "adj_em": 2.7,
+   "adj_d": 95.4,
+   "adj_em": 2.5,
    "adj_t": 77.4
   },
   {
-   "team_id": "198",
-   "team": "Oral Roberts Golden Eagles",
+   "team_id": "2230",
+   "team": "Fordham Rams",
    "games": 5,
-   "adj_o": 97.8,
-   "adj_d": 95.2,
-   "adj_em": 2.6,
-   "adj_t": 67.8
+   "adj_o": 101.3,
+   "adj_d": 98.8,
+   "adj_em": 2.5,
+   "adj_t": 68.4
   },
   {
-   "team_id": "2546",
-   "team": "Southeast Missouri State Redhawks",
-   "games": 5,
-   "adj_o": 98.6,
-   "adj_d": 96.0,
-   "adj_em": 2.6,
-   "adj_t": 77.6
+   "team_id": "264",
+   "team": "Washington Huskies",
+   "games": 4,
+   "adj_o": 106.3,
+   "adj_d": 103.9,
+   "adj_em": 2.4,
+   "adj_t": 68.0
   },
   {
    "team_id": "338",
    "team": "Kennesaw State Owls",
    "games": 5,
    "adj_o": 99.7,
-   "adj_d": 97.2,
-   "adj_em": 2.5,
+   "adj_d": 97.4,
+   "adj_em": 2.3,
    "adj_t": 81.0
-  },
-  {
-   "team_id": "48",
-   "team": "Delaware Blue Hens",
-   "games": 5,
-   "adj_o": 97.3,
-   "adj_d": 95.1,
-   "adj_em": 2.1,
-   "adj_t": 65.2
-  },
-  {
-   "team_id": "2351",
-   "team": "Loyola Marymount Lions",
-   "games": 5,
-   "adj_o": 101.1,
-   "adj_d": 99.2,
-   "adj_em": 1.9,
-   "adj_t": 71.6
-  },
-  {
-   "team_id": "264",
-   "team": "Washington Huskies",
-   "games": 3,
-   "adj_o": 105.4,
-   "adj_d": 103.6,
-   "adj_em": 1.8,
-   "adj_t": 69.6
-  },
-  {
-   "team_id": "2492",
-   "team": "Pepperdine Waves",
-   "games": 4,
-   "adj_o": 102.5,
-   "adj_d": 100.7,
-   "adj_em": 1.8,
-   "adj_t": 74.1
-  },
-  {
-   "team_id": "2166",
-   "team": "Davidson Wildcats",
-   "games": 5,
-   "adj_o": 96.1,
-   "adj_d": 94.4,
-   "adj_em": 1.8,
-   "adj_t": 64.9
-  },
-  {
-   "team_id": "119",
-   "team": "Towson Tigers",
-   "games": 6,
-   "adj_o": 92.6,
-   "adj_d": 90.9,
-   "adj_em": 1.8,
-   "adj_t": 64.6
-  },
-  {
-   "team_id": "270",
-   "team": "Milwaukee Panthers",
-   "games": 5,
-   "adj_o": 98.7,
-   "adj_d": 97.0,
-   "adj_em": 1.7,
-   "adj_t": 73.9
-  },
-  {
-   "team_id": "288",
-   "team": "Lipscomb Bisons",
-   "games": 6,
-   "adj_o": 103.4,
-   "adj_d": 101.8,
-   "adj_em": 1.6,
-   "adj_t": 73.3
   },
   {
    "team_id": "2116",
    "team": "UCF Knights",
    "games": 5,
-   "adj_o": 107.0,
-   "adj_d": 105.5,
-   "adj_em": 1.5,
+   "adj_o": 107.1,
+   "adj_d": 105.2,
+   "adj_em": 1.9,
    "adj_t": 72.0
   },
   {
-   "team_id": "2619",
-   "team": "Stony Brook Seawolves",
-   "games": 4,
-   "adj_o": 101.1,
-   "adj_d": 99.6,
-   "adj_em": 1.5,
-   "adj_t": 68.3
+   "team_id": "2351",
+   "team": "Loyola Marymount Lions",
+   "games": 5,
+   "adj_o": 101.2,
+   "adj_d": 99.3,
+   "adj_em": 1.9,
+   "adj_t": 71.6
+  },
+  {
+   "team_id": "2166",
+   "team": "Davidson Wildcats",
+   "games": 5,
+   "adj_o": 96.4,
+   "adj_d": 94.6,
+   "adj_em": 1.8,
+   "adj_t": 64.9
+  },
+  {
+   "team_id": "48",
+   "team": "Delaware Blue Hens",
+   "games": 5,
+   "adj_o": 96.8,
+   "adj_d": 95.0,
+   "adj_em": 1.8,
+   "adj_t": 65.3
+  },
+  {
+   "team_id": "270",
+   "team": "Milwaukee Panthers",
+   "games": 5,
+   "adj_o": 98.6,
+   "adj_d": 96.9,
+   "adj_em": 1.8,
+   "adj_t": 73.9
   },
   {
    "team_id": "2193",
    "team": "East Tennessee State Buccaneers",
    "games": 4,
    "adj_o": 98.6,
-   "adj_d": 97.1,
-   "adj_em": 1.4,
-   "adj_t": 62.9
-  },
-  {
-   "team_id": "38",
-   "team": "Colorado Buffaloes",
-   "games": 5,
-   "adj_o": 98.6,
-   "adj_d": 97.2,
-   "adj_em": 1.4,
-   "adj_t": 71.8
-  },
-  {
-   "team_id": "2344",
-   "team": "Longwood Lancers",
-   "games": 6,
-   "adj_o": 101.1,
-   "adj_d": 99.7,
-   "adj_em": 1.4,
-   "adj_t": 79.6
-  },
-  {
-   "team_id": "250",
-   "team": "UT Arlington Mavericks",
-   "games": 6,
-   "adj_o": 101.4,
-   "adj_d": 100.1,
-   "adj_em": 1.3,
-   "adj_t": 74.3
-  },
-  {
-   "team_id": "2502",
-   "team": "Portland State Vikings",
-   "games": 5,
-   "adj_o": 102.6,
-   "adj_d": 101.4,
-   "adj_em": 1.3,
-   "adj_t": 73.2
-  },
-  {
-   "team_id": "2405",
-   "team": "Monmouth Hawks",
-   "games": 4,
-   "adj_o": 100.4,
-   "adj_d": 99.2,
-   "adj_em": 1.2,
-   "adj_t": 71.8
+   "adj_d": 97.0,
+   "adj_em": 1.6,
+   "adj_t": 62.8
   },
   {
    "team_id": "2006",
    "team": "Akron Zips",
    "games": 4,
-   "adj_o": 97.2,
+   "adj_o": 97.3,
    "adj_d": 96.0,
-   "adj_em": 1.2,
-   "adj_t": 71.1
+   "adj_em": 1.4,
+   "adj_t": 71.2
   },
   {
-   "team_id": "2900",
-   "team": "St. Thomas Tommies",
+   "team_id": "2619",
+   "team": "Stony Brook Seawolves",
+   "games": 4,
+   "adj_o": 101.1,
+   "adj_d": 99.7,
+   "adj_em": 1.4,
+   "adj_t": 68.3
+  },
+  {
+   "team_id": "119",
+   "team": "Towson Tigers",
    "games": 6,
-   "adj_o": 108.8,
-   "adj_d": 107.7,
-   "adj_em": 1.1,
-   "adj_t": 68.8
+   "adj_o": 92.5,
+   "adj_d": 91.2,
+   "adj_em": 1.3,
+   "adj_t": 64.5
+  },
+  {
+   "team_id": "250",
+   "team": "UT Arlington Mavericks",
+   "games": 6,
+   "adj_o": 101.3,
+   "adj_d": 100.1,
+   "adj_em": 1.2,
+   "adj_t": 73.9
+  },
+  {
+   "team_id": "38",
+   "team": "Colorado Buffaloes",
+   "games": 5,
+   "adj_o": 98.5,
+   "adj_d": 97.3,
+   "adj_em": 1.2,
+   "adj_t": 71.7
+  },
+  {
+   "team_id": "2344",
+   "team": "Longwood Lancers",
+   "games": 6,
+   "adj_o": 101.0,
+   "adj_d": 99.8,
+   "adj_em": 1.2,
+   "adj_t": 79.6
+  },
+  {
+   "team_id": "282",
+   "team": "Indiana State Sycamores",
+   "games": 4,
+   "adj_o": 99.0,
+   "adj_d": 98.1,
+   "adj_em": 0.9,
+   "adj_t": 72.9
   },
   {
    "team_id": "2460",
    "team": "Northern Iowa Panthers",
    "games": 6,
-   "adj_o": 106.7,
-   "adj_d": 105.6,
-   "adj_em": 1.0,
+   "adj_o": 106.9,
+   "adj_d": 105.9,
+   "adj_em": 0.9,
    "adj_t": 70.8
   },
   {
-   "team_id": "2277",
-   "team": "Houston Christian Huskies",
+   "team_id": "2739",
+   "team": "Green Bay Phoenix",
+   "games": 6,
+   "adj_o": 102.3,
+   "adj_d": 101.6,
+   "adj_em": 0.7,
+   "adj_t": 65.2
+  },
+  {
+   "team_id": "288",
+   "team": "Lipscomb Bisons",
+   "games": 6,
+   "adj_o": 103.3,
+   "adj_d": 102.5,
+   "adj_em": 0.7,
+   "adj_t": 73.5
+  },
+  {
+   "team_id": "2405",
+   "team": "Monmouth Hawks",
    "games": 4,
-   "adj_o": 99.9,
-   "adj_d": 98.9,
-   "adj_em": 1.0,
-   "adj_t": 72.0
+   "adj_o": 100.3,
+   "adj_d": 99.6,
+   "adj_em": 0.7,
+   "adj_t": 71.7
   },
   {
    "team_id": "2210",
    "team": "Elon Phoenix",
    "games": 5,
    "adj_o": 100.2,
-   "adj_d": 99.4,
-   "adj_em": 0.8,
+   "adj_d": 99.6,
+   "adj_em": 0.6,
    "adj_t": 68.0
-  },
-  {
-   "team_id": "282",
-   "team": "Indiana State Sycamores",
-   "games": 4,
-   "adj_o": 98.8,
-   "adj_d": 97.9,
-   "adj_em": 0.8,
-   "adj_t": 72.9
   },
   {
    "team_id": "6",
    "team": "South Alabama Jaguars",
    "games": 6,
-   "adj_o": 107.6,
-   "adj_d": 107.2,
+   "adj_o": 107.7,
+   "adj_d": 107.3,
    "adj_em": 0.4,
-   "adj_t": 66.5
+   "adj_t": 66.6
   },
   {
-   "team_id": "2739",
-   "team": "Green Bay Phoenix",
-   "games": 6,
-   "adj_o": 102.1,
-   "adj_d": 101.9,
-   "adj_em": 0.2,
-   "adj_t": 65.1
+   "team_id": "36",
+   "team": "Colorado State Rams",
+   "games": 5,
+   "adj_o": 98.1,
+   "adj_d": 97.7,
+   "adj_em": 0.4,
+   "adj_t": 68.9
+  },
+  {
+   "team_id": "2492",
+   "team": "Pepperdine Waves",
+   "games": 5,
+   "adj_o": 104.1,
+   "adj_d": 103.8,
+   "adj_em": 0.3,
+   "adj_t": 73.3
   },
   {
    "team_id": "189",
    "team": "Bowling Green Falcons",
    "games": 4,
    "adj_o": 104.3,
-   "adj_d": 104.1,
-   "adj_em": 0.2,
+   "adj_d": 104.2,
+   "adj_em": 0.1,
    "adj_t": 71.0
   },
   {
-   "team_id": "2649",
-   "team": "Toledo Rockets",
+   "team_id": "2117",
+   "team": "Central Michigan Chippewas",
    "games": 5,
-   "adj_o": 100.5,
-   "adj_d": 100.3,
-   "adj_em": 0.1,
-   "adj_t": 71.7
-  },
-  {
-   "team_id": "2815",
-   "team": "Lindenwood Lions",
-   "games": 6,
-   "adj_o": 96.1,
-   "adj_d": 96.0,
-   "adj_em": 0.0,
-   "adj_t": 76.0
-  },
-  {
-   "team_id": "195",
-   "team": "Ohio Bobcats",
-   "games": 4,
-   "adj_o": 101.4,
-   "adj_d": 101.5,
+   "adj_o": 100.4,
+   "adj_d": 100.5,
    "adj_em": -0.1,
-   "adj_t": 72.8
+   "adj_t": 68.8
   },
   {
    "team_id": "159",
    "team": "Dartmouth Big Green",
    "games": 6,
    "adj_o": 102.8,
-   "adj_d": 102.9,
-   "adj_em": -0.1,
+   "adj_d": 103.0,
+   "adj_em": -0.2,
    "adj_t": 75.1
   },
   {
-   "team_id": "2501",
-   "team": "Portland Pilots",
+   "team_id": "195",
+   "team": "Ohio Bobcats",
+   "games": 4,
+   "adj_o": 101.4,
+   "adj_d": 101.6,
+   "adj_em": -0.2,
+   "adj_t": 72.8
+  },
+  {
+   "team_id": "2815",
+   "team": "Lindenwood Lions",
    "games": 6,
-   "adj_o": 103.5,
-   "adj_d": 103.7,
+   "adj_o": 95.8,
+   "adj_d": 96.0,
    "adj_em": -0.2,
-   "adj_t": 81.2
+   "adj_t": 76.0
   },
   {
-   "team_id": "261",
-   "team": "Vermont Catamounts",
-   "games": 5,
-   "adj_o": 103.4,
-   "adj_d": 103.6,
-   "adj_em": -0.2,
-   "adj_t": 65.0
-  },
-  {
-   "team_id": "2275",
-   "team": "Hofstra Pride",
-   "games": 5,
-   "adj_o": 96.3,
-   "adj_d": 96.6,
-   "adj_em": -0.2,
-   "adj_t": 67.8
-  },
-  {
-   "team_id": "2459",
-   "team": "Northern Illinois Huskies",
+   "team_id": "2382",
+   "team": "Mercer Bears",
    "games": 6,
-   "adj_o": 104.6,
-   "adj_d": 105.0,
-   "adj_em": -0.4,
-   "adj_t": 67.2
+   "adj_o": 103.0,
+   "adj_d": 103.3,
+   "adj_em": -0.3,
+   "adj_t": 76.2
   },
   {
    "team_id": "160",
    "team": "New Hampshire Wildcats",
    "games": 6,
    "adj_o": 95.0,
-   "adj_d": 95.4,
-   "adj_em": -0.4,
+   "adj_d": 95.5,
+   "adj_em": -0.5,
    "adj_t": 72.6
   },
   {
-   "team_id": "2382",
-   "team": "Mercer Bears",
-   "games": 6,
-   "adj_o": 103.1,
-   "adj_d": 103.7,
+   "team_id": "2275",
+   "team": "Hofstra Pride",
+   "games": 5,
+   "adj_o": 96.1,
+   "adj_d": 96.6,
    "adj_em": -0.5,
-   "adj_t": 76.1
+   "adj_t": 67.7
   },
   {
    "team_id": "2142",
    "team": "Colgate Raiders",
    "games": 5,
-   "adj_o": 102.4,
-   "adj_d": 102.9,
+   "adj_o": 102.5,
+   "adj_d": 103.0,
    "adj_em": -0.5,
-   "adj_t": 69.8
+   "adj_t": 70.0
+  },
+  {
+   "team_id": "2459",
+   "team": "Northern Illinois Huskies",
+   "games": 6,
+   "adj_o": 104.5,
+   "adj_d": 105.0,
+   "adj_em": -0.6,
+   "adj_t": 66.8
   },
   {
    "team_id": "2239",
    "team": "Cal State Fullerton Titans",
    "games": 4,
    "adj_o": 101.7,
-   "adj_d": 102.3,
-   "adj_em": -0.6,
+   "adj_d": 102.4,
+   "adj_em": -0.7,
    "adj_t": 82.0
   },
   {
-   "team_id": "2439",
-   "team": "UNLV Rebels",
+   "team_id": "261",
+   "team": "Vermont Catamounts",
    "games": 5,
-   "adj_o": 104.9,
-   "adj_d": 105.6,
-   "adj_em": -0.6,
-   "adj_t": 75.9
+   "adj_o": 103.4,
+   "adj_d": 104.1,
+   "adj_em": -0.7,
+   "adj_t": 64.9
   },
   {
    "team_id": "43",
    "team": "Yale Bulldogs",
    "games": 6,
-   "adj_o": 103.8,
-   "adj_d": 104.6,
-   "adj_em": -0.8,
+   "adj_o": 104.0,
+   "adj_d": 104.7,
+   "adj_em": -0.7,
    "adj_t": 66.4
   },
   {
-   "team_id": "2634",
-   "team": "Tennessee State Tigers",
-   "games": 5,
-   "adj_o": 100.0,
-   "adj_d": 100.8,
-   "adj_em": -0.8,
-   "adj_t": 84.8
+   "team_id": "2501",
+   "team": "Portland Pilots",
+   "games": 6,
+   "adj_o": 103.4,
+   "adj_d": 104.3,
+   "adj_em": -0.9,
+   "adj_t": 81.3
   },
   {
    "team_id": "2349",
    "team": "UMass Lowell River Hawks",
    "games": 5,
-   "adj_o": 96.7,
-   "adj_d": 97.6,
+   "adj_o": 96.8,
+   "adj_d": 97.8,
    "adj_em": -0.9,
    "adj_t": 72.2
   },
   {
-   "team_id": "172",
-   "team": "Cornell Big Red",
-   "games": 5,
-   "adj_o": 102.9,
-   "adj_d": 103.8,
-   "adj_em": -0.9,
-   "adj_t": 76.8
+   "team_id": "2649",
+   "team": "Toledo Rockets",
+   "games": 6,
+   "adj_o": 101.6,
+   "adj_d": 102.7,
+   "adj_em": -1.1,
+   "adj_t": 71.9
   },
   {
-   "team_id": "2117",
-   "team": "Central Michigan Chippewas",
+   "team_id": "2168",
+   "team": "Dayton Flyers",
    "games": 5,
-   "adj_o": 99.3,
-   "adj_d": 100.3,
-   "adj_em": -1.0,
-   "adj_t": 68.8
+   "adj_o": 103.5,
+   "adj_d": 104.6,
+   "adj_em": -1.1,
+   "adj_t": 72.5
   },
   {
-   "team_id": "36",
-   "team": "Colorado State Rams",
+   "team_id": "2634",
+   "team": "Tennessee State Tigers",
    "games": 5,
-   "adj_o": 97.4,
-   "adj_d": 98.4,
-   "adj_em": -1.0,
-   "adj_t": 69.1
+   "adj_o": 99.7,
+   "adj_d": 100.8,
+   "adj_em": -1.1,
+   "adj_t": 84.7
+  },
+  {
+   "team_id": "2547",
+   "team": "Seattle U Redhawks",
+   "games": 5,
+   "adj_o": 95.5,
+   "adj_d": 96.7,
+   "adj_em": -1.2,
+   "adj_t": 70.8
   },
   {
    "team_id": "219",
    "team": "Pennsylvania Quakers",
    "games": 5,
    "adj_o": 98.2,
-   "adj_d": 99.2,
-   "adj_em": -1.1,
+   "adj_d": 99.3,
+   "adj_em": -1.2,
    "adj_t": 77.1
   },
   {
-   "team_id": "242",
-   "team": "Rice Owls",
+   "team_id": "172",
+   "team": "Cornell Big Red",
    "games": 5,
-   "adj_o": 100.4,
-   "adj_d": 101.5,
-   "adj_em": -1.1,
-   "adj_t": 73.9
-  },
-  {
-   "team_id": "201",
-   "team": "Oklahoma Sooners",
-   "games": 5,
-   "adj_o": 104.0,
-   "adj_d": 105.1,
-   "adj_em": -1.2,
-   "adj_t": 65.9
-  },
-  {
-   "team_id": "25",
-   "team": "California Golden Bears",
-   "games": 5,
-   "adj_o": 103.2,
-   "adj_d": 104.5,
-   "adj_em": -1.3,
-   "adj_t": 72.0
-  },
-  {
-   "team_id": "2168",
-   "team": "Dayton Flyers",
-   "games": 5,
-   "adj_o": 103.4,
-   "adj_d": 104.7,
-   "adj_em": -1.3,
-   "adj_t": 72.4
-  },
-  {
-   "team_id": "331",
-   "team": "Eastern Washington Eagles",
-   "games": 5,
-   "adj_o": 102.9,
-   "adj_d": 104.3,
+   "adj_o": 102.3,
+   "adj_d": 103.7,
    "adj_em": -1.4,
-   "adj_t": 72.9
+   "adj_t": 77.1
+  },
+  {
+   "team_id": "44",
+   "team": "American University Eagles",
+   "games": 5,
+   "adj_o": 99.3,
+   "adj_d": 100.9,
+   "adj_em": -1.6,
+   "adj_t": 67.2
   },
   {
    "team_id": "163",
    "team": "Princeton Tigers",
    "games": 5,
-   "adj_o": 97.9,
-   "adj_d": 99.4,
-   "adj_em": -1.5,
+   "adj_o": 98.0,
+   "adj_d": 99.5,
+   "adj_em": -1.6,
    "adj_t": 63.6
   },
   {
    "team_id": "265",
    "team": "Washington State Cougars",
    "games": 5,
-   "adj_o": 108.2,
-   "adj_d": 109.9,
-   "adj_em": -1.7,
-   "adj_t": 70.3
-  },
-  {
-   "team_id": "357",
-   "team": "Texas A&M-Corpus Christi Islanders",
-   "games": 5,
-   "adj_o": 96.6,
-   "adj_d": 98.5,
+   "adj_o": 107.9,
+   "adj_d": 109.7,
    "adj_em": -1.8,
-   "adj_t": 68.1
+   "adj_t": 70.2
   },
   {
-   "team_id": "2697",
-   "team": "West Florida Argonauts",
-   "games": 6,
-   "adj_o": 98.7,
-   "adj_d": 100.7,
+   "team_id": "242",
+   "team": "Rice Owls",
+   "games": 5,
+   "adj_o": 99.9,
+   "adj_d": 101.8,
    "adj_em": -1.9,
-   "adj_t": 74.3
+   "adj_t": 74.2
+  },
+  {
+   "team_id": "108",
+   "team": "Harvard Crimson",
+   "games": 6,
+   "adj_o": 97.2,
+   "adj_d": 99.1,
+   "adj_em": -1.9,
+   "adj_t": 63.1
   },
   {
    "team_id": "55",
    "team": "Jacksonville State Gamecocks",
    "games": 5,
-   "adj_o": 98.2,
-   "adj_d": 100.1,
+   "adj_o": 98.0,
+   "adj_d": 99.9,
    "adj_em": -1.9,
-   "adj_t": 70.5
+   "adj_t": 70.4
+  },
+  {
+   "team_id": "331",
+   "team": "Eastern Washington Eagles",
+   "games": 5,
+   "adj_o": 102.5,
+   "adj_d": 104.4,
+   "adj_em": -1.9,
+   "adj_t": 73.1
+  },
+  {
+   "team_id": "357",
+   "team": "Texas A&M-Corpus Christi Islanders",
+   "games": 5,
+   "adj_o": 96.7,
+   "adj_d": 98.7,
+   "adj_em": -2.0,
+   "adj_t": 68.1
   },
   {
    "team_id": "5",
    "team": "UAB Blazers",
    "games": 5,
-   "adj_o": 101.6,
-   "adj_d": 103.5,
+   "adj_o": 101.7,
+   "adj_d": 103.7,
    "adj_em": -2.0,
-   "adj_t": 71.7
+   "adj_t": 71.8
+  },
+  {
+   "team_id": "2546",
+   "team": "Southeast Missouri State Redhawks",
+   "games": 6,
+   "adj_o": 96.6,
+   "adj_d": 98.6,
+   "adj_em": -2.0,
+   "adj_t": 76.5
+  },
+  {
+   "team_id": "2697",
+   "team": "West Florida Argonauts",
+   "games": 6,
+   "adj_o": 98.8,
+   "adj_d": 100.8,
+   "adj_em": -2.0,
+   "adj_t": 74.3
+  },
+  {
+   "team_id": "2181",
+   "team": "Drake Bulldogs",
+   "games": 5,
+   "adj_o": 101.1,
+   "adj_d": 103.2,
+   "adj_em": -2.1,
+   "adj_t": 69.6
+  },
+  {
+   "team_id": "2934",
+   "team": "Cal State Bakersfield Roadrunners",
+   "games": 4,
+   "adj_o": 100.6,
+   "adj_d": 102.8,
+   "adj_em": -2.2,
+   "adj_t": 76.0
   },
   {
    "team_id": "2561",
    "team": "Siena Saints",
    "games": 5,
    "adj_o": 102.3,
-   "adj_d": 104.4,
-   "adj_em": -2.1,
+   "adj_d": 104.5,
+   "adj_em": -2.2,
    "adj_t": 76.9
-  },
-  {
-   "team_id": "108",
-   "team": "Harvard Crimson",
-   "games": 6,
-   "adj_o": 96.8,
-   "adj_d": 99.0,
-   "adj_em": -2.1,
-   "adj_t": 63.2
   },
   {
    "team_id": "27",
    "team": "UC Riverside Highlanders",
    "games": 5,
    "adj_o": 92.8,
-   "adj_d": 94.8,
-   "adj_em": -2.1,
-   "adj_t": 74.1
-  },
-  {
-   "team_id": "2547",
-   "team": "Seattle U Redhawks",
-   "games": 5,
-   "adj_o": 94.7,
-   "adj_d": 97.0,
+   "adj_d": 95.0,
    "adj_em": -2.3,
-   "adj_t": 70.9
+   "adj_t": 74.0
   },
   {
-   "team_id": "2934",
-   "team": "Cal State Bakersfield Roadrunners",
-   "games": 4,
-   "adj_o": 100.4,
-   "adj_d": 102.8,
-   "adj_em": -2.4,
-   "adj_t": 76.0
+   "team_id": "2638",
+   "team": "UTEP Miners",
+   "games": 5,
+   "adj_o": 97.5,
+   "adj_d": 99.8,
+   "adj_em": -2.3,
+   "adj_t": 65.9
+  },
+  {
+   "team_id": "2084",
+   "team": "Buffalo Bulls",
+   "games": 5,
+   "adj_o": 99.5,
+   "adj_d": 101.8,
+   "adj_em": -2.3,
+   "adj_t": 72.3
+  },
+  {
+   "team_id": "201",
+   "team": "Oklahoma Sooners",
+   "games": 5,
+   "adj_o": 103.6,
+   "adj_d": 105.9,
+   "adj_em": -2.3,
+   "adj_t": 66.0
   },
   {
    "team_id": "104",
    "team": "Boston University Terriers",
    "games": 6,
-   "adj_o": 104.6,
-   "adj_d": 107.1,
-   "adj_em": -2.5,
+   "adj_o": 104.8,
+   "adj_d": 107.2,
+   "adj_em": -2.4,
    "adj_t": 66.4
   },
   {
-   "team_id": "149",
-   "team": "Montana Grizzlies",
+   "team_id": "59",
+   "team": "Georgia Tech Yellow Jackets",
    "games": 5,
-   "adj_o": 92.9,
-   "adj_d": 95.5,
-   "adj_em": -2.5,
-   "adj_t": 70.6
+   "adj_o": 98.7,
+   "adj_d": 101.1,
+   "adj_em": -2.4,
+   "adj_t": 77.3
   },
   {
    "team_id": "2247",
    "team": "Georgia State Panthers",
    "games": 5,
-   "adj_o": 99.8,
-   "adj_d": 102.3,
+   "adj_o": 99.9,
+   "adj_d": 102.5,
    "adj_em": -2.5,
-   "adj_t": 71.3
+   "adj_t": 71.2
+  },
+  {
+   "team_id": "111",
+   "team": "Northeastern Huskies",
+   "games": 5,
+   "adj_o": 102.6,
+   "adj_d": 105.2,
+   "adj_em": -2.6,
+   "adj_t": 75.6
   },
   {
    "team_id": "77",
@@ -1869,539 +1896,512 @@
    "team_id": "2046",
    "team": "Austin Peay Governors",
    "games": 5,
-   "adj_o": 92.7,
-   "adj_d": 95.3,
+   "adj_o": 92.8,
+   "adj_d": 95.4,
    "adj_em": -2.6,
    "adj_t": 76.1
-  },
-  {
-   "team_id": "151",
-   "team": "East Carolina Pirates",
-   "games": 4,
-   "adj_o": 93.2,
-   "adj_d": 95.9,
-   "adj_em": -2.7,
-   "adj_t": 73.2
-  },
-  {
-   "team_id": "2368",
-   "team": "Marist Red Foxes",
-   "games": 5,
-   "adj_o": 94.9,
-   "adj_d": 97.6,
-   "adj_em": -2.7,
-   "adj_t": 67.4
-  },
-  {
-   "team_id": "44",
-   "team": "American University Eagles",
-   "games": 4,
-   "adj_o": 99.4,
-   "adj_d": 102.1,
-   "adj_em": -2.7,
-   "adj_t": 67.0
-  },
-  {
-   "team_id": "59",
-   "team": "Georgia Tech Yellow Jackets",
-   "games": 5,
-   "adj_o": 98.6,
-   "adj_d": 101.4,
-   "adj_em": -2.8,
-   "adj_t": 77.3
   },
   {
    "team_id": "47",
    "team": "Howard Bison",
    "games": 6,
-   "adj_o": 98.9,
+   "adj_o": 99.0,
    "adj_d": 101.8,
-   "adj_em": -2.9,
+   "adj_em": -2.8,
    "adj_t": 70.1
   },
   {
-   "team_id": "2065",
-   "team": "Bethune-Cookman Wildcats",
-   "games": 6,
-   "adj_o": 102.3,
-   "adj_d": 105.3,
+   "team_id": "149",
+   "team": "Montana Grizzlies",
+   "games": 5,
+   "adj_o": 93.0,
+   "adj_d": 95.8,
+   "adj_em": -2.8,
+   "adj_t": 70.6
+  },
+  {
+   "team_id": "151",
+   "team": "East Carolina Pirates",
+   "games": 4,
+   "adj_o": 93.3,
+   "adj_d": 96.1,
+   "adj_em": -2.8,
+   "adj_t": 73.2
+  },
+  {
+   "team_id": "2539",
+   "team": "San Francisco Dons",
+   "games": 5,
+   "adj_o": 98.7,
+   "adj_d": 101.5,
+   "adj_em": -2.8,
+   "adj_t": 67.9
+  },
+  {
+   "team_id": "2277",
+   "team": "Houston Christian Huskies",
+   "games": 5,
+   "adj_o": 99.1,
+   "adj_d": 101.9,
+   "adj_em": -2.8,
+   "adj_t": 71.7
+  },
+  {
+   "team_id": "2368",
+   "team": "Marist Red Foxes",
+   "games": 5,
+   "adj_o": 94.8,
+   "adj_d": 97.8,
    "adj_em": -3.0,
-   "adj_t": 73.6
+   "adj_t": 67.4
+  },
+  {
+   "team_id": "2529",
+   "team": "Sacred Heart Pioneers",
+   "games": 5,
+   "adj_o": 101.7,
+   "adj_d": 104.8,
+   "adj_em": -3.1,
+   "adj_t": 74.0
   },
   {
    "team_id": "254",
    "team": "Utah Utes",
    "games": 4,
    "adj_o": 97.7,
-   "adj_d": 100.7,
-   "adj_em": -3.0,
+   "adj_d": 100.9,
+   "adj_em": -3.2,
    "adj_t": 66.0
   },
   {
-   "team_id": "2717",
-   "team": "Western Carolina Catamounts",
-   "games": 5,
-   "adj_o": 102.3,
-   "adj_d": 105.4,
-   "adj_em": -3.1,
-   "adj_t": 69.5
+   "team_id": "2439",
+   "team": "UNLV Rebels",
+   "games": 6,
+   "adj_o": 103.1,
+   "adj_d": 106.3,
+   "adj_em": -3.2,
+   "adj_t": 75.6
   },
   {
    "team_id": "2329",
    "team": "Lehigh Mountain Hawks",
    "games": 5,
    "adj_o": 97.3,
-   "adj_d": 100.4,
+   "adj_d": 100.6,
    "adj_em": -3.2,
    "adj_t": 68.4
   },
   {
-   "team_id": "2565",
-   "team": "SIU Edwardsville Cougars",
+   "team_id": "2065",
+   "team": "Bethune-Cookman Wildcats",
    "games": 6,
-   "adj_o": 95.1,
-   "adj_d": 98.3,
+   "adj_o": 102.2,
+   "adj_d": 105.5,
    "adj_em": -3.2,
-   "adj_t": 69.7
-  },
-  {
-   "team_id": "62",
-   "team": "Hawai'i Rainbow Warriors",
-   "games": 5,
-   "adj_o": 93.9,
-   "adj_d": 97.2,
-   "adj_em": -3.3,
-   "adj_t": 71.0
-  },
-  {
-   "team_id": "2529",
-   "team": "Sacred Heart Pioneers",
-   "games": 5,
-   "adj_o": 101.4,
-   "adj_d": 104.8,
-   "adj_em": -3.3,
-   "adj_t": 74.0
-  },
-  {
-   "team_id": "2000",
-   "team": "Abilene Christian Wildcats",
-   "games": 5,
-   "adj_o": 98.6,
-   "adj_d": 101.9,
-   "adj_em": -3.3,
-   "adj_t": 69.2
-  },
-  {
-   "team_id": "2623",
-   "team": "Missouri State Bears",
-   "games": 4,
-   "adj_o": 98.8,
-   "adj_d": 102.3,
-   "adj_em": -3.5,
-   "adj_t": 70.3
+   "adj_t": 73.6
   },
   {
    "team_id": "2754",
    "team": "Youngstown State Penguins",
    "games": 5,
    "adj_o": 98.3,
-   "adj_d": 101.8,
-   "adj_em": -3.5,
-   "adj_t": 73.1
+   "adj_d": 101.5,
+   "adj_em": -3.2,
+   "adj_t": 73.2
+  },
+  {
+   "team_id": "62",
+   "team": "Hawai'i Rainbow Warriors",
+   "games": 5,
+   "adj_o": 94.0,
+   "adj_d": 97.3,
+   "adj_em": -3.3,
+   "adj_t": 71.1
   },
   {
    "team_id": "253",
    "team": "Southern Utah Thunderbirds",
-   "games": 5,
-   "adj_o": 100.2,
-   "adj_d": 103.8,
-   "adj_em": -3.6,
-   "adj_t": 76.3
+   "games": 6,
+   "adj_o": 99.9,
+   "adj_d": 103.3,
+   "adj_em": -3.4,
+   "adj_t": 76.4
   },
   {
-   "team_id": "2084",
-   "team": "Buffalo Bulls",
-   "games": 4,
-   "adj_o": 97.8,
-   "adj_d": 101.4,
+   "team_id": "2000",
+   "team": "Abilene Christian Wildcats",
+   "games": 5,
+   "adj_o": 98.6,
+   "adj_d": 102.0,
+   "adj_em": -3.5,
+   "adj_t": 69.2
+  },
+  {
+   "team_id": "2717",
+   "team": "Western Carolina Catamounts",
+   "games": 5,
+   "adj_o": 102.2,
+   "adj_d": 105.8,
    "adj_em": -3.6,
-   "adj_t": 73.5
+   "adj_t": 69.5
+  },
+  {
+   "team_id": "2623",
+   "team": "Missouri State Bears",
+   "games": 4,
+   "adj_o": 98.8,
+   "adj_d": 102.4,
+   "adj_em": -3.6,
+   "adj_t": 70.3
+  },
+  {
+   "team_id": "2655",
+   "team": "Tulane Green Wave",
+   "games": 5,
+   "adj_o": 103.1,
+   "adj_d": 106.7,
+   "adj_em": -3.6,
+   "adj_t": 72.2
+  },
+  {
+   "team_id": "2226",
+   "team": "Florida Atlantic Owls",
+   "games": 5,
+   "adj_o": 101.5,
+   "adj_d": 105.3,
+   "adj_em": -3.8,
+   "adj_t": 72.4
   },
   {
    "team_id": "2127",
    "team": "Charleston Southern Buccaneers",
    "games": 5,
    "adj_o": 97.8,
-   "adj_d": 101.5,
-   "adj_em": -3.7,
+   "adj_d": 101.6,
+   "adj_em": -3.8,
    "adj_t": 76.5
   },
   {
-   "team_id": "2226",
-   "team": "Florida Atlantic Owls",
+   "team_id": "3101",
+   "team": "Utah Tech Trailblazers",
    "games": 5,
-   "adj_o": 101.4,
-   "adj_d": 105.2,
-   "adj_em": -3.8,
-   "adj_t": 72.4
+   "adj_o": 101.6,
+   "adj_d": 105.6,
+   "adj_em": -4.0,
+   "adj_t": 72.7
   },
   {
    "team_id": "2729",
    "team": "William & Mary Tribe",
    "games": 5,
    "adj_o": 101.9,
-   "adj_d": 105.9,
-   "adj_em": -4.0,
+   "adj_d": 106.0,
+   "adj_em": -4.1,
    "adj_t": 79.8
-  },
-  {
-   "team_id": "111",
-   "team": "Northeastern Huskies",
-   "games": 4,
-   "adj_o": 102.2,
-   "adj_d": 106.3,
-   "adj_em": -4.1,
-   "adj_t": 75.5
-  },
-  {
-   "team_id": "2539",
-   "team": "San Francisco Dons",
-   "games": 5,
-   "adj_o": 97.8,
-   "adj_d": 101.9,
-   "adj_em": -4.1,
-   "adj_t": 68.1
   },
   {
    "team_id": "113",
    "team": "Massachusetts Minutemen",
    "games": 4,
-   "adj_o": 97.0,
-   "adj_d": 101.2,
+   "adj_o": 97.1,
+   "adj_d": 101.3,
    "adj_em": -4.2,
    "adj_t": 74.3
-  },
-  {
-   "team_id": "2309",
-   "team": "Kent State Golden Flashes",
-   "games": 4,
-   "adj_o": 99.1,
-   "adj_d": 103.2,
-   "adj_em": -4.2,
-   "adj_t": 72.2
   },
   {
    "team_id": "2747",
    "team": "Wofford Terriers",
    "games": 6,
    "adj_o": 103.8,
-   "adj_d": 108.0,
-   "adj_em": -4.2,
+   "adj_d": 108.1,
+   "adj_em": -4.3,
    "adj_t": 71.9
   },
   {
-   "team_id": "3101",
-   "team": "Utah Tech Trailblazers",
+   "team_id": "2309",
+   "team": "Kent State Golden Flashes",
    "games": 4,
-   "adj_o": 100.7,
-   "adj_d": 105.0,
-   "adj_em": -4.3,
-   "adj_t": 74.1
+   "adj_o": 98.9,
+   "adj_d": 103.4,
+   "adj_em": -4.4,
+   "adj_t": 72.3
+  },
+  {
+   "team_id": "2565",
+   "team": "SIU Edwardsville Cougars",
+   "games": 7,
+   "adj_o": 93.0,
+   "adj_d": 97.5,
+   "adj_em": -4.5,
+   "adj_t": 68.7
   },
   {
    "team_id": "2430",
    "team": "UNC Greensboro Spartans",
    "games": 5,
-   "adj_o": 102.7,
-   "adj_d": 107.1,
-   "adj_em": -4.4,
+   "adj_o": 102.8,
+   "adj_d": 107.3,
+   "adj_em": -4.5,
    "adj_t": 71.0
-  },
-  {
-   "team_id": "2535",
-   "team": "Samford Bulldogs",
-   "games": 4,
-   "adj_o": 98.8,
-   "adj_d": 103.1,
-   "adj_em": -4.4,
-   "adj_t": 71.2
-  },
-  {
-   "team_id": "314",
-   "team": "Iona Gaels",
-   "games": 6,
-   "adj_o": 94.7,
-   "adj_d": 99.1,
-   "adj_em": -4.4,
-   "adj_t": 69.3
   },
   {
    "team_id": "2870",
    "team": "Purdue Fort Wayne Mastodons",
    "games": 5,
-   "adj_o": 103.8,
-   "adj_d": 108.4,
-   "adj_em": -4.5,
-   "adj_t": 70.9
-  },
-  {
-   "team_id": "2393",
-   "team": "Middle Tennessee Blue Raiders",
-   "games": 5,
-   "adj_o": 100.9,
-   "adj_d": 105.5,
+   "adj_o": 103.9,
+   "adj_d": 108.5,
    "adj_em": -4.6,
-   "adj_t": 69.4
+   "adj_t": 70.9
   },
   {
    "team_id": "2463",
    "team": "Cal State Northridge Matadors",
    "games": 4,
-   "adj_o": 99.4,
-   "adj_d": 104.1,
+   "adj_o": 99.5,
+   "adj_d": 104.2,
    "adj_em": -4.7,
    "adj_t": 80.6
-  },
-  {
-   "team_id": "218",
-   "team": "Temple Owls",
-   "games": 4,
-   "adj_o": 98.2,
-   "adj_d": 102.9,
-   "adj_em": -4.7,
-   "adj_t": 67.3
-  },
-  {
-   "team_id": "2655",
-   "team": "Tulane Green Wave",
-   "games": 4,
-   "adj_o": 102.2,
-   "adj_d": 106.9,
-   "adj_em": -4.7,
-   "adj_t": 72.4
-  },
-  {
-   "team_id": "2032",
-   "team": "Arkansas State Red Wolves",
-   "games": 5,
-   "adj_o": 97.5,
-   "adj_d": 102.4,
-   "adj_em": -4.9,
-   "adj_t": 79.6
   },
   {
    "team_id": "2184",
    "team": "Duquesne Dukes",
    "games": 5,
-   "adj_o": 96.7,
-   "adj_d": 101.6,
+   "adj_o": 96.9,
+   "adj_d": 101.7,
+   "adj_em": -4.8,
+   "adj_t": 67.2
+  },
+  {
+   "team_id": "314",
+   "team": "Iona Gaels",
+   "games": 6,
+   "adj_o": 94.6,
+   "adj_d": 99.4,
+   "adj_em": -4.8,
+   "adj_t": 69.3
+  },
+  {
+   "team_id": "2572",
+   "team": "Southern Miss Golden Eagles",
+   "games": 6,
+   "adj_o": 94.4,
+   "adj_d": 99.2,
    "adj_em": -4.9,
-   "adj_t": 67.1
+   "adj_t": 80.1
+  },
+  {
+   "team_id": "2535",
+   "team": "Samford Bulldogs",
+   "games": 4,
+   "adj_o": 98.7,
+   "adj_d": 103.6,
+   "adj_em": -4.9,
+   "adj_t": 71.2
   },
   {
    "team_id": "2511",
    "team": "Queens University Royals",
    "games": 5,
-   "adj_o": 110.1,
-   "adj_d": 115.0,
+   "adj_o": 110.2,
+   "adj_d": 115.1,
    "adj_em": -4.9,
    "adj_t": 76.6
+  },
+  {
+   "team_id": "2032",
+   "team": "Arkansas State Red Wolves",
+   "games": 5,
+   "adj_o": 97.3,
+   "adj_d": 102.3,
+   "adj_em": -4.9,
+   "adj_t": 79.6
   },
   {
    "team_id": "299",
    "team": "Long Beach State Beach",
    "games": 4,
-   "adj_o": 97.6,
-   "adj_d": 102.7,
+   "adj_o": 97.4,
+   "adj_d": 102.4,
+   "adj_em": -5.0,
+   "adj_t": 72.1
+  },
+  {
+   "team_id": "2393",
+   "team": "Middle Tennessee Blue Raiders",
+   "games": 5,
+   "adj_o": 100.3,
+   "adj_d": 105.4,
    "adj_em": -5.1,
-   "adj_t": 72.2
+   "adj_t": 69.4
+  },
+  {
+   "team_id": "349",
+   "team": "Army Black Knights",
+   "games": 5,
+   "adj_o": 99.4,
+   "adj_d": 104.5,
+   "adj_em": -5.1,
+   "adj_t": 66.5
   },
   {
    "team_id": "2473",
    "team": "Oakland Golden Grizzlies",
    "games": 7,
-   "adj_o": 102.8,
-   "adj_d": 108.0,
+   "adj_o": 102.3,
+   "adj_d": 107.7,
    "adj_em": -5.3,
-   "adj_t": 68.0
+   "adj_t": 68.3
   },
   {
-   "team_id": "2514",
-   "team": "Quinnipiac Bobcats",
-   "games": 5,
-   "adj_o": 98.8,
-   "adj_d": 104.1,
+   "team_id": "2449",
+   "team": "North Dakota State Bison",
+   "games": 7,
+   "adj_o": 100.9,
+   "adj_d": 106.2,
    "adj_em": -5.3,
-   "adj_t": 69.7
+   "adj_t": 69.1
   },
   {
-   "team_id": "2181",
-   "team": "Drake Bulldogs",
+   "team_id": "218",
+   "team": "Temple Owls",
    "games": 4,
-   "adj_o": 98.8,
-   "adj_d": 104.0,
-   "adj_em": -5.3,
-   "adj_t": 70.7
+   "adj_o": 97.8,
+   "adj_d": 103.3,
+   "adj_em": -5.5,
+   "adj_t": 67.4
+  },
+  {
+   "team_id": "2097",
+   "team": "Campbell Fighting Camels",
+   "games": 5,
+   "adj_o": 105.2,
+   "adj_d": 110.7,
+   "adj_em": -5.5,
+   "adj_t": 68.0
   },
   {
    "team_id": "85",
    "team": "IU Indianapolis Jaguars",
    "games": 5,
    "adj_o": 101.5,
-   "adj_d": 106.8,
-   "adj_em": -5.3,
-   "adj_t": 75.2
-  },
-  {
-   "team_id": "2572",
-   "team": "Southern Miss Golden Eagles",
-   "games": 5,
-   "adj_o": 93.3,
-   "adj_d": 98.8,
-   "adj_em": -5.4,
-   "adj_t": 76.2
-  },
-  {
-   "team_id": "2097",
-   "team": "Campbell Fighting Camels",
-   "games": 5,
-   "adj_o": 105.3,
-   "adj_d": 110.8,
+   "adj_d": 107.0,
    "adj_em": -5.5,
-   "adj_t": 68.1
+   "adj_t": 75.3
   },
   {
-   "team_id": "2172",
-   "team": "Denver Pioneers",
-   "games": 4,
-   "adj_o": 98.8,
-   "adj_d": 104.4,
-   "adj_em": -5.6,
-   "adj_t": 68.2
-  },
-  {
-   "team_id": "349",
-   "team": "Army Black Knights",
+   "team_id": "70",
+   "team": "Idaho Vandals",
    "games": 5,
-   "adj_o": 99.2,
-   "adj_d": 104.8,
+   "adj_o": 103.3,
+   "adj_d": 108.8,
+   "adj_em": -5.5,
+   "adj_t": 71.0
+  },
+  {
+   "team_id": "94",
+   "team": "Northern Kentucky Norse",
+   "games": 6,
+   "adj_o": 97.4,
+   "adj_d": 103.0,
    "adj_em": -5.6,
-   "adj_t": 66.4
+   "adj_t": 78.3
+  },
+  {
+   "team_id": "2182",
+   "team": "Drexel Dragons",
+   "games": 4,
+   "adj_o": 95.6,
+   "adj_d": 101.4,
+   "adj_em": -5.8,
+   "adj_t": 66.3
   },
   {
    "team_id": "71",
    "team": "Bradley Braves",
    "games": 6,
    "adj_o": 93.2,
-   "adj_d": 98.9,
-   "adj_em": -5.7,
+   "adj_d": 99.0,
+   "adj_em": -5.8,
    "adj_t": 65.5
   },
   {
-   "team_id": "301",
-   "team": "San Diego Toreros",
-   "games": 5,
-   "adj_o": 103.5,
-   "adj_d": 109.2,
-   "adj_em": -5.7,
-   "adj_t": 70.5
-  },
-  {
-   "team_id": "2638",
-   "team": "UTEP Miners",
+   "team_id": "2172",
+   "team": "Denver Pioneers",
    "games": 4,
-   "adj_o": 94.5,
-   "adj_d": 100.4,
-   "adj_em": -5.8,
-   "adj_t": 65.4
-  },
-  {
-   "team_id": "70",
-   "team": "Idaho Vandals",
-   "games": 5,
-   "adj_o": 102.9,
-   "adj_d": 108.7,
-   "adj_em": -5.8,
-   "adj_t": 71.0
+   "adj_o": 98.3,
+   "adj_d": 104.3,
+   "adj_em": -6.0,
+   "adj_t": 68.4
   },
   {
    "team_id": "2330",
    "team": "Le Moyne Dolphins",
    "games": 5,
    "adj_o": 94.5,
-   "adj_d": 100.4,
+   "adj_d": 100.5,
    "adj_em": -6.0,
    "adj_t": 73.4
   },
   {
-   "team_id": "2837",
-   "team": "East Texas A&M Lions",
-   "games": 5,
-   "adj_o": 97.0,
-   "adj_d": 103.2,
+   "team_id": "290",
+   "team": "Georgia Southern Eagles",
+   "games": 6,
+   "adj_o": 98.9,
+   "adj_d": 105.1,
    "adj_em": -6.2,
-   "adj_t": 73.1
+   "adj_t": 77.0
   },
   {
-   "team_id": "2449",
-   "team": "North Dakota State Bison",
-   "games": 7,
-   "adj_o": 100.4,
-   "adj_d": 106.7,
+   "team_id": "13",
+   "team": "Cal Poly Mustangs",
+   "games": 5,
+   "adj_o": 94.6,
+   "adj_d": 101.0,
    "adj_em": -6.3,
-   "adj_t": 69.1
+   "adj_t": 81.0
+  },
+  {
+   "team_id": "2653",
+   "team": "Troy Trojans",
+   "games": 5,
+   "adj_o": 98.0,
+   "adj_d": 104.3,
+   "adj_em": -6.3,
+   "adj_t": 65.7
+  },
+  {
+   "team_id": "301",
+   "team": "San Diego Toreros",
+   "games": 5,
+   "adj_o": 103.4,
+   "adj_d": 109.6,
+   "adj_em": -6.3,
+   "adj_t": 70.6
   },
   {
    "team_id": "2448",
    "team": "North Carolina A&T Aggies",
    "games": 5,
    "adj_o": 98.8,
-   "adj_d": 105.1,
-   "adj_em": -6.3,
+   "adj_d": 105.3,
+   "adj_em": -6.5,
    "adj_t": 73.2
-  },
-  {
-   "team_id": "13",
-   "team": "Cal Poly Mustangs",
-   "games": 5,
-   "adj_o": 94.8,
-   "adj_d": 101.2,
-   "adj_em": -6.4,
-   "adj_t": 81.0
-  },
-  {
-   "team_id": "2182",
-   "team": "Drexel Dragons",
-   "games": 4,
-   "adj_o": 95.0,
-   "adj_d": 101.4,
-   "adj_em": -6.4,
-   "adj_t": 66.3
   },
   {
    "team_id": "2447",
    "team": "Nicholls Colonels",
    "games": 5,
-   "adj_o": 90.3,
+   "adj_o": 90.2,
    "adj_d": 96.8,
-   "adj_em": -6.5,
-   "adj_t": 73.1
-  },
-  {
-   "team_id": "2653",
-   "team": "Troy Trojans",
-   "games": 5,
-   "adj_o": 97.9,
-   "adj_d": 104.5,
    "adj_em": -6.6,
-   "adj_t": 65.8
+   "adj_t": 73.2
   },
   {
    "team_id": "225",
    "team": "Brown Bears",
    "games": 6,
-   "adj_o": 92.3,
-   "adj_d": 99.2,
+   "adj_o": 92.4,
+   "adj_d": 99.3,
    "adj_em": -6.9,
    "adj_t": 69.4
   },
@@ -2409,62 +2409,80 @@
    "team_id": "2115",
    "team": "Central Connecticut Blue Devils",
    "games": 6,
-   "adj_o": 96.9,
-   "adj_d": 103.7,
-   "adj_em": -6.9,
-   "adj_t": 66.0
+   "adj_o": 96.8,
+   "adj_d": 104.1,
+   "adj_em": -7.3,
+   "adj_t": 65.9
+  },
+  {
+   "team_id": "2515",
+   "team": "Radford Highlanders",
+   "games": 5,
+   "adj_o": 95.8,
+   "adj_d": 103.2,
+   "adj_em": -7.4,
+   "adj_t": 73.0
   },
   {
    "team_id": "28",
    "team": "UC San Diego Tritons",
    "games": 4,
    "adj_o": 101.7,
-   "adj_d": 109.1,
-   "adj_em": -7.4,
+   "adj_d": 109.3,
+   "adj_em": -7.5,
    "adj_t": 73.2
   },
   {
-   "team_id": "324",
-   "team": "Coastal Carolina Chanticleers",
-   "games": 5,
-   "adj_o": 93.1,
-   "adj_d": 100.6,
-   "adj_em": -7.5,
-   "adj_t": 72.2
-  },
-  {
-   "team_id": "322",
-   "team": "Lafayette Leopards",
+   "team_id": "2514",
+   "team": "Quinnipiac Bobcats",
    "games": 6,
-   "adj_o": 92.1,
-   "adj_d": 99.8,
+   "adj_o": 97.3,
+   "adj_d": 105.0,
    "adj_em": -7.7,
-   "adj_t": 71.8
+   "adj_t": 70.0
   },
   {
    "team_id": "23",
    "team": "San Jos\u00e9 State Spartans",
    "games": 5,
-   "adj_o": 106.4,
-   "adj_d": 114.1,
-   "adj_em": -7.7,
+   "adj_o": 106.5,
+   "adj_d": 114.3,
+   "adj_em": -7.8,
    "adj_t": 67.9
   },
   {
-   "team_id": "2627",
-   "team": "Tarleton State Texans",
+   "team_id": "324",
+   "team": "Coastal Carolina Chanticleers",
    "games": 5,
-   "adj_o": 94.5,
-   "adj_d": 102.3,
-   "adj_em": -7.8,
-   "adj_t": 77.0
+   "adj_o": 92.6,
+   "adj_d": 100.5,
+   "adj_em": -7.9,
+   "adj_t": 72.3
+  },
+  {
+   "team_id": "2506",
+   "team": "Presbyterian Blue Hose",
+   "games": 4,
+   "adj_o": 100.4,
+   "adj_d": 108.4,
+   "adj_em": -8.0,
+   "adj_t": 68.6
+  },
+  {
+   "team_id": "2031",
+   "team": "Little Rock Trojans",
+   "games": 5,
+   "adj_o": 103.1,
+   "adj_d": 111.2,
+   "adj_em": -8.1,
+   "adj_t": 69.6
   },
   {
    "team_id": "2010",
    "team": "Alabama A&M Bulldogs",
    "games": 5,
    "adj_o": 92.5,
-   "adj_d": 100.5,
+   "adj_d": 100.6,
    "adj_em": -8.1,
    "adj_t": 73.9
   },
@@ -2473,53 +2491,44 @@
    "team": "Mercyhurst Lakers",
    "games": 5,
    "adj_o": 90.9,
-   "adj_d": 99.0,
+   "adj_d": 98.9,
    "adj_em": -8.1,
-   "adj_t": 66.9
+   "adj_t": 67.0
   },
   {
    "team_id": "88",
    "team": "Southern Indiana Screaming Eagles",
    "games": 6,
    "adj_o": 92.9,
-   "adj_d": 101.0,
-   "adj_em": -8.1,
+   "adj_d": 101.2,
+   "adj_em": -8.2,
    "adj_t": 72.3
   },
   {
-   "team_id": "2515",
-   "team": "Radford Highlanders",
-   "games": 5,
-   "adj_o": 95.2,
-   "adj_d": 103.4,
+   "team_id": "322",
+   "team": "Lafayette Leopards",
+   "games": 6,
+   "adj_o": 91.9,
+   "adj_d": 100.1,
    "adj_em": -8.2,
-   "adj_t": 72.9
+   "adj_t": 71.9
   },
   {
-   "team_id": "294",
-   "team": "Jacksonville Dolphins",
-   "games": 4,
-   "adj_o": 96.2,
-   "adj_d": 104.6,
-   "adj_em": -8.3,
-   "adj_t": 68.0
-  },
-  {
-   "team_id": "2569",
-   "team": "South Carolina State Bulldogs",
+   "team_id": "2523",
+   "team": "Robert Morris Colonials",
    "games": 5,
-   "adj_o": 91.1,
-   "adj_d": 99.4,
-   "adj_em": -8.3,
-   "adj_t": 76.7
+   "adj_o": 92.9,
+   "adj_d": 101.2,
+   "adj_em": -8.2,
+   "adj_t": 67.3
   },
   {
    "team_id": "2771",
    "team": "Merrimack Warriors",
    "games": 5,
    "adj_o": 94.4,
-   "adj_d": 102.8,
-   "adj_em": -8.4,
+   "adj_d": 102.7,
+   "adj_em": -8.3,
    "adj_t": 60.9
   },
   {
@@ -2536,287 +2545,269 @@
    "team": "The Citadel Bulldogs",
    "games": 5,
    "adj_o": 93.1,
-   "adj_d": 101.7,
+   "adj_d": 101.8,
    "adj_em": -8.7,
    "adj_t": 68.6
   },
   {
-   "team_id": "2506",
-   "team": "Presbyterian Blue Hose",
-   "games": 4,
-   "adj_o": 100.1,
-   "adj_d": 109.0,
+   "team_id": "2569",
+   "team": "South Carolina State Bulldogs",
+   "games": 5,
+   "adj_o": 90.7,
+   "adj_d": 99.5,
    "adj_em": -8.8,
-   "adj_t": 68.6
+   "adj_t": 76.9
   },
   {
-   "team_id": "166",
-   "team": "New Mexico State Aggies",
+   "team_id": "2441",
+   "team": "New Haven Chargers",
+   "games": 5,
+   "adj_o": 88.4,
+   "adj_d": 97.9,
+   "adj_em": -9.5,
+   "adj_t": 65.0
+  },
+  {
+   "team_id": "2261",
+   "team": "Hampton Pirates",
    "games": 4,
-   "adj_o": 97.0,
-   "adj_d": 105.9,
-   "adj_em": -8.9,
-   "adj_t": 67.7
-  },
-  {
-   "team_id": "2378",
-   "team": "UMBC Retrievers",
-   "games": 6,
-   "adj_o": 92.5,
-   "adj_d": 101.5,
-   "adj_em": -9.0,
-   "adj_t": 75.1
-  },
-  {
-   "team_id": "290",
-   "team": "Georgia Southern Eagles",
-   "games": 5,
-   "adj_o": 96.4,
-   "adj_d": 105.6,
-   "adj_em": -9.2,
-   "adj_t": 77.2
-  },
-  {
-   "team_id": "2464",
-   "team": "Northern Arizona Lumberjacks",
-   "games": 5,
-   "adj_o": 102.3,
-   "adj_d": 111.6,
-   "adj_em": -9.3,
-   "adj_t": 61.8
-  },
-  {
-   "team_id": "2523",
-   "team": "Robert Morris Colonials",
-   "games": 4,
-   "adj_o": 90.4,
-   "adj_d": 99.8,
-   "adj_em": -9.4,
-   "adj_t": 67.1
-  },
-  {
-   "team_id": "278",
-   "team": "Fresno State Bulldogs",
-   "games": 5,
-   "adj_o": 99.6,
-   "adj_d": 109.2,
+   "adj_o": 90.5,
+   "adj_d": 100.1,
    "adj_em": -9.6,
-   "adj_t": 75.3
+   "adj_t": 65.7
+  },
+  {
+   "team_id": "2636",
+   "team": "UTSA Roadrunners",
+   "games": 5,
+   "adj_o": 96.0,
+   "adj_d": 105.7,
+   "adj_em": -9.6,
+   "adj_t": 74.4
   },
   {
    "team_id": "325",
    "team": "Cleveland State Vikings",
    "games": 6,
    "adj_o": 104.2,
-   "adj_d": 113.8,
-   "adj_em": -9.6,
+   "adj_d": 113.9,
+   "adj_em": -9.7,
    "adj_t": 67.5
   },
   {
-   "team_id": "2261",
-   "team": "Hampton Pirates",
-   "games": 4,
-   "adj_o": 90.4,
-   "adj_d": 100.0,
-   "adj_em": -9.6,
-   "adj_t": 65.7
+   "team_id": "311",
+   "team": "Maine Black Bears",
+   "games": 6,
+   "adj_o": 89.3,
+   "adj_d": 99.1,
+   "adj_em": -9.8,
+   "adj_t": 68.6
+  },
+  {
+   "team_id": "2464",
+   "team": "Northern Arizona Lumberjacks",
+   "games": 5,
+   "adj_o": 102.3,
+   "adj_d": 112.2,
+   "adj_em": -9.8,
+   "adj_t": 61.9
   },
   {
    "team_id": "302",
    "team": "UC Davis Aggies",
    "games": 5,
-   "adj_o": 90.5,
-   "adj_d": 100.2,
-   "adj_em": -9.7,
-   "adj_t": 74.9
-  },
-  {
-   "team_id": "2636",
-   "team": "UTSA Roadrunners",
-   "games": 5,
-   "adj_o": 95.9,
-   "adj_d": 105.7,
-   "adj_em": -9.7,
-   "adj_t": 74.3
+   "adj_o": 90.2,
+   "adj_d": 100.0,
+   "adj_em": -9.8,
+   "adj_t": 75.2
   },
   {
    "team_id": "2681",
    "team": "Wagner Seahawks",
    "games": 5,
-   "adj_o": 90.7,
-   "adj_d": 100.5,
+   "adj_o": 90.8,
+   "adj_d": 100.6,
    "adj_em": -9.8,
    "adj_t": 71.3
   },
   {
-   "team_id": "2441",
-   "team": "New Haven Chargers",
+   "team_id": "278",
+   "team": "Fresno State Bulldogs",
    "games": 5,
-   "adj_o": 88.2,
-   "adj_d": 97.9,
+   "adj_o": 99.6,
+   "adj_d": 109.3,
    "adj_em": -9.8,
-   "adj_t": 64.9
+   "adj_t": 75.3
   },
   {
-   "team_id": "2415",
-   "team": "Morgan State Bears",
+   "team_id": "112358",
+   "team": "Long Island University Sharks",
+   "games": 7,
+   "adj_o": 92.4,
+   "adj_d": 102.3,
+   "adj_em": -9.9,
+   "adj_t": 74.5
+  },
+  {
+   "team_id": "2050",
+   "team": "Ball State Cardinals",
+   "games": 5,
+   "adj_o": 93.0,
+   "adj_d": 102.9,
+   "adj_em": -9.9,
+   "adj_t": 65.4
+  },
+  {
+   "team_id": "2433",
+   "team": "UL Monroe Warhawks",
+   "games": 8,
+   "adj_o": 98.3,
+   "adj_d": 108.4,
+   "adj_em": -10.1,
+   "adj_t": 76.2
+  },
+  {
+   "team_id": "2837",
+   "team": "East Texas A&M Lions",
    "games": 6,
-   "adj_o": 89.6,
-   "adj_d": 99.5,
-   "adj_em": -10.0,
-   "adj_t": 76.9
+   "adj_o": 94.3,
+   "adj_d": 104.5,
+   "adj_em": -10.1,
+   "adj_t": 72.2
   },
   {
    "team_id": "2427",
    "team": "UNC Asheville Bulldogs",
    "games": 6,
    "adj_o": 98.4,
-   "adj_d": 108.4,
-   "adj_em": -10.1,
-   "adj_t": 71.6
-  },
-  {
-   "team_id": "2433",
-   "team": "UL Monroe Warhawks",
-   "games": 8,
-   "adj_o": 98.7,
-   "adj_d": 108.9,
+   "adj_d": 108.6,
    "adj_em": -10.2,
-   "adj_t": 76.3
-  },
-  {
-   "team_id": "112358",
-   "team": "Long Island University Sharks",
-   "games": 7,
-   "adj_o": 92.3,
-   "adj_d": 102.7,
-   "adj_em": -10.4,
-   "adj_t": 74.3
-  },
-  {
-   "team_id": "2050",
-   "team": "Ball State Cardinals",
-   "games": 5,
-   "adj_o": 92.9,
-   "adj_d": 103.2,
-   "adj_em": -10.4,
-   "adj_t": 65.4
+   "adj_t": 71.6
   },
   {
    "team_id": "2325",
    "team": "La Salle Explorers",
    "games": 5,
    "adj_o": 96.2,
-   "adj_d": 106.7,
-   "adj_em": -10.4,
-   "adj_t": 71.7
+   "adj_d": 106.5,
+   "adj_em": -10.3,
+   "adj_t": 71.6
   },
   {
    "team_id": "2466",
    "team": "Northwestern State Demons",
    "games": 5,
-   "adj_o": 92.4,
-   "adj_d": 102.8,
-   "adj_em": -10.5,
+   "adj_o": 92.3,
+   "adj_d": 102.5,
+   "adj_em": -10.3,
    "adj_t": 67.9
+  },
+  {
+   "team_id": "2415",
+   "team": "Morgan State Bears",
+   "games": 6,
+   "adj_o": 89.4,
+   "adj_d": 99.8,
+   "adj_em": -10.4,
+   "adj_t": 76.9
   },
   {
    "team_id": "155",
    "team": "North Dakota Fighting Hawks",
-   "games": 5,
-   "adj_o": 99.8,
-   "adj_d": 110.4,
+   "games": 6,
+   "adj_o": 99.2,
+   "adj_d": 109.7,
    "adj_em": -10.6,
-   "adj_t": 73.0
+   "adj_t": 73.8
+  },
+  {
+   "team_id": "2627",
+   "team": "Tarleton State Texans",
+   "games": 6,
+   "adj_o": 92.6,
+   "adj_d": 103.2,
+   "adj_em": -10.6,
+   "adj_t": 76.0
+  },
+  {
+   "team_id": "294",
+   "team": "Jacksonville Dolphins",
+   "games": 5,
+   "adj_o": 95.5,
+   "adj_d": 106.2,
+   "adj_em": -10.7,
+   "adj_t": 67.2
   },
   {
    "team_id": "2426",
    "team": "Navy Midshipmen",
    "games": 6,
    "adj_o": 89.5,
-   "adj_d": 100.1,
-   "adj_em": -10.6,
+   "adj_d": 100.2,
+   "adj_em": -10.7,
    "adj_t": 67.1
+  },
+  {
+   "team_id": "233",
+   "team": "South Dakota Coyotes",
+   "games": 7,
+   "adj_o": 97.4,
+   "adj_d": 108.2,
+   "adj_em": -10.8,
+   "adj_t": 72.5
   },
   {
    "team_id": "2737",
    "team": "Winthrop Eagles",
    "games": 5,
-   "adj_o": 98.3,
-   "adj_d": 109.0,
-   "adj_em": -10.7,
+   "adj_o": 98.4,
+   "adj_d": 109.3,
+   "adj_em": -10.8,
    "adj_t": 77.2
-  },
-  {
-   "team_id": "2755",
-   "team": "Grambling Tigers",
-   "games": 3,
-   "adj_o": 94.2,
-   "adj_d": 104.9,
-   "adj_em": -10.7,
-   "adj_t": 72.7
   },
   {
    "team_id": "339",
    "team": "Evansville Purple Aces",
    "games": 5,
-   "adj_o": 96.5,
-   "adj_d": 107.3,
-   "adj_em": -10.8,
+   "adj_o": 96.6,
+   "adj_d": 107.5,
+   "adj_em": -10.9,
    "adj_t": 69.4
   },
   {
-   "team_id": "2453",
-   "team": "North Alabama Lions",
-   "games": 5,
-   "adj_o": 93.4,
-   "adj_d": 104.4,
-   "adj_em": -11.0,
-   "adj_t": 70.0
+   "team_id": "56",
+   "team": "Stetson Hatters",
+   "games": 6,
+   "adj_o": 96.1,
+   "adj_d": 107.2,
+   "adj_em": -11.1,
+   "adj_t": 67.9
+  },
+  {
+   "team_id": "2378",
+   "team": "UMBC Retrievers",
+   "games": 7,
+   "adj_o": 91.5,
+   "adj_d": 102.9,
+   "adj_em": -11.3,
+   "adj_t": 75.4
   },
   {
    "team_id": "2678",
    "team": "VMI Keydets",
    "games": 6,
    "adj_o": 90.9,
-   "adj_d": 101.9,
-   "adj_em": -11.0,
-   "adj_t": 72.3
-  },
-  {
-   "team_id": "2031",
-   "team": "Little Rock Trojans",
-   "games": 4,
-   "adj_o": 100.9,
-   "adj_d": 112.0,
-   "adj_em": -11.0,
-   "adj_t": 70.5
-  },
-  {
-   "team_id": "233",
-   "team": "South Dakota Coyotes",
-   "games": 7,
-   "adj_o": 96.9,
-   "adj_d": 108.2,
+   "adj_d": 102.3,
    "adj_em": -11.3,
-   "adj_t": 72.4
-  },
-  {
-   "team_id": "94",
-   "team": "Northern Kentucky Norse",
-   "games": 5,
-   "adj_o": 97.5,
-   "adj_d": 108.9,
-   "adj_em": -11.4,
-   "adj_t": 77.8
+   "adj_t": 72.2
   },
   {
    "team_id": "2428",
    "team": "North Carolina Central Eagles",
    "games": 6,
    "adj_o": 93.2,
-   "adj_d": 104.6,
-   "adj_em": -11.4,
+   "adj_d": 104.8,
+   "adj_em": -11.7,
    "adj_t": 68.0
   },
   {
@@ -2824,332 +2815,341 @@
    "team": "West Georgia Wolves",
    "games": 5,
    "adj_o": 89.0,
-   "adj_d": 100.7,
+   "adj_d": 100.8,
    "adj_em": -11.8,
    "adj_t": 74.4
+  },
+  {
+   "team_id": "166",
+   "team": "New Mexico State Aggies",
+   "games": 5,
+   "adj_o": 96.3,
+   "adj_d": 108.3,
+   "adj_em": -11.9,
+   "adj_t": 68.3
+  },
+  {
+   "team_id": "304",
+   "team": "Idaho State Bengals",
+   "games": 4,
+   "adj_o": 96.6,
+   "adj_d": 108.5,
+   "adj_em": -12.0,
+   "adj_t": 69.9
+  },
+  {
+   "team_id": "2755",
+   "team": "Grambling Tigers",
+   "games": 4,
+   "adj_o": 94.7,
+   "adj_d": 106.7,
+   "adj_em": -12.0,
+   "adj_t": 77.4
   },
   {
    "team_id": "2005",
    "team": "Air Force Falcons",
    "games": 5,
    "adj_o": 98.3,
-   "adj_d": 110.1,
-   "adj_em": -11.9,
-   "adj_t": 79.6
-  },
-  {
-   "team_id": "311",
-   "team": "Maine Black Bears",
-   "games": 5,
-   "adj_o": 88.6,
-   "adj_d": 100.6,
+   "adj_d": 110.3,
    "adj_em": -12.0,
-   "adj_t": 68.4
+   "adj_t": 79.5
   },
   {
-   "team_id": "304",
-   "team": "Idaho State Bengals",
+   "team_id": "2545",
+   "team": "SE Louisiana Lions",
    "games": 4,
-   "adj_o": 96.5,
-   "adj_d": 108.5,
-   "adj_em": -12.1,
-   "adj_t": 69.9
+   "adj_o": 95.7,
+   "adj_d": 108.2,
+   "adj_em": -12.5,
+   "adj_t": 67.8
   },
   {
    "team_id": "2908",
    "team": "South Carolina Upstate Spartans",
    "games": 6,
    "adj_o": 94.6,
-   "adj_d": 106.9,
-   "adj_em": -12.3,
+   "adj_d": 107.2,
+   "adj_em": -12.6,
    "adj_t": 69.0
-  },
-  {
-   "team_id": "2413",
-   "team": "Morehead State Eagles",
-   "games": 6,
-   "adj_o": 99.9,
-   "adj_d": 112.5,
-   "adj_em": -12.5,
-   "adj_t": 67.5
-  },
-  {
-   "team_id": "56",
-   "team": "Stetson Hatters",
-   "games": 5,
-   "adj_o": 95.3,
-   "adj_d": 108.1,
-   "adj_em": -12.8,
-   "adj_t": 67.9
   },
   {
    "team_id": "2504",
    "team": "Prairie View A&M Panthers",
    "games": 6,
-   "adj_o": 92.9,
+   "adj_o": 93.0,
    "adj_d": 105.8,
-   "adj_em": -12.9,
+   "adj_em": -12.7,
    "adj_t": 75.2
-  },
-  {
-   "team_id": "2803",
-   "team": "Bryant Bulldogs",
-   "games": 6,
-   "adj_o": 86.9,
-   "adj_d": 100.0,
-   "adj_em": -13.1,
-   "adj_t": 68.8
-  },
-  {
-   "team_id": "2710",
-   "team": "Western Illinois Leathernecks",
-   "games": 5,
-   "adj_o": 95.8,
-   "adj_d": 108.9,
-   "adj_em": -13.1,
-   "adj_t": 70.1
-  },
-  {
-   "team_id": "2545",
-   "team": "SE Louisiana Lions",
-   "games": 4,
-   "adj_o": 95.9,
-   "adj_d": 109.0,
-   "adj_em": -13.1,
-   "adj_t": 67.6
   },
   {
    "team_id": "16",
    "team": "Sacramento State Hornets",
-   "games": 3,
-   "adj_o": 86.3,
-   "adj_d": 99.8,
-   "adj_em": -13.5,
-   "adj_t": 82.7
+   "games": 4,
+   "adj_o": 89.0,
+   "adj_d": 102.0,
+   "adj_em": -13.0,
+   "adj_t": 79.9
   },
   {
    "team_id": "91",
    "team": "Bellarmine Knights",
    "games": 6,
-   "adj_o": 99.7,
-   "adj_d": 113.2,
-   "adj_em": -13.5,
+   "adj_o": 99.9,
+   "adj_d": 113.0,
+   "adj_em": -13.1,
    "adj_t": 64.1
+  },
+  {
+   "team_id": "2413",
+   "team": "Morehead State Eagles",
+   "games": 6,
+   "adj_o": 99.7,
+   "adj_d": 112.8,
+   "adj_em": -13.1,
+   "adj_t": 67.5
+  },
+  {
+   "team_id": "2803",
+   "team": "Bryant Bulldogs",
+   "games": 6,
+   "adj_o": 87.0,
+   "adj_d": 100.3,
+   "adj_em": -13.2,
+   "adj_t": 68.8
+  },
+  {
+   "team_id": "2453",
+   "team": "North Alabama Lions",
+   "games": 6,
+   "adj_o": 92.3,
+   "adj_d": 105.7,
+   "adj_em": -13.4,
+   "adj_t": 70.1
+  },
+  {
+   "team_id": "2710",
+   "team": "Western Illinois Leathernecks",
+   "games": 5,
+   "adj_o": 95.5,
+   "adj_d": 109.1,
+   "adj_em": -13.6,
+   "adj_t": 70.1
   },
   {
    "team_id": "140",
    "team": "Kansas City Roos",
    "games": 6,
-   "adj_o": 95.9,
-   "adj_d": 109.5,
-   "adj_em": -13.6,
-   "adj_t": 71.7
+   "adj_o": 95.7,
+   "adj_d": 109.8,
+   "adj_em": -14.0,
+   "adj_t": 71.8
   },
   {
    "team_id": "2454",
    "team": "North Florida Ospreys",
    "games": 5,
-   "adj_o": 89.6,
-   "adj_d": 103.9,
+   "adj_o": 89.7,
+   "adj_d": 104.0,
    "adj_em": -14.3,
    "adj_t": 81.7
+  },
+  {
+   "team_id": "2582",
+   "team": "Southern Jaguars",
+   "games": 6,
+   "adj_o": 91.4,
+   "adj_d": 105.7,
+   "adj_em": -14.3,
+   "adj_t": 75.4
   },
   {
    "team_id": "2598",
    "team": "2598",
    "games": 0,
    "adj_o": 93.6,
-   "adj_d": 108.0,
-   "adj_em": -14.4,
-   "adj_t": 75.2
-  },
-  {
-   "team_id": "2582",
-   "team": "Southern Jaguars",
-   "games": 6,
-   "adj_o": 91.6,
-   "adj_d": 106.1,
+   "adj_d": 108.1,
    "adj_em": -14.5,
-   "adj_t": 75.3
+   "adj_t": 75.2
   },
   {
    "team_id": "2296",
    "team": "Jackson State Tigers",
    "games": 6,
    "adj_o": 89.9,
-   "adj_d": 104.7,
-   "adj_em": -14.8,
-   "adj_t": 75.8
+   "adj_d": 104.5,
+   "adj_em": -14.6,
+   "adj_t": 75.4
   },
   {
    "team_id": "2154",
    "team": "Coppin State Eagles",
    "games": 6,
    "adj_o": 86.4,
-   "adj_d": 101.1,
-   "adj_em": -14.8,
+   "adj_d": 101.3,
+   "adj_em": -14.9,
    "adj_t": 68.3
+  },
+  {
+   "team_id": "2692",
+   "team": "Weber State Wildcats",
+   "games": 5,
+   "adj_o": 95.5,
+   "adj_d": 110.4,
+   "adj_em": -14.9,
+   "adj_t": 75.2
   },
   {
    "team_id": "2169",
    "team": "Delaware State Hornets",
    "games": 5,
    "adj_o": 90.2,
-   "adj_d": 105.3,
-   "adj_em": -15.0,
+   "adj_d": 105.4,
+   "adj_em": -15.2,
    "adj_t": 67.6
   },
   {
-   "team_id": "2692",
-   "team": "Weber State Wildcats",
+   "team_id": "2197",
+   "team": "Eastern Illinois Panthers",
+   "games": 6,
+   "adj_o": 91.3,
+   "adj_d": 106.6,
+   "adj_em": -15.3,
+   "adj_t": 68.3
+  },
+  {
+   "team_id": "2437",
+   "team": "Omaha Mavericks",
+   "games": 6,
+   "adj_o": 91.5,
+   "adj_d": 106.9,
+   "adj_em": -15.4,
+   "adj_t": 70.7
+  },
+  {
+   "team_id": "2011",
+   "team": "Alabama State Hornets",
    "games": 5,
-   "adj_o": 95.4,
-   "adj_d": 110.4,
-   "adj_em": -15.1,
-   "adj_t": 75.2
+   "adj_o": 93.4,
+   "adj_d": 108.9,
+   "adj_em": -15.4,
+   "adj_t": 69.3
   },
   {
    "team_id": "2352",
    "team": "Loyola Maryland Greyhounds",
    "games": 5,
    "adj_o": 91.1,
-   "adj_d": 106.3,
-   "adj_em": -15.2,
-   "adj_t": 72.7
-  },
-  {
-   "team_id": "2437",
-   "team": "Omaha Mavericks",
-   "games": 6,
-   "adj_o": 91.4,
-   "adj_d": 106.7,
-   "adj_em": -15.3,
-   "adj_t": 70.7
-  },
-  {
-   "team_id": "2197",
-   "team": "Eastern Illinois Panthers",
-   "games": 6,
-   "adj_o": 91.2,
-   "adj_d": 106.6,
-   "adj_em": -15.4,
-   "adj_t": 68.2
-  },
-  {
-   "team_id": "161",
-   "team": "Fairleigh Dickinson Knights",
-   "games": 6,
-   "adj_o": 92.9,
-   "adj_d": 108.5,
-   "adj_em": -15.6,
-   "adj_t": 67.2
-  },
-  {
-   "team_id": "2011",
-   "team": "Alabama State Hornets",
-   "games": 5,
-   "adj_o": 93.5,
-   "adj_d": 109.2,
-   "adj_em": -15.7,
-   "adj_t": 69.4
+   "adj_d": 106.5,
+   "adj_em": -15.5,
+   "adj_t": 72.8
   },
   {
    "team_id": "399",
    "team": "UAlbany Great Danes",
    "games": 5,
-   "adj_o": 91.2,
-   "adj_d": 107.3,
+   "adj_o": 91.3,
+   "adj_d": 107.4,
    "adj_em": -16.2,
    "adj_t": 68.3
-  },
-  {
-   "team_id": "2217",
-   "team": "Fairfield Stags",
-   "games": 5,
-   "adj_o": 87.9,
-   "adj_d": 104.2,
-   "adj_em": -16.2,
-   "adj_t": 70.5
-  },
-  {
-   "team_id": "2066",
-   "team": "Binghamton Bearcats",
-   "games": 6,
-   "adj_o": 96.4,
-   "adj_d": 112.6,
-   "adj_em": -16.2,
-   "adj_t": 64.3
   },
   {
    "team_id": "309",
    "team": "Louisiana Ragin' Cajuns",
    "games": 4,
-   "adj_o": 83.8,
+   "adj_o": 84.0,
    "adj_d": 100.3,
-   "adj_em": -16.5,
+   "adj_em": -16.3,
    "adj_t": 65.7
+  },
+  {
+   "team_id": "2066",
+   "team": "Binghamton Bearcats",
+   "games": 6,
+   "adj_o": 96.5,
+   "adj_d": 112.8,
+   "adj_em": -16.3,
+   "adj_t": 64.3
+  },
+  {
+   "team_id": "2217",
+   "team": "Fairfield Stags",
+   "games": 5,
+   "adj_o": 87.5,
+   "adj_d": 104.0,
+   "adj_em": -16.4,
+   "adj_t": 70.7
   },
   {
    "team_id": "2083",
    "team": "Bucknell Bison",
    "games": 5,
    "adj_o": 89.6,
-   "adj_d": 106.1,
+   "adj_d": 106.2,
    "adj_em": -16.5,
    "adj_t": 66.8
   },
   {
-   "team_id": "2640",
-   "team": "Texas Southern Tigers",
+   "team_id": "161",
+   "team": "Fairleigh Dickinson Knights",
    "games": 6,
-   "adj_o": 93.0,
-   "adj_d": 109.8,
-   "adj_em": -16.8,
-   "adj_t": 77.9
+   "adj_o": 92.6,
+   "adj_d": 109.2,
+   "adj_em": -16.5,
+   "adj_t": 67.3
   },
   {
    "team_id": "2130",
    "team": "Chicago State Cougars",
    "games": 7,
-   "adj_o": 92.3,
-   "adj_d": 109.4,
-   "adj_em": -17.1,
+   "adj_o": 92.5,
+   "adj_d": 109.7,
+   "adj_em": -17.2,
    "adj_t": 63.4
+  },
+  {
+   "team_id": "2640",
+   "team": "Texas Southern Tigers",
+   "games": 6,
+   "adj_o": 92.8,
+   "adj_d": 110.0,
+   "adj_em": -17.2,
+   "adj_t": 77.8
   },
   {
    "team_id": "2379",
    "team": "Maryland Eastern Shore Hawks",
    "games": 6,
-   "adj_o": 84.3,
-   "adj_d": 102.0,
-   "adj_em": -17.6,
-   "adj_t": 65.2
-  },
-  {
-   "team_id": "315",
-   "team": "Niagara Purple Eagles",
-   "games": 4,
-   "adj_o": 86.6,
-   "adj_d": 104.6,
-   "adj_em": -18.0,
-   "adj_t": 67.7
+   "adj_o": 84.1,
+   "adj_d": 101.9,
+   "adj_em": -17.7,
+   "adj_t": 65.1
   },
   {
    "team_id": "2363",
    "team": "Manhattan Jaspers",
    "games": 5,
-   "adj_o": 90.4,
-   "adj_d": 108.4,
-   "adj_em": -18.0,
+   "adj_o": 90.7,
+   "adj_d": 108.5,
+   "adj_em": -17.8,
    "adj_t": 69.6
+  },
+  {
+   "team_id": "315",
+   "team": "Niagara Purple Eagles",
+   "games": 4,
+   "adj_o": 86.4,
+   "adj_d": 104.7,
+   "adj_em": -18.3,
+   "adj_t": 67.8
   },
   {
    "team_id": "116",
    "team": "Mount St. Mary's Mountaineers",
    "games": 4,
    "adj_o": 87.5,
-   "adj_d": 106.2,
-   "adj_em": -18.7,
+   "adj_d": 106.3,
+   "adj_em": -18.8,
    "adj_t": 71.2
   },
   {
@@ -3157,161 +3157,161 @@
    "team": "LSU New Orleans Privateers",
    "games": 4,
    "adj_o": 92.2,
-   "adj_d": 111.0,
-   "adj_em": -18.8,
-   "adj_t": 77.2
+   "adj_d": 111.1,
+   "adj_em": -18.9,
+   "adj_t": 77.1
   },
   {
    "team_id": "2450",
    "team": "Norfolk State Spartans",
    "games": 6,
-   "adj_o": 93.3,
-   "adj_d": 112.8,
+   "adj_o": 93.4,
+   "adj_d": 112.9,
    "adj_em": -19.5,
    "adj_t": 66.7
-  },
-  {
-   "team_id": "284",
-   "team": "Stonehill Skyhawks",
-   "games": 5,
-   "adj_o": 85.9,
-   "adj_d": 105.6,
-   "adj_em": -19.7,
-   "adj_t": 71.7
   },
   {
    "team_id": "2099",
    "team": "Canisius Golden Griffins",
    "games": 5,
-   "adj_o": 90.5,
-   "adj_d": 110.3,
+   "adj_o": 90.3,
+   "adj_d": 110.1,
    "adj_em": -19.8,
-   "adj_t": 68.8
+   "adj_t": 69.1
+  },
+  {
+   "team_id": "284",
+   "team": "Stonehill Skyhawks",
+   "games": 5,
+   "adj_o": 86.0,
+   "adj_d": 105.8,
+   "adj_em": -19.8,
+   "adj_t": 71.7
   },
   {
    "team_id": "2612",
    "team": "Saint Peter's Peacocks",
    "games": 5,
-   "adj_o": 81.5,
-   "adj_d": 101.5,
-   "adj_em": -20.1,
-   "adj_t": 62.1
-  },
-  {
-   "team_id": "2400",
-   "team": "Mississippi Valley State Delta Devils",
-   "games": 4,
-   "adj_o": 87.3,
-   "adj_d": 107.8,
-   "adj_em": -20.5,
-   "adj_t": 70.5
+   "adj_o": 81.3,
+   "adj_d": 101.2,
+   "adj_em": -19.9,
+   "adj_t": 62.2
   },
   {
    "team_id": "2916",
    "team": "Incarnate Word Cardinals",
    "games": 5,
-   "adj_o": 86.9,
-   "adj_d": 107.5,
-   "adj_em": -20.5,
-   "adj_t": 69.9
+   "adj_o": 87.2,
+   "adj_d": 107.2,
+   "adj_em": -20.0,
+   "adj_t": 69.8
+  },
+  {
+   "team_id": "2400",
+   "team": "Mississippi Valley State Delta Devils",
+   "games": 4,
+   "adj_o": 87.1,
+   "adj_d": 108.0,
+   "adj_em": -20.9,
+   "adj_t": 70.8
   },
   {
    "team_id": "2241",
    "team": "Gardner-Webb Runnin' Bulldogs",
    "games": 5,
-   "adj_o": 88.2,
-   "adj_d": 109.6,
-   "adj_em": -21.3,
-   "adj_t": 69.7
+   "adj_o": 88.3,
+   "adj_d": 109.8,
+   "adj_em": -21.5,
+   "adj_t": 69.8
   },
   {
    "team_id": "107",
    "team": "Holy Cross Crusaders",
    "games": 5,
-   "adj_o": 85.4,
+   "adj_o": 85.5,
    "adj_d": 108.0,
    "adj_em": -22.6,
-   "adj_t": 72.8
-  },
-  {
-   "team_id": "2520",
-   "team": "Rider Broncs",
-   "games": 6,
-   "adj_o": 86.1,
-   "adj_d": 109.8,
-   "adj_em": -23.7,
-   "adj_t": 69.4
+   "adj_t": 72.7
   },
   {
    "team_id": "2885",
    "team": "NJIT Highlanders",
    "games": 7,
-   "adj_o": 83.4,
-   "adj_d": 107.5,
-   "adj_em": -24.1,
+   "adj_o": 83.8,
+   "adj_d": 107.6,
+   "adj_em": -23.7,
    "adj_t": 68.3
+  },
+  {
+   "team_id": "2520",
+   "team": "Rider Broncs",
+   "games": 6,
+   "adj_o": 86.2,
+   "adj_d": 110.0,
+   "adj_em": -23.8,
+   "adj_t": 69.3
   },
   {
    "team_id": "2856",
    "team": "California Baptist Lancers",
    "games": 5,
-   "adj_o": 88.6,
-   "adj_d": 114.9,
-   "adj_em": -26.3,
+   "adj_o": 88.8,
+   "adj_d": 114.6,
+   "adj_em": -25.8,
    "adj_t": 65.4
   },
   {
    "team_id": "2016",
    "team": "Alcorn State Braves",
    "games": 6,
-   "adj_o": 84.2,
-   "adj_d": 112.6,
-   "adj_em": -28.4,
+   "adj_o": 84.0,
+   "adj_d": 112.9,
+   "adj_em": -28.9,
    "adj_t": 73.9
   },
   {
    "team_id": "2174",
    "team": "Detroit Mercy Titans",
    "games": 4,
-   "adj_o": 85.8,
-   "adj_d": 115.0,
-   "adj_em": -29.2,
+   "adj_o": 85.5,
+   "adj_d": 114.9,
+   "adj_em": -29.4,
    "adj_t": 72.1
   },
   {
    "team_id": "50",
    "team": "Florida A&M Rattlers",
    "games": 6,
-   "adj_o": 84.5,
-   "adj_d": 116.0,
-   "adj_em": -31.6,
-   "adj_t": 74.8
+   "adj_o": 84.6,
+   "adj_d": 115.7,
+   "adj_em": -31.1,
+   "adj_t": 74.7
   },
   {
    "team_id": "128256",
    "team": "College of Biblical Studies Ambassadors",
    "games": 5,
-   "adj_o": 81.2,
-   "adj_d": 117.3,
-   "adj_em": -36.1,
+   "adj_o": 80.9,
+   "adj_d": 117.7,
+   "adj_em": -36.8,
    "adj_t": 85.0
   },
   {
    "team_id": "2029",
    "team": "Arkansas-Pine Bluff Golden Lions",
    "games": 6,
-   "adj_o": 77.6,
-   "adj_d": 115.6,
-   "adj_em": -38.0,
-   "adj_t": 76.7
+   "adj_o": 78.0,
+   "adj_d": 115.4,
+   "adj_em": -37.4,
+   "adj_t": 76.8
   },
   {
    "team_id": "124946",
    "team": "Lincoln (CA) Oaklanders",
    "games": 5,
-   "adj_o": 72.5,
-   "adj_d": 112.5,
-   "adj_em": -40.0,
+   "adj_o": 72.6,
+   "adj_d": 112.7,
+   "adj_em": -40.1,
    "adj_t": 78.4
   },
   {
@@ -3319,72 +3319,72 @@
    "team": "Erskine Flying Fleet",
    "games": 3,
    "adj_o": 83.7,
-   "adj_d": 125.2,
-   "adj_em": -41.5,
+   "adj_d": 125.3,
+   "adj_em": -41.6,
    "adj_t": 72.4
   },
   {
    "team_id": "2937",
    "team": "Dallas Christian Crusaders",
    "games": 3,
-   "adj_o": 79.5,
-   "adj_d": 121.2,
-   "adj_em": -41.7,
-   "adj_t": 77.6
+   "adj_o": 79.6,
+   "adj_d": 121.6,
+   "adj_em": -42.0,
+   "adj_t": 77.5
   },
   {
    "team_id": "2225",
    "team": "Fisk Bulldogs",
    "games": 3,
-   "adj_o": 78.4,
-   "adj_d": 121.3,
-   "adj_em": -42.9,
+   "adj_o": 78.3,
+   "adj_d": 122.0,
+   "adj_em": -43.7,
    "adj_t": 77.6
   },
   {
    "team_id": "134743",
    "team": "Grace (CA) Talons",
    "games": 3,
-   "adj_o": 76.6,
+   "adj_o": 76.7,
    "adj_d": 121.2,
-   "adj_em": -44.6,
-   "adj_t": 72.5
+   "adj_em": -44.5,
+   "adj_t": 72.7
   },
   {
    "team_id": "2129",
    "team": "Cheyney (PA) Wolves",
    "games": 5,
    "adj_o": 80.2,
-   "adj_d": 124.8,
-   "adj_em": -44.6,
+   "adj_d": 125.0,
+   "adj_em": -44.8,
    "adj_t": 75.4
   },
   {
    "team_id": "111166",
    "team": "Midway Eagles",
    "games": 3,
-   "adj_o": 76.1,
-   "adj_d": 124.5,
-   "adj_em": -48.4,
-   "adj_t": 75.4
+   "adj_o": 75.7,
+   "adj_d": 125.1,
+   "adj_em": -49.5,
+   "adj_t": 75.5
   },
   {
    "team_id": "3229",
    "team": "Virginia Lynchburg Dragons",
    "games": 7,
-   "adj_o": 74.3,
-   "adj_d": 134.6,
-   "adj_em": -60.3,
+   "adj_o": 74.2,
+   "adj_d": 134.9,
+   "adj_em": -60.7,
    "adj_t": 91.0
   },
   {
    "team_id": "3246",
    "team": "Bethesda Flames",
    "games": 6,
-   "adj_o": 67.5,
-   "adj_d": 134.4,
-   "adj_em": -66.9,
-   "adj_t": 80.2
+   "adj_o": 67.3,
+   "adj_d": 134.3,
+   "adj_em": -67.0,
+   "adj_t": 80.3
   }
  ]
 }

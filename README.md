@@ -50,13 +50,24 @@ Margin MAE by month last season: Nov 10.8, Dec 9.7, Jan 9.0, Feb 8.8, Mar 8.9. W
 
 ## Pick rules
 
-In `model/picks.py` (`RULES`):
+In `model/picks.py` (`RULES`, `MARKET_WEIGHT`):
 
-* Spread: model margin differs from DK by at least 3.0 points and EV at least 5%
-* Total: model total differs from DK by at least 4.5 points and EV at least 5%
-* Moneyline: EV at least 8%, odds between −250 and +250
+**Market blend.** Probabilities and EV come from a blend: 70% DraftKings number, 30% model number. The DK line already carries injuries, lineups and sharp money, so the blend only shows value when the model disagrees strongly.
 
-Picks lock the first time they qualify, at that line and price, and are graded at 1 unit each. The last pre-tip DK line is saved as the closing line.
+**A pick needs all of these:**
+
+* Spread: raw model margin differs from DK by at least 3.0 points, and blended EV at least 2.5%
+* Total: raw model total differs from DK by at least 4.5 points, and blended EV at least 2%
+* Moneyline: blended EV at least 3%, odds between −250 and +250
+
+**Then it is skipped (shown as "Passed" on the board) if:**
+
+* DK's line has moved against it since opening by 3.5+ points (spread), 3+ points (total) or 6+ points of win probability (moneyline)
+* The other side has handle % at least 15 points above bets % (sharp money leaning against it)
+
+Picks where the pick's own side has handle % at least 30 points above bets % get a "Sharp ✓" badge.
+
+**Records kept:** all model picks, model picks with Sharp ✓, and every Sharp Money side on its own (each side the Sharp Money tab flags, locked at the line and odds when first flagged). Picks lock the first time they qualify, at that line and price, and are graded at 1 unit each. The last pre-tip DK line is saved as the closing line.
 
 ## Sharp money tab
 

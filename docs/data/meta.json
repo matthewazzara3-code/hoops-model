@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T11:45:45.720402-05:00",
+ "updated": "2026-11-20T17:13:57.166775-05:00",
  "slate": "2026-11-20",
  "model_version": "1.2",
  "games_fit": 1068,
@@ -35,19 +35,10 @@
  "market_weight": 0.7,
  "log": [
   "Fit on 1068 games through 2026-11-19",
-  "Splits: 50 games, 38 sides with handle >= bets + 30",
-  "Pass: Green Bay @ Florida St Green Bay +22.5: Sharp money on the other side (handle beats bets by 30)",
-  "New pick: UAB @ G Washington G Washington -9.5 (-102) EV 7.0%",
-  "Pass: UAB @ G Washington Under 150.5: Sharp money on the other side (handle beats bets by 33)",
-  "Pass: Dayton @ Utah Over 138.5: DK line moved 3.0 pts against it",
-  "New pick: UT Martin @ S Illinois UT Martin +1.5 (-108) EV 6.0%",
-  "Pass: UT Martin @ S Illinois UT Martin ML: Sharp money on the other side (handle beats bets by 42)",
-  "New pick: Loyola MD @ Virginia Over 150.5 (-112) EV 2.5%",
-  "New pick: Richmond @ Western KY Richmond ML (-112) EV 3.1%",
-  "New pick: Georgia St @ Jax State Jax State -1.5 (+110) EV 13.3%",
-  "Pass: Georgia St @ Jax State Jax State ML: Sharp money on the other side (handle beats bets by 65)",
-  "New pick: Wisconsin @ Murray St Murray St ML (+145) EV 4.3%",
-  "Pass: Marshall @ North Carolina Under 158.5: DK line moved 5.0 pts against it",
+  "Splits: 41 games, 40 sides with handle >= bets + 30",
+  "Pass: UT Martin @ S Illinois UT Martin ML: Sharp money on the other side (handle beats bets by 28)",
+  "Pass: Georgia St @ Jax State Jax State ML: Sharp money on the other side (handle beats bets by 26)",
+  "Pass: Marshall @ North Carolina Under 157.5: DK line moved 4.0 pts against it",
   "Pass: Alabama St @ Fresno St Over 145.5: DK line moved 7.0 pts against it"
  ]
 }

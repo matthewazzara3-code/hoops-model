@@ -19,6 +19,63 @@
   "close_odds": 105.0
  },
  {
+  "id": "401911252-total-over",
+  "game_id": "401911252",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T04:00Z",
+  "matchup": "Saint Louis @ Saint Mary's",
+  "market": "total",
+  "side": "over",
+  "line": 161.5,
+  "odds": -110,
+  "label": "Over 161.5",
+  "handle": 98,
+  "bets": 45,
+  "diff": 53,
+  "made_at": "2026-11-20T17:13:57.166775-05:00",
+  "model_agrees": "True",
+  "close_line": 161.5,
+  "close_odds": -110.0
+ },
+ {
+  "id": "401925664-spread-home",
+  "game_id": "401925664",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T03:00Z",
+  "matchup": "Alabama St @ Fresno St",
+  "market": "spread",
+  "side": "home",
+  "line": -10.5,
+  "odds": -108,
+  "label": "Fresno State -10.5",
+  "handle": 98,
+  "bets": 67,
+  "diff": 31,
+  "made_at": "2026-11-20T17:13:57.166775-05:00",
+  "model_agrees": "True",
+  "close_line": -9.5,
+  "close_odds": -115.0
+ },
+ {
+  "id": "401921691-total-over",
+  "game_id": "401921691",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T02:30Z",
+  "matchup": "Seton Hall @ NC State",
+  "market": "total",
+  "side": "over",
+  "line": 140.5,
+  "odds": -110,
+  "label": "Over 140.5",
+  "handle": 94,
+  "bets": 63,
+  "diff": 31,
+  "made_at": "2026-11-20T17:13:57.166775-05:00",
+  "model_agrees": "False",
+  "close_line": 140.5,
+  "close_odds": -110.0
+ },
+ {
   "id": "401913529-total-under",
   "game_id": "401913529",
   "date": "2026-11-20",
@@ -53,8 +110,8 @@
   "diff": 47,
   "made_at": "2026-11-20T11:45:45.720402-05:00",
   "model_agrees": "False",
-  "close_line": -11.5,
-  "close_odds": -110.0
+  "close_line": -12.5,
+  "close_odds": -108.0
  },
  {
   "id": "401920137-spread-away",
@@ -72,8 +129,46 @@
   "diff": 49,
   "made_at": "2026-11-20T11:45:45.720402-05:00",
   "model_agrees": "False",
-  "close_line": 2.5,
-  "close_odds": -118.0
+  "close_line": 1.5,
+  "close_odds": -102.0
+ },
+ {
+  "id": "401928795-total-over",
+  "game_id": "401928795",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T02:00Z",
+  "matchup": "Sam Houston @ Boise St",
+  "market": "total",
+  "side": "over",
+  "line": 169.5,
+  "odds": -112,
+  "label": "Over 169.5",
+  "handle": 96,
+  "bets": 50,
+  "diff": 46,
+  "made_at": "2026-11-20T17:13:57.166775-05:00",
+  "model_agrees": "True",
+  "close_line": 169.5,
+  "close_odds": -112.0
+ },
+ {
+  "id": "401912710-moneyline-away",
+  "game_id": "401912710",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T02:00Z",
+  "matchup": "Marshall @ North Carolina",
+  "market": "moneyline",
+  "side": "away",
+  "line": null,
+  "odds": 1600,
+  "label": "Marshall",
+  "handle": 77,
+  "bets": 5,
+  "diff": 72,
+  "made_at": "2026-11-20T17:13:57.166775-05:00",
+  "model_agrees": true,
+  "close_line": null,
+  "close_odds": 1600.0
  },
  {
   "id": "401916290-moneyline-away",
@@ -148,8 +243,8 @@
   "diff": 47,
   "made_at": "2026-11-20T07:43:44.725199-05:00",
   "model_agrees": "False",
-  "close_line": 147.5,
-  "close_odds": -112.0
+  "close_line": 149.5,
+  "close_odds": -105.0
  },
  {
   "id": "401909799-spread-home",
@@ -168,7 +263,7 @@
   "made_at": "2026-11-20T07:43:44.725199-05:00",
   "model_agrees": "True",
   "close_line": -16.5,
-  "close_odds": -108.0
+  "close_odds": -102.0
  },
  {
   "id": "401925740-spread-away",
@@ -186,8 +281,8 @@
   "diff": 66,
   "made_at": "2026-11-20T07:43:44.725199-05:00",
   "model_agrees": "True",
-  "close_line": 38.5,
-  "close_odds": -108.0
+  "close_line": 37.5,
+  "close_odds": -105.0
  },
  {
   "id": "401906784-spread-home",
@@ -263,7 +358,7 @@
   "made_at": "2026-11-20T11:45:45.720402-05:00",
   "model_agrees": true,
   "close_line": null,
-  "close_odds": -170.0
+  "close_odds": -180.0
  },
  {
   "id": "401929459-spread-away",
@@ -281,8 +376,8 @@
   "diff": 31,
   "made_at": "2026-11-20T11:45:45.720402-05:00",
   "model_agrees": "True",
-  "close_line": 14.5,
-  "close_odds": -102.0
+  "close_line": 15.5,
+  "close_odds": -115.0
  },
  {
   "id": "401919784-spread-away",
@@ -300,8 +395,122 @@
   "diff": 30,
   "made_at": "2026-11-20T11:45:45.720402-05:00",
   "model_agrees": "True",
-  "close_line": 36.5,
+  "close_line": 34.5,
+  "close_odds": -105.0
+ },
+ {
+  "id": "401906784-total-over",
+  "game_id": "401906784",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T01:00Z",
+  "matchup": "Georgia @ Georgia Tech",
+  "market": "total",
+  "side": "over",
+  "line": 166.5,
+  "odds": -110,
+  "label": "Over 166.5",
+  "handle": 89,
+  "bets": 47,
+  "diff": 42,
+  "made_at": "2026-11-20T17:13:57.166775-05:00",
+  "model_agrees": "False",
+  "close_line": 166.5,
+  "close_odds": -110.0
+ },
+ {
+  "id": "401921757-moneyline-away",
+  "game_id": "401921757",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T01:00Z",
+  "matchup": "UCF @ Vanderbilt",
+  "market": "moneyline",
+  "side": "away",
+  "line": null,
+  "odds": 1200,
+  "label": "UCF",
+  "handle": 77,
+  "bets": 10,
+  "diff": 67,
+  "made_at": "2026-11-20T17:13:57.166775-05:00",
+  "model_agrees": false,
+  "close_line": null,
+  "close_odds": 1200.0
+ },
+ {
+  "id": "401909799-total-over",
+  "game_id": "401909799",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T01:00Z",
+  "matchup": "Campbell @ Kansas St",
+  "market": "total",
+  "side": "over",
+  "line": 154.5,
+  "odds": -115,
+  "label": "Over 154.5",
+  "handle": 99,
+  "bets": 25,
+  "diff": 74,
+  "made_at": "2026-11-20T17:13:57.166775-05:00",
+  "model_agrees": "True",
+  "close_line": 154.5,
   "close_odds": -115.0
+ },
+ {
+  "id": "401920707-spread-away",
+  "game_id": "401920707",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T01:00Z",
+  "matchup": "Lipscomb @ Alabama A&M",
+  "market": "spread",
+  "side": "away",
+  "line": -5.5,
+  "odds": -105,
+  "label": "Lipscomb -5.5",
+  "handle": 98,
+  "bets": 50,
+  "diff": 48,
+  "made_at": "2026-11-20T17:13:57.166775-05:00",
+  "model_agrees": "False",
+  "close_line": -5.5,
+  "close_odds": -105.0
+ },
+ {
+  "id": "401920707-total-over",
+  "game_id": "401920707",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T01:00Z",
+  "matchup": "Lipscomb @ Alabama A&M",
+  "market": "total",
+  "side": "over",
+  "line": 149.5,
+  "odds": -105,
+  "label": "Over 149.5",
+  "handle": 100,
+  "bets": 67,
+  "diff": 33,
+  "made_at": "2026-11-20T17:13:57.166775-05:00",
+  "model_agrees": "True",
+  "close_line": 149.5,
+  "close_odds": -105.0
+ },
+ {
+  "id": "401925740-total-over",
+  "game_id": "401925740",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T01:00Z",
+  "matchup": "Miss Valley St @ Arkansas",
+  "market": "total",
+  "side": "over",
+  "line": 152.5,
+  "odds": -112,
+  "label": "Over 152.5",
+  "handle": 100,
+  "bets": 67,
+  "diff": 33,
+  "made_at": "2026-11-20T17:13:57.166775-05:00",
+  "model_agrees": "True",
+  "close_line": 152.5,
+  "close_odds": -112.0
  },
  {
   "id": "401925865-total-over",
@@ -319,8 +528,8 @@
   "diff": 33,
   "made_at": "2026-11-20T11:45:45.720402-05:00",
   "model_agrees": "True",
-  "close_line": 152.5,
-  "close_odds": -112.0
+  "close_line": 153.5,
+  "close_odds": -105.0
  },
  {
   "id": "401906852-spread-away",
@@ -338,8 +547,8 @@
   "diff": 30,
   "made_at": "2026-11-20T07:43:44.725199-05:00",
   "model_agrees": "True",
-  "close_line": 27.5,
-  "close_odds": -105.0
+  "close_line": 26.5,
+  "close_odds": -110.0
  },
  {
   "id": "401926134-spread-away",
@@ -357,7 +566,7 @@
   "diff": 48,
   "made_at": "2026-11-20T07:43:44.725199-05:00",
   "model_agrees": "True",
-  "close_line": 22.5,
+  "close_line": 21.5,
   "close_odds": -118.0
  },
  {
@@ -396,7 +605,7 @@
   "made_at": "2026-11-20T07:43:44.725199-05:00",
   "model_agrees": false,
   "close_line": null,
-  "close_odds": -108.0
+  "close_odds": -102.0
  },
  {
   "id": "401926782-total-over",
@@ -433,7 +642,7 @@
   "diff": 31,
   "made_at": "2026-11-20T07:43:44.725199-05:00",
   "model_agrees": "True",
-  "close_line": 133.5,
+  "close_line": 134.5,
   "close_odds": -108.0
  },
  {
@@ -452,7 +661,7 @@
   "diff": 50,
   "made_at": "2026-11-20T07:43:44.725199-05:00",
   "model_agrees": "True",
-  "close_line": 34.5,
+  "close_line": 33.5,
   "close_odds": -115.0
  },
  {
@@ -471,8 +680,8 @@
   "diff": 31,
   "made_at": "2026-11-20T11:45:45.720402-05:00",
   "model_agrees": "True",
-  "close_line": 147.5,
-  "close_odds": -115.0
+  "close_line": 146.5,
+  "close_odds": -108.0
  },
  {
   "id": "401924736-moneyline-away",
@@ -510,7 +719,7 @@
   "made_at": "2026-11-20T11:45:45.720402-05:00",
   "model_agrees": "True",
   "close_line": 21.5,
-  "close_odds": -105.0
+  "close_odds": -110.0
  },
  {
   "id": "401920922-spread-away",
@@ -528,8 +737,8 @@
   "diff": 32,
   "made_at": "2026-11-20T11:45:45.720402-05:00",
   "model_agrees": "True",
-  "close_line": -6.5,
-  "close_odds": -115.0
+  "close_line": -7.5,
+  "close_odds": -108.0
  },
  {
   "id": "401924844-spread-away",
@@ -548,7 +757,292 @@
   "made_at": "2026-11-20T11:45:45.720402-05:00",
   "model_agrees": "False",
   "close_line": 1.5,
-  "close_odds": -118.0
+  "close_odds": -108.0
+ },
+ {
+  "id": "401920195-spread-away",
+  "game_id": "401920195",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T00:00Z",
+  "matchup": "Saint Joseph's @ Drexel",
+  "market": "spread",
+  "side": "away",
+  "line": -3.5,
+  "odds": -115,
+  "label": "Saint Josephs -3.5",
+  "handle": 97,
+  "bets": 67,
+  "diff": 30,
+  "made_at": "2026-11-20T17:13:57.166775-05:00",
+  "model_agrees": "False",
+  "close_line": -3.5,
+  "close_odds": -115.0
+ },
+ {
+  "id": "401924736-total-over",
+  "game_id": "401924736",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T00:00Z",
+  "matchup": "Monmouth @ Princeton",
+  "market": "total",
+  "side": "over",
+  "line": 140.5,
+  "odds": -110,
+  "label": "Over 140.5",
+  "handle": 99,
+  "bets": 67,
+  "diff": 32,
+  "made_at": "2026-11-20T17:13:57.166775-05:00",
+  "model_agrees": "True",
+  "close_line": 140.5,
+  "close_odds": -110.0
+ },
+ {
+  "id": "401906852-moneyline-away",
+  "game_id": "401906852",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T00:00Z",
+  "matchup": "Coastal @ Tennessee",
+  "market": "moneyline",
+  "side": "away",
+  "line": null,
+  "odds": 3500,
+  "label": "Coastal Carolina",
+  "handle": 100,
+  "bets": 15,
+  "diff": 85,
+  "made_at": "2026-11-20T17:13:57.166775-05:00",
+  "model_agrees": true,
+  "close_line": null,
+  "close_odds": 3500.0
+ },
+ {
+  "id": "401921692-moneyline-home",
+  "game_id": "401921692",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T00:00Z",
+  "matchup": "Wisconsin @ Murray St",
+  "market": "moneyline",
+  "side": "home",
+  "line": null,
+  "odds": 145,
+  "label": "Murray State",
+  "handle": 40,
+  "bets": 9,
+  "diff": 31,
+  "made_at": "2026-11-20T17:13:57.166775-05:00",
+  "model_agrees": true,
+  "close_line": null,
+  "close_odds": 145.0
+ },
+ {
+  "id": "401921007-spread-home",
+  "game_id": "401921007",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T00:00Z",
+  "matchup": "Kansas City @ Iona",
+  "market": "spread",
+  "side": "home",
+  "line": -4.5,
+  "odds": -108,
+  "label": "Iona -4.5",
+  "handle": 100,
+  "bets": 69,
+  "diff": 31,
+  "made_at": "2026-11-20T17:13:57.166775-05:00",
+  "model_agrees": "True",
+  "close_line": -4.5,
+  "close_odds": -108.0
+ },
+ {
+  "id": "401921007-total-over",
+  "game_id": "401921007",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T00:00Z",
+  "matchup": "Kansas City @ Iona",
+  "market": "total",
+  "side": "over",
+  "line": 140.5,
+  "odds": -112,
+  "label": "Over 140.5",
+  "handle": 99,
+  "bets": 63,
+  "diff": 36,
+  "made_at": "2026-11-20T17:13:57.166775-05:00",
+  "model_agrees": "True",
+  "close_line": 140.5,
+  "close_odds": -112.0
+ },
+ {
+  "id": "401926134-total-over",
+  "game_id": "401926134",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T00:00Z",
+  "matchup": "Oakland @ Purdue",
+  "market": "total",
+  "side": "over",
+  "line": 147.5,
+  "odds": -110,
+  "label": "Over 147.5",
+  "handle": 68,
+  "bets": 33,
+  "diff": 35,
+  "made_at": "2026-11-20T17:13:57.166775-05:00",
+  "model_agrees": "True",
+  "close_line": 147.5,
+  "close_odds": -110.0
+ },
+ {
+  "id": "401927396-moneyline-home",
+  "game_id": "401927396",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T00:00Z",
+  "matchup": "Richmond @ Western KY",
+  "market": "moneyline",
+  "side": "home",
+  "line": null,
+  "odds": -102,
+  "label": "Western Kentucky",
+  "handle": 79,
+  "bets": 34,
+  "diff": 45,
+  "made_at": "2026-11-20T17:13:57.166775-05:00",
+  "model_agrees": false,
+  "close_line": null,
+  "close_odds": -102.0
+ },
+ {
+  "id": "401920357-spread-away",
+  "game_id": "401920357",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T00:00Z",
+  "matchup": "Harvard @ Holy Cross",
+  "market": "spread",
+  "side": "away",
+  "line": -11.5,
+  "odds": -112,
+  "label": "Harvard -11.5",
+  "handle": 68,
+  "bets": 22,
+  "diff": 46,
+  "made_at": "2026-11-20T17:13:57.166775-05:00",
+  "model_agrees": "False",
+  "close_line": -11.5,
+  "close_odds": -112.0
+ },
+ {
+  "id": "401920357-total-under",
+  "game_id": "401920357",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T00:00Z",
+  "matchup": "Harvard @ Holy Cross",
+  "market": "total",
+  "side": "under",
+  "line": 137.5,
+  "odds": -115,
+  "label": "Under 137.5",
+  "handle": 94,
+  "bets": 57,
+  "diff": 37,
+  "made_at": "2026-11-20T17:13:57.166775-05:00",
+  "model_agrees": "True",
+  "close_line": 137.5,
+  "close_odds": -115.0
+ },
+ {
+  "id": "401920922-total-over",
+  "game_id": "401920922",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T00:00Z",
+  "matchup": "W Michigan @ Mount St Marys",
+  "market": "total",
+  "side": "over",
+  "line": 143.5,
+  "odds": -115,
+  "label": "Over 143.5",
+  "handle": 97,
+  "bets": 60,
+  "diff": 37,
+  "made_at": "2026-11-20T17:13:57.166775-05:00",
+  "model_agrees": "False",
+  "close_line": 143.5,
+  "close_odds": -115.0
+ },
+ {
+  "id": "401925927-spread-home",
+  "game_id": "401925927",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T00:00Z",
+  "matchup": "SC State @ The Citadel",
+  "market": "spread",
+  "side": "home",
+  "line": -3.5,
+  "odds": -110,
+  "label": "The Citadel -3.5",
+  "handle": 97,
+  "bets": 67,
+  "diff": 30,
+  "made_at": "2026-11-20T17:13:57.166775-05:00",
+  "model_agrees": "True",
+  "close_line": -3.5,
+  "close_odds": -110.0
+ },
+ {
+  "id": "401925927-total-under",
+  "game_id": "401925927",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T00:00Z",
+  "matchup": "SC State @ The Citadel",
+  "market": "total",
+  "side": "under",
+  "line": 142.5,
+  "odds": -108,
+  "label": "Under 142.5",
+  "handle": 52,
+  "bets": 14,
+  "diff": 38,
+  "made_at": "2026-11-20T17:13:57.166775-05:00",
+  "model_agrees": "True",
+  "close_line": 142.5,
+  "close_odds": -108.0
+ },
+ {
+  "id": "401920427-total-under",
+  "game_id": "401920427",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T00:00Z",
+  "matchup": "Loyola MD @ Virginia",
+  "market": "total",
+  "side": "under",
+  "line": 150.5,
+  "odds": -108,
+  "label": "Under 150.5",
+  "handle": 87,
+  "bets": 20,
+  "diff": 67,
+  "made_at": "2026-11-20T17:13:57.166775-05:00",
+  "model_agrees": "False",
+  "close_line": 150.5,
+  "close_odds": -108.0
+ },
+ {
+  "id": "401924844-moneyline-home",
+  "game_id": "401924844",
+  "date": "2026-11-20",
+  "tip": "2026-11-21T00:00Z",
+  "matchup": "Niagara @ Delaware St",
+  "market": "moneyline",
+  "side": "home",
+  "line": null,
+  "odds": -122,
+  "label": "Delaware State",
+  "handle": 99,
+  "bets": 65,
+  "diff": 34,
+  "made_at": "2026-11-20T17:13:57.166775-05:00",
+  "model_agrees": true,
+  "close_line": null,
+  "close_odds": -122.0
  },
  {
   "id": "401925828-moneyline-home",
@@ -567,7 +1061,26 @@
   "made_at": "2026-11-20T11:45:45.720402-05:00",
   "model_agrees": true,
   "close_line": null,
-  "close_odds": 130.0
+  "close_odds": 120.0
+ },
+ {
+  "id": "401925828-spread-home",
+  "game_id": "401925828",
+  "date": "2026-11-20",
+  "tip": "2026-11-20T23:30Z",
+  "matchup": "North Texas @ App State",
+  "market": "spread",
+  "side": "home",
+  "line": 2.5,
+  "odds": -115,
+  "label": "Appalachian State +2.5",
+  "handle": 72,
+  "bets": 35,
+  "diff": 37,
+  "made_at": "2026-11-20T17:13:57.166775-05:00",
+  "model_agrees": "True",
+  "close_line": 2.5,
+  "close_odds": -115.0
  },
  {
   "id": "401920298-total-over",
@@ -585,8 +1098,8 @@
   "diff": 42,
   "made_at": "2026-11-20T11:45:45.720402-05:00",
   "model_agrees": "False",
-  "close_line": 150.5,
-  "close_odds": -115.0
+  "close_line": 151.5,
+  "close_odds": -108.0
  },
  {
   "id": "401916124-moneyline-home",
@@ -605,7 +1118,7 @@
   "made_at": "2026-11-20T07:43:44.725199-05:00",
   "model_agrees": false,
   "close_line": null,
-  "close_odds": -125.0
+  "close_odds": -142.0
  },
  {
   "id": "401921419-total-over",
@@ -623,7 +1136,7 @@
   "diff": 32,
   "made_at": "2026-11-20T11:45:45.720402-05:00",
   "model_agrees": "True",
-  "close_line": 138.5,
+  "close_line": 139.5,
   "close_odds": -110.0
  },
  {
@@ -643,7 +1156,7 @@
   "made_at": "2026-11-20T11:45:45.720402-05:00",
   "model_agrees": "False",
   "close_line": 135.5,
-  "close_odds": -105.0
+  "close_odds": -108.0
  },
  {
   "id": "401920066-moneyline-away",
@@ -719,7 +1232,11 @@
   "made_at": "2026-11-20T11:45:45.720402-05:00",
   "model_agrees": "False",
   "close_line": -6.5,
-  "close_odds": -105.0
+  "close_odds": -105.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "UALB 65, WIU 60",
+  "clv": 0.0
  },
  {
   "id": "401919826-total-over",
@@ -738,7 +1255,11 @@
   "made_at": "2026-11-20T11:45:45.720402-05:00",
   "model_agrees": "True",
   "close_line": 138.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "UALB 65, WIU 60",
+  "clv": 0.0
  },
  {
   "id": "401919019-moneyline-away",
@@ -757,7 +1278,11 @@
   "made_at": "2026-11-20T07:43:44.725199-05:00",
   "model_agrees": false,
   "close_line": null,
-  "close_odds": 360.0
+  "close_odds": 360.0,
+  "result": "W",
+  "units": 4.0,
+  "final": "UAB 81, GW 76",
+  "clv": 1.7
  },
  {
   "id": "401919019-total-over",
@@ -776,7 +1301,11 @@
   "made_at": "2026-11-20T07:43:44.725199-05:00",
   "model_agrees": "False",
   "close_line": 150.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "W",
+  "units": 0.87,
+  "final": "UAB 81, GW 76",
+  "clv": 1.0
  },
  {
   "id": "401916122-moneyline-home",
@@ -795,7 +1324,11 @@
   "made_at": "2026-11-20T07:43:44.725199-05:00",
   "model_agrees": true,
   "close_line": null,
-  "close_odds": 136.0
+  "close_odds": 136.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "TEM 85, MTSU 76",
+  "clv": 3.0
  },
  {
   "id": "401921418-spread-away",
@@ -814,7 +1347,11 @@
   "made_at": "2026-11-20T11:45:45.720402-05:00",
   "model_agrees": "True",
   "close_line": 1.5,
-  "close_odds": -115.0
+  "close_odds": -115.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "OKST 70, MINN 85",
+  "clv": 0.0
  },
  {
   "id": "401909698-moneyline-away",
@@ -833,7 +1370,11 @@
   "made_at": "2026-11-20T07:43:44.725199-05:00",
   "model_agrees": true,
   "close_line": null,
-  "close_odds": 2000.0
+  "close_odds": 2000.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "GB 63, FSU 87",
+  "clv": -0.5
  },
  {
   "id": "401909698-spread-home",
@@ -852,7 +1393,11 @@
   "made_at": "2026-11-20T11:45:45.720402-05:00",
   "model_agrees": "False",
   "close_line": -22.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "W",
+  "units": 0.926,
+  "final": "GB 63, FSU 87",
+  "clv": 0.0
  },
  {
   "id": "401909698-total-over",
@@ -871,6 +1416,10 @@
   "made_at": "2026-11-20T11:45:45.720402-05:00",
   "model_agrees": "False",
   "close_line": 156.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "GB 63, FSU 87",
+  "clv": 0.0
  }
 ]

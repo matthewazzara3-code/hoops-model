@@ -42,8 +42,8 @@
   "matchup": "E Illinois @ Illinois",
   "model_version": "1.2",
   "model_line": -43.0,
-  "close_line": 49.5,
-  "close_odds": -112.0
+  "close_line": 47.5,
+  "close_odds": -105.0
  },
  {
   "market": "total",
@@ -111,8 +111,8 @@
   "matchup": "Marshall @ North Carolina",
   "model_version": "1.2",
   "model_line": -10.0,
-  "close_line": 19.5,
-  "close_odds": -110.0
+  "close_line": 18.5,
+  "close_odds": -115.0
  },
  {
   "market": "spread",
@@ -157,8 +157,8 @@
   "matchup": "Miss Valley St @ Arkansas",
   "model_version": "1.2",
   "model_line": -27.0,
-  "close_line": 38.5,
-  "close_odds": -108.0
+  "close_line": 37.5,
+  "close_odds": -105.0
  },
  {
   "market": "spread",
@@ -180,8 +180,8 @@
   "matchup": "South Alabama @ SMU",
   "model_version": "1.2",
   "model_line": -11.0,
-  "close_line": 14.5,
-  "close_odds": -102.0
+  "close_line": 15.5,
+  "close_odds": -115.0
  },
  {
   "market": "total",
@@ -226,8 +226,8 @@
   "matchup": "Lipscomb @ Alabama A&M",
   "model_version": "1.2",
   "model_line": 1.0,
-  "close_line": 4.5,
-  "close_odds": -105.0
+  "close_line": 5.5,
+  "close_odds": -115.0
  },
  {
   "market": "moneyline",
@@ -250,7 +250,7 @@
   "model_version": "1.2",
   "model_line": 0.476,
   "close_line": null,
-  "close_odds": 180.0
+  "close_odds": 185.0
  },
  {
   "market": "spread",
@@ -272,8 +272,8 @@
   "matchup": "Le Moyne @ Missouri",
   "model_version": "1.2",
   "model_line": -28.5,
-  "close_line": 36.5,
-  "close_odds": -115.0
+  "close_line": 34.5,
+  "close_odds": -105.0
  },
  {
   "market": "total",
@@ -295,8 +295,8 @@
   "matchup": "Campbell @ Kansas St",
   "model_version": "1.2",
   "model_line": 160.43,
-  "close_line": 156.5,
-  "close_odds": -108.0
+  "close_line": 154.5,
+  "close_odds": -115.0
  },
  {
   "market": "total",
@@ -341,8 +341,8 @@
   "matchup": "Tulsa @ Mississippi St",
   "model_version": "1.2",
   "model_line": -2.0,
-  "close_line": 7.5,
-  "close_odds": -108.0
+  "close_line": 6.5,
+  "close_odds": -105.0
  },
  {
   "market": "moneyline",
@@ -388,7 +388,7 @@
   "model_version": "1.2",
   "model_line": -30.5,
   "close_line": 41.5,
-  "close_odds": -115.0
+  "close_odds": -108.0
  },
  {
   "market": "spread",
@@ -410,8 +410,8 @@
   "matchup": "Coastal @ Tennessee",
   "model_version": "1.2",
   "model_line": -20.5,
-  "close_line": 27.5,
-  "close_odds": -105.0
+  "close_line": 26.5,
+  "close_odds": -110.0
  },
  {
   "market": "total",
@@ -433,8 +433,8 @@
   "matchup": "Coastal @ Tennessee",
   "model_version": "1.2",
   "model_line": 134.94,
-  "close_line": 147.5,
-  "close_odds": -115.0
+  "close_line": 146.5,
+  "close_odds": -108.0
  },
  {
   "market": "total",
@@ -502,7 +502,7 @@
   "matchup": "Oakland @ Purdue",
   "model_version": "1.2",
   "model_line": -18.5,
-  "close_line": 22.5,
+  "close_line": 21.5,
   "close_odds": -118.0
  },
  {
@@ -549,7 +549,7 @@
   "model_version": "1.2",
   "model_line": -7.0,
   "close_line": -1.5,
-  "close_odds": -102.0
+  "close_odds": -112.0
  },
  {
   "market": "moneyline",
@@ -617,8 +617,8 @@
   "matchup": "Bellarmine @ E Kentucky",
   "model_version": "1.2",
   "model_line": 151.37,
-  "close_line": 143.5,
-  "close_odds": -110.0
+  "close_line": 144.5,
+  "close_odds": -115.0
  },
  {
   "market": "spread",
@@ -709,8 +709,8 @@
   "matchup": "W Michigan @ Mount St Marys",
   "model_version": "1.2",
   "model_line": 13.0,
-  "close_line": -6.5,
-  "close_odds": -115.0
+  "close_line": -7.5,
+  "close_odds": -108.0
  },
  {
   "market": "spread",
@@ -732,8 +732,8 @@
   "matchup": "SE Louisiana @ Kennesaw St",
   "model_version": "1.2",
   "model_line": -16.0,
-  "close_line": -11.5,
-  "close_odds": -115.0
+  "close_line": -10.5,
+  "close_odds": -118.0
  },
  {
   "market": "spread",
@@ -755,8 +755,8 @@
   "matchup": "Harvard @ Holy Cross",
   "model_version": "1.2",
   "model_line": 8.0,
-  "close_line": 12.5,
-  "close_odds": -110.0
+  "close_line": 11.5,
+  "close_odds": -108.0
  },
  {
   "market": "spread",
@@ -778,7 +778,7 @@
   "matchup": "Wagner @ Maryland",
   "model_version": "1.2",
   "model_line": -17.0,
-  "close_line": 34.5,
+  "close_line": 33.5,
   "close_odds": -115.0
  },
  {
@@ -802,7 +802,7 @@
   "model_version": "1.2",
   "model_line": -14.5,
   "close_line": 21.5,
-  "close_odds": -105.0
+  "close_odds": -110.0
  },
  {
   "market": "total",
@@ -848,7 +848,7 @@
   "model_version": "1.2",
   "model_line": 0.54,
   "close_line": null,
-  "close_odds": -112.0
+  "close_odds": -118.0
  },
  {
   "market": "spread",
@@ -871,7 +871,7 @@
   "model_version": "1.2",
   "model_line": -5.5,
   "close_line": -1.5,
-  "close_odds": 110.0
+  "close_odds": -102.0
  },
  {
   "market": "moneyline",
@@ -916,8 +916,8 @@
   "matchup": "North Texas @ App State",
   "model_version": "1.2",
   "model_line": -7.0,
-  "close_line": 3.5,
-  "close_odds": -120.0
+  "close_line": 2.5,
+  "close_odds": -115.0
  },
  {
   "market": "moneyline",
@@ -940,7 +940,7 @@
   "model_version": "1.2",
   "model_line": 0.71,
   "close_line": null,
-  "close_odds": 130.0
+  "close_odds": 120.0
  },
  {
   "market": "spread",
@@ -1008,8 +1008,8 @@
   "matchup": "UT Martin @ S Illinois",
   "model_version": "1.2",
   "model_line": 4.0,
-  "close_line": 1.5,
-  "close_odds": -108.0
+  "close_line": 2.5,
+  "close_odds": -112.0
  },
  {
   "market": "spread",
@@ -1101,7 +1101,11 @@
   "model_version": "1.2",
   "model_line": 2.0,
   "close_line": 6.5,
-  "close_odds": -115.0
+  "close_odds": -115.0,
+  "result": "W",
+  "units": 0.926,
+  "final": "UALB 65, WIU 60",
+  "clv": 2.0
  },
  {
   "market": "moneyline",
@@ -1124,7 +1128,11 @@
   "model_version": "1.2",
   "model_line": 0.558,
   "close_line": null,
-  "close_odds": 245.0
+  "close_odds": 245.0,
+  "result": "W",
+  "units": 2.15,
+  "final": "UALB 65, WIU 60",
+  "clv": -2.8
  },
  {
   "market": "spread",
@@ -1147,7 +1155,11 @@
   "model_version": "1.2",
   "model_line": -14.0,
   "close_line": -9.5,
-  "close_odds": -102.0
+  "close_odds": -102.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "UAB 81, GW 76",
+  "clv": 0.0
  },
  {
   "market": "total",
@@ -1170,7 +1182,11 @@
   "model_version": "1.2",
   "model_line": 142.54,
   "close_line": 149.5,
-  "close_odds": -115.0
+  "close_odds": -115.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "OKST 70, MINN 85",
+  "clv": -2.0
  },
  {
   "market": "spread",
@@ -1193,7 +1209,11 @@
   "model_version": "1.2",
   "model_line": -0.5,
   "close_line": 3.5,
-  "close_odds": -118.0
+  "close_odds": -118.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "TEM 85, MTSU 76",
+  "clv": 0.0
  },
  {
   "market": "moneyline",
@@ -1216,7 +1236,11 @@
   "model_version": "1.2",
   "model_line": 0.51,
   "close_line": null,
-  "close_odds": 136.0
+  "close_odds": 136.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "TEM 85, MTSU 76",
+  "clv": 3.0
  },
  {
   "market": "total",

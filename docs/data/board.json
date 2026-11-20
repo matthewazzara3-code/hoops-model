@@ -1,6 +1,6 @@
 {
  "date": "2026-11-19",
- "updated": "2026-11-19T22:26:59.219071-05:00",
+ "updated": "2026-11-20T00:13:41.673225-05:00",
  "games": [
   {
    "id": "401920517",
@@ -29,6 +29,7 @@
     "rank": 1
    },
    "odds": null,
+   "open": null,
    "tv": "ESPN",
    "eval": {
     "model": {
@@ -47,8 +48,11 @@
      5,
      6
     ],
-    "markets": {}
+    "markets": {},
+    "blend": {}
    },
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -78,6 +82,7 @@
     "rank": null
    },
    "odds": null,
+   "open": null,
    "tv": "ESPN",
    "eval": {
     "model": {
@@ -96,8 +101,11 @@
      5,
      6
     ],
-    "markets": {}
+    "markets": {},
+    "blend": {}
    },
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -127,6 +135,7 @@
     "rank": null
    },
    "odds": null,
+   "open": null,
    "tv": "CBSSN",
    "eval": {
     "model": {
@@ -145,8 +154,22 @@
      4,
      5
     ],
-    "markets": {}
+    "markets": {},
+    "blend": {}
    },
+   "sharp": {
+    "moneyline": {
+     "home": 0
+    },
+    "spread": {
+     "home": 0
+    },
+    "total": {
+     "over": 0,
+     "under": 0
+    }
+   },
+   "passes": [],
    "picks": []
   },
   {
@@ -176,6 +199,7 @@
     "rank": null
    },
    "odds": null,
+   "open": null,
    "tv": "ESPN+",
    "eval": {
     "model": {
@@ -194,8 +218,11 @@
      5,
      4
     ],
-    "markets": {}
+    "markets": {},
+    "blend": {}
    },
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -225,6 +252,7 @@
     "rank": null
    },
    "odds": null,
+   "open": null,
    "tv": "ESPN+",
    "eval": {
     "model": {
@@ -243,8 +271,11 @@
      5,
      0
     ],
-    "markets": {}
+    "markets": {},
+    "blend": {}
    },
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -274,6 +305,7 @@
     "rank": null
    },
    "odds": null,
+   "open": null,
    "tv": "ESPN+",
    "eval": {
     "model": {
@@ -292,8 +324,11 @@
      6,
      0
     ],
-    "markets": {}
+    "markets": {},
+    "blend": {}
    },
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -323,6 +358,7 @@
     "rank": null
    },
    "odds": null,
+   "open": null,
    "tv": "ESPN+",
    "eval": {
     "model": {
@@ -341,8 +377,11 @@
      5,
      5
     ],
-    "markets": {}
+    "markets": {},
+    "blend": {}
    },
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -372,6 +411,7 @@
     "rank": null
    },
    "odds": null,
+   "open": null,
    "tv": "ESPN+",
    "eval": {
     "model": {
@@ -390,8 +430,11 @@
      4,
      4
     ],
-    "markets": {}
+    "markets": {},
+    "blend": {}
    },
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -421,6 +464,7 @@
     "rank": null
    },
    "odds": null,
+   "open": null,
    "tv": "ESPN+",
    "eval": {
     "model": {
@@ -439,8 +483,11 @@
      5,
      5
     ],
-    "markets": {}
+    "markets": {},
+    "blend": {}
    },
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -470,6 +517,7 @@
     "rank": null
    },
    "odds": null,
+   "open": null,
    "tv": "BTN",
    "eval": {
     "model": {
@@ -488,8 +536,11 @@
      5,
      6
     ],
-    "markets": {}
+    "markets": {},
+    "blend": {}
    },
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -519,6 +570,7 @@
     "rank": null
    },
    "odds": null,
+   "open": null,
    "tv": "ESPN+",
    "eval": {
     "model": {
@@ -537,8 +589,11 @@
      4,
      1
     ],
-    "markets": {}
+    "markets": {},
+    "blend": {}
    },
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -568,6 +623,7 @@
     "rank": null
    },
    "odds": null,
+   "open": null,
    "tv": "ESPN+, YES",
    "eval": {
     "model": {
@@ -586,8 +642,11 @@
      4,
      4
     ],
-    "markets": {}
+    "markets": {},
+    "blend": {}
    },
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -617,6 +676,7 @@
     "rank": null
    },
    "odds": null,
+   "open": null,
    "tv": "truTV",
    "eval": {
     "model": {
@@ -635,8 +695,11 @@
      5,
      4
     ],
-    "markets": {}
+    "markets": {},
+    "blend": {}
    },
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -666,6 +729,7 @@
     "rank": null
    },
    "odds": null,
+   "open": null,
    "tv": "ESPN+",
    "eval": {
     "model": {
@@ -684,8 +748,11 @@
      5,
      0
     ],
-    "markets": {}
+    "markets": {},
+    "blend": {}
    },
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -715,6 +782,7 @@
     "rank": null
    },
    "odds": null,
+   "open": null,
    "tv": "ESPN+",
    "eval": {
     "model": {
@@ -733,8 +801,11 @@
      4,
      4
     ],
-    "markets": {}
+    "markets": {},
+    "blend": {}
    },
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -764,6 +835,7 @@
     "rank": null
    },
    "odds": null,
+   "open": null,
    "tv": "ESPN+",
    "eval": {
     "model": {
@@ -782,57 +854,11 @@
      5,
      4
     ],
-    "markets": {}
+    "markets": {},
+    "blend": {}
    },
-   "picks": []
-  },
-  {
-   "id": "401919050",
-   "date": "2026-11-20T01:00Z",
-   "neutral": false,
-   "conf": false,
-   "state": "in",
-   "detail": "1:09 - OT",
-   "completed": false,
-   "home": {
-    "id": "2628",
-    "name": "TCU Horned Frogs",
-    "short": "TCU",
-    "abbr": "TCU",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
-    "score": 89,
-    "rank": null
-   },
-   "away": {
-    "id": "245",
-    "name": "Texas A&M Aggies",
-    "short": "Texas A&M",
-    "abbr": "TA&M",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
-    "score": 91,
-    "rank": null
-   },
-   "odds": null,
-   "tv": "Peacock",
-   "eval": {
-    "model": {
-     "home_pts": 81.0,
-     "away_pts": 76.8,
-     "margin": 4.19,
-     "total": 157.74,
-     "pace": 78.5,
-     "home_spread": -4.0,
-     "home_win": 0.626,
-     "home_ml": -167,
-     "away_ml": 167
-    },
-    "known": true,
-    "games_played": [
-     4,
-     5
-    ],
-    "markets": {}
-   },
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -862,6 +888,7 @@
     "rank": null
    },
    "odds": null,
+   "open": null,
    "tv": "SECN+",
    "eval": {
     "model": {
@@ -880,8 +907,11 @@
      4,
      5
     ],
-    "markets": {}
+    "markets": {},
+    "blend": {}
    },
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -911,6 +941,7 @@
     "rank": null
    },
    "odds": null,
+   "open": null,
    "tv": "ACC Network",
    "eval": {
     "model": {
@@ -929,8 +960,11 @@
      3,
      5
     ],
-    "markets": {}
+    "markets": {},
+    "blend": {}
    },
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -960,6 +994,7 @@
     "rank": null
    },
    "odds": null,
+   "open": null,
    "tv": "Summit League Network",
    "eval": {
     "model": {
@@ -978,8 +1013,11 @@
      5,
      1
     ],
-    "markets": {}
+    "markets": {},
+    "blend": {}
    },
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -1009,6 +1047,7 @@
     "rank": null
    },
    "odds": null,
+   "open": null,
    "tv": "ESPN+",
    "eval": {
     "model": {
@@ -1027,8 +1066,16 @@
      5,
      1
     ],
-    "markets": {}
+    "markets": {},
+    "blend": {}
    },
+   "sharp": {
+    "total": {
+     "over": 0,
+     "under": 0
+    }
+   },
+   "passes": [],
    "picks": []
   },
   {
@@ -1058,6 +1105,7 @@
     "rank": null
    },
    "odds": null,
+   "open": null,
    "tv": "ESPN+",
    "eval": {
     "model": {
@@ -1076,8 +1124,19 @@
      4,
      5
     ],
-    "markets": {}
+    "markets": {},
+    "blend": {}
    },
+   "sharp": {
+    "moneyline": {
+     "away": 0
+    },
+    "total": {
+     "over": 0,
+     "under": 0
+    }
+   },
+   "passes": [],
    "picks": []
   },
   {
@@ -1107,6 +1166,7 @@
     "rank": null
    },
    "odds": null,
+   "open": null,
    "tv": "Summit League Network",
    "eval": {
     "model": {
@@ -1125,8 +1185,64 @@
      6,
      5
     ],
-    "markets": {}
+    "markets": {},
+    "blend": {}
    },
+   "sharp": {},
+   "passes": [],
+   "picks": []
+  },
+  {
+   "id": "401919050",
+   "date": "2026-11-20T01:00Z",
+   "neutral": false,
+   "conf": false,
+   "state": "post",
+   "detail": "Final/OT",
+   "completed": true,
+   "home": {
+    "id": "2628",
+    "name": "TCU Horned Frogs",
+    "short": "TCU",
+    "abbr": "TCU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
+    "score": 92,
+    "rank": null
+   },
+   "away": {
+    "id": "245",
+    "name": "Texas A&M Aggies",
+    "short": "Texas A&M",
+    "abbr": "TA&M",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
+    "score": 97,
+    "rank": null
+   },
+   "odds": null,
+   "open": null,
+   "tv": "Peacock",
+   "eval": {
+    "model": {
+     "home_pts": 81.0,
+     "away_pts": 76.8,
+     "margin": 4.19,
+     "total": 157.74,
+     "pace": 78.5,
+     "home_spread": -4.0,
+     "home_win": 0.626,
+     "home_ml": -167,
+     "away_ml": 167
+    },
+    "known": true,
+    "games_played": [
+     4,
+     5
+    ],
+    "markets": {},
+    "blend": {}
+   },
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -1134,16 +1250,16 @@
    "date": "2026-11-20T01:30Z",
    "neutral": true,
    "conf": false,
-   "state": "in",
-   "detail": "11:28 - 2nd",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "275",
     "name": "Wisconsin Badgers",
     "short": "Wisconsin",
     "abbr": "WIS",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
-    "score": 46,
+    "score": 69,
     "rank": null
    },
    "away": {
@@ -1152,10 +1268,11 @@
     "short": "Seton Hall",
     "abbr": "HALL",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2550.png",
-    "score": 52,
+    "score": 74,
     "rank": null
    },
    "odds": null,
+   "open": null,
    "tv": "CBSSN",
    "eval": {
     "model": {
@@ -1174,8 +1291,11 @@
      4,
      4
     ],
-    "markets": {}
+    "markets": {},
+    "blend": {}
    },
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -1183,16 +1303,16 @@
    "date": "2026-11-20T01:30Z",
    "neutral": true,
    "conf": false,
-   "state": "in",
-   "detail": "5:33 - 2nd",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2439",
     "name": "UNLV Rebels",
     "short": "UNLV",
     "abbr": "UNLV",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
-    "score": 60,
+    "score": 70,
     "rank": null
    },
    "away": {
@@ -1201,10 +1321,11 @@
     "short": "Rutgers",
     "abbr": "RUTG",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/164.png",
-    "score": 80,
+    "score": 89,
     "rank": null
    },
    "odds": null,
+   "open": null,
    "tv": "ESPN2",
    "eval": {
     "model": {
@@ -1223,57 +1344,11 @@
      5,
      5
     ],
-    "markets": {}
+    "markets": {},
+    "blend": {}
    },
-   "picks": []
-  },
-  {
-   "id": "401930884",
-   "date": "2026-11-20T02:00Z",
-   "neutral": true,
-   "conf": false,
-   "state": "in",
-   "detail": "14:32 - 2nd",
-   "completed": false,
-   "home": {
-    "id": "2483",
-    "name": "Oregon Ducks",
-    "short": "Oregon",
-    "abbr": "ORE",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
-    "score": 45,
-    "rank": null
-   },
-   "away": {
-    "id": "204",
-    "name": "Oregon State Beavers",
-    "short": "Oregon St",
-    "abbr": "ORST",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
-    "score": 43,
-    "rank": null
-   },
-   "odds": null,
-   "tv": "BTN",
-   "eval": {
-    "model": {
-     "home_pts": 79.3,
-     "away_pts": 77.7,
-     "margin": 1.54,
-     "total": 157.02,
-     "pace": 71.1,
-     "home_spread": -1.5,
-     "home_win": 0.546,
-     "home_ml": -120,
-     "away_ml": 120
-    },
-    "known": true,
-    "games_played": [
-     3,
-     5
-    ],
-    "markets": {}
-   },
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -1282,7 +1357,7 @@
    "neutral": false,
    "conf": false,
    "state": "in",
-   "detail": "1:35 - 1st",
+   "detail": "0:00 - OT",
    "completed": false,
    "home": {
     "id": "2755",
@@ -1290,7 +1365,7 @@
     "short": "Grambling",
     "abbr": "GRAM",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2755.png",
-    "score": 39,
+    "score": 87,
     "rank": null
    },
    "away": {
@@ -1299,10 +1374,11 @@
     "short": "Southern Miss",
     "abbr": "USM",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
-    "score": 27,
+    "score": 87,
     "rank": null
    },
    "odds": null,
+   "open": null,
    "tv": "",
    "eval": {
     "model": {
@@ -1321,8 +1397,64 @@
      3,
      5
     ],
-    "markets": {}
+    "markets": {},
+    "blend": {}
    },
+   "sharp": {},
+   "passes": [],
+   "picks": []
+  },
+  {
+   "id": "401930884",
+   "date": "2026-11-20T02:00Z",
+   "neutral": true,
+   "conf": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
+   "home": {
+    "id": "2483",
+    "name": "Oregon Ducks",
+    "short": "Oregon",
+    "abbr": "ORE",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+    "score": 71,
+    "rank": null
+   },
+   "away": {
+    "id": "204",
+    "name": "Oregon State Beavers",
+    "short": "Oregon St",
+    "abbr": "ORST",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
+    "score": 82,
+    "rank": null
+   },
+   "odds": null,
+   "open": null,
+   "tv": "BTN",
+   "eval": {
+    "model": {
+     "home_pts": 79.3,
+     "away_pts": 77.7,
+     "margin": 1.54,
+     "total": 157.02,
+     "pace": 71.1,
+     "home_spread": -1.5,
+     "home_win": 0.546,
+     "home_ml": -120,
+     "away_ml": 120
+    },
+    "known": true,
+    "games_played": [
+     3,
+     5
+    ],
+    "markets": {},
+    "blend": {}
+   },
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -1330,16 +1462,16 @@
    "date": "2026-11-20T02:00Z",
    "neutral": false,
    "conf": false,
-   "state": "in",
-   "detail": "13:21 - 2nd",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2492",
     "name": "Pepperdine Waves",
     "short": "Pepperdine",
     "abbr": "PEPP",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2492.png",
-    "score": 54,
+    "score": 80,
     "rank": null
    },
    "away": {
@@ -1348,10 +1480,11 @@
     "short": "Santa Barbara",
     "abbr": "UCSB",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2540.png",
-    "score": 55,
+    "score": 88,
     "rank": null
    },
    "odds": null,
+   "open": null,
    "tv": "ESPN+",
    "eval": {
     "model": {
@@ -1370,8 +1503,11 @@
      4,
      4
     ],
-    "markets": {}
+    "markets": {},
+    "blend": {}
    },
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -1379,16 +1515,16 @@
    "date": "2026-11-20T02:00Z",
    "neutral": false,
    "conf": false,
-   "state": "in",
-   "detail": "9:55 - 2nd",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "264",
     "name": "Washington Huskies",
     "short": "Washington",
     "abbr": "WASH",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
-    "score": 64,
+    "score": 82,
     "rank": null
    },
    "away": {
@@ -1397,10 +1533,11 @@
     "short": "Utah Tech",
     "abbr": "UTU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/3101.png",
-    "score": 43,
+    "score": 69,
     "rank": null
    },
    "odds": null,
+   "open": null,
    "tv": "B1G+",
    "eval": {
     "model": {
@@ -1419,8 +1556,11 @@
      3,
      4
     ],
-    "markets": {}
+    "markets": {},
+    "blend": {}
    },
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -1428,16 +1568,16 @@
    "date": "2026-11-20T02:00Z",
    "neutral": false,
    "conf": false,
-   "state": "in",
-   "detail": "17:33 - 2nd",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "166",
     "name": "New Mexico State Aggies",
     "short": "New Mexico St",
     "abbr": "NMSU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/166.png",
-    "score": 41,
+    "score": 69,
     "rank": null
    },
    "away": {
@@ -1446,10 +1586,11 @@
     "short": "UTEP",
     "abbr": "UTEP",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2638.png",
-    "score": 46,
+    "score": 84,
     "rank": null
    },
    "odds": null,
+   "open": null,
    "tv": "ESPN+",
    "eval": {
     "model": {
@@ -1468,57 +1609,11 @@
      4,
      4
     ],
-    "markets": {}
+    "markets": {},
+    "blend": {}
    },
-   "picks": []
-  },
-  {
-   "id": "401925916",
-   "date": "2026-11-20T03:00Z",
-   "neutral": false,
-   "conf": false,
-   "state": "in",
-   "detail": "8:40 - 1st",
-   "completed": false,
-   "home": {
-    "id": "2502",
-    "name": "Portland State Vikings",
-    "short": "Portland St",
-    "abbr": "PRST",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2502.png",
-    "score": 36,
-    "rank": null
-   },
-   "away": {
-    "id": "3218",
-    "name": "Northwest Indian RedHawks",
-    "short": "NW Indian",
-    "abbr": "NWIC",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/3218.png",
-    "score": 10,
-    "rank": null
-   },
-   "odds": null,
-   "tv": "ESPN+",
-   "eval": {
-    "model": {
-     "home_pts": 89.3,
-     "away_pts": 61.7,
-     "margin": 27.59,
-     "total": 150.93,
-     "pace": 72.2,
-     "home_spread": -27.5,
-     "home_win": 0.967,
-     "home_ml": -2935,
-     "away_ml": 2935
-    },
-    "known": false,
-    "games_played": [
-     5,
-     0
-    ],
-    "markets": {}
-   },
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -1526,16 +1621,16 @@
    "date": "2026-11-20T03:00Z",
    "neutral": false,
    "conf": false,
-   "state": "in",
-   "detail": "7:56 - 1st",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "24",
     "name": "Stanford Cardinal",
     "short": "Stanford",
     "abbr": "STAN",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
-    "score": 20,
+    "score": 78,
     "rank": null
    },
    "away": {
@@ -1544,10 +1639,11 @@
     "short": "Sacramento St",
     "abbr": "SAC",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/16.png",
-    "score": 25,
+    "score": 65,
     "rank": null
    },
    "odds": null,
+   "open": null,
    "tv": "ACCNX",
    "eval": {
     "model": {
@@ -1566,8 +1662,64 @@
      5,
      3
     ],
-    "markets": {}
+    "markets": {},
+    "blend": {}
    },
+   "sharp": {},
+   "passes": [],
+   "picks": []
+  },
+  {
+   "id": "401925916",
+   "date": "2026-11-20T03:00Z",
+   "neutral": false,
+   "conf": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
+   "home": {
+    "id": "2502",
+    "name": "Portland State Vikings",
+    "short": "Portland St",
+    "abbr": "PRST",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2502.png",
+    "score": 132,
+    "rank": null
+   },
+   "away": {
+    "id": "3218",
+    "name": "Northwest Indian RedHawks",
+    "short": "NW Indian",
+    "abbr": "NWIC",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/3218.png",
+    "score": 41,
+    "rank": null
+   },
+   "odds": null,
+   "open": null,
+   "tv": "ESPN+",
+   "eval": {
+    "model": {
+     "home_pts": 89.3,
+     "away_pts": 61.7,
+     "margin": 27.59,
+     "total": 150.93,
+     "pace": 72.2,
+     "home_spread": -27.5,
+     "home_win": 0.967,
+     "home_ml": -2935,
+     "away_ml": 2935
+    },
+    "known": false,
+    "games_played": [
+     5,
+     0
+    ],
+    "markets": {},
+    "blend": {}
+   },
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -1575,16 +1727,16 @@
    "date": "2026-11-20T03:00Z",
    "neutral": false,
    "conf": false,
-   "state": "in",
-   "detail": "9:13 - 1st",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "25",
     "name": "California Golden Bears",
     "short": "California",
     "abbr": "CAL",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
-    "score": 26,
+    "score": 86,
     "rank": null
    },
    "away": {
@@ -1593,10 +1745,11 @@
     "short": "East Texas A&M",
     "abbr": "ETAM",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2837.png",
-    "score": 14,
+    "score": 54,
     "rank": null
    },
    "odds": null,
+   "open": null,
    "tv": "ACCNX",
    "eval": {
     "model": {
@@ -1615,8 +1768,11 @@
      5,
      5
     ],
-    "markets": {}
+    "markets": {},
+    "blend": {}
    },
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -1624,8 +1780,8 @@
    "date": "2026-11-20T03:30Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/19 - 10:30 PM EST",
+   "state": "in",
+   "detail": "10:40 - 2nd",
    "completed": false,
    "home": {
     "id": "2541",
@@ -1633,7 +1789,7 @@
     "short": "Santa Clara",
     "abbr": "SCU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2541.png",
-    "score": 0,
+    "score": 64,
     "rank": null
    },
    "away": {
@@ -1642,20 +1798,11 @@
     "short": "VCU",
     "abbr": "VCU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2670.png",
-    "score": 0,
+    "score": 54,
     "rank": null
    },
-   "odds": {
-    "provider": "DraftKings",
-    "home_spread": -1.5,
-    "home_spread_odds": -118.0,
-    "away_spread_odds": -102.0,
-    "total": 163.5,
-    "over_odds": -115.0,
-    "under_odds": -105.0,
-    "home_ml": -130.0,
-    "away_ml": 110.0
-   },
+   "odds": null,
+   "open": null,
    "tv": "ESPN2",
    "eval": {
     "model": {
@@ -1674,52 +1821,11 @@
      5,
      3
     ],
-    "markets": {
-     "spread": {
-      "edge": 4.96,
-      "home": {
-       "line": -1.5,
-       "odds": -118.0,
-       "p": 0.644,
-       "ev": 0.19
-      },
-      "away": {
-       "line": 1.5,
-       "odds": -102.0,
-       "p": 0.356,
-       "ev": -0.295
-      }
-     },
-     "total": {
-      "edge": -1.89,
-      "over": {
-       "line": 163.5,
-       "odds": -115.0,
-       "p": 0.458,
-       "ev": -0.143
-      },
-      "under": {
-       "line": 163.5,
-       "odds": -105.0,
-       "p": 0.542,
-       "ev": 0.057
-      }
-     },
-     "moneyline": {
-      "edge": 0.142,
-      "home": {
-       "odds": -130.0,
-       "p": 0.685,
-       "ev": 0.212
-      },
-      "away": {
-       "odds": 110.0,
-       "p": 0.315,
-       "ev": -0.338
-      }
-     }
-    }
+    "markets": {},
+    "blend": {}
    },
+   "sharp": {},
+   "passes": [],
    "picks": [
     "401917536-spread",
     "401917536-moneyline"
@@ -1730,8 +1836,8 @@
    "date": "2026-11-20T04:00Z",
    "neutral": true,
    "conf": true,
-   "state": "pre",
-   "detail": "11/19 - 11:00 PM EST",
+   "state": "in",
+   "detail": "Halftime",
    "completed": false,
    "home": {
     "id": "2305",
@@ -1739,7 +1845,7 @@
     "short": "Kansas",
     "abbr": "KU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
-    "score": 0,
+    "score": 34,
     "rank": 11
    },
    "away": {
@@ -1748,20 +1854,11 @@
     "short": "Houston",
     "abbr": "HOU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
-    "score": 0,
+    "score": 54,
     "rank": 8
    },
-   "odds": {
-    "provider": "DraftKings",
-    "home_spread": 3.5,
-    "home_spread_odds": -112.0,
-    "away_spread_odds": -108.0,
-    "total": 151.5,
-    "over_odds": -105.0,
-    "under_odds": -115.0,
-    "home_ml": 140.0,
-    "away_ml": -166.0
-   },
+   "odds": null,
+   "open": null,
    "tv": "ESPN",
    "eval": {
     "model": {
@@ -1780,52 +1877,11 @@
      5,
      5
     ],
-    "markets": {
-     "spread": {
-      "edge": 1.37,
-      "home": {
-       "line": 3.5,
-       "odds": -112.0,
-       "p": 0.543,
-       "ev": 0.027
-      },
-      "away": {
-       "line": -3.5,
-       "odds": -108.0,
-       "p": 0.457,
-       "ev": -0.12
-      }
-     },
-     "total": {
-      "edge": -5.73,
-      "over": {
-       "line": 151.5,
-       "odds": -105.0,
-       "p": 0.372,
-       "ev": -0.273
-      },
-      "under": {
-       "line": 151.5,
-       "odds": -115.0,
-       "p": 0.628,
-       "ev": 0.174
-      }
-     },
-     "moneyline": {
-      "edge": 0.033,
-      "home": {
-       "odds": 140.0,
-       "p": 0.434,
-       "ev": 0.041
-      },
-      "away": {
-       "odds": -166.0,
-       "p": 0.566,
-       "ev": -0.092
-      }
-     }
-    }
+    "markets": {},
+    "blend": {}
    },
+   "sharp": {},
+   "passes": [],
    "picks": [
     "401920518-total"
    ]
@@ -1835,8 +1891,8 @@
    "date": "2026-11-20T04:00Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/19 - 11:00 PM EST",
+   "state": "in",
+   "detail": "19:31 - 2nd",
    "completed": false,
    "home": {
     "id": "30",
@@ -1844,7 +1900,7 @@
     "short": "USC",
     "abbr": "USC",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
-    "score": 0,
+    "score": 57,
     "rank": 18
    },
    "away": {
@@ -1853,20 +1909,11 @@
     "short": "Tarleton St",
     "abbr": "TAR",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2627.png",
-    "score": 0,
+    "score": 24,
     "rank": null
    },
-   "odds": {
-    "provider": "DraftKings",
-    "home_spread": -28.5,
-    "home_spread_odds": -112.0,
-    "away_spread_odds": -108.0,
-    "total": 158.5,
-    "over_odds": -110.0,
-    "under_odds": -110.0,
-    "home_ml": -10000.0,
-    "away_ml": 3000.0
-   },
+   "odds": null,
+   "open": null,
    "tv": "BTN",
    "eval": {
     "model": {
@@ -1885,52 +1932,11 @@
      4,
      5
     ],
-    "markets": {
-     "spread": {
-      "edge": -2.72,
-      "home": {
-       "line": -28.5,
-       "odds": -112.0,
-       "p": 0.417,
-       "ev": -0.21
-      },
-      "away": {
-       "line": 28.5,
-       "odds": -108.0,
-       "p": 0.583,
-       "ev": 0.122
-      }
-     },
-     "total": {
-      "edge": 0.04,
-      "over": {
-       "line": 158.5,
-       "odds": -110.0,
-       "p": 0.501,
-       "ev": -0.044
-      },
-      "under": {
-       "line": 158.5,
-       "odds": -110.0,
-       "p": 0.499,
-       "ev": -0.047
-      }
-     },
-     "moneyline": {
-      "edge": 0.007,
-      "home": {
-       "odds": -10000.0,
-       "p": 0.976,
-       "ev": -0.014
-      },
-      "away": {
-       "odds": 3000.0,
-       "p": 0.024,
-       "ev": -0.252
-      }
-     }
-    }
+    "markets": {},
+    "blend": {}
    },
+   "sharp": {},
+   "passes": [],
    "picks": []
   }
  ]

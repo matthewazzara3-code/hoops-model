@@ -14,19 +14,31 @@ from make_fixtures import build  # noqa: E402
 from model import espn, picks, run, splits  # noqa: E402
 from model.data import load_games  # noqa: E402
 
-PHASE = {"post_1118": False}
+PHASE = {"post_1118": False, "post_1119": False}
+
+
+def _strip_live_odds(sb):
+    """ESPN drops the odds block once a game has tipped."""
+    for e in sb["events"]:
+        if e["competitions"][0]["status"]["type"]["state"] != "pre":
+            e["competitions"][0]["odds"] = []
+    return sb
 
 
 def fake_fetch(d):
     if d == "20261118":
-        return build("2026-11-18", completed=PHASE["post_1118"])
+        return _strip_live_odds(build("2026-11-18", completed=PHASE["post_1118"]))
     if d == "20261119":
-        return build("2026-11-19", completed=False)
+        return _strip_live_odds(build("2026-11-19", completed=PHASE["post_1119"]))
     return {"events": []}
 
 
 def fake_splits(page, edate="today"):
-    return (ROOT / "tests/fixtures/dk_splits_sample.html").read_text() if page == 1 else ""
+    """Real DK splits HTML, with one game renamed to tonight's Houston @ Kansas."""
+    if page != 1:
+        return ""
+    html = (ROOT / "tests/fixtures/dk_splits_sample.html").read_text()
+    return html.replace("HOU Rockets", "KU Jayhawks").replace("MIN Timberwolves", "HOU Cougars")
 
 
 def run_for(day, out):
@@ -45,6 +57,7 @@ def test_end_to_end():
         p1 = json.loads((out / "picks.json").read_text())
         assert p1 and all(p["date"] == "2026-11-18" and "result" not in p for p in p1)
         PHASE["post_1118"] = True
+        PHASE["post_1119"] = False
         run_for("2026-11-19", out)
         p2 = json.loads((out / "picks.json").read_text())
         graded = [p for p in p2 if p["date"] == "2026-11-18"]
@@ -58,6 +71,15 @@ def test_end_to_end():
         assert {"spread", "total", "moneyline"} <= set(g["eval"]["markets"])
         sp = json.loads((out / "splits.json").read_text())
         assert len(sp["games"]) == 10 and sp["error"] is None
+        ss = json.loads((out / "sharp_picks.json").read_text())
+        assert any(x["matchup"].endswith("Kansas") and x["market"] == "total" and x["side"] == "under" for x in ss), ss
+        # games finish: ESPN drops odds, the board keeps the last pregame DK line, sharp sides get graded
+        PHASE["post_1119"] = True
+        run_for("2026-11-19", out)
+        board = json.loads((out / "board.json").read_text())
+        assert all(g["odds"] and g.get("odds_closed") for g in board["games"])
+        rec = json.loads((out / "record.json").read_text())
+        assert rec["sharp_sides"]["overall"]["w"] + rec["sharp_sides"]["overall"]["l"] >= 1
         print("picks 11/18:", len(graded), "record:", o, "| 11/19 new picks:", sum(p["date"] == "2026-11-19" for p in p2))
     finally:
         shutil.rmtree(out.parent, ignore_errors=True)
@@ -93,3 +115,53 @@ if __name__ == "__main__":
     test_splits_flag_rules()
     test_end_to_end()
     print("all passed")
+
+
+class StubRatings:
+    """Model says home by 6.5, total 145.8 (like Santa Clara / Houston-Kansas on 11/19)."""
+    games = {"H": 5, "A": 5}
+
+    def known(self, t):
+        return True
+
+    def predict(self, h, a, neutral=False, conf=False):
+        return dict(home_pts=76.15, away_pts=69.65, margin=6.5, total=145.8, pace=70, sigma_margin=12.0,
+                    sigma_total=17.5, home_win=0.70)
+
+
+def _game(**odds):
+    base = dict(home_spread=-1.5, home_spread_odds=-110, away_spread_odds=-110, total=151.5, over_odds=-105,
+                under_odds=-115, home_ml=-130, away_ml=110, provider="DraftKings")
+    base.update(odds)
+    return {"id": "1", "neutral": False, "conf": False, "odds": base,
+            "home": {"id": "H", "short": "Santa Clara", "name": "Santa Clara Broncos", "abbr": "SCU"},
+            "away": {"id": "A", "short": "VCU", "name": "VCU Rams", "abbr": "VCU"}}
+
+
+def test_blend_shrinks_ev():
+    g = _game()
+    raw = picks.evaluate(g, StubRatings(), w=0.0)
+    blended = picks.evaluate(g, StubRatings())
+    assert blended["markets"]["spread"]["home"]["ev"] < raw["markets"]["spread"]["home"]["ev"]
+    assert abs(blended["blend"]["margin"] - (0.7 * 1.5 + 0.3 * 6.5)) < 1e-6
+    assert blended["markets"]["spread"]["edge"] == 5.0  # raw gap still reported
+
+
+def test_line_move_and_sharp_filters():
+    g = _game(home_spread=-3.5)  # model home by 6.5 vs DK 3.5: 3 point edge
+    g["open"] = {"home_spread": -3.5, "total": 151.5, "home_ml": -130, "away_ml": 110}
+    p, ps = picks.choose(g, picks.evaluate(g, StubRatings(), w=0.0))
+    assert any(x["market"] == "spread" for x in p)
+    g["open"]["home_spread"] = -7.5  # line moved 4 pts toward VCU since open
+    p, ps = picks.choose(g, picks.evaluate(g, StubRatings(), w=0.0))
+    assert not any(x["market"] == "spread" for x in p) and any(x["market"] == "spread" for x in ps)
+    g["open"]["home_spread"] = -3.5
+    g["sharp"] = {"spread": {"away": 5, "home": -5}}  # slight lean the other way: still a pick
+    p, ps = picks.choose(g, picks.evaluate(g, StubRatings(), w=0.0))
+    assert any(x["market"] == "spread" for x in p)
+    g["sharp"] = {"spread": {"away": 45, "home": -45}}
+    p, ps = picks.choose(g, picks.evaluate(g, StubRatings(), w=0.0))
+    assert any(x["market"] == "spread" and "Sharp" in x["reason"] for x in ps)
+    g["sharp"] = {"spread": {"home": 35}}
+    p, ps = picks.choose(g, picks.evaluate(g, StubRatings(), w=0.0))
+    assert any(x["market"] == "spread" and x["sharp"] == "agrees" for x in p)

@@ -28,10 +28,11 @@ async function load() {
 /* ---------- live scores ---------- */
 async function pollLive() {
   try {
-    const r = await fetch(ESPN(etDate().replaceAll('-', '')));
-    const j = await r.json();
+    // the board's slate date and today's date (they differ after midnight, while late games finish)
+    const days = [...new Set([(S.board?.date || etDate()), etDate()].map(d => d.replaceAll('-', '')))];
+    const feeds = await Promise.all(days.map(d => fetch(ESPN(d)).then(r => r.json())));
     S.live = {};
-    for (const e of j.events || []) {
+    for (const e of feeds.flatMap(j => j.events || [])) {
       const c = e.competitions[0], st = c.status.type, side = {};
       for (const x of c.competitors) side[x.homeAway] = { score: x.score != null ? +x.score : null, id: x.team.id, name: x.team.shortDisplayName || x.team.displayName, abbr: x.team.abbreviation, logo: x.team.logo, rank: x.curatedRank?.current < 26 ? x.curatedRank.current : null };
       S.live[e.id] = { id: e.id, date: e.date, state: st.state, detail: st.shortDetail, completed: st.completed, home: side.home, away: side.away, tv: (c.broadcasts || []).map(b => b.names?.[0]).filter(Boolean).join(', ') };

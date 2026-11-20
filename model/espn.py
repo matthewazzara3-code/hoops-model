@@ -99,6 +99,17 @@ def parse_odds(o: dict | None, home_abbr: str, away_abbr: str) -> dict | None:
     return out
 
 
+def parse_open(o: dict | None, home_abbr: str, away_abbr: str) -> dict | None:
+    """DK opening lines when ESPN provides them (nested format only)."""
+    if not o:
+        return None
+    op = {"home_spread": _num(_dig(o, "pointSpread", "home", "open", "line")),
+          "total": _num(_dig(o, "total", "over", "open", "line")),
+          "home_ml": _num(_dig(o, "moneyline", "home", "open", "odds")),
+          "away_ml": _num(_dig(o, "moneyline", "away", "open", "odds"))}
+    return op if any(v is not None for v in op.values()) else None
+
+
 def parse_scoreboard(sb: dict) -> list[dict]:
     games = []
     for e in sb.get("events", []):
@@ -118,12 +129,14 @@ def parse_scoreboard(sb: dict) -> list[dict]:
                        "rank": rank if rank and rank < 26 else None}
         odds_list = c.get("odds") or []
         dk = next((o for o in odds_list if "draft" in (_dig(o, "provider", "name") or "").lower()), None)
-        o = parse_odds(dk or (odds_list[0] if odds_list else None), side["home"]["abbr"], side["away"]["abbr"])
+        src = dk or (odds_list[0] if odds_list else None)
+        o = parse_odds(src, side["home"]["abbr"], side["away"]["abbr"])
+        op = parse_open(src, side["home"]["abbr"], side["away"]["abbr"])
         games.append({
             "id": str(e.get("id")), "date": e.get("date"), "neutral": bool(c.get("neutralSite")),
             "conf": bool(c.get("conferenceCompetition")),
             "state": _dig(st, "type", "state") or "pre", "detail": _dig(st, "type", "shortDetail") or "",
             "completed": bool(_dig(st, "type", "completed")), "home": side["home"], "away": side["away"],
-            "odds": o, "tv": ", ".join(b.get("names", [""])[0] for b in c.get("broadcasts", []) if b.get("names")),
+            "odds": o, "open": op, "tv": ", ".join(b.get("names", [""])[0] for b in c.get("broadcasts", []) if b.get("names")),
         })
     return games

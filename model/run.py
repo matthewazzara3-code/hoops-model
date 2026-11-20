@@ -26,7 +26,7 @@ from .ratings import DEFAULTS, fit
 
 ET = ZoneInfo("America/New_York")
 OUT = Path(__file__).resolve().parent.parent / "docs" / "data"
-MODEL_VERSION = "1.0"
+MODEL_VERSION = "1.2"
 
 
 def season_for(d: date) -> int:
@@ -84,12 +84,21 @@ def _tokens(s: str) -> set[str]:
     return set(re.findall(r"[a-z0-9]+", s.lower().replace("st.", "state").replace("&", "")))
 
 
-def match_splits(dk_games: list[dict], board: list[dict]) -> None:
-    """Attach each DK splits game to an ESPN game (by team name tokens) and record model agreement."""
+def _side_is_home(label: str, game: dict) -> bool:
+    def sc(team):
+        a = _tokens(label)
+        return len(a & (_tokens(team["name"]) | {team["abbr"].lower()})) / max(len(a), 1)
+    return sc(game["home"]) >= sc(game["away"])
+
+
+def match_splits(dk_games: list[dict], board: list[dict]) -> dict:
+    """Attach each DK splits game to an ESPN game (by team name tokens), record model agreement,
+    and return {espn_id: {market: {side: handle - bets}}} for the pick filters."""
     def team_score(label, team):
         a = _tokens(label)
         b = _tokens(team["name"]) | {team["abbr"].lower()}
         return len(a & b) / max(len(a), 1)
+    sharp: dict = {}
     for g in dk_games:
         best, best_s = None, 0.0
         for b in board:
@@ -103,17 +112,24 @@ def match_splits(dk_games: list[dict], board: list[dict]) -> None:
         mk = best["eval"].get("markets", {})
         g["model"] = {"margin": best["eval"]["model"]["margin"], "total": best["eval"]["model"]["total"],
                       "home_spread": best["eval"]["model"]["home_spread"]}
+        gs = sharp.setdefault(best["id"], {})
         for mkt, sides in g["markets"].items():
             for s in sides:
                 lab = s["label"].lower()
-                agree = None
-                if mkt == "total" and "total" in mk:
-                    is_over = lab.startswith("over")
-                    agree = (mk["total"]["edge"] > 0) == is_over
-                elif mkt in ("spread", "moneyline") and mkt in mk:
+                agree, side = None, None
+                if mkt == "total":
+                    side = "over" if lab.startswith("over") else "under"
+                    if "total" in mk:
+                        agree = (mk["total"]["edge"] > 0) == (side == "over")
+                elif mkt in ("spread", "moneyline"):
                     is_home = team_score(s["label"], best["home"]) >= team_score(s["label"], best["away"])
-                    agree = (mk[mkt]["edge"] > 0) == is_home
+                    side = "home" if is_home else "away"
+                    if mkt in mk:
+                        agree = (mk[mkt]["edge"] > 0) == is_home
                 s["model_agrees"] = agree
+                if side:
+                    gs.setdefault(mkt, {})[side] = s["handle"] - s["bets"]
+    return sharp
 
 
 def main():
@@ -153,29 +169,99 @@ def main():
     by_id = {p["id"]: p for p in all_picks}
     slates = {}
     if not a.offline:
-        pending_dates = {p["date"] for p in all_picks if not p.get("result")}
+        pending_dates = {p["date"] for p in all_picks + _load(OUT / "sharp_picks.json", []) if not p.get("result")}
         for d in sorted(pending_dates | {str(today), str(today - timedelta(days=1))}):
             try:
                 slates[d] = espn.parse_scoreboard(fetch(d.replace("-", "")))
             except Exception as e:
                 log(f"ESPN {d}: {e}")
+    # first DK line we saw for each game (fallback when ESPN has no opening line)
+    # and the last pregame DK line (ESPN drops odds once a game tips, so keep it for the board)
+    first_seen = _load(OUT / "lines.json", {})
     board = []
     for g in slates.get(str(today), []):
-        e = pk.evaluate(g, r)
-        g["eval"] = e
-        g["picks"] = []
+        o = g.get("odds")
+        rec = first_seen.get(g["id"])
+        if o and g["state"] == "pre":
+            if not rec:
+                rec = first_seen[g["id"]] = {k: o.get(k) for k in ("home_spread", "total", "home_ml", "away_ml")}
+                rec["date"] = str(today)
+            rec["last"] = o
+        if not g.get("open") and rec:
+            g["open"] = {k: rec.get(k) for k in ("home_spread", "total", "home_ml", "away_ml")}
+        if not o and rec and rec.get("last") and g["state"] != "pre":
+            g["odds"], g["odds_closed"] = rec["last"], True
+        g["eval"] = pk.evaluate(g, r)
+        board.append(g)
+    cutoff = str(today - timedelta(days=7))
+    _save("lines.json", {k: v for k, v in first_seen.items() if v.get("date", "9") >= cutoff})
+
+    # splits first, so sharp money can veto picks
+    sharp, dk_games = {}, []
+    if not a.no_splits and not a.offline:
+        try:
+            dk_games = sp.fetch_all("today")
+            sharp = match_splits(dk_games, board)
+            _save("splits.json", {"updated": now.isoformat(), "error": None, "games": dk_games})
+            log(f"Splits: {len(dk_games)} games, {len(sp.flag(dk_games))} sides with handle >= bets + 30")
+        except Exception as e:
+            old = _load(OUT / "splits.json", {"games": []})
+            old.update(error=f"{type(e).__name__}: {e}", error_at=now.isoformat())
+            _save("splits.json", old)
+            log(f"Splits failed: {e}")
+
+    # track every Sharp Money side (handle >= bets + 30) as its own record
+    sharp_sides = _load(OUT / "sharp_picks.json", [])
+    ss_ids = {x["id"] for x in sharp_sides}
+    board_by_id = {g["id"]: g for g in board}
+    for dg in (dk_games if sharp else []):
+        bg = board_by_id.get(dg.get("espn_id"))
+        if not bg or bg["state"] != "pre":
+            continue
+        for mkt, sides in dg["markets"].items():
+            for s in sides:
+                diff = s["handle"] - s["bets"]
+                if diff < pk.RULES["sharp_agree"] or s.get("odds") is None:
+                    continue
+                lab = s["label"].lower()
+                if mkt == "total":
+                    side = "over" if lab.startswith("over") else "under"
+                else:
+                    side = "home" if _side_is_home(s["label"], bg) else "away"
+                sid = f'{bg["id"]}-{mkt}-{side}'
+                if sid in ss_ids:
+                    continue
+                mline = re.search(r"([+-]?\d+(?:\.\d+)?)\s*$", s["label"])
+                line = None if mkt == "moneyline" else (float(mline.group(1)) if mline else None)
+                if mkt != "moneyline" and line is None:
+                    continue
+                sharp_sides.append({"id": sid, "game_id": bg["id"], "date": str(today), "tip": bg["date"],
+                                    "matchup": f'{bg["away"]["short"]} @ {bg["home"]["short"]}', "market": mkt,
+                                    "side": side, "line": line, "odds": s["odds"], "label": s["label"],
+                                    "handle": s["handle"], "bets": s["bets"], "diff": diff, "made_at": now.isoformat(),
+                                    "model_agrees": s.get("model_agrees")})
+                ss_ids.add(sid)
+
+    for g in board:
+        e = g["eval"]
+        g["sharp"] = sharp.get(g["id"], {})
+        g["passes"] = []
         if g["state"] == "pre" and g.get("odds"):
-            for p in pk.choose(g, e):
+            new_picks, passes = pk.choose(g, e)
+            g["passes"] = [ps for ps in passes if f'{g["id"]}-{ps["market"]}' not in by_id]
+            for p in new_picks:
                 pid = f'{g["id"]}-{p["market"]}'
                 if pid not in by_id:  # picks lock the first time they're made
                     p.update(id=pid, game_id=g["id"], date=str(today), made_at=now.isoformat(), tip=g["date"],
                              matchup=f'{g["away"]["short"]} @ {g["home"]["short"]}', model_version=MODEL_VERSION,
                              model_line=e["model"]["home_spread"] if p["market"] == "spread" else (
-                                 e["model"]["total"] if p["market"] == "total" else None))
+                                 e["model"]["total"] if p["market"] == "total" else (
+                                     e["model"]["home_win"] if p["side"] == "home" else round(1 - e["model"]["home_win"], 3))))
                     by_id[pid] = p
                     log(f"New pick: {p['matchup']} {p['label']} ({p['odds']:+g}) EV {p['ev']:.1%}")
+            for ps in g["passes"]:
+                log(f"Pass: {g['away']['short']} @ {g['home']['short']} {ps['label']}: {ps['reason']}")
         g["picks"] = [pid for pid in by_id if pid.startswith(g["id"] + "-")]
-        board.append(g)
 
     # 4. closing lines + grading
     games_by_id = {g["id"]: g for sl in slates.values() for g in sl}
@@ -189,29 +275,28 @@ def main():
                 p["close_line"], p["close_odds"] = ln, od
         if g["completed"] and not p.get("result"):
             pk.grade(p, g)
+    for p in sharp_sides:
+        g = games_by_id.get(p["game_id"])
+        if not g:
+            continue
+        if g["state"] == "pre":
+            ln, od = pk.line_now(g, p)
+            if od is not None:
+                p["close_line"], p["close_odds"] = ln, od
+        if g["completed"] and not p.get("result"):
+            pk.grade(p, g)
+    sharp_sides.sort(key=lambda x: (x["date"], x.get("tip", "")), reverse=True)
+    _save("sharp_picks.json", sharp_sides)
     all_picks = sorted(by_id.values(), key=lambda x: (x["date"], x.get("tip", "")), reverse=True)
     _save("picks.json", all_picks)
-    _save("record.json", pk.record(all_picks))
+    _save("record.json", pk.record(all_picks, sharp_sides))
     board.sort(key=lambda g: g["date"])
     _save("board.json", {"date": str(today), "updated": now.isoformat(), "games": board})
-
-    # 5. splits
-    if not a.no_splits and not a.offline:
-        try:
-            dk_games = sp.fetch_all("today")
-            match_splits(dk_games, board)
-            _save("splits.json", {"updated": now.isoformat(), "error": None, "games": dk_games})
-            log(f"Splits: {len(dk_games)} games, {len(sp.flag(dk_games))} sides with handle >= bets + 30")
-        except Exception as e:
-            old = _load(OUT / "splits.json", {"games": []})
-            old.update(error=f"{type(e).__name__}: {e}", error_at=now.isoformat())
-            _save("splits.json", old)
-            log(f"Splits failed: {e}")
 
     _save("meta.json", {"updated": now.isoformat(), "slate": str(today), "model_version": MODEL_VERSION,
                         "games_fit": int(len(games)), "data_through": str(games.date.max().date()),
                         "hca_pts": {"conference": round(r.hca * 72 * 0.9, 1), "non_conference": round(r.hca_nc * 72 * 0.9, 1)}, "league_total": round(r.league_total, 1),
-                        "rules": pk.RULES, "log": logs[-30:]})
+                        "rules": pk.RULES, "market_weight": pk.MARKET_WEIGHT, "log": logs[-30:]})
 
 
 if __name__ == "__main__":

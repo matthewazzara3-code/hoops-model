@@ -2,7 +2,7 @@
    and pulls live scores straight from ESPN's public scoreboard every 30 seconds. */
 const $ = (s, el = document) => el.querySelector(s);
 const ESPN = d => `https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?dates=${d}&groups=50&limit=500`;
-const S = { board: null, picks: [], record: null, splits: null, ratings: null, meta: null, live: {}, liveOk: false };
+const S = { board: null, picks: [], sharpSides: [], record: null, splits: null, ratings: null, meta: null, live: {}, liveOk: false };
 
 const etDate = (d = new Date()) => new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit' }).format(d);
 const tipTime = iso => new Date(iso).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
@@ -17,9 +17,9 @@ async function getJSON(name) {
 }
 
 async function load() {
-  const [board, picks, record, splits, ratings, meta] = await Promise.all(
-    ['board.json', 'picks.json', 'record.json', 'splits.json', 'ratings.json', 'meta.json'].map(getJSON));
-  Object.assign(S, { board, picks: picks || [], record, splits, ratings, meta });
+  const [board, picks, record, splits, ratings, meta, sharpSides] = await Promise.all(
+    ['board.json', 'picks.json', 'record.json', 'splits.json', 'ratings.json', 'meta.json', 'sharp_picks.json'].map(getJSON));
+  Object.assign(S, { board, picks: picks || [], record, splits, ratings, meta, sharpSides: sharpSides || [] });
   $('#status').innerHTML = meta ? `<span class="dot"></span>Model updated ${ago(meta.updated)} · data through ${meta.data_through}` : 'No model data yet: run the pipeline';
   renderAll();
   pollLive();
@@ -73,28 +73,32 @@ function boardCard(g0) {
   const pickBy = Object.fromEntries(S.picks.filter(p => p.game_id === g.id).map(p => [p.market, p]));
   const show = g.state !== 'pre';
   const cell = (mkt, html) => picked.has(mkt) ? `<span class="pickcell">${html}</span>` : html;
+  const bl = ev.blend || {};
+  const fair = p => p == null ? '—' : odds(p >= .5 ? -100 * p / (1 - p) : 100 * (1 - p) / p);
   let rows = '';
   if (mk.spread) {
     const e = mk.spread.edge, side = e > 0 ? g.home.abbr : g.away.abbr;
-    rows += `<div class="mkt"><span class="lbl">Spread</span><span class="num">${spreadTxt(g, o.home_spread)}</span><span class="num">${cell('spread', spreadTxt(g, m.home_spread))}</span><span class="edge ${Math.abs(e) >= 3 ? 'pos' : 'neg'}">${Math.abs(e).toFixed(1)} ${esc(side)}</span></div>`;
+    rows += `<div class="mkt"><span class="lbl">Spread</span><span class="num">${spreadTxt(g, o.home_spread)}</span><span class="num">${cell('spread', spreadTxt(g, m.home_spread))}</span><span class="num muted">${spreadTxt(g, bl.home_spread)}</span><span class="edge ${Math.abs(e) >= 3 ? 'pos' : 'neg'}">${Math.abs(e).toFixed(1)} ${esc(side)}</span></div>`;
   }
   if (mk.total) {
     const e = mk.total.edge;
-    rows += `<div class="mkt"><span class="lbl">Total</span><span class="num">${o.total ?? '—'}</span><span class="num">${cell('total', m.total?.toFixed(1))}</span><span class="edge ${Math.abs(e) >= 4.5 ? 'pos' : 'neg'}">${Math.abs(e).toFixed(1)} ${e > 0 ? 'O' : 'U'}</span></div>`;
+    rows += `<div class="mkt"><span class="lbl">Total</span><span class="num">${o.total ?? '—'}</span><span class="num">${cell('total', m.total?.toFixed(1))}</span><span class="num muted">${bl.total?.toFixed(1) ?? '—'}</span><span class="edge ${Math.abs(e) >= 4.5 ? 'pos' : 'neg'}">${Math.abs(e).toFixed(1)} ${e > 0 ? 'O' : 'U'}</span></div>`;
   }
   if (mk.moneyline) {
     const e = mk.moneyline.edge, side = e > 0 ? g.home.abbr : g.away.abbr;
-    rows += `<div class="mkt"><span class="lbl">Moneyline</span><span class="num">${odds(o.away_ml)} / ${odds(o.home_ml)}</span><span class="num">${cell('moneyline', `${odds(m.away_ml)} / ${odds(m.home_ml)}`)}</span><span class="edge ${Math.abs(e) >= .06 ? 'pos' : 'neg'}">${(Math.abs(e) * 100).toFixed(1)}% ${esc(side)}</span></div>`;
+    rows += `<div class="mkt ml"><span class="lbl">ML</span><span class="num">${odds(o.away_ml)}<br>${odds(o.home_ml)}</span><span class="num">${cell('moneyline', `${odds(m.away_ml)}<br>${odds(m.home_ml)}`)}</span><span class="num muted">${fair(bl.home_win == null ? null : 1 - bl.home_win)}<br>${fair(bl.home_win)}</span><span class="edge ${Math.abs(e) >= .06 ? 'pos' : 'neg'}">${(Math.abs(e) * 100).toFixed(1)}% ${esc(side)}</span></div>`;
   }
-  if (!rows) rows = `<div class="mkt"><span class="lbl">Model</span><span class="num">${spreadTxt(g, m.home_spread)}</span><span class="num">${m.total?.toFixed(1) ?? ''}</span><span class="edge neg">no DK line</span></div>`;
-  const pills = Object.values(pickBy).map(p => `<span class="pill">${esc(p.label)} ${odds(p.odds)}${p.result ? ` · ${p.result}` : ''}</span>`).join('');
+  if (!rows) rows = `<div class="mkt"><span class="lbl">Model</span><span class="num">no DK line</span><span class="num">${spreadTxt(g, m.home_spread)}</span><span class="num">${m.total?.toFixed(1) ?? ''}</span><span class="edge neg"></span></div>`;
+  const pills = Object.values(pickBy).map(p => `<span class="pill">${esc(p.label)} ${odds(p.odds)}${p.sharp === 'agrees' ? ' · Sharp ✓' : ''}${p.result ? ` · ${p.result}` : ''}</span>`).join('');
+  const passes = (g.passes || []).map(p => `<div class="pass">Passed: <b>${esc(p.label)}</b> · ${esc(p.reason)}</div>`).join('');
   return `<div class="card ${pills ? 'haspick' : ''}">
     <div class="ghead">${stateTag(g)}<span>${g.neutral ? 'Neutral · ' : ''}${esc(g.tv || '')}</span></div>
     <div class="teams">${teamRow(g.away, g.home, g.state)}${teamRow(g.home, g.away, g.state)}</div>
-    <div class="mkt head"><span></span><span>DraftKings</span><span>Model</span><span class="r" style="text-align:right">Edge</span></div>
+    <div class="mkt head"><span></span><span>DK${g.odds_closed ? ' close' : ''}</span><span>Model</span><span>Blend</span><span style="text-align:right">Edge</span></div>
     ${rows}
-    <div class="ghead" style="margin:6px 0 0"><span>Proj ${m.away_pts ?? ''}, ${m.home_pts ?? ''} · pace ${m.pace ?? ''}</span><span>Win ${pct(1 - (m.home_win ?? .5))} / ${pct(m.home_win)}</span></div>
+    <div class="ghead" style="margin:6px 0 0"><span>Model score: ${esc(g.away.abbr)} ${m.away_pts ?? ''}, ${esc(g.home.abbr)} ${m.home_pts ?? ''} · ${m.pace ?? ''} poss</span><span>Win ${pct(1 - (m.home_win ?? .5))} / ${pct(m.home_win)}</span></div>
     ${pills ? `<div class="pills">${pills}</div>` : ''}
+    ${passes}
   </div>`;
 }
 
@@ -105,18 +109,45 @@ function renderBoard() {
   const q = $('#board-q').value.toLowerCase(), only = $('#board-picks-only').checked, sort = $('#board-sort').value;
   let gs = b.games.filter(g => (!q || `${g.home.name} ${g.away.name}`.toLowerCase().includes(q)) && (!only || g.picks?.length));
   const maxEdge = g => { const m = g.eval?.markets || {}; return Math.max(Math.abs(m.spread?.edge || 0) / 3, Math.abs(m.total?.edge || 0) / 4.5, Math.abs(m.moneyline?.edge || 0) / .06); };
-  gs = sort === 'edge' ? gs.sort((a, b) => maxEdge(b) - maxEdge(a)) : gs.sort((a, b) => a.date.localeCompare(b.date));
+  const ord = { in: 0, pre: 1, post: 2 }, st = g => ord[gameState(g).state] ?? 1;
+  gs = sort === 'edge' ? gs.sort((a, b) => maxEdge(b) - maxEdge(a)) : gs.sort((a, b) => st(a) - st(b) || a.date.localeCompare(b.date));
   el.innerHTML = gs.map(boardCard).join('') || '<div class="empty">No games match.</div>';
 }
 
 /* ---------- picks ---------- */
+function recStrip(label, x, sub) {
+  if (!x) return '';
+  return `<div class="kpi"><div class="k">${label}</div><div class="v">${x.w}-${x.l}${x.p ? '-' + x.p : ''}</div><div class="s"><span class="${x.units > 0 ? 'pos' : x.units < 0 ? 'err' : ''}">${signed(x.units, 2)}u</span> · ROI ${signed(x.roi)}% · ${sub}</div></div>`;
+}
+
+const clvCell = p => {
+  let c = p.clv;
+  if (c == null && p.close_line != null && !p.result) c = p.market === 'spread' ? p.line - p.close_line : p.market === 'total' ? (p.side === 'over' ? 1 : -1) * (p.close_line - p.line) : null;
+  return c == null ? '—' : `<span class="${c > 0 ? 'pos' : c < 0 ? 'err' : ''}">${signed(c)}</span>`;
+};
+const resCell = p => `<span class="res ${p.result || 'O'}">${p.result || '•'}</span>`;
+const unitsCell = p => `<td class="r num ${p.units > 0 ? 'pos' : ''}">${p.units != null ? signed(p.units, 2) : ''}</td>`;
+const dkLine = p => p.market === 'moneyline' ? '—' : p.market === 'spread' ? signed(p.line) : p.line;
+
 function renderPicks() {
-  const mkt = $('#picks-market').value, st = $('#picks-status').value;
-  const rows = S.picks.filter(p => (!mkt || p.market === mkt) && (!st || (st === 'open' ? !p.result : p.result === st)));
-  const head = `<tr><th>Date</th><th>Game</th><th>Pick</th><th class="r">Odds</th><th class="r">Model</th><th class="r">EV</th><th class="r">CLV</th><th>Result</th><th class="r">Units</th><th>Final</th></tr>`;
-  const ml = p => p.market === 'spread' ? signed(p.side === 'home' ? p.model_line : -p.model_line) : p.market === 'total' ? p.model_line?.toFixed(1) : pct(p.p);
-  const clv = p => { const c = p.clv ?? (p.close_odds != null ? null : null); if (c == null) { if (p.close_line != null && !p.result) { const d = p.market === 'spread' ? p.line - p.close_line : p.market === 'total' ? (p.side === 'over' ? 1 : -1) * (p.close_line - p.line) : null; return d == null ? '—' : `<span class="${d > 0 ? 'pos' : d < 0 ? 'err' : ''}">${signed(d)}</span>`; } return '—'; } return `<span class="${c > 0 ? 'pos' : c < 0 ? 'err' : ''}">${signed(c)}</span>`; };
-  $('#picks-table').innerHTML = head + (rows.map(p => `<tr><td>${p.date.slice(5)}</td><td>${esc(p.matchup)}</td><td><b>${esc(p.label)}</b></td><td class="r num">${odds(p.odds)}</td><td class="r num">${ml(p)}</td><td class="r num">${pct(p.ev)}</td><td class="r num">${clv(p)}</td><td><span class="res ${p.result || 'O'}">${p.result || '•'}</span></td><td class="r num ${p.units > 0 ? 'pos' : ''}">${p.units != null ? signed(p.units, 2) : ''}</td><td class="muted">${esc(p.final || '')}</td></tr>`).join('') || `<tr><td colspan="10" class="muted" style="text-align:center;padding:30px">No picks yet.</td></tr>`);
+  const r = S.record || {}, view = $('#picks-view').value, mkt = $('#picks-market').value, st = $('#picks-status').value;
+  $('#picks-kpis').innerHTML = recStrip('Model picks', r.overall, `${r.pending ?? 0} open`) +
+    recStrip('Model + Sharp ✓', r.model_sharp_agree, 'model pick, sharp money agrees') +
+    recStrip('Sharp Money sides', r.sharp_sides?.overall, `${r.sharp_sides?.pending ?? 0} open · every flagged side`);
+  const keep = p => (!mkt || p.market === mkt) && (!st || (st === 'open' ? !p.result : st === 'sharp' ? (p.sharp === 'agrees' || view === 'sharp') : p.result === st));
+  if (view === 'sharp') {
+    const rows = S.sharpSides.filter(keep);
+    $('#picks-table').innerHTML = `<tr><th>Date</th><th>Game</th><th>Side</th><th class="r">DK line</th><th class="r">Odds</th><th class="r">Handle</th><th class="r">Bets</th><th class="r">Diff</th><th>Model</th><th class="r">CLV</th><th>Result</th><th class="r">Units</th><th>Final</th></tr>` +
+      (rows.map(p => `<tr><td>${p.date.slice(5)}</td><td>${esc(p.matchup)}</td><td><b>${esc(p.label)}</b></td><td class="r num">${dkLine(p)}</td><td class="r num">${odds(p.odds)}</td><td class="r num">${p.handle}%</td><td class="r num">${p.bets}%</td><td class="r num pos">+${p.diff}</td><td>${p.model_agrees === true ? '<span class="badge yes">Agrees</span>' : p.model_agrees === false ? '<span class="badge no">Disagrees</span>' : '—'}</td><td class="r num">${clvCell(p)}</td><td>${resCell(p)}</td>${unitsCell(p)}<td class="muted">${esc(p.final || '')}</td></tr>`).join('') || `<tr><td colspan="13" class="muted" style="text-align:center;padding:30px">No Sharp Money sides tracked yet.</td></tr>`);
+    return;
+  }
+  const rows = S.picks.filter(keep);
+  const ml = p => p.market === 'spread' ? signed(p.side === 'home' ? p.model_line : -p.model_line) : p.market === 'total' ? p.model_line?.toFixed(1) : null;
+  const modelCell = p => p.market === 'moneyline' ? pct(p.model_line ?? p.p) : ml(p);
+  const blendCell = p => p.blend_line == null ? '—' : p.market === 'spread' ? signed(p.blend_line) : p.market === 'total' ? p.blend_line.toFixed(1) : pct(p.blend_line);
+  const edgeCell = p => p.edge == null ? '—' : p.market === 'moneyline' ? `${(p.edge * 100).toFixed(1)}%` : p.edge.toFixed(1);
+  $('#picks-table').innerHTML = `<tr><th>Date</th><th>Game</th><th>Pick</th><th class="r">DK line</th><th class="r">Odds</th><th class="r">Model</th><th class="r">Blend</th><th class="r">Edge</th><th class="r">EV</th><th class="r">CLV</th><th>Sharp</th><th>Result</th><th class="r">Units</th><th>Final</th></tr>` +
+    (rows.map(p => `<tr><td>${p.date.slice(5)}</td><td>${esc(p.matchup)}</td><td><b>${esc(p.label)}</b></td><td class="r num">${dkLine(p)}</td><td class="r num">${odds(p.odds)}</td><td class="r num">${modelCell(p)}</td><td class="r num">${blendCell(p)}</td><td class="r num">${edgeCell(p)}</td><td class="r num">${pct(p.ev)}</td><td class="r num">${clvCell(p)}</td><td>${p.sharp === 'agrees' ? '<span class="badge yes">Sharp ✓</span>' : ''}</td><td>${resCell(p)}</td>${unitsCell(p)}<td class="muted">${esc(p.final || '')}</td></tr>`).join('') || `<tr><td colspan="14" class="muted" style="text-align:center;padding:30px">No picks yet.</td></tr>`);
 }
 
 /* ---------- record ---------- */
@@ -133,7 +164,7 @@ function renderRecord() {
     k('Open', r.pending, 'awaiting result');
   const names = { spread: 'Spread', total: 'Total', moneyline: 'Moneyline' };
   $('#record-table').innerHTML = `<tr><th>Market</th><th class="r">W</th><th class="r">L</th><th class="r">P</th><th class="r">Win %</th><th class="r">Units</th><th class="r">ROI</th><th class="r">Avg CLV</th></tr>` +
-    Object.entries(r.by_market).map(([m, x]) => `<tr><td>${names[m] || m}</td><td class="r">${x.w}</td><td class="r">${x.l}</td><td class="r">${x.p}</td><td class="r">${x.win_pct}%</td><td class="r num ${x.units > 0 ? 'pos' : ''}">${signed(x.units, 2)}</td><td class="r">${signed(x.roi)}%</td><td class="r">${x.avg_clv == null ? '—' : signed(x.avg_clv, 2)}</td></tr>`).join('');
+    [...Object.entries(r.by_market), ...(r.model_sharp_agree?.w + r.model_sharp_agree?.l ? [['Model + Sharp ✓', r.model_sharp_agree]] : []), ...(r.sharp_sides?.overall?.w + r.sharp_sides?.overall?.l ? [['Sharp Money sides', r.sharp_sides.overall]] : [])].map(([m, x]) => `<tr><td>${names[m] || m}</td><td class="r">${x.w}</td><td class="r">${x.l}</td><td class="r">${x.p}</td><td class="r">${x.win_pct}%</td><td class="r num ${x.units > 0 ? 'pos' : ''}">${signed(x.units, 2)}</td><td class="r">${signed(x.roi)}%</td><td class="r">${x.avg_clv == null ? '—' : signed(x.avg_clv, 2)}</td></tr>`).join('');
   drawCurve(r.curve);
 }
 
@@ -222,7 +253,7 @@ $('#tabs').addEventListener('click', e => {
   history.replaceState(null, '', '#' + b.dataset.tab);
 });
 ['board-q', 'board-picks-only', 'board-sort'].forEach(id => $('#' + id).addEventListener('input', renderBoard));
-['picks-market', 'picks-status'].forEach(id => $('#' + id).addEventListener('input', renderPicks));
+['picks-view', 'picks-market', 'picks-status'].forEach(id => $('#' + id).addEventListener('input', renderPicks));
 ['sh-thr', 'sh-mode', 'sh-market'].forEach(id => $('#' + id).addEventListener('input', renderSharp));
 $('#live-active').addEventListener('input', renderLive);
 $('#rt-q').addEventListener('input', renderRatings);

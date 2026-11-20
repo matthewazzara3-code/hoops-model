@@ -33,21 +33,23 @@
       <div class="controls">
         <input id="board-q" placeholder="Search team" autocomplete="off">
         <label class="chk"><input type="checkbox" id="board-picks-only"> Picks only</label>
-        <select id="board-sort"><option value="time">Sort: tip time</option><option value="edge">Sort: biggest edge</option></select>
+        <select id="board-sort"><option value="time">Sort: live first</option><option value="edge">Sort: biggest edge</option></select>
       </div>
     </div>
-    <p class="note">Model line vs DraftKings line for every game. Edge is in points (spread, total) or win probability (moneyline). Highlighted cells are locked picks.</p>
+    <p class="note">Model line vs DraftKings line for every game. Edge is in points (spread, total) or win probability (moneyline). Highlighted cells are locked picks. EV uses a blend of the model and DraftKings, and picks are skipped when sharp money or line movement goes against them.</p>
     <div id="board-list" class="cards"></div>
   </section>
 
   <section id="picks" class="tab">
     <div class="bar"><h2>Picks</h2>
       <div class="controls">
+        <select id="picks-view"><option value="model">Model picks</option><option value="sharp">Sharp Money sides</option></select>
         <select id="picks-market"><option value="">All markets</option><option value="spread">Spread</option><option value="total">Total</option><option value="moneyline">Moneyline</option></select>
-        <select id="picks-status"><option value="">All</option><option value="open">Open</option><option value="W">Wins</option><option value="L">Losses</option></select>
+        <select id="picks-status"><option value="">All</option><option value="open">Open</option><option value="W">Wins</option><option value="L">Losses</option><option value="sharp">Sharp ✓ only</option></select>
       </div>
     </div>
-    <p class="note">Picks lock the first time the model finds them (line and odds at that moment). CLV compares that line to DraftKings' last line before tip: positive means the market moved toward the pick.</p>
+    <div id="picks-kpis" class="kpis"></div>
+    <p class="note">Picks lock the first time the model finds them (line and odds at that moment). CLV compares that line to DraftKings' last line before tip: positive means the market moved toward the pick. Blend is 70% DraftKings, 30% model; EV is based on it. Edge is the raw model vs DraftKings gap. "Sharp Money sides" tracks every side the Sharp Money tab flags (handle at least 30 points above bets), whether or not the model likes it.</p>
     <div class="tablewrap"><table id="picks-table"></table></div>
   </section>
 

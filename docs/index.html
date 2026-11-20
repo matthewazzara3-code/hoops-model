@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hoops Model · College Basketball Picks</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <span class="mark">◖◗</span>
+    <div><h1>HOOPS MODEL</h1><p class="sub">College basketball · model lines vs DraftKings</p></div>
+  </div>
+  <div class="status" id="status">Loading…</div>
+</header>
+
+<nav class="tabs" id="tabs">
+  <button data-tab="board" class="on">Board</button>
+  <button data-tab="picks">Picks</button>
+  <button data-tab="record">Record</button>
+  <button data-tab="live">Live</button>
+  <button data-tab="sharp">Sharp Money</button>
+  <button data-tab="ratings">Ratings</button>
+</nav>
+
+<main>
+  <section id="board" class="tab on">
+    <div class="bar">
+      <h2 id="board-title">Today</h2>
+      <div class="controls">
+        <input id="board-q" placeholder="Search team" autocomplete="off">
+        <label class="chk"><input type="checkbox" id="board-picks-only"> Picks only</label>
+        <select id="board-sort"><option value="time">Sort: tip time</option><option value="edge">Sort: biggest edge</option></select>
+      </div>
+    </div>
+    <p class="note">Model line vs DraftKings line for every game. Edge is in points (spread, total) or win probability (moneyline). Highlighted cells are locked picks.</p>
+    <div id="board-list" class="cards"></div>
+  </section>
+
+  <section id="picks" class="tab">
+    <div class="bar"><h2>Picks</h2>
+      <div class="controls">
+        <select id="picks-market"><option value="">All markets</option><option value="spread">Spread</option><option value="total">Total</option><option value="moneyline">Moneyline</option></select>
+        <select id="picks-status"><option value="">All</option><option value="open">Open</option><option value="W">Wins</option><option value="L">Losses</option></select>
+      </div>
+    </div>
+    <p class="note">Picks lock the first time the model finds them (line and odds at that moment). CLV compares that line to DraftKings' last line before tip: positive means the market moved toward the pick.</p>
+    <div class="tablewrap"><table id="picks-table"></table></div>
+  </section>
+
+  <section id="record" class="tab">
+    <div class="bar"><h2>Record</h2></div>
+    <div id="record-cards" class="kpis"></div>
+    <div class="panel"><h3>Cumulative units</h3><div id="record-chart" class="chart"></div></div>
+    <div class="panel"><h3>By market</h3><div class="tablewrap"><table id="record-table"></table></div></div>
+  </section>
+
+  <section id="live" class="tab">
+    <div class="bar"><h2>Live scores</h2><div class="controls"><label class="chk"><input type="checkbox" id="live-active"> In progress only</label><span class="muted" id="live-upd"></span></div></div>
+    <div id="live-list" class="scores"></div>
+  </section>
+
+  <section id="sharp" class="tab">
+    <div class="bar"><h2>Sharp Money</h2>
+      <div class="controls">
+        <label>Handle beats bets by <input type="number" id="sh-thr" value="30" min="0" max="90" step="5"></label>
+        <select id="sh-mode"><option value="points">percentage points</option><option value="relative">percent (relative)</option></select>
+        <select id="sh-market"><option value="">All markets</option><option value="spread">Spread</option><option value="total">Total</option><option value="moneyline">Moneyline</option></select>
+      </div>
+    </div>
+    <p class="note" id="sh-note"></p>
+    <div id="sharp-list" class="cards"></div>
+    <details class="panel"><summary>All games with splits</summary><div id="sharp-all"></div></details>
+  </section>
+
+  <section id="ratings" class="tab">
+    <div class="bar"><h2>Team ratings</h2><div class="controls"><input id="rt-q" placeholder="Search team" autocomplete="off"></div></div>
+    <p class="note" id="rt-note"></p>
+    <div class="tablewrap"><table id="ratings-table"></table></div>
+  </section>
+</main>
+<footer>Model output is for information and entertainment. Lines from DraftKings via ESPN. Splits from DraftKings Network. Please bet responsibly.</footer>
+<script src="app.js"></script>
+</body>
+</html>

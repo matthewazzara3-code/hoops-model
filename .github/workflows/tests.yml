@@ -1,0 +1,18 @@
+name: Tests
+on: [push, workflow_dispatch]
+jobs:
+  test:
+    if: github.actor != 'hoops-model-bot'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -r requirements.txt pytest
+      - name: Download box scores used by the tests
+        run: |
+          mkdir -p data
+          for f in schedules/parquet/mbb_schedule_2026 schedules/parquet/mbb_schedule_2027 team_box/parquet/team_box_2026 team_box/parquet/team_box_2027; do
+            curl -sSfL -o data/$(basename $f).parquet https://raw.githubusercontent.com/sportsdataverse/hoopR-mbb-data/main/mbb/$f.parquet
+          done
+      - run: python -m pytest -q tests

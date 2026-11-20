@@ -19,8 +19,8 @@
   "matchup": "Saint Louis @ Saint Mary's",
   "model_version": "1.2",
   "model_line": 166.07,
-  "close_line": 159.5,
-  "close_odds": -105.0
+  "close_line": 161.5,
+  "close_odds": -110.0
  },
  {
   "market": "spread",
@@ -42,8 +42,8 @@
   "matchup": "E Illinois @ Illinois",
   "model_version": "1.2",
   "model_line": -43.0,
-  "close_line": 50.5,
-  "close_odds": -118.0
+  "close_line": 49.5,
+  "close_odds": -112.0
  },
  {
   "market": "total",
@@ -65,8 +65,8 @@
   "matchup": "Bakersfield @ Idaho",
   "model_version": "1.2",
   "model_line": 162.0,
-  "close_line": 154.5,
-  "close_odds": -108.0
+  "close_line": 153.5,
+  "close_odds": -105.0
  },
  {
   "market": "moneyline",
@@ -89,7 +89,7 @@
   "model_version": "1.2",
   "model_line": 0.611,
   "close_line": null,
-  "close_odds": -118.0
+  "close_odds": -130.0
  },
  {
   "market": "spread",
@@ -111,8 +111,8 @@
   "matchup": "Marshall @ North Carolina",
   "model_version": "1.2",
   "model_line": -10.0,
-  "close_line": 20.5,
-  "close_odds": -115.0
+  "close_line": 19.5,
+  "close_odds": -110.0
  },
  {
   "market": "spread",
@@ -134,7 +134,7 @@
   "matchup": "UCF @ Vanderbilt",
   "model_version": "1.2",
   "model_line": -23.5,
-  "close_line": -17.5,
+  "close_line": -16.5,
   "close_odds": -112.0
  },
  {
@@ -157,8 +157,8 @@
   "matchup": "Miss Valley St @ Arkansas",
   "model_version": "1.2",
   "model_line": -27.0,
-  "close_line": 40.5,
-  "close_odds": -112.0
+  "close_line": 38.5,
+  "close_odds": -108.0
  },
  {
   "market": "spread",
@@ -180,8 +180,8 @@
   "matchup": "South Alabama @ SMU",
   "model_version": "1.2",
   "model_line": -11.0,
-  "close_line": 15.5,
-  "close_odds": 100.0
+  "close_line": 14.5,
+  "close_odds": -102.0
  },
  {
   "market": "total",
@@ -226,8 +226,8 @@
   "matchup": "Lipscomb @ Alabama A&M",
   "model_version": "1.2",
   "model_line": 1.0,
-  "close_line": 5.5,
-  "close_odds": -110.0
+  "close_line": 4.5,
+  "close_odds": -105.0
  },
  {
   "market": "moneyline",
@@ -250,7 +250,7 @@
   "model_version": "1.2",
   "model_line": 0.476,
   "close_line": null,
-  "close_odds": 205.0
+  "close_odds": 180.0
  },
  {
   "market": "spread",
@@ -273,7 +273,7 @@
   "model_version": "1.2",
   "model_line": -28.5,
   "close_line": 36.5,
-  "close_odds": -110.0
+  "close_odds": -115.0
  },
  {
   "market": "total",
@@ -295,7 +295,7 @@
   "matchup": "Campbell @ Kansas St",
   "model_version": "1.2",
   "model_line": 160.43,
-  "close_line": 155.5,
+  "close_line": 156.5,
   "close_odds": -108.0
  },
  {
@@ -341,8 +341,8 @@
   "matchup": "Tulsa @ Mississippi St",
   "model_version": "1.2",
   "model_line": -2.0,
-  "close_line": 6.5,
-  "close_odds": -110.0
+  "close_line": 7.5,
+  "close_odds": -108.0
  },
  {
   "market": "moneyline",
@@ -365,7 +365,7 @@
   "model_version": "1.2",
   "model_line": 0.433,
   "close_line": null,
-  "close_odds": 215.0
+  "close_odds": 260.0
  },
  {
   "market": "spread",
@@ -387,8 +387,8 @@
   "matchup": "Loyola MD @ Virginia",
   "model_version": "1.2",
   "model_line": -30.5,
-  "close_line": 42.5,
-  "close_odds": -112.0
+  "close_line": 41.5,
+  "close_odds": -115.0
  },
  {
   "market": "spread",
@@ -410,8 +410,8 @@
   "matchup": "Coastal @ Tennessee",
   "model_version": "1.2",
   "model_line": -20.5,
-  "close_line": 29.5,
-  "close_odds": -110.0
+  "close_line": 27.5,
+  "close_odds": -105.0
  },
  {
   "market": "total",
@@ -433,8 +433,8 @@
   "matchup": "Coastal @ Tennessee",
   "model_version": "1.2",
   "model_line": 134.94,
-  "close_line": 144.5,
-  "close_odds": -112.0
+  "close_line": 147.5,
+  "close_odds": -115.0
  },
  {
   "market": "total",
@@ -456,7 +456,7 @@
   "matchup": "Richmond @ Western KY",
   "model_version": "1.2",
   "model_line": 141.44,
-  "close_line": 151.5,
+  "close_line": 149.5,
   "close_odds": -112.0
  },
  {
@@ -480,7 +480,7 @@
   "model_version": "1.2",
   "model_line": 148.26,
   "close_line": 137.5,
-  "close_odds": -108.0
+  "close_odds": -110.0
  },
  {
   "market": "spread",
@@ -503,7 +503,7 @@
   "model_version": "1.2",
   "model_line": -18.5,
   "close_line": 22.5,
-  "close_odds": -105.0
+  "close_odds": -118.0
  },
  {
   "market": "total",
@@ -525,8 +525,8 @@
   "matchup": "Oakland @ Purdue",
   "model_version": "1.2",
   "model_line": 155.67,
-  "close_line": 148.5,
-  "close_odds": -108.0
+  "close_line": 147.5,
+  "close_odds": -110.0
  },
  {
   "market": "spread",
@@ -548,8 +548,8 @@
   "matchup": "Niagara @ Delaware St",
   "model_version": "1.2",
   "model_line": -7.0,
-  "close_line": -2.5,
-  "close_odds": -110.0
+  "close_line": -1.5,
+  "close_odds": -102.0
  },
  {
   "market": "moneyline",
@@ -572,7 +572,7 @@
   "model_version": "1.2",
   "model_line": 0.701,
   "close_line": null,
-  "close_odds": -142.0
+  "close_odds": -122.0
  },
  {
   "market": "spread",
@@ -594,8 +594,8 @@
   "matchup": "Bellarmine @ E Kentucky",
   "model_version": "1.2",
   "model_line": -15.5,
-  "close_line": -7.5,
-  "close_odds": -110.0
+  "close_line": -8.5,
+  "close_odds": -105.0
  },
  {
   "market": "total",
@@ -617,7 +617,7 @@
   "matchup": "Bellarmine @ E Kentucky",
   "model_version": "1.2",
   "model_line": 151.37,
-  "close_line": 144.5,
+  "close_line": 143.5,
   "close_odds": -110.0
  },
  {
@@ -641,7 +641,7 @@
   "model_version": "1.2",
   "model_line": -11.0,
   "close_line": -4.5,
-  "close_odds": -112.0
+  "close_odds": -108.0
  },
  {
   "market": "total",
@@ -664,7 +664,7 @@
   "model_version": "1.2",
   "model_line": 147.28,
   "close_line": 140.5,
-  "close_odds": -115.0
+  "close_odds": -112.0
  },
  {
   "market": "moneyline",
@@ -709,8 +709,8 @@
   "matchup": "W Michigan @ Mount St Marys",
   "model_version": "1.2",
   "model_line": 13.0,
-  "close_line": -8.5,
-  "close_odds": -105.0
+  "close_line": -6.5,
+  "close_odds": -115.0
  },
  {
   "market": "spread",
@@ -733,7 +733,7 @@
   "model_version": "1.2",
   "model_line": -16.0,
   "close_line": -11.5,
-  "close_odds": -110.0
+  "close_odds": -115.0
  },
  {
   "market": "spread",
@@ -756,7 +756,7 @@
   "model_version": "1.2",
   "model_line": 8.0,
   "close_line": 12.5,
-  "close_odds": -108.0
+  "close_odds": -110.0
  },
  {
   "market": "spread",
@@ -778,8 +778,8 @@
   "matchup": "Wagner @ Maryland",
   "model_version": "1.2",
   "model_line": -17.0,
-  "close_line": 35.5,
-  "close_odds": -105.0
+  "close_line": 34.5,
+  "close_odds": -115.0
  },
  {
   "market": "spread",
@@ -805,6 +805,98 @@
   "close_odds": -105.0
  },
  {
+  "market": "total",
+  "side": "over",
+  "line": 150.5,
+  "odds": -112.0,
+  "p": 0.542,
+  "ev": 0.025,
+  "edge": 6.11,
+  "label": "Over 150.5",
+  "blend_line": 152.3,
+  "sharp": null,
+  "moved": -1.0,
+  "id": "401920427-total",
+  "game_id": "401920427",
+  "date": "2026-11-20",
+  "made_at": "2026-11-20T11:45:45.720402-05:00",
+  "tip": "2026-11-21T00:00Z",
+  "matchup": "Loyola MD @ Virginia",
+  "model_version": "1.2",
+  "model_line": 156.61,
+  "close_line": 150.5,
+  "close_odds": -112.0
+ },
+ {
+  "market": "moneyline",
+  "side": "away",
+  "line": null,
+  "odds": -112.0,
+  "p": 0.545,
+  "ev": 0.031,
+  "edge": 0.035,
+  "label": "Richmond ML",
+  "blend_line": 0.545,
+  "sharp": null,
+  "moved": 0.007,
+  "id": "401927396-moneyline",
+  "game_id": "401927396",
+  "date": "2026-11-20",
+  "made_at": "2026-11-20T11:45:45.720402-05:00",
+  "tip": "2026-11-21T00:00Z",
+  "matchup": "Richmond @ Western KY",
+  "model_version": "1.2",
+  "model_line": 0.54,
+  "close_line": null,
+  "close_odds": -112.0
+ },
+ {
+  "market": "spread",
+  "side": "home",
+  "line": -1.5,
+  "odds": 110.0,
+  "p": 0.54,
+  "ev": 0.133,
+  "edge": 4.22,
+  "label": "Jax State -1.5",
+  "blend_line": -2.8,
+  "sharp": null,
+  "moved": 1.0,
+  "id": "401926782-spread",
+  "game_id": "401926782",
+  "date": "2026-11-20",
+  "made_at": "2026-11-20T11:45:45.720402-05:00",
+  "tip": "2026-11-21T00:00Z",
+  "matchup": "Georgia St @ Jax State",
+  "model_version": "1.2",
+  "model_line": -5.5,
+  "close_line": -1.5,
+  "close_odds": 110.0
+ },
+ {
+  "market": "moneyline",
+  "side": "home",
+  "line": null,
+  "odds": 145.0,
+  "p": 0.426,
+  "ev": 0.043,
+  "edge": 0.116,
+  "label": "Murray St ML",
+  "blend_line": 0.426,
+  "sharp": null,
+  "moved": -0.109,
+  "id": "401921692-moneyline",
+  "game_id": "401921692",
+  "date": "2026-11-20",
+  "made_at": "2026-11-20T11:45:45.720402-05:00",
+  "tip": "2026-11-21T00:00Z",
+  "matchup": "Wisconsin @ Murray St",
+  "model_version": "1.2",
+  "model_line": 0.507,
+  "close_line": null,
+  "close_odds": 145.0
+ },
+ {
   "market": "spread",
   "side": "home",
   "line": 2.5,
@@ -824,8 +916,8 @@
   "matchup": "North Texas @ App State",
   "model_version": "1.2",
   "model_line": -7.0,
-  "close_line": 2.5,
-  "close_odds": -102.0
+  "close_line": 3.5,
+  "close_odds": -120.0
  },
  {
   "market": "moneyline",
@@ -870,7 +962,7 @@
   "matchup": "Delaware @ CSU Northridge",
   "model_version": "1.2",
   "model_line": -1.0,
-  "close_line": 6.5,
+  "close_line": 7.5,
   "close_odds": -108.0
  },
  {
@@ -894,7 +986,30 @@
   "model_version": "1.2",
   "model_line": 0.468,
   "close_line": null,
-  "close_odds": 230.0
+  "close_odds": 260.0
+ },
+ {
+  "market": "spread",
+  "side": "away",
+  "line": 1.5,
+  "odds": -108.0,
+  "p": 0.55,
+  "ev": 0.06,
+  "edge": 5.5,
+  "label": "UT Martin +1.5",
+  "blend_line": -0.2,
+  "sharp": null,
+  "moved": -0.0,
+  "id": "401916124-spread",
+  "game_id": "401916124",
+  "date": "2026-11-20",
+  "made_at": "2026-11-20T11:45:45.720402-05:00",
+  "tip": "2026-11-20T22:30Z",
+  "matchup": "UT Martin @ S Illinois",
+  "model_version": "1.2",
+  "model_line": 4.0,
+  "close_line": 1.5,
+  "close_odds": -108.0
  },
  {
   "market": "spread",
@@ -916,8 +1031,8 @@
   "matchup": "Manhattan @ Miami",
   "model_version": "1.2",
   "model_line": -30.0,
-  "close_line": 39.5,
-  "close_odds": -112.0
+  "close_line": 36.5,
+  "close_odds": -108.0
  },
  {
   "market": "total",
@@ -940,7 +1055,7 @@
   "model_version": "1.2",
   "model_line": 145.18,
   "close_line": 150.5,
-  "close_odds": -110.0
+  "close_odds": -105.0
  },
  {
   "market": "total",
@@ -963,7 +1078,7 @@
   "model_version": "1.2",
   "model_line": 147.19,
   "close_line": 141.5,
-  "close_odds": -105.0
+  "close_odds": -108.0
  },
  {
   "market": "spread",
@@ -985,8 +1100,8 @@
   "matchup": "W Illinois @ UAlbany",
   "model_version": "1.2",
   "model_line": 2.0,
-  "close_line": 8.5,
-  "close_odds": -108.0
+  "close_line": 6.5,
+  "close_odds": -115.0
  },
  {
   "market": "moneyline",
@@ -1009,7 +1124,30 @@
   "model_version": "1.2",
   "model_line": 0.558,
   "close_line": null,
-  "close_odds": 215.0
+  "close_odds": 245.0
+ },
+ {
+  "market": "spread",
+  "side": "home",
+  "line": -9.5,
+  "odds": -102.0,
+  "p": 0.541,
+  "ev": 0.07,
+  "edge": 4.32,
+  "label": "G Washington -9.5",
+  "blend_line": -10.8,
+  "sharp": null,
+  "moved": 1.0,
+  "id": "401919019-spread",
+  "game_id": "401919019",
+  "date": "2026-11-20",
+  "made_at": "2026-11-20T11:45:45.720402-05:00",
+  "tip": "2026-11-20T19:00Z",
+  "matchup": "UAB @ G Washington",
+  "model_version": "1.2",
+  "model_line": -14.0,
+  "close_line": -9.5,
+  "close_odds": -102.0
  },
  {
   "market": "total",
@@ -1031,8 +1169,8 @@
   "matchup": "Oklahoma St @ Minnesota",
   "model_version": "1.2",
   "model_line": 142.54,
-  "close_line": 147.5,
-  "close_odds": -108.0
+  "close_line": 149.5,
+  "close_odds": -115.0
  },
  {
   "market": "spread",
@@ -1055,7 +1193,7 @@
   "model_version": "1.2",
   "model_line": -0.5,
   "close_line": 3.5,
-  "close_odds": -108.0
+  "close_odds": -118.0
  },
  {
   "market": "moneyline",
@@ -1078,7 +1216,7 @@
   "model_version": "1.2",
   "model_line": 0.51,
   "close_line": null,
-  "close_odds": 154.0
+  "close_odds": 136.0
  },
  {
   "market": "total",

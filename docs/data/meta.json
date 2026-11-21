@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T17:13:57.166775-05:00",
+ "updated": "2026-11-20T22:25:40.182139-05:00",
  "slate": "2026-11-20",
  "model_version": "1.2",
  "games_fit": 1068,
@@ -35,10 +35,6 @@
  "market_weight": 0.7,
  "log": [
   "Fit on 1068 games through 2026-11-19",
-  "Splits: 41 games, 40 sides with handle >= bets + 30",
-  "Pass: UT Martin @ S Illinois UT Martin ML: Sharp money on the other side (handle beats bets by 28)",
-  "Pass: Georgia St @ Jax State Jax State ML: Sharp money on the other side (handle beats bets by 26)",
-  "Pass: Marshall @ North Carolina Under 157.5: DK line moved 4.0 pts against it",
-  "Pass: Alabama St @ Fresno St Over 145.5: DK line moved 7.0 pts against it"
+  "Splits: 1 games, 1 sides with handle >= bets + 30"
  ]
 }

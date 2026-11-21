@@ -16,7 +16,11 @@
   "made_at": "2026-11-20T07:43:44.725199-05:00",
   "model_agrees": false,
   "close_line": null,
-  "close_odds": 105.0
+  "close_odds": 105.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "SLU 78, SMC 95",
+  "clv": 1.2
  },
  {
   "id": "401911252-total-over",
@@ -35,7 +39,11 @@
   "made_at": "2026-11-20T17:13:57.166775-05:00",
   "model_agrees": "True",
   "close_line": 163.5,
-  "close_odds": -105.0
+  "close_odds": -105.0,
+  "result": "W",
+  "units": 0.909,
+  "final": "SLU 78, SMC 95",
+  "clv": 2.0
  },
  {
   "id": "401925664-spread-home",
@@ -54,7 +62,11 @@
   "made_at": "2026-11-20T17:13:57.166775-05:00",
   "model_agrees": "True",
   "close_line": -9.5,
-  "close_odds": -115.0
+  "close_odds": -115.0,
+  "result": "W",
+  "units": 0.926,
+  "final": "ALST 68, FRES 80",
+  "clv": -1.0
  },
  {
   "id": "401921691-total-over",
@@ -73,7 +85,11 @@
   "made_at": "2026-11-20T17:13:57.166775-05:00",
   "model_agrees": "False",
   "close_line": 140.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "W",
+  "units": 0.909,
+  "final": "HALL 87, NCSU 81",
+  "clv": 0.0
  },
  {
   "id": "401913529-total-under",
@@ -92,7 +108,11 @@
   "made_at": "2026-11-20T07:43:44.725199-05:00",
   "model_agrees": "True",
   "close_line": 165.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "EIU 52, ILL 114",
+  "clv": -0.0
  },
  {
   "id": "401928795-spread-home",
@@ -111,7 +131,11 @@
   "made_at": "2026-11-20T11:45:45.720402-05:00",
   "model_agrees": "False",
   "close_line": -12.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "SHSU 83, BOIS 69",
+  "clv": 1.0
  },
  {
   "id": "401920137-spread-away",
@@ -130,7 +154,11 @@
   "made_at": "2026-11-20T11:45:45.720402-05:00",
   "model_agrees": "False",
   "close_line": 1.5,
-  "close_odds": -102.0
+  "close_odds": -102.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "CSUB 81, IDHO 84",
+  "clv": 0.0
  },
  {
   "id": "401928795-total-over",
@@ -149,7 +177,11 @@
   "made_at": "2026-11-20T17:13:57.166775-05:00",
   "model_agrees": "True",
   "close_line": 169.5,
-  "close_odds": -112.0
+  "close_odds": -112.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "SHSU 83, BOIS 69",
+  "clv": 0.0
  },
  {
   "id": "401912710-moneyline-away",
@@ -168,7 +200,11 @@
   "made_at": "2026-11-20T17:13:57.166775-05:00",
   "model_agrees": true,
   "close_line": null,
-  "close_odds": 1600.0
+  "close_odds": 1600.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "MRSH 72, UNC 88",
+  "clv": 0.0
  },
  {
   "id": "401916290-moneyline-away",

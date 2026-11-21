@@ -351,7 +351,11 @@
   "model_version": "1.2",
   "model_line": 161.11,
   "close_line": 166.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "UGA 88, GT 82",
+  "clv": -0.0
  },
  {
   "market": "spread",

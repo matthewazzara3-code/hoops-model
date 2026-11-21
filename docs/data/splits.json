@@ -1,25 +1,25 @@
 {
- "updated": "2026-11-20T22:25:40.182139-05:00",
+ "updated": "2026-11-20T22:54:41.011526-05:00",
  "error": null,
  "games": [
   {
    "event_id": "35055200",
    "away": "Saint Louis",
    "home": "Saint Marys",
-   "when": "Fri 11/20 \u00b7 11:00 PM ET",
+   "when": "Fri 11/20 \u00b7 11:05 PM ET",
    "markets": {
     "moneyline": [
      {
       "label": "Saint Marys",
       "odds": -125,
-      "handle": 43,
+      "handle": 30,
       "bets": 65,
       "model_agrees": true
      },
      {
       "label": "Saint Louis",
       "odds": 105,
-      "handle": 57,
+      "handle": 70,
       "bets": 35,
       "model_agrees": false
      }
@@ -27,16 +27,16 @@
     "spread": [
      {
       "label": "Saint Marys -1.5",
-      "odds": -102,
-      "handle": 54,
-      "bets": 57,
+      "odds": -108,
+      "handle": 64,
+      "bets": 58,
       "model_agrees": "True"
      },
      {
       "label": "Saint Louis +1.5",
-      "odds": -118,
-      "handle": 46,
-      "bets": 43,
+      "odds": -112,
+      "handle": 36,
+      "bets": 42,
       "model_agrees": "False"
      }
     ],
@@ -45,14 +45,14 @@
       "label": "Over 163.5",
       "odds": -105,
       "handle": 99,
-      "bets": 50,
+      "bets": 53,
       "model_agrees": "True"
      },
      {
       "label": "Under 163.5",
       "odds": -115,
       "handle": 1,
-      "bets": 50,
+      "bets": 47,
       "model_agrees": "False"
      }
     ]

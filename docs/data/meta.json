@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T22:25:40.182139-05:00",
+ "updated": "2026-11-20T22:54:41.011526-05:00",
  "slate": "2026-11-20",
  "model_version": "1.2",
  "games_fit": 1068,
@@ -35,6 +35,6 @@
  "market_weight": 0.7,
  "log": [
   "Fit on 1068 games through 2026-11-19",
-  "Splits: 1 games, 1 sides with handle >= bets + 30"
+  "Splits: 1 games, 2 sides with handle >= bets + 30"
  ]
 }

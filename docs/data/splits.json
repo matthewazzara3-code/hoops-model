@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T01:55:12.820351-05:00",
+ "updated": "2026-11-21T02:39:11.007135-05:00",
  "error": null,
  "games": [
   {
@@ -78,13 +78,13 @@
      {
       "label": "Siena -6.5",
       "odds": -108,
-      "handle": 91,
+      "handle": 92,
       "bets": 93
      },
      {
       "label": "Bucknell +6.5",
       "odds": -112,
-      "handle": 9,
+      "handle": 8,
       "bets": 7
      }
     ],
@@ -442,6 +442,20 @@
       "odds": -225,
       "handle": 100,
       "bets": 100
+     }
+    ],
+    "spread": [
+     {
+      "label": "Navy -5.5",
+      "odds": -112,
+      "handle": 100,
+      "bets": 100
+     },
+     {
+      "label": "Rider +5.5",
+      "odds": -108,
+      "handle": 0,
+      "bets": 0
      }
     ]
    },
@@ -1688,14 +1702,14 @@
     ],
     "total": [
      {
-      "label": "Over 125.5",
-      "odds": -112,
+      "label": "Over 126.5",
+      "odds": -108,
       "handle": 100,
       "bets": 100
      },
      {
-      "label": "Under 125.5",
-      "odds": -108,
+      "label": "Under 126.5",
+      "odds": -112,
       "handle": 0,
       "bets": 0
      }

@@ -319,7 +319,11 @@
   "model_version": "1.2",
   "model_line": 145.43,
   "close_line": 153.5,
-  "close_odds": -112.0
+  "close_odds": -112.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "SIU 85, ECU 69",
+  "clv": -0.0
  },
  {
   "market": "moneyline",
@@ -342,7 +346,11 @@
   "model_version": "1.2",
   "model_line": 0.639,
   "close_line": null,
-  "close_odds": -120.0
+  "close_odds": -120.0,
+  "result": "W",
+  "units": 0.833,
+  "final": "SIU 85, ECU 69",
+  "clv": 0.0
  },
  {
   "market": "spread",
@@ -365,7 +373,11 @@
   "model_version": "1.2",
   "model_line": -3.5,
   "close_line": 2.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "W",
+  "units": 0.909,
+  "final": "UALB 81, CAN 91",
+  "clv": 0.0
  },
  {
   "market": "moneyline",
@@ -388,7 +400,11 @@
   "model_version": "1.2",
   "model_line": 0.606,
   "close_line": null,
-  "close_odds": 124.0
+  "close_odds": 124.0,
+  "result": "W",
+  "units": 1.24,
+  "final": "UALB 81, CAN 91",
+  "clv": 0.0
  },
  {
   "market": "total",
@@ -411,7 +427,11 @@
   "model_version": "1.2",
   "model_line": 153.55,
   "close_line": 159.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "W",
+  "units": 0.909,
+  "final": "PENN 83, LAS 73",
+  "clv": -0.0
  },
  {
   "market": "total",

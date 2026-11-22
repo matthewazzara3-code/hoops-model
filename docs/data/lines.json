@@ -1379,8 +1379,8 @@
    "home_spread_odds": -110.0,
    "away_spread_odds": -110.0,
    "total": 154.5,
-   "over_odds": -115.0,
-   "under_odds": -105.0,
+   "over_odds": -108.0,
+   "under_odds": -112.0,
    "home_ml": -120.0,
    "away_ml": 100.0
   }
@@ -1397,8 +1397,8 @@
    "home_spread_odds": -112.0,
    "away_spread_odds": -108.0,
    "total": 130.5,
-   "over_odds": -105.0,
-   "under_odds": -115.0,
+   "over_odds": -108.0,
+   "under_odds": -112.0,
    "home_ml": -395.0,
    "away_ml": 310.0
   }

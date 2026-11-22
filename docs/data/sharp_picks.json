@@ -19,6 +19,44 @@
   "close_odds": 2200.0
  },
  {
+  "id": "401909567-total-over",
+  "game_id": "401909567",
+  "date": "2026-11-21",
+  "tip": "2026-11-22T04:00Z",
+  "matchup": "Washington St @ Duke",
+  "market": "total",
+  "side": "over",
+  "line": 149.5,
+  "odds": -110,
+  "label": "Over 149.5",
+  "handle": 98,
+  "bets": 44,
+  "diff": 54,
+  "made_at": "2026-11-21T20:09:14.156282-05:00",
+  "model_agrees": "True",
+  "close_line": 149.5,
+  "close_odds": -110.0
+ },
+ {
+  "id": "401917537-total-over",
+  "game_id": "401917537",
+  "date": "2026-11-21",
+  "tip": "2026-11-22T03:00Z",
+  "matchup": "Bradley @ Pacific",
+  "market": "total",
+  "side": "over",
+  "line": 130.5,
+  "odds": -108,
+  "label": "Over 130.5",
+  "handle": 90,
+  "bets": 44,
+  "diff": 46,
+  "made_at": "2026-11-21T20:09:14.156282-05:00",
+  "model_agrees": "True",
+  "close_line": 130.5,
+  "close_odds": -108.0
+ },
+ {
   "id": "401925049-moneyline-home",
   "game_id": "401925049",
   "date": "2026-11-21",
@@ -36,6 +74,25 @@
   "model_agrees": true,
   "close_line": null,
   "close_odds": -120.0
+ },
+ {
+  "id": "401925049-total-over",
+  "game_id": "401925049",
+  "date": "2026-11-21",
+  "tip": "2026-11-22T01:30Z",
+  "matchup": "LSU N Orleans @ Texas Southern",
+  "market": "total",
+  "side": "over",
+  "line": 154.5,
+  "odds": -108,
+  "label": "Over 154.5",
+  "handle": 90,
+  "bets": 43,
+  "diff": 47,
+  "made_at": "2026-11-21T20:09:14.156282-05:00",
+  "model_agrees": "True",
+  "close_line": 154.5,
+  "close_odds": -108.0
  },
  {
   "id": "401925099-moneyline-home",
@@ -187,7 +244,11 @@
   "made_at": "2026-11-21T15:52:32.926553-05:00",
   "model_agrees": "False",
   "close_line": -31.5,
-  "close_odds": -105.0
+  "close_odds": -105.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "COPP 60, GTWN 84",
+  "clv": 0.0
  },
  {
   "id": "401909517-total-under",
@@ -206,7 +267,11 @@
   "made_at": "2026-11-21T15:52:32.926553-05:00",
   "model_agrees": "True",
   "close_line": 143.5,
-  "close_odds": -115.0
+  "close_odds": -115.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "COPP 60, GTWN 84",
+  "clv": -0.0
  },
  {
   "id": "401920570-moneyline-away",
@@ -225,7 +290,11 @@
   "made_at": "2026-11-21T15:52:32.926553-05:00",
   "model_agrees": true,
   "close_line": null,
-  "close_odds": -120.0
+  "close_odds": -120.0,
+  "result": "W",
+  "units": 0.833,
+  "final": "SIU 85, ECU 69",
+  "clv": 0.0
  },
  {
   "id": "401911337-total-over",
@@ -244,7 +313,11 @@
   "made_at": "2026-11-21T15:52:32.926553-05:00",
   "model_agrees": "False",
   "close_line": 173.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "AF 68, UTSA 90",
+  "clv": 0.0
  },
  {
   "id": "401925709-spread-home",
@@ -263,7 +336,11 @@
   "made_at": "2026-11-21T15:52:32.926553-05:00",
   "model_agrees": "True",
   "close_line": -6.5,
-  "close_odds": -112.0
+  "close_odds": -112.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "WIN 86, WOF 91",
+  "clv": 0.0
  },
  {
   "id": "401925065-moneyline-home",
@@ -282,7 +359,11 @@
   "made_at": "2026-11-21T15:52:32.926553-05:00",
   "model_agrees": true,
   "close_line": null,
-  "close_odds": 124.0
+  "close_odds": 124.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "USM 80, NICH 69",
+  "clv": 0.0
  },
  {
   "id": "401925065-total-over",
@@ -301,7 +382,11 @@
   "made_at": "2026-11-21T15:52:32.926553-05:00",
   "model_agrees": "False",
   "close_line": 141.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "W",
+  "units": 0.909,
+  "final": "USM 80, NICH 69",
+  "clv": 0.0
  },
  {
   "id": "401921183-moneyline-home",
@@ -320,7 +405,11 @@
   "made_at": "2026-11-21T15:52:32.926553-05:00",
   "model_agrees": false,
   "close_line": null,
-  "close_odds": -135.0
+  "close_odds": -135.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "PENN 83, LAS 73",
+  "clv": 0.0
  },
  {
   "id": "401922048-moneyline-away",
@@ -339,7 +428,11 @@
   "made_at": "2026-11-21T15:52:32.926553-05:00",
   "model_agrees": false,
   "close_line": null,
-  "close_odds": 185.0
+  "close_odds": 185.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "LONG 68, ETSU 74",
+  "clv": 0.0
  },
  {
   "id": "401922048-total-over",
@@ -358,7 +451,11 @@
   "made_at": "2026-11-21T15:52:32.926553-05:00",
   "model_agrees": "True",
   "close_line": 141.5,
-  "close_odds": -115.0
+  "close_odds": -115.0,
+  "result": "W",
+  "units": 0.87,
+  "final": "LONG 68, ETSU 74",
+  "clv": 0.0
  },
  {
   "id": "401923322-total-over",
@@ -377,7 +474,11 @@
   "made_at": "2026-11-21T15:52:32.926553-05:00",
   "model_agrees": "False",
   "close_line": 140.5,
-  "close_odds": -105.0
+  "close_odds": -105.0,
+  "result": "W",
+  "units": 0.87,
+  "final": "UALB 81, CAN 91",
+  "clv": 1.0
  },
  {
   "id": "401917918-moneyline-home",
@@ -396,7 +497,11 @@
   "made_at": "2026-11-21T15:52:32.926553-05:00",
   "model_agrees": false,
   "close_line": null,
-  "close_odds": 145.0
+  "close_odds": 145.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "CARK 82, JAX 67",
+  "clv": 0.0
  },
  {
   "id": "401911252-moneyline-away",

@@ -11,6 +11,9 @@ from .ratings import Ratings, p_cover, p_over
 # before computing probabilities and EV: the DK line already carries injuries, lineups
 # and sharp money. min_edge is the raw model vs DK gap; min_ev is on the blended number.
 MARKET_WEIGHT = 0.70  # share of the DraftKings number in the blend (0 = model only)
+# Markets the Sharp Money tab and its record cover. Every flagged side is still saved in
+# sharp_picks.json, so adding "total" or "moneyline" back here restores their history.
+SHARP_MARKETS = ("spread",)
 RULES = {
     "spread": {"min_edge": 3.0, "min_ev": 0.025},
     "total": {"min_edge": 4.5, "min_ev": 0.02},
@@ -229,7 +232,8 @@ def record(picks: list[dict], sharp_sides: list[dict] | None = None) -> dict:
     for d in sorted(daily):
         run += daily[d]
         curve.append({"date": d, "units": round(run, 2), "day": round(daily[d], 2)})
-    ss = [p for p in (sharp_sides or []) if p.get("result")]
+    sharp_sides = [p for p in (sharp_sides or []) if p["market"] in SHARP_MARKETS]
+    ss = [p for p in sharp_sides if p.get("result")]
     ss_m = defaultdict(list)
     for p in ss:
         ss_m[p["market"]].append(p)
@@ -237,4 +241,4 @@ def record(picks: list[dict], sharp_sides: list[dict] | None = None) -> dict:
             "pending": sum(1 for p in picks if not p.get("result")),
             "model_sharp_agree": agg([p for p in graded if p.get("sharp") == "agrees"]),
             "sharp_sides": {"overall": agg(ss), "by_market": {k: agg(v) for k, v in ss_m.items()},
-                            "pending": sum(1 for p in (sharp_sides or []) if not p.get("result"))}}
+                            "pending": sum(1 for p in sharp_sides if not p.get("result"))}}

@@ -54,7 +54,11 @@
   "made_at": "2026-11-21T20:09:14.156282-05:00",
   "model_agrees": "True",
   "close_line": 130.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "BRAD 62, PAC 63",
+  "clv": 0.0
  },
  {
   "id": "401925049-moneyline-home",
@@ -73,7 +77,11 @@
   "made_at": "2026-11-21T15:52:32.926553-05:00",
   "model_agrees": true,
   "close_line": null,
-  "close_odds": -120.0
+  "close_odds": -120.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "NOLA 75, TXSO 70",
+  "clv": 0.0
  },
  {
   "id": "401925049-total-over",
@@ -92,7 +100,11 @@
   "made_at": "2026-11-21T20:09:14.156282-05:00",
   "model_agrees": "True",
   "close_line": 154.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "NOLA 75, TXSO 70",
+  "clv": 0.0
  },
  {
   "id": "401925099-moneyline-home",
@@ -111,7 +123,11 @@
   "made_at": "2026-11-21T15:52:32.926553-05:00",
   "model_agrees": true,
   "close_line": null,
-  "close_odds": -155.0
+  "close_odds": -155.0,
+  "result": "W",
+  "units": 0.645,
+  "final": "AMCC 74, ORU 78",
+  "clv": 0.0
  },
  {
   "id": "401921776-total-over",

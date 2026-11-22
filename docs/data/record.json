@@ -1,24 +1,34 @@
 {
  "overall": {
-  "w": 37,
-  "l": 30,
+  "w": 40,
+  "l": 34,
   "p": 0,
-  "units": 8.53,
-  "roi": 12.7,
-  "win_pct": 55.2,
-  "avg_clv": 0.22,
-  "clv_n": 67
+  "units": 7.02,
+  "roi": 9.5,
+  "win_pct": 54.1,
+  "avg_clv": 0.2,
+  "clv_n": 74
  },
  "by_market": {
   "spread": {
-   "w": 15,
-   "l": 17,
+   "w": 17,
+   "l": 19,
    "p": 0,
-   "units": -3.05,
-   "roi": -9.5,
-   "win_pct": 46.9,
-   "avg_clv": 0.56,
-   "clv_n": 32
+   "units": -3.2,
+   "roi": -8.9,
+   "win_pct": 47.2,
+   "avg_clv": 0.5,
+   "clv_n": 36
+  },
+  "moneyline": {
+   "w": 11,
+   "l": 6,
+   "p": 0,
+   "units": 8.23,
+   "roi": 48.4,
+   "win_pct": 64.7,
+   "avg_clv": -0.12,
+   "clv_n": 17
   },
   "total": {
    "w": 12,
@@ -29,16 +39,6 @@
    "win_pct": 57.1,
    "avg_clv": -0.05,
    "clv_n": 21
-  },
-  "moneyline": {
-   "w": 10,
-   "l": 4,
-   "p": 0,
-   "units": 9.58,
-   "roi": 68.5,
-   "win_pct": 71.4,
-   "avg_clv": -0.14,
-   "clv_n": 14
   }
  },
  "curve": [
@@ -54,52 +54,52 @@
   },
   {
    "date": "2026-11-21",
-   "units": 8.53,
-   "day": 4.54
+   "units": 7.02,
+   "day": 3.03
   }
  ],
- "pending": 7,
+ "pending": 0,
  "model_sharp_agree": {
-  "w": 4,
-  "l": 5,
+  "w": 5,
+  "l": 6,
   "p": 0,
-  "units": -1.38,
-  "roi": -15.3,
-  "win_pct": 44.4,
-  "avg_clv": 1.33,
-  "clv_n": 9
+  "units": -1.73,
+  "roi": -15.8,
+  "win_pct": 45.5,
+  "avg_clv": 1.09,
+  "clv_n": 11
  },
  "sharp_sides": {
   "overall": {
-   "w": 34,
-   "l": 57,
+   "w": 35,
+   "l": 60,
    "p": 0,
-   "units": -20.72,
-   "roi": -22.8,
-   "win_pct": 37.4,
+   "units": -23.07,
+   "roi": -24.3,
+   "win_pct": 36.8,
    "avg_clv": 0.13,
-   "clv_n": 91
+   "clv_n": 95
   },
   "by_market": {
    "total": {
     "w": 17,
-    "l": 19,
+    "l": 21,
     "p": 0,
-    "units": -3.65,
-    "roi": -10.1,
-    "win_pct": 47.2,
-    "avg_clv": 0.22,
-    "clv_n": 36
+    "units": -5.65,
+    "roi": -14.9,
+    "win_pct": 44.7,
+    "avg_clv": 0.21,
+    "clv_n": 38
    },
    "moneyline": {
-    "w": 6,
-    "l": 18,
+    "w": 7,
+    "l": 19,
     "p": 0,
-    "units": -7.05,
-    "roi": -29.4,
-    "win_pct": 25.0,
-    "avg_clv": 0.42,
-    "clv_n": 24
+    "units": -7.4,
+    "roi": -28.5,
+    "win_pct": 26.9,
+    "avg_clv": 0.39,
+    "clv_n": 26
    },
    "spread": {
     "w": 11,
@@ -112,6 +112,6 @@
     "clv_n": 31
    }
   },
-  "pending": 6
+  "pending": 2
  }
 }

@@ -20,7 +20,11 @@
   "model_version": "1.2",
   "model_line": -7.5,
   "close_line": -1.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "NOLA 75, TXSO 70",
+  "clv": 0.0
  },
  {
   "market": "moneyline",
@@ -43,7 +47,11 @@
   "model_version": "1.2",
   "model_line": 0.714,
   "close_line": null,
-  "close_odds": -120.0
+  "close_odds": -120.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "NOLA 75, TXSO 70",
+  "clv": 0.0
  },
  {
   "market": "spread",
@@ -66,7 +74,11 @@
   "model_version": "1.2",
   "model_line": -12.0,
   "close_line": -4.5,
-  "close_odds": -112.0
+  "close_odds": -112.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "VAL 77, TROY 72",
+  "clv": 0.0
  },
  {
   "market": "moneyline",
@@ -89,7 +101,11 @@
   "model_version": "1.2",
   "model_line": 0.817,
   "close_line": null,
-  "close_odds": -192.0
+  "close_odds": -192.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "VAL 77, TROY 72",
+  "clv": 0.0
  },
  {
   "market": "spread",
@@ -112,7 +128,11 @@
   "model_version": "1.2",
   "model_line": -8.0,
   "close_line": -3.5,
-  "close_odds": -105.0
+  "close_odds": -105.0,
+  "result": "W",
+  "units": 0.952,
+  "final": "AMCC 74, ORU 78",
+  "clv": 0.0
  },
  {
   "market": "moneyline",
@@ -135,7 +155,11 @@
   "model_version": "1.2",
   "model_line": 0.732,
   "close_line": null,
-  "close_odds": -155.0
+  "close_odds": -155.0,
+  "result": "W",
+  "units": 0.645,
+  "final": "AMCC 74, ORU 78",
+  "clv": 0.0
  },
  {
   "market": "spread",
@@ -158,7 +182,11 @@
   "model_version": "1.2",
   "model_line": -17.0,
   "close_line": -7.5,
-  "close_odds": -112.0
+  "close_odds": -112.0,
+  "result": "W",
+  "units": 0.893,
+  "final": "PRES 69, TNTC 97",
+  "clv": 0.0
  },
  {
   "market": "spread",

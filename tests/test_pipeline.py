@@ -79,7 +79,12 @@ def test_end_to_end():
         board = json.loads((out / "board.json").read_text())
         assert all(g["odds"] and g.get("odds_closed") for g in board["games"])
         rec = json.loads((out / "record.json").read_text())
-        assert rec["sharp_sides"]["overall"]["w"] + rec["sharp_sides"]["overall"]["l"] >= 1
+        ss = json.loads((out / "sharp_picks.json").read_text())
+        graded_spreads = [x for x in ss if x["market"] == "spread" and x.get("result")]
+        assert any(x["market"] == "total" and x.get("result") for x in ss)  # still saved...
+        o2 = rec["sharp_sides"]["overall"]
+        assert o2["w"] + o2["l"] + o2["p"] == len(graded_spreads)  # ...but only spreads count
+        assert set(rec["sharp_sides"]["by_market"]) <= {"spread"}
         print("picks 11/18:", len(graded), "record:", o, "| 11/19 new picks:", sum(p["date"] == "2026-11-19" for p in p2))
     finally:
         shutil.rmtree(out.parent, ignore_errors=True)

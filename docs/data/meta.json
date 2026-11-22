@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T20:09:14.156282-05:00",
+ "updated": "2026-11-21T21:36:52.121426-05:00",
  "slate": "2026-11-21",
  "model_version": "1.2",
  "games_fit": 1126,
@@ -35,7 +35,6 @@
  "market_weight": 0.7,
  "log": [
   "Fit on 1126 games through 2026-11-20",
-  "Splits: 3 games, 4 sides with handle >= bets + 30",
-  "Pass: LSU N Orleans @ Texas Southern Over 154.5: DK line moved 6.0 pts against it"
+  "Splits: 2 games, 2 sides with handle >= bets + 30"
  ]
 }

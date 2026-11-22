@@ -1,88 +1,26 @@
 {
- "updated": "2026-11-21T20:09:14.156282-05:00",
+ "updated": "2026-11-21T21:36:52.121426-05:00",
  "error": null,
  "games": [
-  {
-   "event_id": "35058604",
-   "away": "New Orleans",
-   "home": "Texas Southern",
-   "when": "Sat 11/21 \u00b7 8:30 PM ET",
-   "markets": {
-    "moneyline": [
-     {
-      "label": "Texas Southern",
-      "odds": -120,
-      "handle": 64,
-      "bets": 48,
-      "model_agrees": true
-     },
-     {
-      "label": "New Orleans",
-      "odds": 100,
-      "handle": 36,
-      "bets": 52,
-      "model_agrees": false
-     }
-    ],
-    "spread": [
-     {
-      "label": "Texas Southern -1.5",
-      "odds": -110,
-      "handle": 53,
-      "bets": 52,
-      "model_agrees": "True"
-     },
-     {
-      "label": "New Orleans +1.5",
-      "odds": -110,
-      "handle": 47,
-      "bets": 48,
-      "model_agrees": "False"
-     }
-    ],
-    "total": [
-     {
-      "label": "Over 154.5",
-      "odds": -108,
-      "handle": 90,
-      "bets": 43,
-      "model_agrees": "True"
-     },
-     {
-      "label": "Under 154.5",
-      "odds": -112,
-      "handle": 10,
-      "bets": 57,
-      "model_agrees": "False"
-     }
-    ]
-   },
-   "espn_id": "401925049",
-   "model": {
-    "margin": 7.38,
-    "total": 162.64,
-    "home_spread": -7.5
-   }
-  },
   {
    "event_id": "35058605",
    "away": "Bradley",
    "home": "Pacific",
-   "when": "Sat 11/21 \u00b7 10:00 PM ET",
+   "when": "Sat 11/21 \u00b7 10:05 PM ET",
    "markets": {
     "moneyline": [
      {
       "label": "Pacific",
       "odds": -395,
-      "handle": 84,
-      "bets": 96,
+      "handle": 66,
+      "bets": 94,
       "model_agrees": true
      },
      {
       "label": "Bradley",
       "odds": 310,
-      "handle": 16,
-      "bets": 4,
+      "handle": 34,
+      "bets": 6,
       "model_agrees": false
      }
     ],
@@ -90,15 +28,15 @@
      {
       "label": "Pacific -8.5",
       "odds": -112,
-      "handle": 59,
-      "bets": 58,
+      "handle": 86,
+      "bets": 66,
       "model_agrees": "True"
      },
      {
       "label": "Bradley +8.5",
       "odds": -108,
-      "handle": 41,
-      "bets": 42,
+      "handle": 14,
+      "bets": 34,
       "model_agrees": "False"
      }
     ],
@@ -106,15 +44,15 @@
      {
       "label": "Over 130.5",
       "odds": -108,
-      "handle": 90,
-      "bets": 44,
+      "handle": 91,
+      "bets": 55,
       "model_agrees": "True"
      },
      {
       "label": "Under 130.5",
       "odds": -112,
-      "handle": 10,
-      "bets": 56,
+      "handle": 9,
+      "bets": 45,
       "model_agrees": "False"
      }
     ]
@@ -136,14 +74,14 @@
      {
       "label": "Duke",
       "odds": -8000,
-      "handle": 14,
+      "handle": 15,
       "bets": 95,
       "model_agrees": false
      },
      {
       "label": "Washington State",
       "odds": 2200,
-      "handle": 86,
+      "handle": 85,
       "bets": 5,
       "model_agrees": true
      }
@@ -152,31 +90,31 @@
      {
       "label": "Duke -25.5",
       "odds": -105,
-      "handle": 98,
-      "bets": 76,
+      "handle": 93,
+      "bets": 68,
       "model_agrees": "False"
      },
      {
       "label": "Washington State +25.5",
       "odds": -115,
-      "handle": 2,
-      "bets": 24,
+      "handle": 7,
+      "bets": 32,
       "model_agrees": "True"
      }
     ],
     "total": [
      {
       "label": "Over 149.5",
-      "odds": -110,
-      "handle": 98,
-      "bets": 44,
+      "odds": -105,
+      "handle": 27,
+      "bets": 50,
       "model_agrees": "True"
      },
      {
       "label": "Under 149.5",
-      "odds": -110,
-      "handle": 2,
-      "bets": 56,
+      "odds": -115,
+      "handle": 73,
+      "bets": 50,
       "model_agrees": "False"
      }
     ]

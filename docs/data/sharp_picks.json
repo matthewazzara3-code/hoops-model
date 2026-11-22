@@ -15,8 +15,8 @@
   "diff": 31,
   "made_at": "2026-11-22T15:30:42.080314-05:00",
   "model_agrees": "True",
-  "close_line": 146.5,
-  "close_odds": -108.0
+  "close_line": 145.5,
+  "close_odds": -115.0
  },
  {
   "id": "401917542-moneyline-home",
@@ -92,7 +92,7 @@
   "made_at": "2026-11-22T15:30:42.080314-05:00",
   "model_agrees": "False",
   "close_line": 7.5,
-  "close_odds": -108.0
+  "close_odds": -110.0
  },
  {
   "id": "401919020-spread-home",
@@ -150,6 +150,25 @@
   "model_agrees": "False",
   "close_line": 131.5,
   "close_odds": -115.0
+ },
+ {
+  "id": "401928999-total-under",
+  "game_id": "401928999",
+  "date": "2026-11-22",
+  "tip": "2026-11-22T23:00Z",
+  "matchup": "Southern Miss @ Valparaiso",
+  "market": "total",
+  "side": "under",
+  "line": 143.5,
+  "odds": -110,
+  "label": "Under 143.5",
+  "handle": 95,
+  "bets": 45,
+  "diff": 50,
+  "made_at": "2026-11-22T15:59:52.807021-05:00",
+  "model_agrees": "False",
+  "close_line": 143.5,
+  "close_odds": -110.0
  },
  {
   "id": "401921205-moneyline-home",
@@ -224,8 +243,8 @@
   "diff": 42,
   "made_at": "2026-11-22T15:30:42.080314-05:00",
   "model_agrees": "True",
-  "close_line": 136.5,
-  "close_odds": -105.0
+  "close_line": 137.5,
+  "close_odds": -108.0
  },
  {
   "id": "401920159-moneyline-away",
@@ -376,7 +395,7 @@
   "diff": 54,
   "made_at": "2026-11-22T15:30:42.080314-05:00",
   "model_agrees": "True",
-  "close_line": 140.5,
+  "close_line": 141.5,
   "close_odds": -110.0
  },
  {

@@ -19,8 +19,8 @@
   "matchup": "San Jos\u00e9 St @ Loyola Chicago",
   "model_version": "1.2",
   "model_line": 151.38,
-  "close_line": 146.5,
-  "close_odds": -108.0
+  "close_line": 145.5,
+  "close_odds": -115.0
  },
  {
   "market": "spread",
@@ -117,6 +117,29 @@
  {
   "market": "spread",
   "side": "home",
+  "line": -9.5,
+  "odds": -110.0,
+  "p": 0.553,
+  "ev": 0.055,
+  "edge": 5.64,
+  "label": "Minnesota -9.5",
+  "blend_line": -11.2,
+  "sharp": null,
+  "moved": 1.0,
+  "id": "401921420-spread",
+  "game_id": "401921420",
+  "date": "2026-11-22",
+  "made_at": "2026-11-22T15:59:52.807021-05:00",
+  "tip": "2026-11-22T23:00Z",
+  "matchup": "Utah @ Minnesota",
+  "model_version": "1.2",
+  "model_line": -15.0,
+  "close_line": -9.5,
+  "close_odds": -110.0
+ },
+ {
+  "market": "spread",
+  "side": "home",
   "line": 2.5,
   "odds": -112.0,
   "p": 0.612,
@@ -180,8 +203,8 @@
   "matchup": "Rice @ Lamar",
   "model_version": "1.2",
   "model_line": -8.5,
-  "close_line": -1.5,
-  "close_odds": -115.0
+  "close_line": -2.5,
+  "close_odds": -105.0
  },
  {
   "market": "total",
@@ -203,8 +226,8 @@
   "matchup": "Rice @ Lamar",
   "model_version": "1.2",
   "model_line": 154.98,
-  "close_line": 163.5,
-  "close_odds": -110.0
+  "close_line": 162.5,
+  "close_odds": -112.0
  },
  {
   "market": "spread",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T15:30:42.080314-05:00",
+ "updated": "2026-11-22T15:59:52.807021-05:00",
  "slate": "2026-11-22",
  "model_version": "1.2",
  "games_fit": 1184,
@@ -35,27 +35,11 @@
  "market_weight": 0.7,
  "log": [
   "Fit on 1184 games through 2026-11-21",
-  "Splits: 19 games, 22 sides with handle >= bets + 30",
-  "New pick: McNeese @ Texas St Texas St -2.5 (-108) EV 10.7%",
-  "New pick: McNeese @ Texas St Over 141.5 (-110) EV 17.3%",
-  "New pick: McNeese @ Texas St Texas St ML (-142) EV 10.1%",
-  "New pick: Mercyhurst @ UAlbany Mercyhurst ML (-120) EV 4.3%",
-  "New pick: Richmond @ Liberty Over 141.5 (-110) EV 3.6%",
-  "New pick: Richmond @ Liberty Richmond ML (-112) EV 3.2%",
-  "New pick: Rice @ Lamar Lamar -1.5 (-115) EV 5.4%",
-  "New pick: Rice @ Lamar Under 163.5 (-110) EV 6.4%",
-  "Pass: Rice @ Lamar Lamar ML: Sharp money on the other side (handle beats bets by 47)",
-  "New pick: Fullerton @ Portland St Portland St -4.5 (-115) EV 9.1%",
-  "Pass: Fullerton @ Portland St Portland St ML: Sharp money on the other side (handle beats bets by 65)",
-  "New pick: Temple @ SF Austin SF Austin +2.5 (-112) EV 15.8%",
-  "New pick: Temple @ SF Austin SF Austin ML (+110) EV 12.3%",
-  "Pass: Utah @ Minnesota Minnesota -9.5: Sharp money on the other side (handle beats bets by 16)",
-  "New pick: Delaware @ UCLA Delaware +28.5 (-115) EV 11.1%",
-  "New pick: CA Baptist @ Portland Over 146.5 (-112) EV 5.4%",
+  "Splits: 17 games, 20 sides with handle >= bets + 30",
+  "Pass: Rice @ Lamar Lamar ML: Sharp money on the other side (handle beats bets by 50)",
+  "Pass: Fullerton @ Portland St Portland St ML: Sharp money on the other side (handle beats bets by 69)",
+  "New pick: Utah @ Minnesota Minnesota -9.5 (-110) EV 5.5%",
   "Pass: CA Baptist @ Portland Portland -7.5: Sharp money on the other side (handle beats bets by 31)",
-  "New pick: UT Martin @ Utah Valley UT Martin +6.5 (-105) EV 13.4%",
-  "New pick: UT Martin @ Utah Valley UT Martin ML (+245) EV 32.6%",
-  "Pass: UT Martin @ Utah Valley Over 144.5: Sharp money on the other side (handle beats bets by 16)",
-  "New pick: San Jos\u00e9 St @ Loyola Chicago Over 146.5 (-108) EV 2.7%"
+  "Pass: UT Martin @ Utah Valley Over 144.5: Sharp money on the other side (handle beats bets by 17)"
  ]
 }

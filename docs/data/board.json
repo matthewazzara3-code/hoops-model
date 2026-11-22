@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "updated": "2026-11-22T15:30:42.080314-05:00",
+ "updated": "2026-11-22T15:59:52.807021-05:00",
  "games": [
   {
    "id": "401902281",
@@ -432,7 +432,7 @@
    "neutral": true,
    "conf": false,
    "state": "in",
-   "detail": "13:36 - 2nd",
+   "detail": "5:10 - 2nd",
    "completed": false,
    "home": {
     "id": "98",
@@ -440,7 +440,7 @@
     "short": "Western KY",
     "abbr": "WKU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/98.png",
-    "score": 56,
+    "score": 72,
     "rank": null
    },
    "away": {
@@ -449,7 +449,7 @@
     "short": "G Washington",
     "abbr": "GW",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/45.png",
-    "score": 38,
+    "score": 60,
     "rank": null
    },
    "odds": null,
@@ -484,16 +484,16 @@
    "date": "2026-11-22T19:00Z",
    "neutral": true,
    "conf": false,
-   "state": "in",
-   "detail": "7:49 - 2nd",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "3101",
     "name": "Utah Tech Trailblazers",
     "short": "Utah Tech",
     "abbr": "UTU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/3101.png",
-    "score": 54,
+    "score": 73,
     "rank": null
    },
    "away": {
@@ -502,7 +502,7 @@
     "short": "South Dakota",
     "abbr": "SDAK",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/233.png",
-    "score": 56,
+    "score": 74,
     "rank": null
    },
    "odds": null,
@@ -537,16 +537,16 @@
    "date": "2026-11-22T19:00Z",
    "neutral": false,
    "conf": false,
-   "state": "in",
-   "detail": "11:24 - 2nd",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2132",
     "name": "Cincinnati Bearcats",
     "short": "Cincinnati",
     "abbr": "CIN",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png",
-    "score": 55,
+    "score": 78,
     "rank": null
    },
    "away": {
@@ -555,7 +555,7 @@
     "short": "UMass Lowell",
     "abbr": "UML",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2349.png",
-    "score": 38,
+    "score": 68,
     "rank": null
    },
    "odds": null,
@@ -586,65 +586,12 @@
    "picks": []
   },
   {
-   "id": "401921706",
-   "date": "2026-11-22T19:00Z",
-   "neutral": true,
-   "conf": false,
-   "state": "in",
-   "detail": "7:43 - 2nd",
-   "completed": false,
-   "home": {
-    "id": "2184",
-    "name": "Duquesne Dukes",
-    "short": "Duquesne",
-    "abbr": "DUQ",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2184.png",
-    "score": 55,
-    "rank": null
-   },
-   "away": {
-    "id": "2751",
-    "name": "Wyoming Cowboys",
-    "short": "Wyoming",
-    "abbr": "WYO",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2751.png",
-    "score": 62,
-    "rank": null
-   },
-   "odds": null,
-   "open": null,
-   "tv": "FloSports",
-   "eval": {
-    "model": {
-     "home_pts": 64.2,
-     "away_pts": 73.9,
-     "margin": -9.75,
-     "total": 138.11,
-     "pace": 67.2,
-     "home_spread": 10.0,
-     "home_win": 0.222,
-     "home_ml": 350,
-     "away_ml": -350
-    },
-    "known": true,
-    "games_played": [
-     5,
-     5
-    ],
-    "markets": {},
-    "blend": {}
-   },
-   "sharp": {},
-   "passes": [],
-   "picks": []
-  },
-  {
    "id": "401918988",
    "date": "2026-11-22T19:00Z",
    "neutral": false,
    "conf": false,
    "state": "in",
-   "detail": "11:56 - 2nd",
+   "detail": "1:47 - 2nd",
    "completed": false,
    "home": {
     "id": "235",
@@ -652,7 +599,7 @@
     "short": "Memphis",
     "abbr": "MEM",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
-    "score": 56,
+    "score": 78,
     "rank": null
    },
    "away": {
@@ -661,7 +608,7 @@
     "short": "Evansville",
     "abbr": "EVAN",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/339.png",
-    "score": 43,
+    "score": 60,
     "rank": null
    },
    "odds": null,
@@ -697,7 +644,7 @@
    "neutral": false,
    "conf": false,
    "state": "in",
-   "detail": "8:14 - 2nd",
+   "detail": "0:22 - 2nd",
    "completed": false,
    "home": {
     "id": "2754",
@@ -705,7 +652,7 @@
     "short": "Youngstown St",
     "abbr": "YSU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2754.png",
-    "score": 53,
+    "score": 63,
     "rank": null
    },
    "away": {
@@ -714,7 +661,7 @@
     "short": "William & Mary",
     "abbr": "W&M",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2729.png",
-    "score": 54,
+    "score": 75,
     "rank": null
    },
    "odds": null,
@@ -749,16 +696,16 @@
    "date": "2026-11-22T19:00Z",
    "neutral": true,
    "conf": false,
-   "state": "in",
-   "detail": "9:19 - 2nd",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "301",
     "name": "San Diego Toreros",
     "short": "San Diego",
     "abbr": "USD",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/301.png",
-    "score": 66,
+    "score": 80,
     "rank": null
    },
    "away": {
@@ -767,7 +714,7 @@
     "short": "Fordham",
     "abbr": "FOR",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2230.png",
-    "score": 49,
+    "score": 58,
     "rank": null
    },
    "odds": null,
@@ -798,12 +745,65 @@
    "picks": []
   },
   {
+   "id": "401921706",
+   "date": "2026-11-22T19:00Z",
+   "neutral": true,
+   "conf": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
+   "home": {
+    "id": "2184",
+    "name": "Duquesne Dukes",
+    "short": "Duquesne",
+    "abbr": "DUQ",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2184.png",
+    "score": 61,
+    "rank": null
+   },
+   "away": {
+    "id": "2751",
+    "name": "Wyoming Cowboys",
+    "short": "Wyoming",
+    "abbr": "WYO",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2751.png",
+    "score": 79,
+    "rank": null
+   },
+   "odds": null,
+   "open": null,
+   "tv": "FloSports",
+   "eval": {
+    "model": {
+     "home_pts": 64.2,
+     "away_pts": 73.9,
+     "margin": -9.75,
+     "total": 138.11,
+     "pace": 67.2,
+     "home_spread": 10.0,
+     "home_win": 0.222,
+     "home_ml": 350,
+     "away_ml": -350
+    },
+    "known": true,
+    "games_played": [
+     5,
+     5
+    ],
+    "markets": {},
+    "blend": {}
+   },
+   "sharp": {},
+   "passes": [],
+   "picks": []
+  },
+  {
    "id": "401928790",
    "date": "2026-11-22T19:30Z",
    "neutral": true,
    "conf": false,
    "state": "in",
-   "detail": "Halftime",
+   "detail": "8:02 - 2nd",
    "completed": false,
    "home": {
     "id": "166",
@@ -811,7 +811,7 @@
     "short": "New Mexico St",
     "abbr": "NMSU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/166.png",
-    "score": 21,
+    "score": 35,
     "rank": null
    },
    "away": {
@@ -820,7 +820,7 @@
     "short": "Robert Morris",
     "abbr": "RMU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2523.png",
-    "score": 33,
+    "score": 55,
     "rank": null
    },
    "odds": null,
@@ -856,7 +856,7 @@
    "neutral": false,
    "conf": false,
    "state": "in",
-   "detail": "6:36 - 1st",
+   "detail": "Halftime",
    "completed": false,
    "home": {
     "id": "251",
@@ -864,7 +864,7 @@
     "short": "Texas",
     "abbr": "TEX",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
-    "score": 28,
+    "score": 45,
     "rank": 6
    },
    "away": {
@@ -873,7 +873,7 @@
     "short": "S Indiana",
     "abbr": "USI",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/88.png",
-    "score": 22,
+    "score": 32,
     "rank": null
    },
    "odds": null,
@@ -909,7 +909,7 @@
    "neutral": true,
    "conf": false,
    "state": "in",
-   "detail": "6:54 - 1st",
+   "detail": "Halftime",
    "completed": false,
    "home": {
     "id": "2447",
@@ -917,7 +917,7 @@
     "short": "Nicholls",
     "abbr": "NICH",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2447.png",
-    "score": 31,
+    "score": 39,
     "rank": null
    },
    "away": {
@@ -926,7 +926,7 @@
     "short": "Troy",
     "abbr": "TROY",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2653.png",
-    "score": 16,
+    "score": 33,
     "rank": null
    },
    "odds": null,
@@ -962,7 +962,7 @@
    "neutral": false,
    "conf": false,
    "state": "in",
-   "detail": "7:40 - 1st",
+   "detail": "Halftime",
    "completed": false,
    "home": {
     "id": "6",
@@ -970,7 +970,7 @@
     "short": "South Alabama",
     "abbr": "USA",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
-    "score": 29,
+    "score": 43,
     "rank": null
    },
    "away": {
@@ -979,7 +979,7 @@
     "short": "West Florida",
     "abbr": "UWF",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2697.png",
-    "score": 11,
+    "score": 28,
     "rank": null
    },
    "odds": null,
@@ -1014,8 +1014,8 @@
    "date": "2026-11-22T20:30Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/22 - 3:30 PM EST",
+   "state": "in",
+   "detail": "11:31 - 1st",
    "completed": false,
    "home": {
     "id": "326",
@@ -1023,7 +1023,7 @@
     "short": "Texas St",
     "abbr": "TXST",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/326.png",
-    "score": 0,
+    "score": 19,
     "rank": null
    },
    "away": {
@@ -1032,7 +1032,7 @@
     "short": "McNeese",
     "abbr": "MCN",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2377.png",
-    "score": 0,
+    "score": 13,
     "rank": null
    },
    "odds": {
@@ -1048,11 +1048,12 @@
    },
    "open": {
     "home_spread": -2.5,
-    "total": 142.5,
-    "home_ml": -155.0,
-    "away_ml": 130.0
+    "total": 141.5,
+    "home_ml": -142.0,
+    "away_ml": 120.0
    },
    "tv": "CW",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 85.0,
@@ -1123,20 +1124,7 @@
      "weight": 0.7
     }
    },
-   "sharp": {
-    "moneyline": {
-     "home": 21,
-     "away": -21
-    },
-    "spread": {
-     "home": 28,
-     "away": -28
-    },
-    "total": {
-     "over": 36,
-     "under": -36
-    }
-   },
+   "sharp": {},
    "passes": [],
    "picks": [
     "401929202-spread",
@@ -1149,8 +1137,8 @@
    "date": "2026-11-22T20:30Z",
    "neutral": true,
    "conf": false,
-   "state": "pre",
-   "detail": "11/22 - 3:30 PM EST",
+   "state": "in",
+   "detail": "8:00 - 1st",
    "completed": false,
    "home": {
     "id": "399",
@@ -1158,7 +1146,7 @@
     "short": "UAlbany",
     "abbr": "UALB",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/399.png",
-    "score": 0,
+    "score": 17,
     "rank": null
    },
    "away": {
@@ -1167,7 +1155,7 @@
     "short": "Mercyhurst",
     "abbr": "MERC",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2385.png",
-    "score": 0,
+    "score": 23,
     "rank": null
    },
    "odds": {
@@ -1182,12 +1170,13 @@
     "away_ml": -120.0
    },
    "open": {
-    "home_spread": -1.5,
-    "total": 128.5,
-    "home_ml": -130.0,
-    "away_ml": 110.0
+    "home_spread": 1.5,
+    "total": 132.5,
+    "home_ml": 100.0,
+    "away_ml": -120.0
    },
    "tv": "ESPN+",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 64.2,
@@ -1269,8 +1258,8 @@
    "date": "2026-11-22T20:30Z",
    "neutral": true,
    "conf": false,
-   "state": "pre",
-   "detail": "11/22 - 3:30 PM EST",
+   "state": "in",
+   "detail": "7:56 - 1st",
    "completed": false,
    "home": {
     "id": "197",
@@ -1278,7 +1267,7 @@
     "short": "Oklahoma St",
     "abbr": "OKST",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/197.png",
-    "score": 0,
+    "score": 28,
     "rank": null
    },
    "away": {
@@ -1287,7 +1276,7 @@
     "short": "Virginia Tech",
     "abbr": "VT",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/259.png",
-    "score": 0,
+    "score": 28,
     "rank": null
    },
    "odds": {
@@ -1302,12 +1291,13 @@
     "away_ml": -125.0
    },
    "open": {
-    "home_spread": -1.5,
+    "home_spread": 1.5,
     "total": 158.5,
-    "home_ml": -105.0,
-    "away_ml": -120.0
+    "home_ml": 105.0,
+    "away_ml": -125.0
    },
    "tv": "ESPN",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 78.9,
@@ -1378,20 +1368,7 @@
      "weight": 0.7
     }
    },
-   "sharp": {
-    "moneyline": {
-     "home": -9,
-     "away": 9
-    },
-    "spread": {
-     "away": -7,
-     "home": 7
-    },
-    "total": {
-     "over": 51,
-     "under": -51
-    }
-   },
+   "sharp": {},
    "passes": [],
    "picks": []
   },
@@ -1564,16 +1541,16 @@
    },
    "sharp": {
     "moneyline": {
-     "home": -59,
-     "away": 59
+     "home": -60,
+     "away": 60
     },
     "spread": {
      "away": 25,
      "home": -25
     },
     "total": {
-     "over": 38,
-     "under": -38
+     "over": 44,
+     "under": -44
     }
    },
    "passes": [],
@@ -1613,7 +1590,7 @@
     "home_spread": 10.5,
     "home_spread_odds": -110.0,
     "away_spread_odds": -110.0,
-    "total": 140.5,
+    "total": 141.5,
     "over_odds": -110.0,
     "under_odds": -110.0,
     "home_ml": 440.0,
@@ -1660,18 +1637,18 @@
       }
      },
      "total": {
-      "edge": 0.51,
+      "edge": -0.49,
       "over": {
-       "line": 140.5,
-       "odds": -110.0,
-       "p": 0.503,
-       "ev": -0.039
-      },
-      "under": {
-       "line": 140.5,
+       "line": 141.5,
        "odds": -110.0,
        "p": 0.497,
        "ev": -0.052
+      },
+      "under": {
+       "line": 141.5,
+       "odds": -110.0,
+       "p": 0.503,
+       "ev": -0.039
       }
      },
      "moneyline": {
@@ -1690,7 +1667,7 @@
     },
     "blend": {
      "margin": -10.06,
-     "total": 140.65,
+     "total": 141.35,
      "home_spread": 10.0,
      "home_win": 0.215,
      "weight": 0.7
@@ -1698,16 +1675,16 @@
    },
    "sharp": {
     "moneyline": {
-     "home": 79,
-     "away": -79
+     "home": 82,
+     "away": -82
     },
     "spread": {
      "away": -50,
      "home": 50
     },
     "total": {
-     "over": 54,
-     "under": -54
+     "over": 56,
+     "under": -56
     }
    },
    "passes": [],
@@ -1829,16 +1806,16 @@
    },
    "sharp": {
     "moneyline": {
-     "home": 6,
-     "away": -6
+     "home": -24,
+     "away": 24
     },
     "spread": {
-     "away": 14,
-     "home": -14
+     "away": 13,
+     "home": -13
     },
     "total": {
-     "over": -60,
-     "under": 60
+     "over": -56,
+     "under": 56
     }
    },
    "passes": [],
@@ -1872,12 +1849,12 @@
    },
    "odds": {
     "provider": "Draft Kings",
-    "home_spread": -1.5,
-    "home_spread_odds": -115.0,
-    "away_spread_odds": -105.0,
-    "total": 163.5,
-    "over_odds": -110.0,
-    "under_odds": -110.0,
+    "home_spread": -2.5,
+    "home_spread_odds": -105.0,
+    "away_spread_odds": -115.0,
+    "total": 162.5,
+    "over_odds": -108.0,
+    "under_odds": -112.0,
     "home_ml": -130.0,
     "away_ml": 110.0
    },
@@ -1907,69 +1884,69 @@
     ],
     "markets": {
      "spread": {
-      "edge": 7.01,
+      "edge": 6.01,
       "home": {
-       "line": -1.5,
-       "odds": -115.0,
-       "p": 0.564,
-       "ev": 0.054
+       "line": -2.5,
+       "odds": -105.0,
+       "p": 0.555,
+       "ev": 0.083
       },
       "away": {
-       "line": 1.5,
-       "odds": -105.0,
-       "p": 0.436,
-       "ev": -0.149
+       "line": 2.5,
+       "odds": -115.0,
+       "p": 0.445,
+       "ev": -0.168
       }
      },
      "total": {
-      "edge": -8.52,
+      "edge": -7.52,
       "over": {
-       "line": 163.5,
-       "odds": -110.0,
-       "p": 0.443,
-       "ev": -0.155
+       "line": 162.5,
+       "odds": -108.0,
+       "p": 0.45,
+       "ev": -0.134
       },
       "under": {
-       "line": 163.5,
-       "odds": -110.0,
-       "p": 0.557,
-       "ev": 0.064
+       "line": 162.5,
+       "odds": -112.0,
+       "p": 0.55,
+       "ev": 0.042
       }
      },
      "moneyline": {
       "edge": 0.2,
       "home": {
        "odds": -130.0,
-       "p": 0.609,
-       "ev": 0.077
+       "p": 0.629,
+       "ev": 0.113
       },
       "away": {
        "odds": 110.0,
-       "p": 0.391,
-       "ev": -0.178
+       "p": 0.371,
+       "ev": -0.221
       }
      }
     },
     "blend": {
-     "margin": 3.6,
-     "total": 160.94,
-     "home_spread": -3.5,
-     "home_win": 0.609,
+     "margin": 4.3,
+     "total": 160.24,
+     "home_spread": -4.5,
+     "home_win": 0.629,
      "weight": 0.7
     }
    },
    "sharp": {
     "moneyline": {
-     "home": -47,
-     "away": 47
+     "home": -50,
+     "away": 50
     },
     "spread": {
      "home": 13,
      "away": -13
     },
     "total": {
-     "over": 13,
-     "under": -14
+     "over": 12,
+     "under": -12
     }
    },
    "passes": [
@@ -1978,14 +1955,14 @@
      "side": "home",
      "line": null,
      "odds": -130.0,
-     "p": 0.609,
-     "ev": 0.077,
+     "p": 0.629,
+     "ev": 0.113,
      "edge": 0.2,
      "label": "Lamar ML",
-     "blend_line": 0.609,
+     "blend_line": 0.629,
      "sharp": "opposed",
      "moved": -0.01,
-     "reason": "Sharp money on the other side (handle beats bets by 47)"
+     "reason": "Sharp money on the other side (handle beats bets by 50)"
     }
    ],
    "picks": [
@@ -2109,16 +2086,16 @@
    },
    "sharp": {
     "moneyline": {
-     "home": -20,
-     "away": 20
+     "home": -17,
+     "away": 17
     },
     "spread": {
-     "home": 28,
-     "away": -28
+     "home": 26,
+     "away": -26
     },
     "total": {
-     "over": -27,
-     "under": 27
+     "over": -12,
+     "under": 12
     }
    },
    "passes": [],
@@ -2293,16 +2270,16 @@
    },
    "sharp": {
     "moneyline": {
-     "home": -65,
-     "away": 65
+     "home": -69,
+     "away": 69
     },
     "spread": {
      "home": 23,
      "away": -23
     },
     "total": {
-     "over": -14,
-     "under": 14
+     "over": -8,
+     "under": 8
     }
    },
    "passes": [
@@ -2318,7 +2295,7 @@
      "blend_line": 0.711,
      "sharp": "opposed",
      "moved": -0.035,
-     "reason": "Sharp money on the other side (handle beats bets by 65)"
+     "reason": "Sharp money on the other side (handle beats bets by 69)"
     }
    ],
    "picks": [
@@ -2356,9 +2333,9 @@
     "home_spread": -23.5,
     "home_spread_odds": -105.0,
     "away_spread_odds": -115.0,
-    "total": 136.5,
-    "over_odds": -105.0,
-    "under_odds": -115.0,
+    "total": 137.5,
+    "over_odds": -108.0,
+    "under_odds": -112.0,
     "home_ml": -8000.0,
     "away_ml": 2200.0
    },
@@ -2403,18 +2380,18 @@
       }
      },
      "total": {
-      "edge": 3.01,
+      "edge": 2.01,
       "over": {
-       "line": 136.5,
-       "odds": -105.0,
-       "p": 0.52,
-       "ev": 0.016
+       "line": 137.5,
+       "odds": -108.0,
+       "p": 0.514,
+       "ev": -0.011
       },
       "under": {
-       "line": 136.5,
-       "odds": -115.0,
-       "p": 0.48,
-       "ev": -0.104
+       "line": 137.5,
+       "odds": -112.0,
+       "p": 0.486,
+       "ev": -0.079
       }
      },
      "moneyline": {
@@ -2433,7 +2410,7 @@
     },
     "blend": {
      "margin": 24.25,
-     "total": 137.4,
+     "total": 138.1,
      "home_spread": -24.0,
      "home_win": 0.972,
      "weight": 0.7
@@ -2445,8 +2422,8 @@
      "away": 66
     },
     "spread": {
-     "home": 16,
-     "away": -16
+     "home": 19,
+     "away": -19
     },
     "total": {
      "over": 42,
@@ -2572,8 +2549,8 @@
    },
    "sharp": {
     "moneyline": {
-     "home": 51,
-     "away": -51
+     "home": 50,
+     "away": -50
     },
     "spread": {
      "away": -9,
@@ -2706,16 +2683,16 @@
    },
    "sharp": {
     "moneyline": {
-     "home": -10,
-     "away": 10
+     "home": -8,
+     "away": 8
     },
     "spread": {
      "home": 0,
      "away": 0
     },
     "total": {
-     "over": 3,
-     "under": -3
+     "over": -50,
+     "under": 50
     }
    },
    "passes": [],
@@ -2837,35 +2814,22 @@
    },
    "sharp": {
     "moneyline": {
-     "home": 0,
-     "away": 0
+     "home": 1,
+     "away": -1
     },
     "spread": {
-     "home": -16,
-     "away": 16
+     "home": -9,
+     "away": 9
     },
     "total": {
      "over": 50,
      "under": -50
     }
    },
-   "passes": [
-    {
-     "market": "spread",
-     "side": "home",
-     "line": -9.5,
-     "odds": -110.0,
-     "p": 0.553,
-     "ev": 0.055,
-     "edge": 5.64,
-     "label": "Minnesota -9.5",
-     "blend_line": -11.2,
-     "sharp": "opposed",
-     "moved": 1.0,
-     "reason": "Sharp money on the other side (handle beats bets by 16)"
-    }
-   ],
-   "picks": []
+   "passes": [],
+   "picks": [
+    "401921420-spread"
+   ]
   },
   {
    "id": "401920905",
@@ -2970,8 +2934,8 @@
    },
    "sharp": {
     "spread": {
-     "home": 10,
-     "away": -10
+     "home": 13,
+     "away": -13
     },
     "total": {
      "over": 61,
@@ -3099,12 +3063,12 @@
    },
    "sharp": {
     "moneyline": {
-     "home": -25,
-     "away": 25
+     "home": -23,
+     "away": 23
     },
     "spread": {
-     "away": -37,
-     "home": 37
+     "away": -32,
+     "home": 32
     },
     "total": {
      "over": 29,
@@ -3143,13 +3107,13 @@
    "odds": {
     "provider": "Draft Kings",
     "home_spread": -7.5,
-    "home_spread_odds": -112.0,
-    "away_spread_odds": -108.0,
+    "home_spread_odds": -110.0,
+    "away_spread_odds": -110.0,
     "total": 146.5,
     "over_odds": -112.0,
     "under_odds": -108.0,
-    "home_ml": -375.0,
-    "away_ml": 295.0
+    "home_ml": -355.0,
+    "away_ml": 280.0
    },
    "open": {
     "home_spread": -10.5,
@@ -3180,15 +3144,15 @@
       "edge": 6.45,
       "home": {
        "line": -7.5,
-       "odds": -112.0,
+       "odds": -110.0,
        "p": 0.562,
-       "ev": 0.063
+       "ev": 0.072
       },
       "away": {
        "line": 7.5,
-       "odds": -108.0,
+       "odds": -110.0,
        "p": 0.438,
-       "ev": -0.156
+       "ev": -0.163
       }
      },
      "total": {
@@ -3207,16 +3171,16 @@
       }
      },
      "moneyline": {
-      "edge": 0.111,
+      "edge": 0.12,
       "home": {
-       "odds": -375.0,
+       "odds": -355.0,
        "p": 0.775,
-       "ev": -0.018
+       "ev": -0.006
       },
       "away": {
-       "odds": 295.0,
+       "odds": 280.0,
        "p": 0.225,
-       "ev": -0.113
+       "ev": -0.146
       }
      }
     },
@@ -3230,8 +3194,8 @@
    },
    "sharp": {
     "moneyline": {
-     "home": -28,
-     "away": 28
+     "home": -27,
+     "away": 27
     },
     "spread": {
      "home": -31,
@@ -3247,9 +3211,9 @@
      "market": "spread",
      "side": "home",
      "line": -7.5,
-     "odds": -112.0,
+     "odds": -110.0,
      "p": 0.562,
-     "ev": 0.063,
+     "ev": 0.072,
      "edge": 6.45,
      "label": "Portland -7.5",
      "blend_line": -9.4,
@@ -3549,12 +3513,12 @@
      "away": -3
     },
     "spread": {
-     "home": -35,
-     "away": 35
+     "home": -16,
+     "away": 16
     },
     "total": {
-     "over": -16,
-     "under": 16
+     "over": -17,
+     "under": 17
     }
    },
    "passes": [
@@ -3570,7 +3534,7 @@
      "blend_line": 146.3,
      "sharp": "opposed",
      "moved": 2.0,
-     "reason": "Sharp money on the other side (handle beats bets by 16)"
+     "reason": "Sharp money on the other side (handle beats bets by 17)"
     }
    ],
    "picks": [
@@ -3740,9 +3704,9 @@
     "home_spread": -4.5,
     "home_spread_odds": -108.0,
     "away_spread_odds": -112.0,
-    "total": 146.5,
-    "over_odds": -108.0,
-    "under_odds": -112.0,
+    "total": 145.5,
+    "over_odds": -115.0,
+    "under_odds": -105.0,
     "home_ml": -185.0,
     "away_ml": 154.0
    },
@@ -3787,18 +3751,18 @@
       }
      },
      "total": {
-      "edge": 4.88,
+      "edge": 5.88,
       "over": {
-       "line": 146.5,
-       "odds": -108.0,
-       "p": 0.533,
-       "ev": 0.027
+       "line": 145.5,
+       "odds": -115.0,
+       "p": 0.54,
+       "ev": 0.01
       },
       "under": {
-       "line": 146.5,
-       "odds": -112.0,
-       "p": 0.467,
-       "ev": -0.116
+       "line": 145.5,
+       "odds": -105.0,
+       "p": 0.46,
+       "ev": -0.102
       }
      },
      "moneyline": {
@@ -3817,7 +3781,7 @@
     },
     "blend": {
      "margin": 5.47,
-     "total": 147.96,
+     "total": 147.26,
      "home_spread": -5.5,
      "home_win": 0.666,
      "weight": 0.7
@@ -3833,8 +3797,8 @@
      "away": 0
     },
     "total": {
-     "over": 31,
-     "under": -31
+     "over": 33,
+     "under": -33
     }
    },
    "passes": [],

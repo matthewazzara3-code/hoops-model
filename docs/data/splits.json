@@ -1,131 +1,7 @@
 {
- "updated": "2026-11-22T15:30:42.080314-05:00",
+ "updated": "2026-11-22T15:59:52.807021-05:00",
  "error": null,
  "games": [
-  {
-   "event_id": "35064690",
-   "away": "Virginia Tech",
-   "home": "Oklahoma State",
-   "when": "Sun 11/22 \u00b7 3:35 PM ET",
-   "markets": {
-    "moneyline": [
-     {
-      "label": "Oklahoma State",
-      "odds": 105,
-      "handle": 13,
-      "bets": 22,
-      "model_agrees": false
-     },
-     {
-      "label": "Virginia Tech",
-      "odds": -125,
-      "handle": 87,
-      "bets": 78,
-      "model_agrees": true
-     }
-    ],
-    "spread": [
-     {
-      "label": "Virginia Tech -1.5",
-      "odds": -105,
-      "handle": 79,
-      "bets": 86,
-      "model_agrees": "True"
-     },
-     {
-      "label": "Oklahoma State +1.5",
-      "odds": -115,
-      "handle": 21,
-      "bets": 14,
-      "model_agrees": "False"
-     }
-    ],
-    "total": [
-     {
-      "label": "Over 158.5",
-      "odds": -112,
-      "handle": 98,
-      "bets": 47,
-      "model_agrees": "True"
-     },
-     {
-      "label": "Under 158.5",
-      "odds": -108,
-      "handle": 2,
-      "bets": 53,
-      "model_agrees": "False"
-     }
-    ]
-   },
-   "espn_id": "401920381",
-   "model": {
-    "margin": -1.59,
-    "total": 159.35,
-    "home_spread": 1.5
-   }
-  },
-  {
-   "event_id": "35064688",
-   "away": "McNeese",
-   "home": "Texas State",
-   "when": "Sun 11/22 \u00b7 3:35 PM ET",
-   "markets": {
-    "moneyline": [
-     {
-      "label": "Texas State",
-      "odds": -142,
-      "handle": 97,
-      "bets": 76,
-      "model_agrees": true
-     },
-     {
-      "label": "McNeese",
-      "odds": 120,
-      "handle": 3,
-      "bets": 24,
-      "model_agrees": false
-     }
-    ],
-    "spread": [
-     {
-      "label": "Texas State -2.5",
-      "odds": -108,
-      "handle": 85,
-      "bets": 57,
-      "model_agrees": "True"
-     },
-     {
-      "label": "McNeese +2.5",
-      "odds": -112,
-      "handle": 15,
-      "bets": 43,
-      "model_agrees": "False"
-     }
-    ],
-    "total": [
-     {
-      "label": "Over 141.5",
-      "odds": -110,
-      "handle": 100,
-      "bets": 64,
-      "model_agrees": "True"
-     },
-     {
-      "label": "Under 141.5",
-      "odds": -110,
-      "handle": 0,
-      "bets": 36,
-      "model_agrees": "False"
-     }
-    ]
-   },
-   "espn_id": "401929202",
-   "model": {
-    "margin": 10.94,
-    "total": 159.08,
-    "home_spread": -11.0
-   }
-  },
   {
    "event_id": "35064692",
    "away": "Richmond",
@@ -136,15 +12,15 @@
      {
       "label": "Liberty",
       "odds": -108,
-      "handle": 8,
-      "bets": 67,
+      "handle": 10,
+      "bets": 70,
       "model_agrees": false
      },
      {
       "label": "Richmond",
       "odds": -112,
-      "handle": 92,
-      "bets": 33,
+      "handle": 90,
+      "bets": 30,
       "model_agrees": true
      }
     ],
@@ -169,14 +45,14 @@
       "label": "Over 141.5",
       "odds": -110,
       "handle": 100,
-      "bets": 62,
+      "bets": 56,
       "model_agrees": "True"
      },
      {
       "label": "Under 141.5",
       "odds": -110,
       "handle": 0,
-      "bets": 38,
+      "bets": 44,
       "model_agrees": "False"
      }
     ]
@@ -198,15 +74,15 @@
      {
       "label": "Loyola Marymount",
       "odds": 105,
-      "handle": 37,
-      "bets": 31,
+      "handle": 4,
+      "bets": 28,
       "model_agrees": false
      },
      {
       "label": "UC Irvine",
       "odds": -125,
-      "handle": 63,
-      "bets": 69,
+      "handle": 96,
+      "bets": 72,
       "model_agrees": true
      }
     ],
@@ -215,14 +91,14 @@
       "label": "UC Irvine -1.5",
       "odds": -115,
       "handle": 99,
-      "bets": 85,
+      "bets": 86,
       "model_agrees": "True"
      },
      {
       "label": "Loyola Marymount +1.5",
       "odds": -105,
       "handle": 1,
-      "bets": 15,
+      "bets": 14,
       "model_agrees": "False"
      }
     ],
@@ -231,14 +107,14 @@
       "label": "Over 136.5",
       "odds": -110,
       "handle": 4,
-      "bets": 64,
+      "bets": 60,
       "model_agrees": "True"
      },
      {
       "label": "Under 136.5",
       "odds": -110,
       "handle": 96,
-      "bets": 36,
+      "bets": 40,
       "model_agrees": "False"
      }
     ]
@@ -260,15 +136,15 @@
      {
       "label": "MD Eastern Shore",
       "odds": 440,
-      "handle": 84,
-      "bets": 5,
+      "handle": 90,
+      "bets": 8,
       "model_agrees": true
      },
      {
       "label": "IU Indianapolis",
       "odds": -600,
-      "handle": 16,
-      "bets": 95,
+      "handle": 10,
+      "bets": 92,
       "model_agrees": false
      }
     ],
@@ -290,18 +166,18 @@
     ],
     "total": [
      {
-      "label": "Over 140.5",
-      "odds": -112,
+      "label": "Over 141.5",
+      "odds": -110,
       "handle": 100,
-      "bets": 46,
-      "model_agrees": "True"
+      "bets": 44,
+      "model_agrees": "False"
      },
      {
-      "label": "Under 140.5",
-      "odds": -108,
+      "label": "Under 141.5",
+      "odds": -110,
       "handle": 0,
-      "bets": 54,
-      "model_agrees": "False"
+      "bets": 56,
+      "model_agrees": "True"
      }
     ]
    },
@@ -322,15 +198,15 @@
      {
       "label": "Samford",
       "odds": -535,
-      "handle": 67,
-      "bets": 87,
+      "handle": 69,
+      "bets": 86,
       "model_agrees": false
      },
      {
       "label": "UNC Asheville",
       "odds": 400,
-      "handle": 33,
-      "bets": 13,
+      "handle": 31,
+      "bets": 14,
       "model_agrees": true
      }
     ],
@@ -339,14 +215,14 @@
       "label": "Samford -10.5",
       "odds": -112,
       "handle": 99,
-      "bets": 71,
+      "bets": 73,
       "model_agrees": "False"
      },
      {
       "label": "UNC Asheville +10.5",
       "odds": -108,
       "handle": 1,
-      "bets": 29,
+      "bets": 27,
       "model_agrees": "True"
      }
     ],
@@ -354,15 +230,15 @@
      {
       "label": "Over 155.5",
       "odds": -105,
-      "handle": 17,
-      "bets": 44,
+      "handle": 33,
+      "bets": 45,
       "model_agrees": "False"
      },
      {
       "label": "Under 155.5",
       "odds": -115,
-      "handle": 83,
-      "bets": 56,
+      "handle": 67,
+      "bets": 55,
       "model_agrees": "True"
      }
     ]
@@ -401,28 +277,28 @@
       "label": "Boston College -23.5",
       "odds": -105,
       "handle": 99,
-      "bets": 83,
+      "bets": 80,
       "model_agrees": "True"
      },
      {
       "label": "NJIT +23.5",
       "odds": -115,
       "handle": 1,
-      "bets": 17,
+      "bets": 20,
       "model_agrees": "False"
      }
     ],
     "total": [
      {
-      "label": "Over 136.5",
-      "odds": -105,
+      "label": "Over 137.5",
+      "odds": -108,
       "handle": 99,
       "bets": 57,
       "model_agrees": "True"
      },
      {
-      "label": "Under 136.5",
-      "odds": -115,
+      "label": "Under 137.5",
+      "odds": -112,
       "handle": 1,
       "bets": 43,
       "model_agrees": "False"
@@ -446,15 +322,15 @@
      {
       "label": "Portland State",
       "odds": -205,
-      "handle": 7,
-      "bets": 72,
+      "handle": 8,
+      "bets": 77,
       "model_agrees": true
      },
      {
       "label": "Cal State Fullerton",
       "odds": 170,
-      "handle": 93,
-      "bets": 28,
+      "handle": 92,
+      "bets": 23,
       "model_agrees": false
      }
     ],
@@ -478,14 +354,14 @@
      {
       "label": "Over 163.5",
       "odds": -110,
-      "handle": 39,
+      "handle": 45,
       "bets": 53,
       "model_agrees": "True"
      },
      {
       "label": "Under 163.5",
       "odds": -110,
-      "handle": 61,
+      "handle": 55,
       "bets": 47,
       "model_agrees": "False"
      }
@@ -509,28 +385,28 @@
       "label": "Lamar",
       "odds": -130,
       "handle": 21,
-      "bets": 68,
+      "bets": 71,
       "model_agrees": true
      },
      {
       "label": "Rice",
       "odds": 110,
       "handle": 79,
-      "bets": 32,
+      "bets": 29,
       "model_agrees": false
      }
     ],
     "spread": [
      {
-      "label": "Lamar -1.5",
-      "odds": -115,
+      "label": "Lamar -2.5",
+      "odds": -105,
       "handle": 99,
       "bets": 86,
       "model_agrees": "True"
      },
      {
-      "label": "Rice +1.5",
-      "odds": -105,
+      "label": "Rice +2.5",
+      "odds": -115,
       "handle": 1,
       "bets": 14,
       "model_agrees": "False"
@@ -538,17 +414,17 @@
     ],
     "total": [
      {
-      "label": "Over 163.5",
-      "odds": -110,
-      "handle": 51,
-      "bets": 38,
+      "label": "Over 162.5",
+      "odds": -108,
+      "handle": 45,
+      "bets": 33,
       "model_agrees": "False"
      },
      {
-      "label": "Under 163.5",
-      "odds": -110,
-      "handle": 49,
-      "bets": 63,
+      "label": "Under 162.5",
+      "odds": -112,
+      "handle": 55,
+      "bets": 67,
       "model_agrees": "True"
      }
     ]
@@ -571,14 +447,14 @@
       "label": "Stephen F. Austin",
       "odds": 110,
       "handle": 98,
-      "bets": 47,
+      "bets": 48,
       "model_agrees": true
      },
      {
       "label": "Temple",
       "odds": -130,
       "handle": 2,
-      "bets": 53,
+      "bets": 52,
       "model_agrees": false
      }
     ],
@@ -632,14 +508,14 @@
      {
       "label": "Minnesota",
       "odds": -550,
-      "handle": 98,
+      "handle": 99,
       "bets": 98,
       "model_agrees": true
      },
      {
       "label": "Utah",
       "odds": 410,
-      "handle": 2,
+      "handle": 1,
       "bets": 2,
       "model_agrees": false
      }
@@ -648,14 +524,14 @@
      {
       "label": "Minnesota -9.5",
       "odds": -110,
-      "handle": 70,
+      "handle": 77,
       "bets": 86,
       "model_agrees": "True"
      },
      {
       "label": "Utah +9.5",
       "odds": -110,
-      "handle": 30,
+      "handle": 23,
       "bets": 14,
       "model_agrees": "False"
      }
@@ -694,14 +570,14 @@
      {
       "label": "Valparaiso",
       "odds": -395,
-      "handle": 87,
+      "handle": 89,
       "bets": 97,
       "model_agrees": true
      },
      {
       "label": "Southern Miss",
       "odds": 310,
-      "handle": 13,
+      "handle": 11,
       "bets": 3,
       "model_agrees": false
      }
@@ -726,15 +602,15 @@
      {
       "label": "Over 143.5",
       "odds": -110,
-      "handle": 63,
-      "bets": 60,
+      "handle": 5,
+      "bets": 55,
       "model_agrees": "True"
      },
      {
       "label": "Under 143.5",
       "odds": -110,
-      "handle": 37,
-      "bets": 40,
+      "handle": 95,
+      "bets": 45,
       "model_agrees": "False"
      }
     ]
@@ -755,15 +631,15 @@
     "moneyline": [
      {
       "label": "Portland",
-      "odds": -375,
-      "handle": 67,
+      "odds": -355,
+      "handle": 68,
       "bets": 95,
       "model_agrees": true
      },
      {
       "label": "California Baptist",
-      "odds": 295,
-      "handle": 33,
+      "odds": 280,
+      "handle": 32,
       "bets": 5,
       "model_agrees": false
      }
@@ -771,14 +647,14 @@
     "spread": [
      {
       "label": "Portland -7.5",
-      "odds": -112,
+      "odds": -102,
       "handle": 19,
       "bets": 50,
       "model_agrees": "True"
      },
      {
       "label": "California Baptist +7.5",
-      "odds": -108,
+      "odds": -118,
       "handle": 81,
       "bets": 50,
       "model_agrees": "False"
@@ -819,14 +695,14 @@
       "label": "UAB",
       "odds": 114,
       "handle": 4,
-      "bets": 29,
+      "bets": 27,
       "model_agrees": false
      },
      {
       "label": "Rhode Island",
       "odds": -135,
       "handle": 96,
-      "bets": 71,
+      "bets": 73,
       "model_agrees": true
      }
     ],
@@ -834,15 +710,15 @@
      {
       "label": "Rhode Island -2.5",
       "odds": -105,
-      "handle": 3,
-      "bets": 40,
+      "handle": 1,
+      "bets": 33,
       "model_agrees": "False"
      },
      {
       "label": "UAB +2.5",
       "odds": -115,
-      "handle": 97,
-      "bets": 60,
+      "handle": 99,
+      "bets": 67,
       "model_agrees": "True"
      }
     ],
@@ -881,14 +757,14 @@
       "label": "UCLA -28.5",
       "odds": -105,
       "handle": 99,
-      "bets": 89,
+      "bets": 86,
       "model_agrees": "False"
      },
      {
       "label": "Delaware +28.5",
       "odds": -115,
       "handle": 1,
-      "bets": 11,
+      "bets": 14,
       "model_agrees": "True"
      }
     ],
@@ -942,15 +818,15 @@
      {
       "label": "Utah Valley -6.5",
       "odds": -115,
-      "handle": 54,
-      "bets": 89,
+      "handle": 74,
+      "bets": 90,
       "model_agrees": "False"
      },
      {
       "label": "UT Martin +6.5",
       "odds": -105,
-      "handle": 46,
-      "bets": 11,
+      "handle": 26,
+      "bets": 10,
       "model_agrees": "True"
      }
     ],
@@ -958,15 +834,15 @@
      {
       "label": "Over 144.5",
       "odds": -112,
-      "handle": 4,
-      "bets": 20,
+      "handle": 0,
+      "bets": 17,
       "model_agrees": "True"
      },
      {
       "label": "Under 144.5",
       "odds": -108,
-      "handle": 96,
-      "bets": 80,
+      "handle": 100,
+      "bets": 83,
       "model_agrees": "False"
      }
     ]
@@ -1126,17 +1002,17 @@
     ],
     "total": [
      {
-      "label": "Over 146.5",
-      "odds": -108,
-      "handle": 91,
-      "bets": 60,
+      "label": "Over 145.5",
+      "odds": -115,
+      "handle": 100,
+      "bets": 67,
       "model_agrees": "True"
      },
      {
-      "label": "Under 146.5",
-      "odds": -112,
-      "handle": 9,
-      "bets": 40,
+      "label": "Under 145.5",
+      "odds": -105,
+      "handle": 0,
+      "bets": 33,
       "model_agrees": "False"
      }
     ]

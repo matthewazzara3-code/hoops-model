@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "updated": "2026-11-22T01:30:32.423223-05:00",
+ "updated": "2026-11-22T02:23:08.257613-05:00",
  "games": [
   {
    "id": "401924884",
@@ -4825,9 +4825,9 @@
    "date": "2026-11-22T04:00Z",
    "neutral": true,
    "conf": false,
-   "state": "in",
-   "detail": "0:06 - 2nd",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "150",
     "name": "Duke Blue Devils",

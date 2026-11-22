@@ -71,35 +71,35 @@
  },
  "sharp_sides": {
   "overall": {
-   "w": 35,
-   "l": 60,
+   "w": 36,
+   "l": 61,
    "p": 0,
-   "units": -23.07,
-   "roi": -24.3,
-   "win_pct": 36.8,
+   "units": -23.17,
+   "roi": -23.9,
+   "win_pct": 37.1,
    "avg_clv": 0.13,
-   "clv_n": 95
+   "clv_n": 97
   },
   "by_market": {
-   "total": {
-    "w": 17,
-    "l": 21,
-    "p": 0,
-    "units": -5.65,
-    "roi": -14.9,
-    "win_pct": 44.7,
-    "avg_clv": 0.21,
-    "clv_n": 38
-   },
    "moneyline": {
     "w": 7,
-    "l": 19,
+    "l": 20,
     "p": 0,
-    "units": -7.4,
-    "roi": -28.5,
-    "win_pct": 26.9,
-    "avg_clv": 0.39,
-    "clv_n": 26
+    "units": -8.4,
+    "roi": -31.1,
+    "win_pct": 25.9,
+    "avg_clv": 0.38,
+    "clv_n": 27
+   },
+   "total": {
+    "w": 18,
+    "l": 21,
+    "p": 0,
+    "units": -4.75,
+    "roi": -12.2,
+    "win_pct": 46.2,
+    "avg_clv": 0.21,
+    "clv_n": 39
    },
    "spread": {
     "w": 11,
@@ -112,6 +112,6 @@
     "clv_n": 31
    }
   },
-  "pending": 2
+  "pending": 0
  }
 }

@@ -16,7 +16,11 @@
   "made_at": "2026-11-21T15:52:32.926553-05:00",
   "model_agrees": true,
   "close_line": null,
-  "close_odds": 2200.0
+  "close_odds": 2200.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "WSU 74, DUKE 78",
+  "clv": 0.0
  },
  {
   "id": "401909567-total-over",
@@ -35,7 +39,11 @@
   "made_at": "2026-11-21T20:09:14.156282-05:00",
   "model_agrees": "True",
   "close_line": 149.5,
-  "close_odds": -105.0
+  "close_odds": -105.0,
+  "result": "W",
+  "units": 0.909,
+  "final": "WSU 74, DUKE 78",
+  "clv": 0.0
  },
  {
   "id": "401917537-total-over",

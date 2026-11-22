@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T01:30:32.423223-05:00",
+ "updated": "2026-11-22T02:23:08.257613-05:00",
  "error": null,
  "games": [
   {
@@ -63,27 +63,27 @@
     "moneyline": [
      {
       "label": "Butler",
-      "odds": 550,
+      "odds": 575,
       "handle": 0,
       "bets": 0
      },
      {
       "label": "Nebraska",
-      "odds": -800,
+      "odds": -850,
       "handle": 100,
       "bets": 100
      }
     ],
     "spread": [
      {
-      "label": "Nebraska -11.5",
-      "odds": -115,
+      "label": "Nebraska -12.5",
+      "odds": -108,
       "handle": 100,
       "bets": 100
      },
      {
-      "label": "Butler +11.5",
-      "odds": -105,
+      "label": "Butler +12.5",
+      "odds": -112,
       "handle": 0,
       "bets": 0
      }
@@ -91,13 +91,13 @@
     "total": [
      {
       "label": "Over 154.5",
-      "odds": -108,
+      "odds": -110,
       "handle": 100,
       "bets": 67
      },
      {
       "label": "Under 154.5",
-      "odds": -112,
+      "odds": -110,
       "handle": 0,
       "bets": 33
      }
@@ -213,13 +213,13 @@
     "moneyline": [
      {
       "label": "LIU",
-      "odds": -135,
+      "odds": -155,
       "handle": 38,
       "bets": 67
      },
      {
       "label": "Fairfield",
-      "odds": 114,
+      "odds": 130,
       "handle": 62,
       "bets": 33
      }
@@ -240,14 +240,14 @@
     ],
     "total": [
      {
-      "label": "Over 143.5",
-      "odds": -112,
+      "label": "Over 144.5",
+      "odds": -115,
       "handle": 100,
       "bets": 67
      },
      {
-      "label": "Under 143.5",
-      "odds": -108,
+      "label": "Under 144.5",
+      "odds": -105,
       "handle": 0,
       "bets": 33
      }
@@ -663,13 +663,13 @@
     "total": [
      {
       "label": "Over 147.5",
-      "odds": -115,
+      "odds": -110,
       "handle": 100,
       "bets": 100
      },
      {
       "label": "Under 147.5",
-      "odds": -105,
+      "odds": -110,
       "handle": 0,
       "bets": 0
      }
@@ -828,15 +828,15 @@
    "markets": {
     "total": [
      {
-      "label": "Over 148.5",
-      "odds": -110,
+      "label": "Over 149.5",
+      "odds": -105,
       "handle": 49,
       "bets": 50,
       "model_agrees": "True"
      },
      {
-      "label": "Under 148.5",
-      "odds": -110,
+      "label": "Under 149.5",
+      "odds": -115,
       "handle": 51,
       "bets": 50,
       "model_agrees": "False"
@@ -1028,14 +1028,14 @@
     ],
     "total": [
      {
-      "label": "Over 142.5",
-      "odds": -112,
+      "label": "Over 143.5",
+      "odds": -108,
       "handle": 100,
       "bets": 100
      },
      {
-      "label": "Under 142.5",
-      "odds": -108,
+      "label": "Under 143.5",
+      "odds": -112,
       "handle": 0,
       "bets": 0
      }
@@ -1362,15 +1362,15 @@
     ],
     "spread": [
      {
-      "label": "Valparaiso -7.5",
-      "odds": -112,
+      "label": "Valparaiso -8.5",
+      "odds": -102,
       "handle": 100,
       "bets": 100,
       "model_agrees": "True"
      },
      {
-      "label": "Southern Miss +7.5",
-      "odds": -108,
+      "label": "Southern Miss +8.5",
+      "odds": -118,
       "handle": 0,
       "bets": 0,
       "model_agrees": "False"
@@ -1378,14 +1378,14 @@
     ],
     "total": [
      {
-      "label": "Over 144.5",
+      "label": "Over 145.5",
       "odds": -108,
       "handle": 100,
       "bets": 50,
       "model_agrees": "False"
      },
      {
-      "label": "Under 144.5",
+      "label": "Under 145.5",
       "odds": -112,
       "handle": 0,
       "bets": 50,
@@ -1585,13 +1585,13 @@
     "total": [
      {
       "label": "Over 145.5",
-      "odds": -110,
+      "odds": -112,
       "handle": 100,
       "bets": 100
      },
      {
       "label": "Under 145.5",
-      "odds": -110,
+      "odds": -108,
       "handle": 0,
       "bets": 0
      }

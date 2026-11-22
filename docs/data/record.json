@@ -58,7 +58,7 @@
    "day": 3.03
   }
  ],
- "pending": 0,
+ "pending": 16,
  "model_sharp_agree": {
   "w": 5,
   "l": 6,
@@ -71,36 +71,16 @@
  },
  "sharp_sides": {
   "overall": {
-   "w": 36,
-   "l": 61,
+   "w": 11,
+   "l": 20,
    "p": 0,
-   "units": -23.17,
-   "roi": -23.9,
-   "win_pct": 37.1,
-   "avg_clv": 0.13,
-   "clv_n": 97
+   "units": -10.02,
+   "roi": -32.3,
+   "win_pct": 35.5,
+   "avg_clv": -0.19,
+   "clv_n": 31
   },
   "by_market": {
-   "moneyline": {
-    "w": 7,
-    "l": 20,
-    "p": 0,
-    "units": -8.4,
-    "roi": -31.1,
-    "win_pct": 25.9,
-    "avg_clv": 0.38,
-    "clv_n": 27
-   },
-   "total": {
-    "w": 18,
-    "l": 21,
-    "p": 0,
-    "units": -4.75,
-    "roi": -12.2,
-    "win_pct": 46.2,
-    "avg_clv": 0.21,
-    "clv_n": 39
-   },
    "spread": {
     "w": 11,
     "l": 20,
@@ -112,6 +92,6 @@
     "clv_n": 31
    }
   },
-  "pending": 0
+  "pending": 4
  }
 }

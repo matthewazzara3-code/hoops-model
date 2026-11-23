@@ -161,6 +161,11 @@ def main():
     r = fit(games, asof=pd.Timestamp(today), prior=prior)
     tbl = r.table()
     tbl = tbl[tbl.team_id.isin(prior.keys()) | (tbl.games >= 3)]
+    hw = games.h_pts > games.a_pts
+    wins = pd.concat([games.h_team_id[hw], games.a_team_id[~hw]]).value_counts()
+    losses = pd.concat([games.h_team_id[~hw], games.a_team_id[hw]]).value_counts()
+    tbl["wins"] = tbl.team_id.map(wins).fillna(0).astype(int)
+    tbl["losses"] = tbl.team_id.map(losses).fillna(0).astype(int)
     _save("ratings.json", {"updated": now.isoformat(), "through": str(games.date.max().date()),
                            "teams": tbl.head(400).to_dict("records")})
     log(f"Fit on {len(games)} games through {games.date.max().date()}")
@@ -290,11 +295,12 @@ def main():
     _save("sharp_picks.json", sharp_sides)
     all_picks = sorted(by_id.values(), key=lambda x: (x["date"], x.get("tip", "")), reverse=True)
     _save("picks.json", all_picks)
-    _save("record.json", pk.record(all_picks, sharp_sides))
+    _save("record.json", pk.record(all_picks, sharp_sides, str(today)))
     board.sort(key=lambda g: g["date"])
     _save("board.json", {"date": str(today), "updated": now.isoformat(), "games": board})
 
     _save("meta.json", {"updated": now.isoformat(), "slate": str(today), "model_version": MODEL_VERSION,
+                        "sharp_markets": list(pk.SHARP_MARKETS),
                         "games_fit": int(len(games)), "data_through": str(games.date.max().date()),
                         "hca_pts": {"conference": round(r.hca * 72 * 0.9, 1), "non_conference": round(r.hca_nc * 72 * 0.9, 1)}, "league_total": round(r.league_total, 1),
                         "rules": pk.RULES, "market_weight": pk.MARKET_WEIGHT, "log": logs[-30:]})

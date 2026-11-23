@@ -210,7 +210,7 @@ def grade(pick: dict, game: dict) -> dict:
     return pick
 
 
-def record(picks: list[dict], sharp_sides: list[dict] | None = None) -> dict:
+def record(picks: list[dict], sharp_sides: list[dict] | None = None, today: str | None = None) -> dict:
     def agg(rows):
         w = sum(r["result"] == "W" for r in rows)
         l_ = sum(r["result"] == "L" for r in rows)
@@ -239,6 +239,8 @@ def record(picks: list[dict], sharp_sides: list[dict] | None = None) -> dict:
         ss_m[p["market"]].append(p)
     return {"overall": agg(graded), "by_market": {k: agg(v) for k, v in by_m.items()}, "curve": curve,
             "pending": sum(1 for p in picks if not p.get("result")),
+            "today": {**agg([p for p in graded if p["date"] == today]), "date": today,
+                      "pending": sum(1 for p in picks if p["date"] == today and not p.get("result"))},
             "model_sharp_agree": agg([p for p in graded if p.get("sharp") == "agrees"]),
             "sharp_sides": {"overall": agg(ss), "by_market": {k: agg(v) for k, v in ss_m.items()},
                             "pending": sum(1 for p in sharp_sides if not p.get("result"))}}

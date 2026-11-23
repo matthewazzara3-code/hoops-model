@@ -1,24 +1,24 @@
 {
  "overall": {
   "w": 49,
-  "l": 37,
+  "l": 38,
   "p": 0,
-  "units": 12.1,
-  "roi": 14.1,
-  "win_pct": 57.0,
+  "units": 11.1,
+  "roi": 12.8,
+  "win_pct": 56.3,
   "avg_clv": 0.2,
-  "clv_n": 86
+  "clv_n": 87
  },
  "by_market": {
   "spread": {
    "w": 20,
-   "l": 21,
+   "l": 22,
    "p": 0,
-   "units": -2.47,
-   "roi": -6.0,
-   "win_pct": 48.8,
-   "avg_clv": 0.46,
-   "clv_n": 41
+   "units": -3.47,
+   "roi": -8.3,
+   "win_pct": 47.6,
+   "avg_clv": 0.45,
+   "clv_n": 42
   },
   "moneyline": {
    "w": 15,
@@ -59,11 +59,11 @@
   },
   {
    "date": "2026-11-22",
-   "units": 12.1,
-   "day": 5.08
+   "units": 11.1,
+   "day": 4.08
   }
  ],
- "pending": 5,
+ "pending": 4,
  "model_sharp_agree": {
   "w": 9,
   "l": 6,

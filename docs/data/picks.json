@@ -89,7 +89,11 @@
   "model_version": "1.2",
   "model_line": -18.5,
   "close_line": 28.5,
-  "close_odds": -115.0
+  "close_odds": -115.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "DEL 48, UCLA 85",
+  "clv": 0.0
  },
  {
   "market": "total",

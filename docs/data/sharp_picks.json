@@ -15,8 +15,8 @@
   "diff": 31,
   "made_at": "2026-11-22T15:30:42.080314-05:00",
   "model_agrees": "True",
-  "close_line": 145.5,
-  "close_odds": -115.0
+  "close_line": 146.5,
+  "close_odds": -108.0
  },
  {
   "id": "401917542-moneyline-home",
@@ -149,7 +149,11 @@
   "made_at": "2026-11-22T15:30:42.080314-05:00",
   "model_agrees": "False",
   "close_line": 131.5,
-  "close_odds": -115.0
+  "close_odds": -115.0,
+  "result": "W",
+  "units": 0.87,
+  "final": "UTAH 62, MINN 77",
+  "clv": 0.0
  },
  {
   "id": "401928999-total-under",
@@ -168,7 +172,11 @@
   "made_at": "2026-11-22T15:59:52.807021-05:00",
   "model_agrees": "False",
   "close_line": 143.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "USM 99, VAL 89",
+  "clv": -0.0
  },
  {
   "id": "401921205-moneyline-home",
@@ -187,7 +195,11 @@
   "made_at": "2026-11-22T15:30:42.080314-05:00",
   "model_agrees": true,
   "close_line": null,
-  "close_odds": 110.0
+  "close_odds": 110.0,
+  "result": "W",
+  "units": 1.1,
+  "final": "TEM 70, SFA 72",
+  "clv": 0.0
  },
  {
   "id": "401921205-total-over",
@@ -206,7 +218,11 @@
   "made_at": "2026-11-22T15:30:42.080314-05:00",
   "model_agrees": "True",
   "close_line": 144.5,
-  "close_odds": -112.0
+  "close_odds": -112.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "TEM 70, SFA 72",
+  "clv": 0.0
  },
  {
   "id": "401909556-moneyline-away",
@@ -225,7 +241,11 @@
   "made_at": "2026-11-22T15:30:42.080314-05:00",
   "model_agrees": false,
   "close_line": null,
-  "close_odds": 2200.0
+  "close_odds": 2200.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "NJIT 59, BC 79",
+  "clv": 0.0
  },
  {
   "id": "401909556-total-over",
@@ -244,7 +264,11 @@
   "made_at": "2026-11-22T15:30:42.080314-05:00",
   "model_agrees": "True",
   "close_line": 137.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "W",
+  "units": 0.952,
+  "final": "NJIT 59, BC 79",
+  "clv": 1.0
  },
  {
   "id": "401920159-moneyline-away",
@@ -263,7 +287,11 @@
   "made_at": "2026-11-22T15:30:42.080314-05:00",
   "model_agrees": false,
   "close_line": null,
-  "close_odds": 170.0
+  "close_odds": 170.0,
+  "result": "W",
+  "units": 1.7,
+  "final": "CSUF 92, PRST 75",
+  "clv": 0.0
  },
  {
   "id": "401925013-moneyline-away",
@@ -282,7 +310,11 @@
   "made_at": "2026-11-22T15:30:42.080314-05:00",
   "model_agrees": false,
   "close_line": null,
-  "close_odds": 110.0
+  "close_odds": 110.0,
+  "result": "W",
+  "units": 1.1,
+  "final": "RICE 85, LAM 81",
+  "clv": 0.0
  },
  {
   "id": "401926795-moneyline-away",
@@ -301,7 +333,11 @@
   "made_at": "2026-11-22T15:30:42.080314-05:00",
   "model_agrees": true,
   "close_line": null,
-  "close_odds": -112.0
+  "close_odds": -112.0,
+  "result": "W",
+  "units": 0.893,
+  "final": "RICH 92, LIB 88",
+  "clv": 0.0
  },
  {
   "id": "401926795-total-over",
@@ -320,7 +356,11 @@
   "made_at": "2026-11-22T15:30:42.080314-05:00",
   "model_agrees": "True",
   "close_line": 141.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "W",
+  "units": 0.909,
+  "final": "RICH 92, LIB 88",
+  "clv": 0.0
  },
  {
   "id": "401917540-total-under",
@@ -339,7 +379,11 @@
   "made_at": "2026-11-22T15:30:42.080314-05:00",
   "model_agrees": "False",
   "close_line": 136.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "LMU 72, UCI 68",
+  "clv": -0.0
  },
  {
   "id": "401921176-moneyline-home",
@@ -358,7 +402,11 @@
   "made_at": "2026-11-22T15:30:42.080314-05:00",
   "model_agrees": true,
   "close_line": null,
-  "close_odds": 440.0
+  "close_odds": 440.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "IUIN 81, UMES 61",
+  "clv": 0.0
  },
  {
   "id": "401921176-spread-home",
@@ -377,7 +425,11 @@
   "made_at": "2026-11-22T15:30:42.080314-05:00",
   "model_agrees": "True",
   "close_line": 10.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "IUIN 81, UMES 61",
+  "clv": 0.0
  },
  {
   "id": "401921176-total-over",
@@ -396,7 +448,11 @@
   "made_at": "2026-11-22T15:30:42.080314-05:00",
   "model_agrees": "True",
   "close_line": 141.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "W",
+  "units": 0.893,
+  "final": "IUIN 81, UMES 61",
+  "clv": 1.0
  },
  {
   "id": "401920381-total-over",
@@ -415,7 +471,11 @@
   "made_at": "2026-11-22T15:30:42.080314-05:00",
   "model_agrees": "True",
   "close_line": 158.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "W",
+  "units": 0.893,
+  "final": "VT 80, OKST 106",
+  "clv": 0.0
  },
  {
   "id": "401929202-total-over",
@@ -434,7 +494,11 @@
   "made_at": "2026-11-22T15:30:42.080314-05:00",
   "model_agrees": "True",
   "close_line": 141.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "W",
+  "units": 0.909,
+  "final": "MCN 69, TXST 95",
+  "clv": 0.0
  },
  {
   "id": "401909567-moneyline-away",

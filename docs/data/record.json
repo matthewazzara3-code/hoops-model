@@ -1,44 +1,44 @@
 {
  "overall": {
-  "w": 40,
-  "l": 34,
+  "w": 49,
+  "l": 37,
   "p": 0,
-  "units": 7.02,
-  "roi": 9.5,
-  "win_pct": 54.1,
+  "units": 12.1,
+  "roi": 14.1,
+  "win_pct": 57.0,
   "avg_clv": 0.2,
-  "clv_n": 74
+  "clv_n": 86
  },
  "by_market": {
   "spread": {
-   "w": 17,
-   "l": 19,
+   "w": 20,
+   "l": 21,
    "p": 0,
-   "units": -3.2,
-   "roi": -8.9,
-   "win_pct": 47.2,
-   "avg_clv": 0.5,
-   "clv_n": 36
+   "units": -2.47,
+   "roi": -6.0,
+   "win_pct": 48.8,
+   "avg_clv": 0.46,
+   "clv_n": 41
   },
   "moneyline": {
-   "w": 11,
+   "w": 15,
    "l": 6,
    "p": 0,
-   "units": 8.23,
-   "roi": 48.4,
-   "win_pct": 64.7,
-   "avg_clv": -0.12,
-   "clv_n": 17
+   "units": 11.76,
+   "roi": 56.0,
+   "win_pct": 71.4,
+   "avg_clv": -0.1,
+   "clv_n": 21
   },
   "total": {
-   "w": 12,
-   "l": 9,
+   "w": 14,
+   "l": 10,
    "p": 0,
-   "units": 2.0,
-   "roi": 9.5,
-   "win_pct": 57.1,
-   "avg_clv": -0.05,
-   "clv_n": 21
+   "units": 2.82,
+   "roi": 11.7,
+   "win_pct": 58.3,
+   "avg_clv": 0.0,
+   "clv_n": 24
   }
  },
  "curve": [
@@ -56,42 +56,47 @@
    "date": "2026-11-21",
    "units": 7.02,
    "day": 3.03
+  },
+  {
+   "date": "2026-11-22",
+   "units": 12.1,
+   "day": 5.08
   }
  ],
- "pending": 17,
+ "pending": 5,
  "model_sharp_agree": {
-  "w": 5,
+  "w": 9,
   "l": 6,
   "p": 0,
-  "units": -1.73,
-  "roi": -15.8,
-  "win_pct": 45.5,
-  "avg_clv": 1.09,
-  "clv_n": 11
+  "units": 2.08,
+  "roi": 13.8,
+  "win_pct": 60.0,
+  "avg_clv": 0.8,
+  "clv_n": 15
  },
  "sharp_sides": {
   "overall": {
    "w": 11,
-   "l": 20,
+   "l": 21,
    "p": 0,
-   "units": -10.02,
-   "roi": -32.3,
-   "win_pct": 35.5,
+   "units": -11.02,
+   "roi": -34.4,
+   "win_pct": 34.4,
    "avg_clv": -0.19,
-   "clv_n": 31
+   "clv_n": 32
   },
   "by_market": {
    "spread": {
     "w": 11,
-    "l": 20,
+    "l": 21,
     "p": 0,
-    "units": -10.02,
-    "roi": -32.3,
-    "win_pct": 35.5,
+    "units": -11.02,
+    "roi": -34.4,
+    "win_pct": 34.4,
     "avg_clv": -0.19,
-    "clv_n": 31
+    "clv_n": 32
    }
   },
-  "pending": 4
+  "pending": 3
  }
 }

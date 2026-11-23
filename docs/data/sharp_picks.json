@@ -35,7 +35,7 @@
   "made_at": "2026-11-22T15:30:42.080314-05:00",
   "model_agrees": false,
   "close_line": null,
-  "close_odds": -110.0
+  "close_odds": -115.0
  },
  {
   "id": "401917542-total-over",
@@ -54,7 +54,7 @@
   "made_at": "2026-11-22T15:30:42.080314-05:00",
   "model_agrees": "False",
   "close_line": 148.5,
-  "close_odds": -108.0
+  "close_odds": -115.0
  },
  {
   "id": "401921206-spread-away",
@@ -92,7 +92,11 @@
   "made_at": "2026-11-22T15:30:42.080314-05:00",
   "model_agrees": "False",
   "close_line": 7.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "PORT 71, CBU 79",
+  "clv": 0.0
  },
  {
   "id": "401919020-spread-home",

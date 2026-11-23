@@ -16,7 +16,11 @@
   "made_at": "2026-11-22T15:30:42.080314-05:00",
   "model_agrees": "True",
   "close_line": 146.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "LUC 72, SJSU 63",
+  "clv": 0.0
  },
  {
   "id": "401917542-moneyline-home",
@@ -35,7 +39,11 @@
   "made_at": "2026-11-22T15:30:42.080314-05:00",
   "model_agrees": false,
   "close_line": null,
-  "close_odds": -115.0
+  "close_odds": -115.0,
+  "result": "W",
+  "units": 0.909,
+  "final": "UCSD 64, SEA 90",
+  "clv": 1.1
  },
  {
   "id": "401917542-total-over",
@@ -54,7 +62,11 @@
   "made_at": "2026-11-22T15:30:42.080314-05:00",
   "model_agrees": "False",
   "close_line": 148.5,
-  "close_odds": -115.0
+  "close_odds": -115.0,
+  "result": "W",
+  "units": 0.926,
+  "final": "UCSD 64, SEA 90",
+  "clv": 0.0
  },
  {
   "id": "401921206-spread-away",
@@ -73,7 +85,11 @@
   "made_at": "2026-11-22T15:30:42.080314-05:00",
   "model_agrees": "True",
   "close_line": 6.5,
-  "close_odds": -105.0
+  "close_odds": -105.0,
+  "result": "W",
+  "units": 0.952,
+  "final": "UTM 76, UVU 78",
+  "clv": 0.0
  },
  {
   "id": "401917541-spread-away",

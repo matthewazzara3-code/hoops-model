@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T02:21:29.380845-05:00",
+ "updated": "2026-11-23T03:07:03.396543-05:00",
  "error": null,
  "games": [
   {
@@ -13,13 +13,13 @@
       "label": "Davidson",
       "odds": -225,
       "handle": 95,
-      "bets": 79
+      "bets": 81
      },
      {
       "label": "Northern Iowa",
       "odds": 185,
       "handle": 5,
-      "bets": 21
+      "bets": 19
      }
     ],
     "spread": [
@@ -27,13 +27,13 @@
       "label": "Davidson -5.5",
       "odds": -105,
       "handle": 96,
-      "bets": 67
+      "bets": 57
      },
      {
       "label": "Northern Iowa +5.5",
       "odds": -115,
       "handle": 4,
-      "bets": 33
+      "bets": 43
      }
     ],
     "total": [
@@ -41,13 +41,13 @@
       "label": "Over 141.5",
       "odds": -108,
       "handle": 99,
-      "bets": 80
+      "bets": 86
      },
      {
       "label": "Under 141.5",
       "odds": -112,
       "handle": 1,
-      "bets": 20
+      "bets": 14
      }
     ]
    },
@@ -65,13 +65,13 @@
       "label": "Appalachian State",
       "odds": 185,
       "handle": 7,
-      "bets": 38
+      "bets": 34
      },
      {
       "label": "Saint Bonaventure",
       "odds": -225,
       "handle": 93,
-      "bets": 62
+      "bets": 66
      }
     ],
     "spread": [
@@ -79,13 +79,13 @@
       "label": "Saint Bonaventure -5.5",
       "odds": -102,
       "handle": 34,
-      "bets": 67
+      "bets": 50
      },
      {
       "label": "Appalachian State +5.5",
       "odds": -118,
       "handle": 66,
-      "bets": 33
+      "bets": 50
      }
     ],
     "total": [
@@ -116,14 +116,14 @@
      {
       "label": "East Carolina",
       "odds": -155,
-      "handle": 83,
-      "bets": 34
+      "handle": 92,
+      "bets": 38
      },
      {
       "label": "Indiana State",
       "odds": 130,
-      "handle": 17,
-      "bets": 66
+      "handle": 8,
+      "bets": 62
      }
     ],
     "spread": [
@@ -131,13 +131,13 @@
       "label": "East Carolina -2.5",
       "odds": -115,
       "handle": 98,
-      "bets": 75
+      "bets": 60
      },
      {
       "label": "Indiana State +2.5",
       "odds": -105,
       "handle": 2,
-      "bets": 25
+      "bets": 40
      }
     ],
     "total": [
@@ -167,15 +167,15 @@
     "moneyline": [
      {
       "label": "FIU",
-      "odds": -485,
+      "odds": -520,
       "handle": 75,
-      "bets": 78
+      "bets": 81
      },
      {
       "label": "Long Beach State",
-      "odds": 370,
+      "odds": 390,
       "handle": 25,
-      "bets": 22
+      "bets": 19
      }
     ],
     "spread": [
@@ -221,13 +221,13 @@
       "label": "Wright State",
       "odds": -122,
       "handle": 88,
-      "bets": 50
+      "bets": 48
      },
      {
       "label": "Akron",
       "odds": 102,
       "handle": 12,
-      "bets": 50
+      "bets": 52
      }
     ],
     "spread": [
@@ -235,27 +235,27 @@
       "label": "Wright State -1.5",
       "odds": -112,
       "handle": 100,
-      "bets": 100
+      "bets": 78
      },
      {
       "label": "Akron +1.5",
       "odds": -108,
       "handle": 0,
-      "bets": 0
+      "bets": 22
      }
     ],
     "total": [
      {
       "label": "Over 148.5",
       "odds": -108,
-      "handle": 92,
-      "bets": 67
+      "handle": 93,
+      "bets": 75
      },
      {
       "label": "Under 148.5",
       "odds": -112,
-      "handle": 8,
-      "bets": 33
+      "handle": 7,
+      "bets": 25
      }
     ]
    },
@@ -273,13 +273,13 @@
       "label": "Florida Gulf Coast",
       "odds": 225,
       "handle": 9,
-      "bets": 29
+      "bets": 25
      },
      {
       "label": "Charlotte",
       "odds": -278,
       "handle": 91,
-      "bets": 71
+      "bets": 75
      }
     ],
     "spread": [
@@ -287,13 +287,13 @@
       "label": "Charlotte -6.5",
       "odds": -110,
       "handle": 2,
-      "bets": 33
+      "bets": 25
      },
      {
       "label": "Florida Gulf Coast +6.5",
       "odds": -110,
       "handle": 98,
-      "bets": 67
+      "bets": 75
      }
     ],
     "total": [
@@ -301,13 +301,13 @@
       "label": "Over 145.5",
       "odds": -105,
       "handle": 93,
-      "bets": 67
+      "bets": 80
      },
      {
       "label": "Under 145.5",
       "odds": -115,
       "handle": 7,
-      "bets": 33
+      "bets": 20
      }
     ]
    },
@@ -324,14 +324,14 @@
      {
       "label": "Oregon State",
       "odds": -285,
-      "handle": 62,
-      "bets": 85
+      "handle": 80,
+      "bets": 87
      },
      {
       "label": "Tulsa",
       "odds": 230,
-      "handle": 38,
-      "bets": 15
+      "handle": 20,
+      "bets": 13
      }
     ],
     "spread": [
@@ -339,27 +339,27 @@
       "label": "Oregon State -6.5",
       "odds": -110,
       "handle": 72,
-      "bets": 88
+      "bets": 70
      },
      {
       "label": "Tulsa +6.5",
       "odds": -110,
       "handle": 28,
-      "bets": 13
+      "bets": 30
      }
     ],
     "total": [
      {
       "label": "Over 153.5",
       "odds": -112,
-      "handle": 56,
-      "bets": 50
+      "handle": 57,
+      "bets": 67
      },
      {
       "label": "Under 153.5",
       "odds": -108,
-      "handle": 44,
-      "bets": 50
+      "handle": 43,
+      "bets": 33
      }
     ]
    },
@@ -376,14 +376,14 @@
      {
       "label": "Clemson",
       "odds": 205,
-      "handle": 40,
-      "bets": 35
+      "handle": 39,
+      "bets": 32
      },
      {
       "label": "Ole Miss",
       "odds": -250,
-      "handle": 60,
-      "bets": 65
+      "handle": 61,
+      "bets": 68
      }
     ],
     "spread": [
@@ -391,13 +391,13 @@
       "label": "Ole Miss -5.5",
       "odds": -115,
       "handle": 80,
-      "bets": 92
+      "bets": 69
      },
      {
       "label": "Clemson +5.5",
       "odds": -105,
       "handle": 20,
-      "bets": 8
+      "bets": 31
      }
     ],
     "total": [
@@ -429,13 +429,13 @@
       "label": "Southern Illinois",
       "odds": -135,
       "handle": 73,
-      "bets": 57
+      "bets": 56
      },
      {
       "label": "Middle Tennessee",
       "odds": 114,
       "handle": 27,
-      "bets": 43
+      "bets": 44
      }
     ],
     "spread": [
@@ -480,14 +480,14 @@
      {
       "label": "Southern Utah",
       "odds": 260,
-      "handle": 56,
-      "bets": 38
+      "handle": 55,
+      "bets": 25
      },
      {
       "label": "Arkansas State",
       "odds": -325,
-      "handle": 44,
-      "bets": 63
+      "handle": 45,
+      "bets": 75
      }
     ],
     "spread": [
@@ -495,13 +495,13 @@
       "label": "Arkansas State -7.5",
       "odds": -108,
       "handle": 100,
-      "bets": 100
+      "bets": 83
      },
      {
       "label": "Southern Utah +7.5",
       "odds": -112,
       "handle": 0,
-      "bets": 0
+      "bets": 17
      }
     ],
     "total": [
@@ -532,15 +532,15 @@
      {
       "label": "IU Indianapolis",
       "odds": 154,
-      "handle": 0,
-      "bets": 0,
+      "handle": 1,
+      "bets": 10,
       "model_agrees": null
      },
      {
       "label": "William & Mary",
       "odds": -185,
-      "handle": 100,
-      "bets": 100,
+      "handle": 99,
+      "bets": 90,
       "model_agrees": null
      }
     ],
@@ -549,14 +549,14 @@
       "label": "William & Mary -4.5",
       "odds": -110,
       "handle": 100,
-      "bets": 100,
+      "bets": 57,
       "model_agrees": null
      },
      {
       "label": "IU Indianapolis +4.5",
       "odds": -110,
       "handle": 0,
-      "bets": 0,
+      "bets": 43,
       "model_agrees": null
      }
     ],
@@ -594,14 +594,14 @@
      {
       "label": "Belmont",
       "odds": -155,
-      "handle": 92,
-      "bets": 73
+      "handle": 91,
+      "bets": 69
      },
      {
       "label": "Yale",
       "odds": 130,
-      "handle": 8,
-      "bets": 27
+      "handle": 9,
+      "bets": 31
      }
     ],
     "spread": [
@@ -609,13 +609,13 @@
       "label": "Belmont -2.5",
       "odds": -118,
       "handle": 100,
-      "bets": 100
+      "bets": 50
      },
      {
       "label": "Yale +2.5",
       "odds": -102,
       "handle": 0,
-      "bets": 0
+      "bets": 50
      }
     ],
     "total": [
@@ -623,13 +623,13 @@
       "label": "Over 142.5",
       "odds": -110,
       "handle": 93,
-      "bets": 75
+      "bets": 80
      },
      {
       "label": "Under 142.5",
       "odds": -110,
       "handle": 7,
-      "bets": 25
+      "bets": 20
      }
     ]
    },
@@ -647,41 +647,41 @@
       "label": "Georgia State",
       "odds": -125,
       "handle": 1,
-      "bets": 50
+      "bets": 43
      },
      {
       "label": "Tulane",
       "odds": 105,
       "handle": 99,
-      "bets": 50
+      "bets": 57
      }
     ],
     "spread": [
      {
       "label": "Georgia State -1.5",
       "odds": -115,
-      "handle": 100,
-      "bets": 100
+      "handle": 58,
+      "bets": 33
      },
      {
       "label": "Tulane +1.5",
       "odds": -105,
-      "handle": 0,
-      "bets": 0
+      "handle": 42,
+      "bets": 67
      }
     ],
     "total": [
      {
       "label": "Over 147.5",
       "odds": -112,
-      "handle": 89,
-      "bets": 50
+      "handle": 90,
+      "bets": 67
      },
      {
       "label": "Under 147.5",
       "odds": -108,
-      "handle": 11,
-      "bets": 50
+      "handle": 10,
+      "bets": 33
      }
     ]
    },
@@ -698,14 +698,14 @@
      {
       "label": "San Francisco",
       "odds": 250,
-      "handle": 36,
-      "bets": 40
+      "handle": 35,
+      "bets": 25
      },
      {
       "label": "Nevada",
       "odds": -310,
-      "handle": 64,
-      "bets": 60
+      "handle": 65,
+      "bets": 75
      }
     ],
     "spread": [
@@ -713,27 +713,27 @@
       "label": "Nevada -7.5",
       "odds": -105,
       "handle": 100,
-      "bets": 100
+      "bets": 91
      },
      {
       "label": "San Francisco +7.5",
       "odds": -115,
       "handle": 0,
-      "bets": 0
+      "bets": 9
      }
     ],
     "total": [
      {
       "label": "Over 139.5",
       "odds": -110,
-      "handle": 46,
-      "bets": 33
+      "handle": 64,
+      "bets": 67
      },
      {
       "label": "Under 139.5",
       "odds": -110,
-      "handle": 54,
-      "bets": 67
+      "handle": 36,
+      "bets": 33
      }
     ]
    },
@@ -751,14 +751,14 @@
       "label": "BYU",
       "odds": -900,
       "handle": 99,
-      "bets": 86,
+      "bets": 90,
       "model_agrees": null
      },
      {
       "label": "Washington",
       "odds": 600,
       "handle": 1,
-      "bets": 14,
+      "bets": 10,
       "model_agrees": null
      }
     ],
@@ -767,14 +767,14 @@
       "label": "BYU -12.5",
       "odds": -110,
       "handle": 97,
-      "bets": 83,
+      "bets": 86,
       "model_agrees": null
      },
      {
       "label": "Washington +12.5",
       "odds": -110,
       "handle": 3,
-      "bets": 17,
+      "bets": 14,
       "model_agrees": null
      }
     ],
@@ -782,15 +782,15 @@
      {
       "label": "Over 165.5",
       "odds": -110,
-      "handle": 60,
-      "bets": 67,
+      "handle": 63,
+      "bets": 75,
       "model_agrees": null
      },
      {
       "label": "Under 165.5",
       "odds": -110,
-      "handle": 40,
-      "bets": 33,
+      "handle": 37,
+      "bets": 25,
       "model_agrees": null
      }
     ]
@@ -800,6 +800,68 @@
     "margin": -4.12,
     "total": 141.31,
     "home_spread": 4.0
+   }
+  },
+  {
+   "event_id": "35074632",
+   "away": "Temple",
+   "home": "UT Martin",
+   "when": "Mon 11/23 \u00b7 5:30 PM ET",
+   "markets": {
+    "moneyline": [
+     {
+      "label": "UT Martin",
+      "odds": 190,
+      "handle": 0,
+      "bets": 0,
+      "model_agrees": true
+     },
+     {
+      "label": "Temple",
+      "odds": -230,
+      "handle": 100,
+      "bets": 100,
+      "model_agrees": false
+     }
+    ],
+    "spread": [
+     {
+      "label": "Temple -4.5",
+      "odds": -120,
+      "handle": 0,
+      "bets": 0,
+      "model_agrees": "False"
+     },
+     {
+      "label": "UT Martin +4.5",
+      "odds": 100,
+      "handle": 100,
+      "bets": 100,
+      "model_agrees": "True"
+     }
+    ],
+    "total": [
+     {
+      "label": "Over 145.5",
+      "odds": -110,
+      "handle": 100,
+      "bets": 100,
+      "model_agrees": "True"
+     },
+     {
+      "label": "Under 145.5",
+      "odds": -110,
+      "handle": 0,
+      "bets": 0,
+      "model_agrees": "False"
+     }
+    ]
+   },
+   "espn_id": "401921205",
+   "model": {
+    "margin": 9.54,
+    "total": 145.32,
+    "home_spread": -9.5
    }
   },
   {
@@ -824,19 +886,35 @@
       "model_agrees": null
      }
     ],
+    "spread": [
+     {
+      "label": "Youngstown State -14.5",
+      "odds": -102,
+      "handle": 100,
+      "bets": 100,
+      "model_agrees": null
+     },
+     {
+      "label": "MD Eastern Shore +14.5",
+      "odds": -118,
+      "handle": 0,
+      "bets": 0,
+      "model_agrees": null
+     }
+    ],
     "total": [
      {
       "label": "Over 133.5",
       "odds": -115,
-      "handle": 0,
-      "bets": 0,
+      "handle": 53,
+      "bets": 75,
       "model_agrees": null
      },
      {
       "label": "Under 133.5",
       "odds": -105,
-      "handle": 100,
-      "bets": 100,
+      "handle": 47,
+      "bets": 25,
       "model_agrees": null
      }
     ]
@@ -858,14 +936,14 @@
      {
       "label": "Northern Kentucky",
       "odds": -162,
-      "handle": 30,
-      "bets": 71
+      "handle": 29,
+      "bets": 67
      },
      {
       "label": "Georgia Southern",
       "odds": 136,
-      "handle": 70,
-      "bets": 29
+      "handle": 71,
+      "bets": 33
      }
     ],
     "spread": [
@@ -873,27 +951,27 @@
       "label": "Northern Kentucky -3.5",
       "odds": -108,
       "handle": 100,
-      "bets": 100
+      "bets": 50
      },
      {
       "label": "Georgia Southern +3.5",
       "odds": -112,
       "handle": 0,
-      "bets": 0
+      "bets": 50
      }
     ],
     "total": [
      {
       "label": "Over 166.5",
       "odds": -110,
-      "handle": 0,
-      "bets": 0
+      "handle": 1,
+      "bets": 25
      },
      {
       "label": "Under 166.5",
       "odds": -110,
-      "handle": 100,
-      "bets": 100
+      "handle": 99,
+      "bets": 75
      }
     ]
    },
@@ -920,18 +998,32 @@
       "bets": 0
      }
     ],
+    "spread": [
+     {
+      "label": "Santa Clara -5.5",
+      "odds": -105,
+      "handle": 0,
+      "bets": 0
+     },
+     {
+      "label": "Illinois State +5.5",
+      "odds": -115,
+      "handle": 100,
+      "bets": 100
+     }
+    ],
     "total": [
      {
       "label": "Over 151.5",
       "odds": -108,
-      "handle": 28,
-      "bets": 50
+      "handle": 48,
+      "bets": 67
      },
      {
       "label": "Under 151.5",
       "odds": -112,
-      "handle": 72,
-      "bets": 50
+      "handle": 52,
+      "bets": 33
      }
     ]
    },
@@ -948,14 +1040,14 @@
      {
       "label": "North Florida",
       "odds": 360,
-      "handle": 94,
-      "bets": 33
+      "handle": 84,
+      "bets": 11
      },
      {
       "label": "Central Arkansas",
       "odds": -470,
-      "handle": 6,
-      "bets": 67
+      "handle": 16,
+      "bets": 89
      }
     ],
     "spread": [
@@ -1000,14 +1092,14 @@
      {
       "label": "Iona",
       "odds": -410,
-      "handle": 38,
-      "bets": 50
+      "handle": 53,
+      "bets": 88
      },
      {
       "label": "Fairleigh Dickinson",
       "odds": 320,
-      "handle": 62,
-      "bets": 50
+      "handle": 47,
+      "bets": 13
      }
     ],
     "spread": [
@@ -1052,14 +1144,28 @@
      {
       "label": "South Carolina State",
       "odds": 120,
-      "handle": 100,
-      "bets": 100
+      "handle": 72,
+      "bets": 50
      },
      {
       "label": "North Carolina A&T",
       "odds": -142,
+      "handle": 28,
+      "bets": 50
+     }
+    ],
+    "spread": [
+     {
+      "label": "North Carolina A&T -2.5",
+      "odds": -110,
       "handle": 0,
       "bets": 0
+     },
+     {
+      "label": "South Carolina State +2.5",
+      "odds": -110,
+      "handle": 100,
+      "bets": 100
      }
     ],
     "total": [
@@ -1074,6 +1180,30 @@
       "odds": -108,
       "handle": 100,
       "bets": 100
+     }
+    ]
+   },
+   "espn_id": null,
+   "model": null
+  },
+  {
+   "event_id": "35070630",
+   "away": "A&M-Corpus Christi",
+   "home": "Wichita State",
+   "when": "Mon 11/23 \u00b7 7:30 PM ET",
+   "markets": {
+    "spread": [
+     {
+      "label": "Wichita State -21.5",
+      "odds": -108,
+      "handle": 100,
+      "bets": 100
+     },
+     {
+      "label": "A&M-Corpus Christi +21.5",
+      "odds": -112,
+      "handle": 0,
+      "bets": 0
      }
     ]
    },
@@ -1100,18 +1230,32 @@
       "bets": 0
      }
     ],
+    "spread": [
+     {
+      "label": "North Carolina -19.5",
+      "odds": -112,
+      "handle": 100,
+      "bets": 100
+     },
+     {
+      "label": "Monmouth +19.5",
+      "odds": -108,
+      "handle": 0,
+      "bets": 0
+     }
+    ],
     "total": [
      {
       "label": "Over 153.5",
       "odds": -110,
       "handle": 0,
-      "bets": 0
+      "bets": 33
      },
      {
       "label": "Under 153.5",
       "odds": -110,
       "handle": 100,
-      "bets": 100
+      "bets": 67
      }
     ]
    },
@@ -1129,13 +1273,13 @@
       "label": "Kansas -35.5",
       "odds": -115,
       "handle": 97,
-      "bets": 50
+      "bets": 67
      },
      {
       "label": "Denver +35.5",
       "odds": -105,
       "handle": 3,
-      "bets": 50
+      "bets": 33
      }
     ],
     "total": [
@@ -1162,6 +1306,20 @@
    "home": "Illinois",
    "when": "Mon 11/23 \u00b7 8:00 PM ET",
    "markets": {
+    "spread": [
+     {
+      "label": "Illinois -43.5",
+      "odds": -110,
+      "handle": 100,
+      "bets": 100
+     },
+     {
+      "label": "Winthrop +43.5",
+      "odds": -110,
+      "handle": 0,
+      "bets": 0
+     }
+    ],
     "total": [
      {
       "label": "Over 180.5",
@@ -1179,6 +1337,36 @@
    },
    "espn_id": null,
    "model": null
+  },
+  {
+   "event_id": "35074631",
+   "away": "Utah Valley",
+   "home": "Stephen F. Austin",
+   "when": "Mon 11/23 \u00b7 8:00 PM ET",
+   "markets": {
+    "spread": [
+     {
+      "label": "Utah Valley -3.5",
+      "odds": -110,
+      "handle": 0,
+      "bets": 0,
+      "model_agrees": "True"
+     },
+     {
+      "label": "Stephen F. Austin +3.5",
+      "odds": -110,
+      "handle": 100,
+      "bets": 100,
+      "model_agrees": "True"
+     }
+    ]
+   },
+   "espn_id": "401921205",
+   "model": {
+    "margin": 9.54,
+    "total": 145.32,
+    "home_spread": -9.5
+   }
   },
   {
    "event_id": "35070634",
@@ -1205,13 +1393,13 @@
       "label": "Providence -1.5",
       "odds": -110,
       "handle": 100,
-      "bets": 100
+      "bets": 82
      },
      {
       "label": "VCU +1.5",
       "odds": -110,
       "handle": 0,
-      "bets": 0
+      "bets": 18
      }
     ],
     "total": [
@@ -1243,13 +1431,13 @@
       "label": "Pepperdine",
       "odds": -650,
       "handle": 83,
-      "bets": 67
+      "bets": 83
      },
      {
       "label": "UNC Greensboro",
       "odds": 470,
       "handle": 17,
-      "bets": 33
+      "bets": 17
      }
     ]
    },
@@ -1267,13 +1455,13 @@
       "label": "UNLV",
       "odds": -355,
       "handle": 100,
-      "bets": 75
+      "bets": 86
      },
      {
       "label": "Eastern Washington",
       "odds": 280,
       "handle": 0,
-      "bets": 25
+      "bets": 14
      }
     ],
     "spread": [
@@ -1328,6 +1516,22 @@
       "handle": 0,
       "bets": 0,
       "model_agrees": false
+     }
+    ],
+    "spread": [
+     {
+      "label": "California -19.5",
+      "odds": -112,
+      "handle": 100,
+      "bets": 100,
+      "model_agrees": "False"
+     },
+     {
+      "label": "Alabama State +19.5",
+      "odds": -108,
+      "handle": 0,
+      "bets": 0,
+      "model_agrees": "False"
      }
     ],
     "total": [
@@ -1391,13 +1595,13 @@
     "total": [
      {
       "label": "Over 159.5",
-      "odds": -112,
+      "odds": -110,
       "handle": 0,
       "bets": 0
      },
      {
       "label": "Under 159.5",
-      "odds": -108,
+      "odds": -110,
       "handle": 100,
       "bets": 100
      }

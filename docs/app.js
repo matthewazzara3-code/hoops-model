@@ -139,10 +139,25 @@ function renderPicks() {
     recStrip('Model + Sharp ✓', r.model_sharp_agree, 'model pick, sharp money agrees') +
     recStrip('Sharp Money spreads', r.sharp_sides?.overall, `${r.sharp_sides?.pending ?? 0} open · every flagged spread side`);
   const keep = p => (!mkt || p.market === mkt) && (!st || (st === 'open' ? !p.result : st === 'sharp' ? (p.sharp === 'agrees' || view === 'sharp') : p.result === st));
+  const stat = (k, v) => `<div class="pst"><span>${k}</span><b class="num">${v}</b></div>`;
+  const resTag = p => p.result ? `<span class="res ${p.result}">${p.result}</span>` : '<span class="ptag">Open</span>';
+  const foot = p => `<div class="pfoot"><span>${p.final ? esc(p.final) : p.tip ? tipTime(p.tip) : ''}</span>${p.units != null ? `<b class="num ${p.units > 0 ? 'pos' : p.units < 0 ? 'err' : ''}">${signed(p.units, 2)}u</b>` : ''}</div>`;
+  const byDate = (rows, card, empty) => {
+    if (!rows.length) return `<div class="empty">${empty}</div>`;
+    const days = [...new Set(rows.map(p => p.date))].sort().reverse();
+    return days.map(d => {
+      const dr = rows.filter(p => p.date === d), w = dr.filter(p => p.result === 'W').length, l = dr.filter(p => p.result === 'L').length;
+      const u = dr.reduce((t, p) => t + (p.units || 0), 0);
+      return `<div class="pday"><h3>${new Date(d + 'T12:00').toLocaleDateString([], { weekday: 'long', month: 'short', day: 'numeric' })}<span>${w}-${l} · <span class="${u > 0 ? 'pos' : u < 0 ? 'err' : ''}">${signed(u, 2)}u</span></span></h3><div class="pgrid">${dr.map(card).join('')}</div></div>`;
+    }).join('');
+  };
   if (view === 'sharp') {
     const rows = S.sharpSides.filter(p => SHARP_MARKETS.includes(p.market)).filter(keep);
-    $('#picks-table').innerHTML = `<tr><th>Result</th><th>Date</th><th>Game</th><th>Side</th><th class="r">DK line</th><th class="r">Odds</th><th class="r">Handle</th><th class="r">Bets</th><th class="r">Diff</th><th>Model</th><th class="r">CLV</th><th class="r">Units</th><th>Final</th></tr>` +
-      (rows.map(p => `<tr><td>${resCell(p)}</td><td>${p.date.slice(5)}</td><td>${esc(p.matchup)}</td><td><b>${esc(p.label)}</b></td><td class="r num">${dkLine(p)}</td><td class="r num">${odds(p.odds)}</td><td class="r num">${p.handle}%</td><td class="r num">${p.bets}%</td><td class="r num pos">+${p.diff}</td><td>${p.model_agrees === true ? '<span class="badge yes">Agrees</span>' : p.model_agrees === false ? '<span class="badge no">Disagrees</span>' : '—'}</td><td class="r num">${clvCell(p)}</td>${unitsCell(p)}<td class="muted">${esc(p.final || '')}</td></tr>`).join('') || `<tr><td colspan="13" class="muted" style="text-align:center;padding:30px">No Sharp Money sides tracked yet.</td></tr>`);
+    $('#picks-list').innerHTML = byDate(rows, p => `<div class="pcard ${p.result || ''}">
+      <div class="phead"><span>${esc(p.matchup)}</span>${resTag(p)}</div>
+      <div class="ppick">${esc(p.label)} <span class="num">${odds(p.odds)}</span></div>
+      <div class="pstats">${stat('DK line', dkLine(p))}${stat('Handle', p.handle + '%')}${stat('Bets', p.bets + '%')}${stat('Diff', '+' + p.diff)}${stat('CLV', clvCell(p))}${stat('Model', p.model_agrees === true ? 'Agrees' : p.model_agrees === false ? 'Disagrees' : '—')}</div>
+      ${foot(p)}</div>`, 'No Sharp Money spreads tracked yet.');
     return;
   }
   const rows = S.picks.filter(keep);
@@ -150,8 +165,13 @@ function renderPicks() {
   const modelCell = p => p.market === 'moneyline' ? pct(p.model_line ?? p.p) : ml(p);
   const blendCell = p => p.blend_line == null ? '—' : p.market === 'spread' ? signed(p.blend_line) : p.market === 'total' ? p.blend_line.toFixed(1) : pct(p.blend_line);
   const edgeCell = p => p.edge == null ? '—' : p.market === 'moneyline' ? `${(p.edge * 100).toFixed(1)}%` : p.edge.toFixed(1);
-  $('#picks-table').innerHTML = `<tr><th>Result</th><th>Date</th><th>Game</th><th>Pick</th><th class="r">DK line</th><th class="r">Odds</th><th class="r">Model</th><th class="r">Blend</th><th class="r">Edge</th><th class="r">EV</th><th class="r">CLV</th><th>Sharp</th><th class="r">Units</th><th>Final</th></tr>` +
-    (rows.map(p => `<tr><td>${resCell(p)}</td><td>${p.date.slice(5)}</td><td>${esc(p.matchup)}</td><td><b>${esc(p.label)}</b></td><td class="r num">${dkLine(p)}</td><td class="r num">${odds(p.odds)}</td><td class="r num">${modelCell(p)}</td><td class="r num">${blendCell(p)}</td><td class="r num">${edgeCell(p)}</td><td class="r num">${pct(p.ev)}</td><td class="r num">${clvCell(p)}</td><td>${p.sharp === 'agrees' ? '<span class="badge yes">Sharp ✓</span>' : ''}</td>${unitsCell(p)}<td class="muted">${esc(p.final || '')}</td></tr>`).join('') || `<tr><td colspan="14" class="muted" style="text-align:center;padding:30px">No picks yet.</td></tr>`);
+  const mname = { spread: 'Spread', total: 'Total', moneyline: 'Moneyline' };
+  $('#picks-list').innerHTML = byDate(rows, p => `<div class="pcard ${p.result || ''}">
+    <div class="phead"><span>${esc(p.matchup)}</span>${resTag(p)}</div>
+    <div class="ppick">${esc(p.label)} <span class="num">${odds(p.odds)}</span></div>
+    <div class="pmeta">${mname[p.market]}${p.sharp === 'agrees' ? ' · <span class="badge yes">Sharp ✓</span>' : ''}</div>
+    <div class="pstats">${stat('DK line', dkLine(p))}${stat('Model', modelCell(p))}${stat('Blend', blendCell(p))}${stat('Edge', edgeCell(p))}${stat('EV', pct(p.ev))}${stat('CLV', clvCell(p))}</div>
+    ${foot(p)}</div>`, 'No picks yet.');
 }
 
 /* ---------- record ---------- */

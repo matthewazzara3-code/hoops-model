@@ -21,7 +21,7 @@
   <button data-tab="board" class="on">Board</button>
   <button data-tab="picks">Picks</button>
   <button data-tab="record">Record</button>
-  <button data-tab="live">Live</button>
+  <button data-tab="live">Games</button>
   <button data-tab="sharp">Sharp Money</button>
   <button data-tab="ratings">Ratings</button>
 </nav>
@@ -32,11 +32,10 @@
       <h2 id="board-title">Today</h2>
       <div class="controls">
         <input id="board-q" placeholder="Search team" autocomplete="off">
-        <label class="chk"><input type="checkbox" id="board-picks-only"> Picks only</label>
         <select id="board-sort"><option value="time">Sort: live first</option><option value="edge">Sort: biggest edge</option></select>
       </div>
     </div>
-    <p class="note">Model line vs DraftKings line for every game. Edge is in points (spread, total) or win probability (moneyline). Highlighted cells are locked picks. EV uses a blend of the model and DraftKings, and picks are skipped when sharp money or line movement goes against them.</p>
+    <p class="note">Games with a model pick today. Every game (live, upcoming and final) is on the Games tab. Edge is in points (spread, total) or win probability (moneyline). Highlighted cells are locked picks. EV uses a blend of the model and DraftKings, and picks are skipped when sharp money or line movement goes against them.</p>
     <div id="board-list" class="cards"></div>
   </section>
 
@@ -49,19 +48,20 @@
       </div>
     </div>
     <div id="picks-kpis" class="kpis"></div>
-    <p class="note">Picks lock the first time the model finds them (line and odds at that moment). CLV compares that line to DraftKings' last line before tip: positive means the market moved toward the pick. Blend is 70% DraftKings, 30% model; EV is based on it. Edge is the raw model vs DraftKings gap. "Sharp Money sides" tracks every spread side the Sharp Money tab flags (handle at least 30 points above bets), whether or not the model likes it.</p>
+    <p class="note">Picks lock the first time the model finds them (line and odds at that moment). CLV compares that line to DraftKings' last line before tip: positive means the market moved toward the pick. Blend is 70% DraftKings, 30% model; EV is based on it. Edge is the raw model vs DraftKings gap. "Sharp Money spreads" tracks every spread side the Sharp Money tab flags (handle at least 30 points above bets), whether or not the model likes it.</p>
     <div class="tablewrap"><table id="picks-table"></table></div>
   </section>
 
   <section id="record" class="tab">
     <div class="bar"><h2>Record</h2></div>
     <div id="record-cards" class="kpis"></div>
+    <div id="market-cards" class="kpis"></div>
     <div class="panel"><h3>Cumulative units</h3><div id="record-chart" class="chart"></div></div>
     <div class="panel"><h3>By market</h3><div class="tablewrap"><table id="record-table"></table></div></div>
   </section>
 
   <section id="live" class="tab">
-    <div class="bar"><h2>Live scores</h2><div class="controls"><label class="chk"><input type="checkbox" id="live-active"> In progress only</label><span class="muted" id="live-upd"></span></div></div>
+    <div class="bar"><h2>Games</h2><div class="controls"><label class="chk"><input type="checkbox" id="live-active"> In progress only</label><span class="muted" id="live-upd"></span></div></div>
     <div id="live-list" class="scores"></div>
   </section>
 

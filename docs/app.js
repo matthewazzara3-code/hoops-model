@@ -91,7 +91,7 @@ function boardCard(g0) {
     rows += `<div class="mkt ml"><span class="lbl">ML</span><span class="num">${odds(o.away_ml)}<br>${odds(o.home_ml)}</span><span class="num">${cell('moneyline', `${odds(m.away_ml)}<br>${odds(m.home_ml)}`)}</span><span class="num muted">${fair(bl.home_win == null ? null : 1 - bl.home_win)}<br>${fair(bl.home_win)}</span><span class="edge ${Math.abs(e) >= .06 ? 'pos' : 'neg'}">${(Math.abs(e) * 100).toFixed(1)}% ${esc(side)}</span></div>`;
   }
   if (!rows) rows = `<div class="mkt"><span class="lbl">Model</span><span class="num">no DK line</span><span class="num">${spreadTxt(g, m.home_spread)}</span><span class="num">${m.total?.toFixed(1) ?? ''}</span><span class="edge neg"></span></div>`;
-  const pills = Object.values(pickBy).map(p => `<span class="pill">${esc(p.label)} ${odds(p.odds)}${p.sharp === 'agrees' ? ' · Sharp ✓' : ''}${p.result ? ` · ${p.result}` : ''}</span>`).join('');
+  const pills = Object.values(pickBy).map(p => `<span class="pill ${p.result || ''}">${esc(p.label)} ${odds(p.odds)}${p.sharp === 'agrees' ? ' · Sharp ✓' : ''}${p.result ? ` · ${p.result === 'W' ? 'Win' : p.result === 'L' ? 'Loss' : 'Push'}` : ''}</span>`).join('');
   const passes = (g.passes || []).map(p => `<div class="pass">Passed: <b>${esc(p.label)}</b> · ${esc(p.reason)}</div>`).join('');
   return `<div class="card ${pills ? 'haspick' : ''}">
     <div class="ghead">${stateTag(g)}<span>${g.neutral ? 'Neutral · ' : ''}${esc(g.tv || '')}</span></div>
@@ -108,15 +108,17 @@ function renderBoard() {
   const b = S.board, el = $('#board-list');
   if (!b || !b.games?.length) { el.innerHTML = '<div class="empty">No games on today\'s board yet.</div>'; return; }
   $('#board-title').textContent = new Date(b.date + 'T12:00').toLocaleDateString([], { weekday: 'long', month: 'long', day: 'numeric' });
-  const q = $('#board-q').value.toLowerCase(), only = $('#board-picks-only').checked, sort = $('#board-sort').value;
-  let gs = b.games.filter(g => (!q || `${g.home.name} ${g.away.name}`.toLowerCase().includes(q)) && (!only || g.picks?.length));
+  const q = $('#board-q').value.toLowerCase(), sort = $('#board-sort').value;
+  let gs = b.games.filter(g => g.picks?.length && (!q || `${g.home.name} ${g.away.name}`.toLowerCase().includes(q)));
   const maxEdge = g => { const m = g.eval?.markets || {}; return Math.max(Math.abs(m.spread?.edge || 0) / 3, Math.abs(m.total?.edge || 0) / 4.5, Math.abs(m.moneyline?.edge || 0) / .06); };
   const ord = { in: 0, pre: 1, post: 2 }, st = g => ord[gameState(g).state] ?? 1;
   gs = sort === 'edge' ? gs.sort((a, b) => maxEdge(b) - maxEdge(a)) : gs.sort((a, b) => st(a) - st(b) || a.date.localeCompare(b.date));
-  el.innerHTML = gs.map(boardCard).join('') || '<div class="empty">No games match.</div>';
+  el.innerHTML = gs.map(boardCard).join('') || `<div class="empty">${q ? 'No games match.' : 'No model picks on today\'s slate yet. Check back after the next hourly run.'}</div>`;
 }
 
 /* ---------- picks ---------- */
+const todayLabel = r => r.today?.date ? `Today (${new Date(r.today.date + 'T12:00').toLocaleDateString([], { month: 'numeric', day: 'numeric' })})` : 'Today';
+
 function recStrip(label, x, sub) {
   if (!x) return '';
   return `<div class="kpi"><div class="k">${label}</div><div class="v">${x.w}-${x.l}${x.p ? '-' + x.p : ''}</div><div class="s"><span class="${x.units > 0 ? 'pos' : x.units < 0 ? 'err' : ''}">${signed(x.units, 2)}u</span> · ROI ${signed(x.roi)}% · ${sub}</div></div>`;
@@ -133,7 +135,7 @@ const dkLine = p => p.market === 'moneyline' ? '—' : p.market === 'spread' ? s
 
 function renderPicks() {
   const r = S.record || {}, view = $('#picks-view').value, mkt = $('#picks-market').value, st = $('#picks-status').value;
-  $('#picks-kpis').innerHTML = recStrip('Model picks', r.overall, `${r.pending ?? 0} open`) +
+  $('#picks-kpis').innerHTML = recStrip(todayLabel(r), r.today, `${r.today?.pending ?? 0} still open`) + recStrip('Model picks', r.overall, `${r.pending ?? 0} open`) +
     recStrip('Model + Sharp ✓', r.model_sharp_agree, 'model pick, sharp money agrees') +
     recStrip('Sharp Money spreads', r.sharp_sides?.overall, `${r.sharp_sides?.pending ?? 0} open · every flagged spread side`);
   const keep = p => (!mkt || p.market === mkt) && (!st || (st === 'open' ? !p.result : st === 'sharp' ? (p.sharp === 'agrees' || view === 'sharp') : p.result === st));
@@ -163,11 +165,43 @@ function renderRecord() {
     k('Units', signed(o.units, 2), '1 unit per pick', o.units > 0 ? 'pos' : o.units < 0 ? 'err' : '') +
     k('ROI', `${signed(o.roi)}%`, 'per unit risked', o.roi > 0 ? 'pos' : '') +
     k('Avg CLV', o.avg_clv == null ? '—' : signed(o.avg_clv, 2), `${o.clv_n} picks with a closing line`) +
-    k('Open', r.pending, 'awaiting result');
+    k('Open', r.pending, 'awaiting result') +
+    (r.today ? k(todayLabel(r), `${r.today.w}-${r.today.l}${r.today.p ? '-' + r.today.p : ''}`, `${signed(r.today.units, 2)}u · ${r.today.pending} still open`, r.today.units > 0 ? 'pos' : r.today.units < 0 ? 'err' : '') : '');
   const names = { spread: 'Spread', total: 'Total', moneyline: 'Moneyline' };
   $('#record-table').innerHTML = `<tr><th>Market</th><th class="r">W</th><th class="r">L</th><th class="r">P</th><th class="r">Win %</th><th class="r">Units</th><th class="r">ROI</th><th class="r">Avg CLV</th></tr>` +
     [...Object.entries(r.by_market), ...(r.model_sharp_agree?.w + r.model_sharp_agree?.l ? [['Model + Sharp ✓', r.model_sharp_agree]] : []), ...(r.sharp_sides?.overall?.w + r.sharp_sides?.overall?.l ? [['Sharp Money spreads', r.sharp_sides.overall]] : [])].map(([m, x]) => `<tr><td>${names[m] || m}</td><td class="r">${x.w}</td><td class="r">${x.l}</td><td class="r">${x.p}</td><td class="r">${x.win_pct}%</td><td class="r num ${x.units > 0 ? 'pos' : ''}">${signed(x.units, 2)}</td><td class="r">${signed(x.roi)}%</td><td class="r">${x.avg_clv == null ? '—' : signed(x.avg_clv, 2)}</td></tr>`).join('');
   drawCurve(r.curve);
+  renderMarketBoxes();
+}
+
+/* market boxes with their own All time / This week / Today selector */
+const MKT_BOX = [['moneyline', 'Moneyline picks'], ['spread', 'Spread picks'], ['total', 'Total points picks']];
+const boxPeriod = { moneyline: 'all', spread: 'all', total: 'all' };
+function periodStart(period) {
+  const today = S.board?.date || etDate();
+  if (period === 'today') return today;
+  if (period === 'week') {  // Monday of the current week
+    const d = new Date(today + 'T12:00'); d.setDate(d.getDate() - ((d.getDay() + 6) % 7));
+    return d.toISOString().slice(0, 10);
+  }
+  return '0000';
+}
+function aggPicks(rows) {
+  const w = rows.filter(p => p.result === 'W').length, l = rows.filter(p => p.result === 'L').length, pu = rows.filter(p => p.result === 'P').length;
+  const units = rows.reduce((t, p) => t + (p.units || 0), 0);
+  return { w, l, p: pu, units, roi: w + l ? units / (w + l) * 100 : 0, pct: w + l ? w / (w + l) * 100 : 0 };
+}
+function renderMarketBoxes() {
+  $('#market-cards').innerHTML = MKT_BOX.map(([m, label]) => {
+    const per = boxPeriod[m], start = periodStart(per);
+    const rows = S.picks.filter(p => p.market === m && p.date >= start);
+    const x = aggPicks(rows.filter(p => p.result)), open = rows.filter(p => !p.result).length;
+    const cls = x.units > 0 ? 'pos' : x.units < 0 ? 'err' : '';
+    return `<div class="kpi"><div class="k" style="display:flex;justify-content:space-between;align-items:center;gap:8px"><span>${label}</span>
+      <select class="per" data-m="${m}">${[['all', 'All time'], ['week', 'This week'], ['today', 'Today']].map(([v, t]) => `<option value="${v}" ${v === per ? 'selected' : ''}>${t}</option>`).join('')}</select></div>
+      <div class="v">${x.w}-${x.l}${x.p ? '-' + x.p : ''}</div>
+      <div class="s"><span class="${cls}">${signed(x.units, 2)}u</span> · ROI ${signed(x.roi)}% · ${x.pct.toFixed(1)}% wins${open ? ` · ${open} open` : ''}</div></div>`;
+  }).join('');
 }
 
 function drawCurve(c) {
@@ -227,8 +261,16 @@ function renderSharp() {
         <span>Bets</span><div class="track"><div class="fill b" style="width:${s.bets}%"></div></div><span class="num">${s.bets}%</span>
       </div><div style="text-align:center"><div class="diff">+${diff}</div><div class="muted" style="font-size:11px">pts</div></div></div></div>`;
   }).join('') || '<div class="empty">No sides meet the threshold right now.</div>';
-  $('#sharp-all').innerHTML = (sp?.games || []).length ? `<div class="tablewrap" style="margin-top:12px"><table class="allsplits"><tr><th>Game</th><th>Market</th><th>Side</th><th class="r">Odds</th><th class="r">Handle</th><th class="r">Bets</th><th class="r">Diff</th></tr>` +
-    sp.games.flatMap(g => Object.entries(g.markets).filter(([m]) => SHARP_MARKETS.includes(m)).flatMap(([m, ss]) => ss.map(s => `<tr><td>${esc(g.away)} @ ${esc(g.home)}</td><td>${names[m]}</td><td>${esc(s.label)}</td><td class="r num">${odds(s.odds)}</td><td class="r num">${s.handle}%</td><td class="r num">${s.bets}%</td><td class="r num ${s.handle - s.bets >= 30 ? 'pos' : ''}">${signed(s.handle - s.bets, 0)}</td></tr>`))).join('') + '</table></div>' : '';
+  const line = (m, s, cls, first) => `<td>${names[m]}</td><td>${esc(s.label)}</td><td class="r num">${odds(s.odds)}</td><td class="r num">${s.handle}%</td><td class="r num">${s.bets}%</td><td class="r num ${s.handle - s.bets >= 30 ? 'pos' : ''}">${signed(s.handle - s.bets, 0)}</td>`;
+  $('#sharp-all').innerHTML = (sp?.games || []).length ? `<div class="tablewrap" style="margin-top:12px"><table class="allsplits"><tr><th>Game</th><th>Market</th><th>Side</th><th class="r">Odds</th><th class="r">Handle</th><th class="r">Bets</th><th class="r">Diff</th><th></th></tr>` +
+    sp.games.map((g, i) => {
+      const rows = Object.entries(g.markets).filter(([m]) => SHARP_MARKETS.includes(m)).flatMap(([m, ss]) => ss.map(s => [m, s]));
+      if (!rows.length) return '';
+      rows.sort((a, b) => (b[1].handle - b[1].bets) - (a[1].handle - a[1].bets));  // biggest handle edge first
+      const [m0, s0] = rows[0], rest = rows.slice(1);
+      return `<tr class="grp"><td><b>${esc(g.away)} @ ${esc(g.home)}</b></td>${line(m0, s0)}<td class="r">${rest.length ? `<button class="more" data-g="${i}">▾ ${rest.length} more</button>` : ''}</td></tr>` +
+        rest.map(([m, s]) => `<tr class="sub" data-g="${i}" hidden><td></td>${line(m, s)}<td></td></tr>`).join('');
+    }).join('') + '</table></div>' : '';
 }
 
 /* ---------- ratings ---------- */
@@ -240,9 +282,9 @@ function renderRatings() {
   const q = $('#rt-q').value.toLowerCase();
   const ranked = [...r.teams].sort((a, b) => b.adj_em - a.adj_em).map((t, i) => ({ ...t, rk: i + 1 }));
   const rows = ranked.filter(t => !q || t.team.toLowerCase().includes(q)).sort((a, b) => (a[rtSort.k] > b[rtSort.k] ? 1 : -1) * rtSort.d);
-  const cols = [['rk', 'Rk'], ['team', 'Team'], ['games', 'G'], ['adj_em', 'AdjEM'], ['adj_o', 'AdjO'], ['adj_d', 'AdjD'], ['adj_t', 'Tempo']];
+  const cols = [['rk', 'Rk'], ['team', 'Team'], ['wins', 'Record'], ['adj_em', 'AdjEM'], ['adj_o', 'AdjO'], ['adj_d', 'AdjD'], ['adj_t', 'Tempo']];
   $('#ratings-table').innerHTML = `<tr>${cols.map(([k, l]) => `<th class="sort ${k === 'team' ? '' : 'r'}" data-k="${k}">${l}${rtSort.k === k ? (rtSort.d > 0 ? ' ▲' : ' ▼') : ''}</th>`).join('')}</tr>` +
-    rows.map(t => `<tr><td class="r muted">${t.rk}</td><td><b>${esc(t.team)}</b></td><td class="r">${t.games}</td><td class="r num ${t.adj_em > 0 ? 'pos' : ''}">${signed(t.adj_em)}</td><td class="r num">${t.adj_o.toFixed(1)}</td><td class="r num">${t.adj_d.toFixed(1)}</td><td class="r num">${t.adj_t.toFixed(1)}</td></tr>`).join('');
+    rows.map(t => `<tr><td class="r muted">${t.rk}</td><td><b>${esc(t.team)}</b></td><td class="r num">${t.wins ?? '—'}-${t.losses ?? '—'}</td><td class="r num ${t.adj_em > 0 ? 'pos' : ''}">${signed(t.adj_em)}</td><td class="r num">${t.adj_o.toFixed(1)}</td><td class="r num">${t.adj_d.toFixed(1)}</td><td class="r num">${t.adj_t.toFixed(1)}</td></tr>`).join('');
 }
 
 function renderAll() { renderBoard(); renderPicks(); renderRecord(); renderLive(); renderSharp(); renderRatings(); }
@@ -254,10 +296,20 @@ $('#tabs').addEventListener('click', e => {
   document.querySelectorAll('.tab').forEach(x => x.classList.toggle('on', x.id === b.dataset.tab));
   history.replaceState(null, '', '#' + b.dataset.tab);
 });
-['board-q', 'board-picks-only', 'board-sort'].forEach(id => $('#' + id).addEventListener('input', renderBoard));
+['board-q', 'board-sort'].forEach(id => $('#' + id).addEventListener('input', renderBoard));
 ['picks-view', 'picks-market', 'picks-status'].forEach(id => $('#' + id).addEventListener('input', renderPicks));
 ['sh-thr', 'sh-mode'].forEach(id => $('#' + id).addEventListener('input', renderSharp));
 $('#live-active').addEventListener('input', renderLive);
+$('#market-cards').addEventListener('change', e => {
+  const s = e.target.closest('select.per'); if (!s) return;
+  boxPeriod[s.dataset.m] = s.value; renderMarketBoxes();
+});
+$('#sharp-all').addEventListener('click', e => {
+  const b = e.target.closest('button.more'); if (!b) return;
+  const rows = document.querySelectorAll(`#sharp-all tr.sub[data-g="${b.dataset.g}"]`), open = rows[0]?.hidden;
+  rows.forEach(r => r.hidden = !open);
+  b.textContent = `${open ? '▴' : '▾'} ${rows.length} more`;
+});
 $('#rt-q').addEventListener('input', renderRatings);
 $('#ratings-table').addEventListener('click', e => {
   const th = e.target.closest('th[data-k]'); if (!th) return;

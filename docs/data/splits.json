@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T21:16:28.801911-05:00",
+ "updated": "2026-11-22T21:24:33.117791-05:00",
  "error": null,
  "games": [
   {
@@ -13,13 +13,13 @@
       "label": "UC San Diego",
       "odds": -105,
       "handle": 82,
-      "bets": 60
+      "bets": 61
      },
      {
       "label": "Seattle",
       "odds": -115,
       "handle": 18,
-      "bets": 40
+      "bets": 39
      }
     ],
     "spread": [
@@ -41,13 +41,13 @@
       "label": "Over 148.5",
       "odds": -115,
       "handle": 97,
-      "bets": 59
+      "bets": 58
      },
      {
       "label": "Under 148.5",
       "odds": -105,
       "handle": 3,
-      "bets": 41
+      "bets": 42
      }
     ]
    },
@@ -65,13 +65,13 @@
       "label": "Loyola Chicago",
       "odds": -185,
       "handle": 61,
-      "bets": 76
+      "bets": 77
      },
      {
       "label": "San Jose State",
       "odds": 154,
       "handle": 39,
-      "bets": 24
+      "bets": 23
      }
     ],
     "spread": [
@@ -79,13 +79,13 @@
       "label": "Loyola Chicago -4.5",
       "odds": -108,
       "handle": 15,
-      "bets": 83
+      "bets": 84
      },
      {
       "label": "San Jose State +4.5",
       "odds": -112,
       "handle": 85,
-      "bets": 17
+      "bets": 16
      }
     ],
     "total": [

@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "updated": "2026-11-22T21:16:28.801911-05:00",
+ "updated": "2026-11-22T21:24:33.117791-05:00",
  "games": [
   {
    "id": "401902281",
@@ -2682,6 +2682,114 @@
    ]
   },
   {
+   "id": "401920905",
+   "date": "2026-11-23T00:00Z",
+   "neutral": false,
+   "conf": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
+   "home": {
+    "id": "26",
+    "name": "UCLA Bruins",
+    "short": "UCLA",
+    "abbr": "UCLA",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
+    "score": 85,
+    "rank": 7
+   },
+   "away": {
+    "id": "48",
+    "name": "Delaware Blue Hens",
+    "short": "Delaware",
+    "abbr": "DEL",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/48.png",
+    "score": 48,
+    "rank": null
+   },
+   "odds": {
+    "provider": "Draft Kings",
+    "home_spread": -28.5,
+    "home_spread_odds": -105.0,
+    "away_spread_odds": -115.0,
+    "total": 145.5,
+    "over_odds": -105.0,
+    "under_odds": -115.0,
+    "home_ml": null,
+    "away_ml": null
+   },
+   "open": {
+    "home_spread": -28.5,
+    "total": 145.5,
+    "home_ml": null,
+    "away_ml": null
+   },
+   "tv": "B1G+",
+   "odds_closed": true,
+   "eval": {
+    "model": {
+     "home_pts": 81.0,
+     "away_pts": 62.7,
+     "margin": 18.37,
+     "total": 143.68,
+     "pace": 68.5,
+     "home_spread": -18.5,
+     "home_win": 0.925,
+     "home_ml": -1239,
+     "away_ml": 1239
+    },
+    "known": true,
+    "games_played": [
+     5,
+     6
+    ],
+    "markets": {
+     "spread": {
+      "edge": -10.13,
+      "home": {
+       "line": -28.5,
+       "odds": -105.0,
+       "p": 0.406,
+       "ev": -0.208
+      },
+      "away": {
+       "line": 28.5,
+       "odds": -115.0,
+       "p": 0.594,
+       "ev": 0.111
+      }
+     },
+     "total": {
+      "edge": -1.82,
+      "over": {
+       "line": 145.5,
+       "odds": -105.0,
+       "p": 0.488,
+       "ev": -0.048
+      },
+      "under": {
+       "line": 145.5,
+       "odds": -115.0,
+       "p": 0.512,
+       "ev": -0.042
+      }
+     }
+    },
+    "blend": {
+     "margin": 25.46,
+     "total": 144.95,
+     "home_spread": -25.5,
+     "home_win": 0.977,
+     "weight": 0.7
+    }
+   },
+   "sharp": {},
+   "passes": [],
+   "picks": [
+    "401920905-spread"
+   ]
+  },
+  {
    "id": "401917541",
    "date": "2026-11-23T00:00Z",
    "neutral": true,
@@ -2803,120 +2911,12 @@
    ]
   },
   {
-   "id": "401920905",
-   "date": "2026-11-23T00:00Z",
-   "neutral": false,
-   "conf": false,
-   "state": "post",
-   "detail": "Final",
-   "completed": true,
-   "home": {
-    "id": "26",
-    "name": "UCLA Bruins",
-    "short": "UCLA",
-    "abbr": "UCLA",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
-    "score": 85,
-    "rank": 7
-   },
-   "away": {
-    "id": "48",
-    "name": "Delaware Blue Hens",
-    "short": "Delaware",
-    "abbr": "DEL",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/48.png",
-    "score": 48,
-    "rank": null
-   },
-   "odds": {
-    "provider": "Draft Kings",
-    "home_spread": -28.5,
-    "home_spread_odds": -105.0,
-    "away_spread_odds": -115.0,
-    "total": 145.5,
-    "over_odds": -105.0,
-    "under_odds": -115.0,
-    "home_ml": null,
-    "away_ml": null
-   },
-   "open": {
-    "home_spread": -28.5,
-    "total": 145.5,
-    "home_ml": null,
-    "away_ml": null
-   },
-   "tv": "B1G+",
-   "odds_closed": true,
-   "eval": {
-    "model": {
-     "home_pts": 81.0,
-     "away_pts": 62.7,
-     "margin": 18.37,
-     "total": 143.68,
-     "pace": 68.5,
-     "home_spread": -18.5,
-     "home_win": 0.925,
-     "home_ml": -1239,
-     "away_ml": 1239
-    },
-    "known": true,
-    "games_played": [
-     5,
-     6
-    ],
-    "markets": {
-     "spread": {
-      "edge": -10.13,
-      "home": {
-       "line": -28.5,
-       "odds": -105.0,
-       "p": 0.406,
-       "ev": -0.208
-      },
-      "away": {
-       "line": 28.5,
-       "odds": -115.0,
-       "p": 0.594,
-       "ev": 0.111
-      }
-     },
-     "total": {
-      "edge": -1.82,
-      "over": {
-       "line": 145.5,
-       "odds": -105.0,
-       "p": 0.488,
-       "ev": -0.048
-      },
-      "under": {
-       "line": 145.5,
-       "odds": -115.0,
-       "p": 0.512,
-       "ev": -0.042
-      }
-     }
-    },
-    "blend": {
-     "margin": 25.46,
-     "total": 144.95,
-     "home_spread": -25.5,
-     "home_win": 0.977,
-     "weight": 0.7
-    }
-   },
-   "sharp": {},
-   "passes": [],
-   "picks": [
-    "401920905-spread"
-   ]
-  },
-  {
    "id": "401919020",
    "date": "2026-11-23T00:40Z",
    "neutral": true,
    "conf": false,
    "state": "in",
-   "detail": "3:04 - 2nd",
+   "detail": "0:26 - 2nd",
    "completed": false,
    "home": {
     "id": "5",
@@ -2924,7 +2924,7 @@
     "short": "UAB",
     "abbr": "UAB",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/5.png",
-    "score": 62,
+    "score": 64,
     "rank": null
    },
    "away": {
@@ -2933,7 +2933,7 @@
     "short": "Rhode Island",
     "abbr": "URI",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/227.png",
-    "score": 72,
+    "score": 79,
     "rank": null
    },
    "odds": {
@@ -3035,7 +3035,7 @@
    "neutral": false,
    "conf": false,
    "state": "in",
-   "detail": "17:36 - 2nd",
+   "detail": "15:11 - 2nd",
    "completed": false,
    "home": {
     "id": "30",
@@ -3043,7 +3043,7 @@
     "short": "USC",
     "abbr": "USC",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
-    "score": 45,
+    "score": 55,
     "rank": 18
    },
    "away": {
@@ -3052,7 +3052,7 @@
     "short": "Louisiana",
     "abbr": "UL",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
-    "score": 33,
+    "score": 37,
     "rank": null
    },
    "odds": {
@@ -3141,7 +3141,7 @@
    "neutral": false,
    "conf": false,
    "state": "in",
-   "detail": "10:23 - 2nd",
+   "detail": "7:27 - 2nd",
    "completed": false,
    "home": {
     "id": "2608",
@@ -3149,7 +3149,7 @@
     "short": "Saint Mary's",
     "abbr": "SMC",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2608.png",
-    "score": 70,
+    "score": 76,
     "rank": null
    },
    "away": {
@@ -3158,7 +3158,7 @@
     "short": "Menlo",
     "abbr": "MNLO",
     "logo": "",
-    "score": 55,
+    "score": 60,
     "rank": null
    },
    "odds": null,

@@ -115,7 +115,11 @@
   "made_at": "2026-11-22T15:30:42.080314-05:00",
   "model_agrees": "True",
   "close_line": 2.5,
-  "close_odds": -115.0
+  "close_odds": -115.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "URI 79, UAB 64",
+  "clv": 0.0
  },
  {
   "id": "401920905-total-over",

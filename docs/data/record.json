@@ -89,26 +89,26 @@
  "sharp_sides": {
   "overall": {
    "w": 11,
-   "l": 22,
+   "l": 23,
    "p": 0,
-   "units": -12.02,
-   "roi": -36.4,
-   "win_pct": 33.3,
+   "units": -13.02,
+   "roi": -38.3,
+   "win_pct": 32.4,
    "avg_clv": -0.18,
-   "clv_n": 33
+   "clv_n": 34
   },
   "by_market": {
    "spread": {
     "w": 11,
-    "l": 22,
+    "l": 23,
     "p": 0,
-    "units": -12.02,
-    "roi": -36.4,
-    "win_pct": 33.3,
+    "units": -13.02,
+    "roi": -38.3,
+    "win_pct": 32.4,
     "avg_clv": -0.18,
-    "clv_n": 33
+    "clv_n": 34
    }
   },
-  "pending": 2
+  "pending": 1
  }
 }

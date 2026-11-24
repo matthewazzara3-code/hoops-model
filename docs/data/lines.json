@@ -1888,5 +1888,905 @@
    "home_ml": -125.0,
    "away_ml": 105.0
   }
+ },
+ "401906774": {
+  "home_spread": -35.5,
+  "total": 153.5,
+  "home_ml": null,
+  "away_ml": null,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -35.5,
+   "home_spread_odds": -105.0,
+   "away_spread_odds": -115.0,
+   "total": 153.5,
+   "over_odds": -108.0,
+   "under_odds": -112.0,
+   "home_ml": null,
+   "away_ml": null
+  }
+ },
+ "401916319": {
+  "home_spread": 2.5,
+  "total": 156.5,
+  "home_ml": 110.0,
+  "away_ml": -130.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": 2.5,
+   "home_spread_odds": -122.0,
+   "away_spread_odds": 102.0,
+   "total": 156.5,
+   "over_odds": -110.0,
+   "under_odds": -110.0,
+   "home_ml": 110.0,
+   "away_ml": -130.0
+  }
+ },
+ "401916291": {
+  "home_spread": -27.5,
+  "total": 146.5,
+  "home_ml": -50000.0,
+  "away_ml": 4000.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -27.5,
+   "home_spread_odds": -108.0,
+   "away_spread_odds": -112.0,
+   "total": 146.5,
+   "over_odds": -108.0,
+   "under_odds": -112.0,
+   "home_ml": -50000.0,
+   "away_ml": 4000.0
+  }
+ },
+ "401926827": {
+  "home_spread": -7.5,
+  "total": 129.5,
+  "home_ml": -355.0,
+  "away_ml": 280.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -7.5,
+   "home_spread_odds": -115.0,
+   "away_spread_odds": -105.0,
+   "total": 129.5,
+   "over_odds": -105.0,
+   "under_odds": -115.0,
+   "home_ml": -355.0,
+   "away_ml": 280.0
+  }
+ },
+ "401925950": {
+  "home_spread": -1.5,
+  "total": 155.5,
+  "home_ml": -122.0,
+  "away_ml": 102.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -1.5,
+   "home_spread_odds": -110.0,
+   "away_spread_odds": -110.0,
+   "total": 155.5,
+   "over_odds": -110.0,
+   "under_odds": -110.0,
+   "home_ml": -122.0,
+   "away_ml": 102.0
+  }
+ },
+ "401923271": {
+  "home_spread": -2.5,
+  "total": 130.5,
+  "home_ml": -148.0,
+  "away_ml": 124.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -2.5,
+   "home_spread_odds": -112.0,
+   "away_spread_odds": -108.0,
+   "total": 130.5,
+   "over_odds": -110.0,
+   "under_odds": -110.0,
+   "home_ml": -148.0,
+   "away_ml": 124.0
+  }
+ },
+ "401921777": {
+  "home_spread": -34.5,
+  "total": 142.5,
+  "home_ml": null,
+  "away_ml": null,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -34.5,
+   "home_spread_odds": -105.0,
+   "away_spread_odds": -115.0,
+   "total": 142.5,
+   "over_odds": -108.0,
+   "under_odds": -112.0,
+   "home_ml": null,
+   "away_ml": null
+  }
+ },
+ "401921266": {
+  "home_spread": -3.5,
+  "total": 138.5,
+  "home_ml": -166.0,
+  "away_ml": 140.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -3.5,
+   "home_spread_odds": -105.0,
+   "away_spread_odds": -115.0,
+   "total": 138.5,
+   "over_odds": -112.0,
+   "under_odds": -108.0,
+   "home_ml": -166.0,
+   "away_ml": 140.0
+  }
+ },
+ "401921030": {
+  "home_spread": 2.5,
+  "total": 152.5,
+  "home_ml": 120.0,
+  "away_ml": -142.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": 2.5,
+   "home_spread_odds": -108.0,
+   "away_spread_odds": -112.0,
+   "total": 152.5,
+   "over_odds": -108.0,
+   "under_odds": -112.0,
+   "home_ml": 120.0,
+   "away_ml": -142.0
+  }
+ },
+ "401920976": {
+  "home_spread": -16.5,
+  "total": 144.5,
+  "home_ml": -2100.0,
+  "away_ml": 1100.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -16.5,
+   "home_spread_odds": -108.0,
+   "away_spread_odds": -112.0,
+   "total": 144.5,
+   "over_odds": -115.0,
+   "under_odds": -105.0,
+   "home_ml": -2100.0,
+   "away_ml": 1100.0
+  }
+ },
+ "401920923": {
+  "home_spread": -1.5,
+  "total": 147.5,
+  "home_ml": -115.0,
+  "away_ml": -105.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -1.5,
+   "home_spread_odds": -105.0,
+   "away_spread_odds": -115.0,
+   "total": 147.5,
+   "over_odds": -112.0,
+   "under_odds": -108.0,
+   "home_ml": -115.0,
+   "away_ml": -105.0
+  }
+ },
+ "401920889": {
+  "home_spread": -20.5,
+  "total": 129.5,
+  "home_ml": -6500.0,
+  "away_ml": 2000.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -20.5,
+   "home_spread_odds": -110.0,
+   "away_spread_odds": -110.0,
+   "total": 129.5,
+   "over_odds": -110.0,
+   "under_odds": -110.0,
+   "home_ml": -6500.0,
+   "away_ml": 2000.0
+  }
+ },
+ "401920742": {
+  "home_spread": -1.5,
+  "total": 148.5,
+  "home_ml": -118.0,
+  "away_ml": -102.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -1.5,
+   "home_spread_odds": -108.0,
+   "away_spread_odds": -112.0,
+   "total": 148.5,
+   "over_odds": -108.0,
+   "under_odds": -112.0,
+   "home_ml": -118.0,
+   "away_ml": -102.0
+  }
+ },
+ "401920727": {
+  "home_spread": -28.5,
+  "total": 144.5,
+  "home_ml": -100000.0,
+  "away_ml": 5000.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -28.5,
+   "home_spread_odds": -110.0,
+   "away_spread_odds": -110.0,
+   "total": 144.5,
+   "over_odds": -108.0,
+   "under_odds": -112.0,
+   "home_ml": -100000.0,
+   "away_ml": 5000.0
+  }
+ },
+ "401920695": {
+  "home_spread": -3.5,
+  "total": 159.5,
+  "home_ml": -185.0,
+  "away_ml": 154.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -3.5,
+   "home_spread_odds": -118.0,
+   "away_spread_odds": -102.0,
+   "total": 159.5,
+   "over_odds": -108.0,
+   "under_odds": -112.0,
+   "home_ml": -185.0,
+   "away_ml": 154.0
+  }
+ },
+ "401920358": {
+  "home_spread": -5.5,
+  "total": 134.5,
+  "home_ml": -238.0,
+  "away_ml": 195.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -5.5,
+   "home_spread_odds": -115.0,
+   "away_spread_odds": -105.0,
+   "total": 134.5,
+   "over_odds": -115.0,
+   "under_odds": -105.0,
+   "home_ml": -238.0,
+   "away_ml": 195.0
+  }
+ },
+ "401920309": {
+  "home_spread": -9.5,
+  "total": 161.5,
+  "home_ml": -535.0,
+  "away_ml": 400.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -9.5,
+   "home_spread_odds": -115.0,
+   "away_spread_odds": -105.0,
+   "total": 161.5,
+   "over_odds": -108.0,
+   "under_odds": -112.0,
+   "home_ml": -535.0,
+   "away_ml": 400.0
+  }
+ },
+ "401918996": {
+  "home_spread": -16.5,
+  "total": 153.5,
+  "home_ml": null,
+  "away_ml": null,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -16.5,
+   "home_spread_odds": -112.0,
+   "away_spread_odds": -108.0,
+   "total": 153.5,
+   "over_odds": -115.0,
+   "under_odds": -105.0,
+   "home_ml": null,
+   "away_ml": null
+  }
+ },
+ "401911458": {
+  "home_spread": 1.5,
+  "total": 159.5,
+  "home_ml": -105.0,
+  "away_ml": -115.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": 1.5,
+   "home_spread_odds": -118.0,
+   "away_spread_odds": -102.0,
+   "total": 159.5,
+   "over_odds": -108.0,
+   "under_odds": -112.0,
+   "home_ml": -105.0,
+   "away_ml": -115.0
+  }
+ },
+ "401911379": {
+  "home_spread": -13.5,
+  "total": 157.5,
+  "home_ml": -1050.0,
+  "away_ml": 675.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -13.5,
+   "home_spread_odds": -102.0,
+   "away_spread_odds": -118.0,
+   "total": 157.5,
+   "over_odds": -110.0,
+   "under_odds": -110.0,
+   "home_ml": -1050.0,
+   "away_ml": 675.0
+  }
+ },
+ "401911279": {
+  "home_spread": -8.5,
+  "total": 137.5,
+  "home_ml": -410.0,
+  "away_ml": 320.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -8.5,
+   "home_spread_odds": -115.0,
+   "away_spread_odds": -105.0,
+   "total": 137.5,
+   "over_odds": -108.0,
+   "under_odds": -112.0,
+   "home_ml": -410.0,
+   "away_ml": 320.0
+  }
+ },
+ "401911027": {
+  "home_spread": -12.5,
+  "total": 143.5,
+  "home_ml": -900.0,
+  "away_ml": 600.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -12.5,
+   "home_spread_odds": -110.0,
+   "away_spread_odds": -110.0,
+   "total": 143.5,
+   "over_odds": -112.0,
+   "under_odds": -108.0,
+   "home_ml": -900.0,
+   "away_ml": 600.0
+  }
+ },
+ "401926154": {
+  "home_spread": -3.5,
+  "total": 149.5,
+  "home_ml": -155.0,
+  "away_ml": 130.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -3.5,
+   "home_spread_odds": -108.0,
+   "away_spread_odds": -112.0,
+   "total": 149.5,
+   "over_odds": -112.0,
+   "under_odds": -108.0,
+   "home_ml": -155.0,
+   "away_ml": 130.0
+  }
+ },
+ "401925687": {
+  "home_spread": -16.5,
+  "total": 144.5,
+  "home_ml": -1800.0,
+  "away_ml": 1000.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -16.5,
+   "home_spread_odds": -110.0,
+   "away_spread_odds": -110.0,
+   "total": 144.5,
+   "over_odds": -110.0,
+   "under_odds": -110.0,
+   "home_ml": -1800.0,
+   "away_ml": 1000.0
+  }
+ },
+ "401920414": {
+  "home_spread": -10.5,
+  "total": 141.5,
+  "home_ml": -550.0,
+  "away_ml": 410.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -10.5,
+   "home_spread_odds": -108.0,
+   "away_spread_odds": -112.0,
+   "total": 141.5,
+   "over_odds": -108.0,
+   "under_odds": -112.0,
+   "home_ml": -550.0,
+   "away_ml": 410.0
+  }
+ },
+ "401917983": {
+  "home_spread": 1.5,
+  "total": 150.5,
+  "home_ml": 102.0,
+  "away_ml": -122.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": 1.5,
+   "home_spread_odds": -120.0,
+   "away_spread_odds": 100.0,
+   "total": 150.5,
+   "over_odds": -108.0,
+   "under_odds": -112.0,
+   "home_ml": 102.0,
+   "away_ml": -122.0
+  }
+ },
+ "401917904": {
+  "home_spread": -14.5,
+  "total": 163.5,
+  "home_ml": -1650.0,
+  "away_ml": 950.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -14.5,
+   "home_spread_odds": -110.0,
+   "away_spread_odds": -110.0,
+   "total": 163.5,
+   "over_odds": -112.0,
+   "under_odds": -108.0,
+   "home_ml": -1650.0,
+   "away_ml": 950.0
+  }
+ },
+ "401915942": {
+  "home_spread": 2.5,
+  "total": 153.5,
+  "home_ml": 120.0,
+  "away_ml": -142.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": 2.5,
+   "home_spread_odds": -105.0,
+   "away_spread_odds": -115.0,
+   "total": 153.5,
+   "over_odds": -108.0,
+   "under_odds": -112.0,
+   "home_ml": 120.0,
+   "away_ml": -142.0
+  }
+ },
+ "401929421": {
+  "home_spread": -17.5,
+  "total": 142.5,
+  "home_ml": -2400.0,
+  "away_ml": 1200.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -17.5,
+   "home_spread_odds": -112.0,
+   "away_spread_odds": -108.0,
+   "total": 142.5,
+   "over_odds": -108.0,
+   "under_odds": -112.0,
+   "home_ml": -2400.0,
+   "away_ml": 1200.0
+  }
+ },
+ "401929359": {
+  "home_spread": -4.5,
+  "total": 150.5,
+  "home_ml": -205.0,
+  "away_ml": 170.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -4.5,
+   "home_spread_odds": -118.0,
+   "away_spread_odds": -102.0,
+   "total": 150.5,
+   "over_odds": -108.0,
+   "under_odds": -112.0,
+   "home_ml": -205.0,
+   "away_ml": 170.0
+  }
+ },
+ "401925642": {
+  "home_spread": -3.5,
+  "total": 142.5,
+  "home_ml": -170.0,
+  "away_ml": 142.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -3.5,
+   "home_spread_odds": -115.0,
+   "away_spread_odds": -105.0,
+   "total": 142.5,
+   "over_odds": -108.0,
+   "under_odds": -112.0,
+   "home_ml": -170.0,
+   "away_ml": 142.0
+  }
+ },
+ "401924723": {
+  "home_spread": -11.5,
+  "total": 155.5,
+  "home_ml": -700.0,
+  "away_ml": 500.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -11.5,
+   "home_spread_odds": -115.0,
+   "away_spread_odds": -105.0,
+   "total": 155.5,
+   "over_odds": -105.0,
+   "under_odds": -115.0,
+   "home_ml": -700.0,
+   "away_ml": 500.0
+  }
+ },
+ "401921711": {
+  "home_spread": 1.5,
+  "total": 150.5,
+  "home_ml": 105.0,
+  "away_ml": -125.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": 1.5,
+   "home_spread_odds": -110.0,
+   "away_spread_odds": -110.0,
+   "total": 150.5,
+   "over_odds": -115.0,
+   "under_odds": -105.0,
+   "home_ml": 105.0,
+   "away_ml": -125.0
+  }
+ },
+ "401921184": {
+  "home_spread": -6.5,
+  "total": 142.5,
+  "home_ml": -265.0,
+  "away_ml": 215.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -6.5,
+   "home_spread_odds": -108.0,
+   "away_spread_odds": -112.0,
+   "total": 142.5,
+   "over_odds": -112.0,
+   "under_odds": -108.0,
+   "home_ml": -265.0,
+   "away_ml": 215.0
+  }
+ },
+ "401921008": {
+  "home_spread": -1.5,
+  "total": 145.5,
+  "home_ml": -115.0,
+  "away_ml": -105.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -1.5,
+   "home_spread_odds": -108.0,
+   "away_spread_odds": -112.0,
+   "total": 145.5,
+   "over_odds": -110.0,
+   "under_odds": -110.0,
+   "home_ml": -115.0,
+   "away_ml": -105.0
+  }
+ },
+ "401920709": {
+  "home_spread": -24.5,
+  "total": 158.5,
+  "home_ml": -9000.0,
+  "away_ml": 2500.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -24.5,
+   "home_spread_odds": -110.0,
+   "away_spread_odds": -110.0,
+   "total": 158.5,
+   "over_odds": -110.0,
+   "under_odds": -110.0,
+   "home_ml": -9000.0,
+   "away_ml": 2500.0
+  }
+ },
+ "401911338": {
+  "home_spread": -3.5,
+  "total": 155.5,
+  "home_ml": -170.0,
+  "away_ml": 142.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -3.5,
+   "home_spread_odds": -112.0,
+   "away_spread_odds": -108.0,
+   "total": 155.5,
+   "over_odds": -112.0,
+   "under_odds": -108.0,
+   "home_ml": -170.0,
+   "away_ml": 142.0
+  }
+ },
+ "401911026": {
+  "home_spread": -20.5,
+  "total": 152.5,
+  "home_ml": -4000.0,
+  "away_ml": 1600.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -20.5,
+   "home_spread_odds": -115.0,
+   "away_spread_odds": -105.0,
+   "total": 152.5,
+   "over_odds": -110.0,
+   "under_odds": -110.0,
+   "home_ml": -4000.0,
+   "away_ml": 1600.0
+  }
+ },
+ "401911535": {
+  "home_spread": -1.5,
+  "total": 149.5,
+  "home_ml": -125.0,
+  "away_ml": 105.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -1.5,
+   "home_spread_odds": -115.0,
+   "away_spread_odds": -105.0,
+   "total": 149.5,
+   "over_odds": -112.0,
+   "under_odds": -108.0,
+   "home_ml": -125.0,
+   "away_ml": 105.0
+  }
+ },
+ "401928796": {
+  "home_spread": -5.5,
+  "total": 156.5,
+  "home_ml": -230.0,
+  "away_ml": 190.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -5.5,
+   "home_spread_odds": -112.0,
+   "away_spread_odds": -108.0,
+   "total": 156.5,
+   "over_odds": -105.0,
+   "under_odds": -115.0,
+   "home_ml": -230.0,
+   "away_ml": 190.0
+  }
+ },
+ "401926184": {
+  "home_spread": -18.5,
+  "total": 145.5,
+  "home_ml": -2800.0,
+  "away_ml": 1300.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -18.5,
+   "home_spread_odds": -105.0,
+   "away_spread_odds": -115.0,
+   "total": 145.5,
+   "over_odds": -110.0,
+   "under_odds": -110.0,
+   "home_ml": -2800.0,
+   "away_ml": 1300.0
+  }
+ },
+ "401922023": {
+  "home_spread": -18.5,
+  "total": 162.5,
+  "home_ml": -2800.0,
+  "away_ml": 1300.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -18.5,
+   "home_spread_odds": -115.0,
+   "away_spread_odds": -105.0,
+   "total": 162.5,
+   "over_odds": -112.0,
+   "under_odds": -108.0,
+   "home_ml": -2800.0,
+   "away_ml": 1300.0
+  }
+ },
+ "401921817": {
+  "home_spread": -30.5,
+  "total": 148.5,
+  "home_ml": null,
+  "away_ml": null,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -30.5,
+   "home_spread_odds": -108.0,
+   "away_spread_odds": -112.0,
+   "total": 148.5,
+   "over_odds": -115.0,
+   "under_odds": -105.0,
+   "home_ml": null,
+   "away_ml": null
+  }
+ },
+ "401909699": {
+  "home_spread": -29.5,
+  "total": 159.5,
+  "home_ml": -100000.0,
+  "away_ml": 5000.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -29.5,
+   "home_spread_odds": -112.0,
+   "away_spread_odds": -108.0,
+   "total": 159.5,
+   "over_odds": -112.0,
+   "under_odds": -108.0,
+   "home_ml": -100000.0,
+   "away_ml": 5000.0
+  }
+ },
+ "401911253": {
+  "home_spread": -1.5,
+  "total": 163.5,
+  "home_ml": -130.0,
+  "away_ml": 110.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -1.5,
+   "home_spread_odds": -115.0,
+   "away_spread_odds": -105.0,
+   "total": 163.5,
+   "over_odds": -110.0,
+   "under_odds": -110.0,
+   "home_ml": -130.0,
+   "away_ml": 110.0
+  }
+ },
+ "401906762": {
+  "home_spread": -1.5,
+  "total": 174.5,
+  "home_ml": -125.0,
+  "away_ml": 105.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -1.5,
+   "home_spread_odds": -110.0,
+   "away_spread_odds": -110.0,
+   "total": 174.5,
+   "over_odds": -108.0,
+   "under_odds": -112.0,
+   "home_ml": -125.0,
+   "away_ml": 105.0
+  }
+ },
+ "401915943": {
+  "home_spread": -10.5,
+  "total": 156.5,
+  "home_ml": -600.0,
+  "away_ml": 440.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": -10.5,
+   "home_spread_odds": -115.0,
+   "away_spread_odds": -105.0,
+   "total": 156.5,
+   "over_odds": -108.0,
+   "under_odds": -112.0,
+   "home_ml": -600.0,
+   "away_ml": 440.0
+  }
+ },
+ "401921712": {
+  "home_spread": 5.5,
+  "total": 149.5,
+  "home_ml": 190.0,
+  "away_ml": -230.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": 5.5,
+   "home_spread_odds": -105.0,
+   "away_spread_odds": -115.0,
+   "total": 149.5,
+   "over_odds": -112.0,
+   "under_odds": -108.0,
+   "home_ml": 190.0,
+   "away_ml": -230.0
+  }
+ },
+ "401909763": {
+  "home_spread": 3.5,
+  "total": 140.5,
+  "home_ml": 154.0,
+  "away_ml": -185.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": 3.5,
+   "home_spread_odds": -102.0,
+   "away_spread_odds": -118.0,
+   "total": 140.5,
+   "over_odds": -115.0,
+   "under_odds": -105.0,
+   "home_ml": 154.0,
+   "away_ml": -185.0
+  }
+ },
+ "401909800": {
+  "home_spread": 15.5,
+  "total": 157.5,
+  "home_ml": 950.0,
+  "away_ml": -1650.0,
+  "date": "2026-11-24",
+  "last": {
+   "provider": "DraftKings",
+   "home_spread": 15.5,
+   "home_spread_odds": -115.0,
+   "away_spread_odds": -105.0,
+   "total": 157.5,
+   "over_odds": -110.0,
+   "under_odds": -110.0,
+   "home_ml": 950.0,
+   "away_ml": -1650.0
+  }
  }
 }

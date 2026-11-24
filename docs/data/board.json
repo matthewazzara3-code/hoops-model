@@ -1,6 +1,6 @@
 {
  "date": "2026-11-23",
- "updated": "2026-11-24T01:19:52.368033-05:00",
+ "updated": "2026-11-24T04:42:19.097825-05:00",
  "games": [
   {
    "id": "401927397",
@@ -54,6 +54,10 @@
    "sharp": {
     "spread": {
      "home": 0
+    },
+    "total": {
+     "over": 0,
+     "under": 0
     }
    },
    "passes": [],
@@ -270,10 +274,10 @@
    "sharp": {
     "moneyline": {
      "home": 0,
-     "away": 67
+     "away": 38
     },
     "spread": {
-     "home": 0,
+     "home": 33,
      "away": 0
     },
     "total": {
@@ -441,8 +445,12 @@
    },
    "sharp": {
     "moneyline": {
-     "home": -25,
-     "away": 25
+     "home": -28,
+     "away": 28
+    },
+    "total": {
+     "over": 0,
+     "under": 0
     }
    },
    "passes": [],
@@ -605,16 +613,16 @@
    },
    "sharp": {
     "moneyline": {
-     "home": 1,
-     "away": -1
+     "home": 2,
+     "away": -2
     },
     "spread": {
-     "away": 11,
-     "home": -11
+     "away": 10,
+     "home": -10
     },
     "total": {
-     "over": -30,
-     "under": 30
+     "over": -24,
+     "under": 24
     }
    },
    "passes": [],
@@ -935,8 +943,15 @@
     "blend": {}
    },
    "sharp": {
+    "moneyline": {
+     "home": 37
+    },
     "spread": {
-     "home": 84
+     "home": 74
+    },
+    "total": {
+     "over": 0,
+     "under": 0
     }
    },
    "passes": [],
@@ -2289,16 +2304,7 @@
      "weight": 0.7
     }
    },
-   "sharp": {
-    "moneyline": {
-     "home": 0,
-     "away": 0
-    },
-    "total": {
-     "over": 0,
-     "under": 0
-    }
-   },
+   "sharp": {},
    "passes": [],
    "picks": [
     "401926183-total"
@@ -2666,16 +2672,16 @@
    "date": "2026-11-24T04:55Z",
    "neutral": true,
    "conf": false,
-   "state": "in",
-   "detail": "11:55 - 2nd",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "12",
     "name": "Arizona Wildcats",
     "short": "Arizona",
     "abbr": "ARIZ",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
-    "score": 64,
+    "score": 96,
     "rank": 8
    },
    "away": {
@@ -2684,7 +2690,7 @@
     "short": "Colorado St",
     "abbr": "CSU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png",
-    "score": 49,
+    "score": 83,
     "rank": null
    },
    "odds": {
@@ -2776,7 +2782,14 @@
      "weight": 0.7
     }
    },
-   "sharp": {},
+   "sharp": {
+    "moneyline": {
+     "home": 0
+    },
+    "spread": {
+     "home": 0
+    }
+   },
    "passes": [],
    "picks": [
     "401909743-total"
@@ -2787,16 +2800,16 @@
    "date": "2026-11-24T04:59Z",
    "neutral": true,
    "conf": false,
-   "state": "in",
-   "detail": "15:45 - 2nd",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "28",
     "name": "UC San Diego Tritons",
     "short": "UC San Diego",
     "abbr": "UCSD",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/28.png",
-    "score": 45,
+    "score": 79,
     "rank": null
    },
    "away": {
@@ -2805,7 +2818,7 @@
     "short": "San Jos\u00e9 St",
     "abbr": "SJSU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/23.png",
-    "score": 54,
+    "score": 88,
     "rank": null
    },
    "odds": {
@@ -2905,6 +2918,10 @@
     "spread": {
      "away": -12,
      "home": 12
+    },
+    "total": {
+     "over": 5,
+     "under": -5
     }
    },
    "passes": [],

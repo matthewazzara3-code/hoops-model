@@ -20,7 +20,11 @@
   "model_version": "1.2",
   "model_line": 148.23,
   "close_line": 158.5,
-  "close_odds": -112.0
+  "close_odds": -112.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "CSU 83, ARIZ 96",
+  "clv": -0.0
  },
  {
   "market": "total",

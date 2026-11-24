@@ -16,7 +16,11 @@
   "made_at": "2026-11-23T21:07:37.901576-05:00",
   "model_agrees": false,
   "close_line": null,
-  "close_odds": -125.0
+  "close_odds": -125.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "SJSU 88, UCSD 79",
+  "clv": 0.0
  },
  {
   "id": "401921664-spread-home",
@@ -35,7 +39,11 @@
   "made_at": "2026-11-23T21:07:37.901576-05:00",
   "model_agrees": "False",
   "close_line": -1.5,
-  "close_odds": -115.0
+  "close_odds": -115.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "SJSU 88, UCSD 79",
+  "clv": 0.0
  },
  {
   "id": "401920721-spread-home",

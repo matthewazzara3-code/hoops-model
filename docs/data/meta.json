@@ -1,17 +1,17 @@
 {
- "updated": "2026-11-23T03:07:03.396543-05:00",
- "slate": "2026-11-22",
+ "updated": "2026-11-23T21:07:37.901576-05:00",
+ "slate": "2026-11-23",
  "model_version": "1.2",
  "sharp_markets": [
   "spread"
  ],
- "games_fit": 1184,
- "data_through": "2026-11-21",
+ "games_fit": 1046,
+ "data_through": "2026-11-22",
  "hca_pts": {
   "conference": 2.9,
   "non_conference": 5.2
  },
- "league_total": 150.5,
+ "league_total": 151.0,
  "rules": {
   "spread": {
    "min_edge": 3.0,
@@ -37,7 +37,12 @@
  },
  "market_weight": 0.7,
  "log": [
-  "Fit on 1184 games through 2026-11-21",
-  "Splits: 32 games, 17 sides with handle >= bets + 30"
+  "Fit on 1046 games through 2026-11-22",
+  "Splits: 6 games, 9 sides with handle >= bets + 30",
+  "New pick: UNC Greensboro @ Pepperdine Over 153.5 (-112) EV 4.6%",
+  "Pass: E Washington @ UNLV Over 160.5: Sharp money on the other side (handle beats bets by 34)",
+  "Pass: Alabama St @ California Over 143.5: DK line moved 5.0 pts against it",
+  "New pick: Colorado St @ Arizona Under 158.5 (-112) EV 7.7%",
+  "Pass: San Jos\u00e9 St @ UC San Diego San Jos\u00e9 St +1.5: Sharp money on the other side (handle beats bets by 44)"
  ]
 }

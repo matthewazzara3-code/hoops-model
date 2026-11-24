@@ -63,18 +63,18 @@
    "day": 5.84
   }
  ],
- "pending": 0,
+ "pending": 2,
  "today": {
-  "w": 13,
-  "l": 6,
+  "w": 0,
+  "l": 0,
   "p": 0,
-  "units": 5.84,
-  "roi": 30.7,
-  "win_pct": 68.4,
-  "avg_clv": 0.11,
-  "clv_n": 19,
-  "date": "2026-11-22",
-  "pending": 0
+  "units": 0,
+  "roi": 0.0,
+  "win_pct": 0.0,
+  "avg_clv": null,
+  "clv_n": 0,
+  "date": "2026-11-23",
+  "pending": 2
  },
  "model_sharp_agree": {
   "w": 10,
@@ -109,6 +109,6 @@
     "clv_n": 35
    }
   },
-  "pending": 0
+  "pending": 4
  }
 }

@@ -43,7 +43,11 @@
   "model_version": "1.2",
   "model_line": 161.23,
   "close_line": 153.5,
-  "close_odds": -112.0
+  "close_odds": -112.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "UNCG 62, PEPP 89",
+  "clv": 0.0
  },
  {
   "market": "total",

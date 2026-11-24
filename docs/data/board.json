@@ -1,6 +1,6 @@
 {
  "date": "2026-11-23",
- "updated": "2026-11-23T21:07:37.901576-05:00",
+ "updated": "2026-11-24T01:19:52.368033-05:00",
  "games": [
   {
    "id": "401927397",
@@ -51,7 +51,11 @@
     "markets": {},
     "blend": {}
    },
-   "sharp": {},
+   "sharp": {
+    "spread": {
+     "home": 0
+    }
+   },
    "passes": [],
    "picks": []
   },
@@ -263,7 +267,20 @@
     "markets": {},
     "blend": {}
    },
-   "sharp": {},
+   "sharp": {
+    "moneyline": {
+     "home": 0,
+     "away": 67
+    },
+    "spread": {
+     "home": 0,
+     "away": 0
+    },
+    "total": {
+     "over": 0,
+     "under": 0
+    }
+   },
    "passes": [],
    "picks": []
   },
@@ -422,7 +439,12 @@
     "markets": {},
     "blend": {}
    },
-   "sharp": {},
+   "sharp": {
+    "moneyline": {
+     "home": -25,
+     "away": 25
+    }
+   },
    "passes": [],
    "picks": []
   },
@@ -581,7 +603,20 @@
     "markets": {},
     "blend": {}
    },
-   "sharp": {},
+   "sharp": {
+    "moneyline": {
+     "home": 1,
+     "away": -1
+    },
+    "spread": {
+     "away": 11,
+     "home": -11
+    },
+    "total": {
+     "over": -30,
+     "under": 30
+    }
+   },
    "passes": [],
    "picks": []
   },
@@ -899,7 +934,11 @@
     "markets": {},
     "blend": {}
    },
-   "sharp": {},
+   "sharp": {
+    "spread": {
+     "home": 84
+    }
+   },
    "passes": [],
    "picks": []
   },
@@ -1005,7 +1044,20 @@
     "markets": {},
     "blend": {}
    },
-   "sharp": {},
+   "sharp": {
+    "moneyline": {
+     "home": 0,
+     "away": 0
+    },
+    "spread": {
+     "home": 0,
+     "away": 0
+    },
+    "total": {
+     "over": 0,
+     "under": 0
+    }
+   },
    "passes": [],
    "picks": []
   },
@@ -1067,16 +1119,16 @@
    "date": "2026-11-24T00:00Z",
    "neutral": false,
    "conf": false,
-   "state": "in",
-   "detail": "3:09 - 2nd",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "47",
     "name": "Howard Bison",
     "short": "Howard",
     "abbr": "HOW",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/47.png",
-    "score": 90,
+    "score": 101,
     "rank": null
    },
    "away": {
@@ -1085,7 +1137,7 @@
     "short": "Notre Dame MD",
     "abbr": "NDMD",
     "logo": "",
-    "score": 70,
+    "score": 73,
     "rank": null
    },
    "odds": null,
@@ -1107,6 +1159,59 @@
     "games_played": [
      5,
      1
+    ],
+    "markets": {},
+    "blend": {}
+   },
+   "sharp": {},
+   "passes": [],
+   "picks": []
+  },
+  {
+   "id": "401928838",
+   "date": "2026-11-24T00:00Z",
+   "neutral": false,
+   "conf": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
+   "home": {
+    "id": "2050",
+    "name": "Ball State Cardinals",
+    "short": "Ball State",
+    "abbr": "BALL",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2050.png",
+    "score": 94,
+    "rank": null
+   },
+   "away": {
+    "id": "2589",
+    "name": "Spalding Pelicans",
+    "short": "Spalding",
+    "abbr": "SPLD",
+    "logo": "",
+    "score": 36,
+    "rank": null
+   },
+   "odds": null,
+   "open": null,
+   "tv": "ESPN+",
+   "eval": {
+    "model": {
+     "home_pts": 78.5,
+     "away_pts": 59.5,
+     "margin": 19.02,
+     "total": 137.98,
+     "pace": 67.9,
+     "home_spread": -19.0,
+     "home_win": 0.898,
+     "home_ml": -877,
+     "away_ml": 877
+    },
+    "known": false,
+    "games_played": [
+     3,
+     0
     ],
     "markets": {},
     "blend": {}
@@ -1279,16 +1384,16 @@
    "date": "2026-11-24T00:00Z",
    "neutral": false,
    "conf": false,
-   "state": "in",
-   "detail": "4:09 - OT",
-   "completed": false,
+   "state": "post",
+   "detail": "Final/OT",
+   "completed": true,
    "home": {
     "id": "94",
     "name": "Northern Kentucky Norse",
     "short": "N Kentucky",
     "abbr": "NKU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/94.png",
-    "score": 75,
+    "score": 79,
     "rank": null
    },
    "away": {
@@ -1297,7 +1402,7 @@
     "short": "GA Southern",
     "abbr": "GASO",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png",
-    "score": 75,
+    "score": 84,
     "rank": null
    },
    "odds": null,
@@ -1319,218 +1424,6 @@
     "games_played": [
      5,
      4
-    ],
-    "markets": {},
-    "blend": {}
-   },
-   "sharp": {},
-   "passes": [],
-   "picks": []
-  },
-  {
-   "id": "401919761",
-   "date": "2026-11-24T00:00Z",
-   "neutral": false,
-   "conf": false,
-   "state": "in",
-   "detail": "End of 2nd",
-   "completed": false,
-   "home": {
-    "id": "314",
-    "name": "Iona Gaels",
-    "short": "Iona",
-    "abbr": "IONA",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/314.png",
-    "score": 46,
-    "rank": null
-   },
-   "away": {
-    "id": "161",
-    "name": "Fairleigh Dickinson Knights",
-    "short": "FDU",
-    "abbr": "FDU",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/161.png",
-    "score": 49,
-    "rank": null
-   },
-   "odds": null,
-   "open": null,
-   "tv": "ESPN+",
-   "eval": {
-    "model": {
-     "home_pts": 76.4,
-     "away_pts": 63.3,
-     "margin": 13.06,
-     "total": 139.72,
-     "pace": 67.8,
-     "home_spread": -13.0,
-     "home_win": 0.841,
-     "home_ml": -531,
-     "away_ml": 531
-    },
-    "known": true,
-    "games_played": [
-     6,
-     4
-    ],
-    "markets": {},
-    "blend": {}
-   },
-   "sharp": {},
-   "passes": [],
-   "picks": []
-  },
-  {
-   "id": "401917919",
-   "date": "2026-11-24T00:00Z",
-   "neutral": false,
-   "conf": false,
-   "state": "in",
-   "detail": "0:00 - 2nd",
-   "completed": false,
-   "home": {
-    "id": "2454",
-    "name": "North Florida Ospreys",
-    "short": "North Florida",
-    "abbr": "UNF",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2454.png",
-    "score": 66,
-    "rank": null
-   },
-   "away": {
-    "id": "2110",
-    "name": "Central Arkansas Bears",
-    "short": "C Arkansas",
-    "abbr": "CARK",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2110.png",
-    "score": 80,
-    "rank": null
-   },
-   "odds": null,
-   "open": null,
-   "tv": "ESPN+",
-   "eval": {
-    "model": {
-     "home_pts": 76.9,
-     "away_pts": 81.3,
-     "margin": -4.45,
-     "total": 158.21,
-     "pace": 77.6,
-     "home_spread": 4.5,
-     "home_win": 0.367,
-     "home_ml": 173,
-     "away_ml": -173
-    },
-    "known": true,
-    "games_played": [
-     6,
-     4
-    ],
-    "markets": {},
-    "blend": {}
-   },
-   "sharp": {},
-   "passes": [],
-   "picks": []
-  },
-  {
-   "id": "401917543",
-   "date": "2026-11-24T00:00Z",
-   "neutral": true,
-   "conf": false,
-   "state": "in",
-   "detail": "0:28 - 2nd",
-   "completed": false,
-   "home": {
-    "id": "2287",
-    "name": "Illinois State Redbirds",
-    "short": "Illinois St",
-    "abbr": "ILST",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2287.png",
-    "score": 99,
-    "rank": null
-   },
-   "away": {
-    "id": "2541",
-    "name": "Santa Clara Broncos",
-    "short": "Santa Clara",
-    "abbr": "SCU",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2541.png",
-    "score": 100,
-    "rank": null
-   },
-   "odds": null,
-   "open": null,
-   "tv": "FloSports",
-   "eval": {
-    "model": {
-     "home_pts": 77.1,
-     "away_pts": 76.6,
-     "margin": 0.51,
-     "total": 153.7,
-     "pace": 72.5,
-     "home_spread": -0.5,
-     "home_win": 0.516,
-     "home_ml": -107,
-     "away_ml": 107
-    },
-    "known": true,
-    "games_played": [
-     6,
-     6
-    ],
-    "markets": {},
-    "blend": {}
-   },
-   "sharp": {},
-   "passes": [],
-   "picks": []
-  },
-  {
-   "id": "401928838",
-   "date": "2026-11-24T00:00Z",
-   "neutral": false,
-   "conf": false,
-   "state": "post",
-   "detail": "Final",
-   "completed": true,
-   "home": {
-    "id": "2050",
-    "name": "Ball State Cardinals",
-    "short": "Ball State",
-    "abbr": "BALL",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2050.png",
-    "score": 94,
-    "rank": null
-   },
-   "away": {
-    "id": "2589",
-    "name": "Spalding Pelicans",
-    "short": "Spalding",
-    "abbr": "SPLD",
-    "logo": "",
-    "score": 36,
-    "rank": null
-   },
-   "odds": null,
-   "open": null,
-   "tv": "ESPN+",
-   "eval": {
-    "model": {
-     "home_pts": 78.5,
-     "away_pts": 59.5,
-     "margin": 19.02,
-     "total": 137.98,
-     "pace": 67.9,
-     "home_spread": -19.0,
-     "home_win": 0.898,
-     "home_ml": -877,
-     "away_ml": 877
-    },
-    "known": false,
-    "games_played": [
-     3,
-     0
     ],
     "markets": {},
     "blend": {}
@@ -1593,20 +1486,179 @@
    "picks": []
   },
   {
+   "id": "401919761",
+   "date": "2026-11-24T00:00Z",
+   "neutral": false,
+   "conf": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
+   "home": {
+    "id": "314",
+    "name": "Iona Gaels",
+    "short": "Iona",
+    "abbr": "IONA",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/314.png",
+    "score": 46,
+    "rank": null
+   },
+   "away": {
+    "id": "161",
+    "name": "Fairleigh Dickinson Knights",
+    "short": "FDU",
+    "abbr": "FDU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/161.png",
+    "score": 49,
+    "rank": null
+   },
+   "odds": null,
+   "open": null,
+   "tv": "ESPN+",
+   "eval": {
+    "model": {
+     "home_pts": 76.4,
+     "away_pts": 63.3,
+     "margin": 13.06,
+     "total": 139.72,
+     "pace": 67.8,
+     "home_spread": -13.0,
+     "home_win": 0.841,
+     "home_ml": -531,
+     "away_ml": 531
+    },
+    "known": true,
+    "games_played": [
+     6,
+     4
+    ],
+    "markets": {},
+    "blend": {}
+   },
+   "sharp": {},
+   "passes": [],
+   "picks": []
+  },
+  {
+   "id": "401917919",
+   "date": "2026-11-24T00:00Z",
+   "neutral": false,
+   "conf": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
+   "home": {
+    "id": "2454",
+    "name": "North Florida Ospreys",
+    "short": "North Florida",
+    "abbr": "UNF",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2454.png",
+    "score": 66,
+    "rank": null
+   },
+   "away": {
+    "id": "2110",
+    "name": "Central Arkansas Bears",
+    "short": "C Arkansas",
+    "abbr": "CARK",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2110.png",
+    "score": 80,
+    "rank": null
+   },
+   "odds": null,
+   "open": null,
+   "tv": "ESPN+",
+   "eval": {
+    "model": {
+     "home_pts": 76.9,
+     "away_pts": 81.3,
+     "margin": -4.45,
+     "total": 158.21,
+     "pace": 77.6,
+     "home_spread": 4.5,
+     "home_win": 0.367,
+     "home_ml": 173,
+     "away_ml": -173
+    },
+    "known": true,
+    "games_played": [
+     6,
+     4
+    ],
+    "markets": {},
+    "blend": {}
+   },
+   "sharp": {},
+   "passes": [],
+   "picks": []
+  },
+  {
+   "id": "401917543",
+   "date": "2026-11-24T00:00Z",
+   "neutral": true,
+   "conf": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
+   "home": {
+    "id": "2287",
+    "name": "Illinois State Redbirds",
+    "short": "Illinois St",
+    "abbr": "ILST",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2287.png",
+    "score": 99,
+    "rank": null
+   },
+   "away": {
+    "id": "2541",
+    "name": "Santa Clara Broncos",
+    "short": "Santa Clara",
+    "abbr": "SCU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2541.png",
+    "score": 102,
+    "rank": null
+   },
+   "odds": null,
+   "open": null,
+   "tv": "FloSports",
+   "eval": {
+    "model": {
+     "home_pts": 77.1,
+     "away_pts": 76.6,
+     "margin": 0.51,
+     "total": 153.7,
+     "pace": 72.5,
+     "home_spread": -0.5,
+     "home_win": 0.516,
+     "home_ml": -107,
+     "away_ml": 107
+    },
+    "known": true,
+    "games_played": [
+     6,
+     6
+    ],
+    "markets": {},
+    "blend": {}
+   },
+   "sharp": {},
+   "passes": [],
+   "picks": []
+  },
+  {
    "id": "401927353",
    "date": "2026-11-24T00:30Z",
    "neutral": false,
    "conf": false,
-   "state": "in",
-   "detail": "3:55 - 2nd",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2428",
     "name": "North Carolina Central Eagles",
     "short": "NC Central",
     "abbr": "NCCU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2428.png",
-    "score": 101,
+    "score": 105,
     "rank": null
    },
    "away": {
@@ -1615,7 +1667,7 @@
     "short": "Carolina U",
     "abbr": "CU",
     "logo": "",
-    "score": 44,
+    "score": 46,
     "rank": null
    },
    "odds": null,
@@ -1650,16 +1702,16 @@
    "date": "2026-11-24T00:30Z",
    "neutral": false,
    "conf": false,
-   "state": "in",
-   "detail": "8:34 - 2nd",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2724",
     "name": "Wichita State Shockers",
     "short": "Wichita St",
     "abbr": "WICH",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2724.png",
-    "score": 67,
+    "score": 91,
     "rank": null
    },
    "away": {
@@ -1668,7 +1720,7 @@
     "short": "Texas A&M-CC",
     "abbr": "AMCC",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/357.png",
-    "score": 48,
+    "score": 73,
     "rank": null
    },
    "odds": null,
@@ -1703,16 +1755,16 @@
    "date": "2026-11-24T01:00Z",
    "neutral": false,
    "conf": false,
-   "state": "in",
-   "detail": "Halftime",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "356",
     "name": "Illinois Fighting Illini",
     "short": "Illinois",
     "abbr": "ILL",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
-    "score": 62,
+    "score": 133,
     "rank": 4
    },
    "away": {
@@ -1721,7 +1773,7 @@
     "short": "Winthrop",
     "abbr": "WIN",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2737.png",
-    "score": 53,
+    "score": 83,
     "rank": null
    },
    "odds": null,
@@ -1756,16 +1808,16 @@
    "date": "2026-11-24T01:00Z",
    "neutral": false,
    "conf": false,
-   "state": "in",
-   "detail": "15:55 - 2nd",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2305",
     "name": "Kansas Jayhawks",
     "short": "Kansas",
     "abbr": "KU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
-    "score": 48,
+    "score": 84,
     "rank": 12
    },
    "away": {
@@ -1774,7 +1826,7 @@
     "short": "Denver",
     "abbr": "DEN",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2172.png",
-    "score": 32,
+    "score": 67,
     "rank": null
    },
    "odds": null,
@@ -1809,16 +1861,16 @@
    "date": "2026-11-24T01:00Z",
    "neutral": false,
    "conf": false,
-   "state": "in",
-   "detail": "17:04 - 2nd",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2449",
     "name": "North Dakota State Bison",
     "short": "N Dakota St",
     "abbr": "NDSU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2449.png",
-    "score": 45,
+    "score": 84,
     "rank": null
    },
    "away": {
@@ -1827,7 +1879,7 @@
     "short": "UW-Stout",
     "abbr": "UWST",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2744.png",
-    "score": 31,
+    "score": 49,
     "rank": null
    },
    "odds": null,
@@ -1862,16 +1914,16 @@
    "date": "2026-11-24T01:00Z",
    "neutral": true,
    "conf": false,
-   "state": "in",
-   "detail": "7:03 - 1st",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "3084",
     "name": "Utah Valley Wolverines",
     "short": "Utah Valley",
     "abbr": "UVU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/3084.png",
-    "score": 23,
+    "score": 72,
     "rank": null
    },
    "away": {
@@ -1880,7 +1932,7 @@
     "short": "SF Austin",
     "abbr": "SFA",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2617.png",
-    "score": 19,
+    "score": 77,
     "rank": null
    },
    "odds": null,
@@ -1915,16 +1967,16 @@
    "date": "2026-11-24T01:00Z",
    "neutral": false,
    "conf": false,
-   "state": "in",
-   "detail": "Halftime",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "153",
     "name": "North Carolina Tar Heels",
     "short": "North Carolina",
     "abbr": "UNC",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
-    "score": 51,
+    "score": 85,
     "rank": null
    },
    "away": {
@@ -1933,7 +1985,7 @@
     "short": "Monmouth",
     "abbr": "MONM",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2405.png",
-    "score": 15,
+    "score": 45,
     "rank": null
    },
    "odds": null,
@@ -1968,16 +2020,16 @@
    "date": "2026-11-24T02:00Z",
    "neutral": false,
    "conf": false,
-   "state": "in",
-   "detail": "16:14 - 1st",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "70",
     "name": "Idaho Vandals",
     "short": "Idaho",
     "abbr": "IDHO",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/70.png",
-    "score": 8,
+    "score": 88,
     "rank": null
    },
    "away": {
@@ -1986,7 +2038,7 @@
     "short": "Dickinson St",
     "abbr": "DSSU",
     "logo": "",
-    "score": 5,
+    "score": 47,
     "rank": null
    },
    "odds": null,
@@ -2021,16 +2073,16 @@
    "date": "2026-11-24T02:00Z",
    "neutral": false,
    "conf": false,
-   "state": "in",
-   "detail": "16:12 - 1st",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "149",
     "name": "Montana Grizzlies",
     "short": "Montana",
     "abbr": "MONT",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/149.png",
-    "score": 7,
+    "score": 82,
     "rank": null
    },
    "away": {
@@ -2039,7 +2091,7 @@
     "short": "Carroll (MT)",
     "abbr": "CRMT",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2104.png",
-    "score": 4,
+    "score": 54,
     "rank": null
    },
    "odds": null,
@@ -2074,16 +2126,16 @@
    "date": "2026-11-24T02:00Z",
    "neutral": true,
    "conf": false,
-   "state": "in",
-   "detail": "16:25 - 1st",
-   "completed": false,
+   "state": "post",
+   "detail": "Final/OT",
+   "completed": true,
    "home": {
     "id": "2507",
     "name": "Providence Friars",
     "short": "Providence",
     "abbr": "PROV",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png",
-    "score": 11,
+    "score": 72,
     "rank": null
    },
    "away": {
@@ -2092,7 +2144,7 @@
     "short": "VCU",
     "abbr": "VCU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2670.png",
-    "score": 5,
+    "score": 66,
     "rank": null
    },
    "odds": null,
@@ -2127,16 +2179,16 @@
    "date": "2026-11-24T02:30Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/23 - 9:30 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2492",
     "name": "Pepperdine Waves",
     "short": "Pepperdine",
     "abbr": "PEPP",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2492.png",
-    "score": 0,
+    "score": 89,
     "rank": null
    },
    "away": {
@@ -2145,7 +2197,7 @@
     "short": "UNC Greensboro",
     "abbr": "UNCG",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2430.png",
-    "score": 0,
+    "score": 62,
     "rank": null
    },
    "odds": {
@@ -2160,12 +2212,13 @@
     "away_ml": 440.0
    },
    "open": {
-    "home_spread": -11.5,
-    "total": 152.5,
+    "home_spread": -10.5,
+    "total": 153.5,
     "home_ml": -600.0,
-    "away_ml": 425.0
+    "away_ml": 440.0
    },
    "tv": "ESPN+",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 86.0,
@@ -2238,16 +2291,12 @@
    },
    "sharp": {
     "moneyline": {
-     "home": -42,
-     "away": 42
-    },
-    "spread": {
-     "home": -30,
-     "away": 30
+     "home": 0,
+     "away": 0
     },
     "total": {
-     "over": 8,
-     "under": -8
+     "over": 0,
+     "under": 0
     }
    },
    "passes": [],
@@ -2260,16 +2309,16 @@
    "date": "2026-11-24T02:30Z",
    "neutral": true,
    "conf": false,
-   "state": "pre",
-   "detail": "11/23 - 9:30 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2547",
     "name": "Seattle U Redhawks",
     "short": "Seattle U",
     "abbr": "SEA",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2547.png",
-    "score": 0,
+    "score": 76,
     "rank": null
    },
    "away": {
@@ -2278,7 +2327,7 @@
     "short": "Loyola Chicago",
     "abbr": "LUC",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2350.png",
-    "score": 0,
+    "score": 63,
     "rank": null
    },
    "odds": {
@@ -2294,11 +2343,12 @@
    },
    "open": {
     "home_spread": -1.5,
-    "total": 141.5,
+    "total": 138.5,
     "home_ml": -120.0,
     "away_ml": 100.0
    },
    "tv": "",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 70.3,
@@ -2369,20 +2419,7 @@
      "weight": 0.7
     }
    },
-   "sharp": {
-    "moneyline": {
-     "home": 24,
-     "away": -24
-    },
-    "spread": {
-     "home": -30,
-     "away": 30
-    },
-    "total": {
-     "over": -23,
-     "under": 23
-    }
-   },
+   "sharp": {},
    "passes": [],
    "picks": []
   },
@@ -2391,16 +2428,16 @@
    "date": "2026-11-24T03:00Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/23 - 10:00 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2439",
     "name": "UNLV Rebels",
     "short": "UNLV",
     "abbr": "UNLV",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
-    "score": 0,
+    "score": 82,
     "rank": null
    },
    "away": {
@@ -2409,7 +2446,7 @@
     "short": "E Washington",
     "abbr": "EWU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/331.png",
-    "score": 0,
+    "score": 61,
     "rank": null
    },
    "odds": {
@@ -2424,12 +2461,13 @@
     "away_ml": 280.0
    },
    "open": {
-    "home_spread": -7.5,
-    "total": 161.5,
-    "home_ml": -345.0,
-    "away_ml": 275.0
+    "home_spread": -8.5,
+    "total": 160.5,
+    "home_ml": -355.0,
+    "away_ml": 280.0
    },
    "tv": "MW+",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 85.9,
@@ -2500,36 +2538,8 @@
      "weight": 0.7
     }
    },
-   "sharp": {
-    "moneyline": {
-     "home": 2,
-     "away": -2
-    },
-    "spread": {
-     "home": 30,
-     "away": -30
-    },
-    "total": {
-     "over": -34,
-     "under": 34
-    }
-   },
-   "passes": [
-    {
-     "market": "total",
-     "side": "over",
-     "line": 160.5,
-     "odds": -110.0,
-     "p": 0.54,
-     "ev": 0.031,
-     "edge": 5.98,
-     "label": "Over 160.5",
-     "blend_line": 162.3,
-     "sharp": "opposed",
-     "moved": 1.0,
-     "reason": "Sharp money on the other side (handle beats bets by 34)"
-    }
-   ],
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -2537,16 +2547,16 @@
    "date": "2026-11-24T03:00Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/23 - 10:00 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "25",
     "name": "California Golden Bears",
     "short": "California",
     "abbr": "CAL",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
-    "score": 0,
+    "score": 96,
     "rank": null
    },
    "away": {
@@ -2555,7 +2565,7 @@
     "short": "Alabama St",
     "abbr": "ALST",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2011.png",
-    "score": 0,
+    "score": 54,
     "rank": null
    },
    "odds": {
@@ -2570,12 +2580,13 @@
     "away_ml": 1800.0
    },
    "open": {
-    "home_spread": -19.5,
-    "total": 148.5,
-    "home_ml": -4000.0,
-    "away_ml": 1600.0
+    "home_spread": -18.5,
+    "total": 143.5,
+    "home_ml": -5000.0,
+    "away_ml": 1800.0
    },
    "tv": "ACCNX",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 86.4,
@@ -2646,45 +2657,17 @@
      "weight": 0.7
     }
    },
-   "sharp": {
-    "moneyline": {
-     "home": -55,
-     "away": 55
-    },
-    "spread": {
-     "home": 5,
-     "away": -5
-    },
-    "total": {
-     "over": -33,
-     "under": 33
-    }
-   },
-   "passes": [
-    {
-     "market": "total",
-     "side": "over",
-     "line": 143.5,
-     "odds": -110.0,
-     "p": 0.569,
-     "ev": 0.086,
-     "edge": 10.13,
-     "label": "Over 143.5",
-     "blend_line": 146.5,
-     "sharp": "opposed",
-     "moved": 5.0,
-     "reason": "DK line moved 5.0 pts against it"
-    }
-   ],
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
    "id": "401909743",
-   "date": "2026-11-24T04:30Z",
+   "date": "2026-11-24T04:55Z",
    "neutral": true,
    "conf": false,
-   "state": "pre",
-   "detail": "11/23 - 11:30 PM EST",
+   "state": "in",
+   "detail": "11:55 - 2nd",
    "completed": false,
    "home": {
     "id": "12",
@@ -2692,7 +2675,7 @@
     "short": "Arizona",
     "abbr": "ARIZ",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
-    "score": 0,
+    "score": 64,
     "rank": 8
    },
    "away": {
@@ -2701,7 +2684,7 @@
     "short": "Colorado St",
     "abbr": "CSU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png",
-    "score": 0,
+    "score": 49,
     "rank": null
    },
    "odds": {
@@ -2716,12 +2699,13 @@
     "away_ml": 1100.0
    },
    "open": {
-    "home_spread": -17.5,
+    "home_spread": -16.5,
     "total": 158.5,
-    "home_ml": -2400.0,
-    "away_ml": 1200.0
+    "home_ml": -2100.0,
+    "away_ml": 1100.0
    },
    "tv": "ESPN2",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 81.1,
@@ -2792,20 +2776,7 @@
      "weight": 0.7
     }
    },
-   "sharp": {
-    "moneyline": {
-     "home": 4,
-     "away": -4
-    },
-    "spread": {
-     "home": 8,
-     "away": -8
-    },
-    "total": {
-     "over": -4,
-     "under": 4
-    }
-   },
+   "sharp": {},
    "passes": [],
    "picks": [
     "401909743-total"
@@ -2816,8 +2787,8 @@
    "date": "2026-11-24T04:59Z",
    "neutral": true,
    "conf": false,
-   "state": "pre",
-   "detail": "11/23 - 11:59 PM EST",
+   "state": "in",
+   "detail": "15:45 - 2nd",
    "completed": false,
    "home": {
     "id": "28",
@@ -2825,7 +2796,7 @@
     "short": "UC San Diego",
     "abbr": "UCSD",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/28.png",
-    "score": 0,
+    "score": 45,
     "rank": null
    },
    "away": {
@@ -2834,7 +2805,7 @@
     "short": "San Jos\u00e9 St",
     "abbr": "SJSU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/23.png",
-    "score": 0,
+    "score": 54,
     "rank": null
    },
    "odds": {
@@ -2850,11 +2821,12 @@
    },
    "open": {
     "home_spread": -1.5,
-    "total": 157.5,
+    "total": 156.5,
     "home_ml": -125.0,
     "away_ml": 105.0
    },
    "tv": "",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 79.8,
@@ -2927,34 +2899,15 @@
    },
    "sharp": {
     "moneyline": {
-     "home": 32,
-     "away": -32
+     "home": 0,
+     "away": 0
     },
     "spread": {
-     "home": 44,
-     "away": -44
-    },
-    "total": {
-     "over": -27,
-     "under": 27
+     "away": -12,
+     "home": 12
     }
    },
-   "passes": [
-    {
-     "market": "spread",
-     "side": "away",
-     "line": 1.5,
-     "odds": -105.0,
-     "p": 0.529,
-     "ev": 0.034,
-     "edge": 3.13,
-     "label": "San Jos\u00e9 St +1.5",
-     "blend_line": 0.6,
-     "sharp": "opposed",
-     "moved": -0.0,
-     "reason": "Sharp money on the other side (handle beats bets by 44)"
-    }
-   ],
+   "passes": [],
    "picks": []
   }
  ]

@@ -65,7 +65,7 @@
   "matchup": "Colorado @ Stanford",
   "model_version": "1.2",
   "model_line": -0.5,
-  "close_line": 3.5,
+  "close_line": -4.5,
   "close_odds": -102.0
  },
  {
@@ -227,7 +227,11 @@
   "model_version": "1.2",
   "model_line": 2.0,
   "close_line": 5.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "SHSU 73, WSU 80",
+  "clv": 0.0
  },
  {
   "market": "total",
@@ -250,7 +254,11 @@
   "model_version": "1.2",
   "model_line": 163.42,
   "close_line": 156.5,
-  "close_odds": -105.0
+  "close_odds": -105.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "SHSU 73, WSU 80",
+  "clv": 0.0
  },
  {
   "market": "moneyline",
@@ -273,7 +281,11 @@
   "model_version": "1.2",
   "model_line": 0.557,
   "close_line": null,
-  "close_odds": 190.0
+  "close_odds": 190.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "SHSU 73, WSU 80",
+  "clv": 0.0
  },
  {
   "market": "spread",
@@ -296,7 +308,11 @@
   "model_version": "1.2",
   "model_line": -15.0,
   "close_line": 18.5,
-  "close_odds": -105.0
+  "close_odds": -105.0,
+  "result": "W",
+  "units": 0.952,
+  "final": "IDST 71, BOIS 88",
+  "clv": 0.0
  },
  {
   "market": "total",
@@ -319,7 +335,11 @@
   "model_version": "1.2",
   "model_line": 144.97,
   "close_line": 149.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "W",
+  "units": 0.926,
+  "final": "UTEP 80, COFC 69",
+  "clv": -0.0
  },
  {
   "market": "moneyline",
@@ -342,7 +362,11 @@
   "model_version": "1.2",
   "model_line": 0.641,
   "close_line": null,
-  "close_odds": -125.0
+  "close_odds": -125.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "UTEP 80, COFC 69",
+  "clv": 0.0
  },
  {
   "market": "spread",
@@ -365,7 +389,11 @@
   "model_version": "1.2",
   "model_line": 12.0,
   "close_line": -2.5,
-  "close_odds": -115.0
+  "close_odds": -115.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "TTU 64, LOU 72",
+  "clv": 0.0
  },
  {
   "market": "total",
@@ -388,7 +416,11 @@
   "model_version": "1.2",
   "model_line": 134.86,
   "close_line": 153.5,
-  "close_odds": -112.0
+  "close_odds": -112.0,
+  "result": "W",
+  "units": 0.893,
+  "final": "TTU 64, LOU 72",
+  "clv": -0.0
  },
  {
   "market": "total",
@@ -411,7 +443,11 @@
   "model_version": "1.2",
   "model_line": 154.53,
   "close_line": 142.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "FAMU 49, USA 74",
+  "clv": 0.0
  },
  {
   "market": "spread",
@@ -434,7 +470,11 @@
   "model_version": "1.2",
   "model_line": -18.0,
   "close_line": -11.5,
-  "close_odds": -115.0
+  "close_odds": -115.0,
+  "result": "W",
+  "units": 0.87,
+  "final": "BUCK 71, COR 92",
+  "clv": 0.0
  },
  {
   "market": "moneyline",
@@ -457,7 +497,11 @@
   "model_version": "1.2",
   "model_line": 0.579,
   "close_line": null,
-  "close_odds": 142.0
+  "close_odds": 142.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "ARMY 79, AF 88",
+  "clv": 0.0
  },
  {
   "market": "spread",
@@ -480,7 +524,11 @@
   "model_version": "1.2",
   "model_line": -16.0,
   "close_line": 20.5,
-  "close_odds": -105.0
+  "close_odds": -105.0,
+  "result": "W",
+  "units": 0.952,
+  "final": "CMU 70, ND 88",
+  "clv": 0.0
  },
  {
   "market": "total",
@@ -503,7 +551,11 @@
   "model_version": "1.2",
   "model_line": 162.09,
   "close_line": 152.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "W",
+  "units": 0.909,
+  "final": "CMU 70, ND 88",
+  "clv": 0.0
  },
  {
   "market": "spread",
@@ -526,7 +578,11 @@
   "model_version": "1.2",
   "model_line": -7.0,
   "close_line": -3.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "PFW 80, SEMO 75",
+  "clv": 0.0
  },
  {
   "market": "total",
@@ -549,7 +605,11 @@
   "model_version": "1.2",
   "model_line": 157.03,
   "close_line": 149.5,
-  "close_odds": -112.0
+  "close_odds": -112.0,
+  "result": "W",
+  "units": 0.893,
+  "final": "PFW 80, SEMO 75",
+  "clv": 0.0
  },
  {
   "market": "moneyline",
@@ -572,7 +632,11 @@
   "model_version": "1.2",
   "model_line": 0.715,
   "close_line": null,
-  "close_odds": -155.0
+  "close_odds": -155.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "PFW 80, SEMO 75",
+  "clv": 0.0
  },
  {
   "market": "spread",
@@ -595,7 +659,11 @@
   "model_version": "1.2",
   "model_line": -24.5,
   "close_line": -16.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "W",
+  "units": 0.909,
+  "final": "ALCN 41, LT 83",
+  "clv": 0.0
  },
  {
   "market": "total",
@@ -618,7 +686,11 @@
   "model_version": "1.2",
   "model_line": 138.99,
   "close_line": 144.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "W",
+  "units": 0.909,
+  "final": "ALCN 41, LT 83",
+  "clv": -0.0
  },
  {
   "market": "total",
@@ -641,7 +713,11 @@
   "model_version": "1.2",
   "model_line": 158.46,
   "close_line": 150.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "HCU 84, ULM 58",
+  "clv": 0.0
  },
  {
   "market": "spread",
@@ -664,7 +740,11 @@
   "model_version": "1.2",
   "model_line": -26.0,
   "close_line": 35.5,
-  "close_odds": -115.0
+  "close_odds": -115.0,
+  "result": "W",
+  "units": 0.87,
+  "final": "MILW 67, FLA 76",
+  "clv": 0.0
  },
  {
   "market": "moneyline",
@@ -687,7 +767,11 @@
   "model_version": "1.2",
   "model_line": 0.588,
   "close_line": null,
-  "close_odds": -130.0
+  "close_odds": -130.0,
+  "result": "W",
+  "units": 0.769,
+  "final": "VAN 72, OSU 66",
+  "clv": 0.0
  },
  {
   "market": "total",
@@ -710,7 +794,11 @@
   "model_version": "1.2",
   "model_line": 153.35,
   "close_line": 146.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "JAX 64, IU 82",
+  "clv": 0.0
  },
  {
   "market": "spread",
@@ -733,7 +821,11 @@
   "model_version": "1.2",
   "model_line": -11.0,
   "close_line": -2.5,
-  "close_odds": -112.0
+  "close_odds": -112.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "BRY 57, MRST 58",
+  "clv": 0.0
  },
  {
   "market": "spread",
@@ -756,7 +848,11 @@
   "model_version": "1.2",
   "model_line": -20.0,
   "close_line": 34.5,
-  "close_odds": -115.0
+  "close_odds": -115.0,
+  "result": "W",
+  "units": 0.87,
+  "final": "COPP 52, VILL 70",
+  "clv": 0.0
  },
  {
   "market": "spread",
@@ -779,7 +875,11 @@
   "model_version": "1.2",
   "model_line": -8.0,
   "close_line": -3.5,
-  "close_odds": -105.0
+  "close_odds": -105.0,
+  "result": "W",
+  "units": 0.952,
+  "final": "RID 54, L-MD 71",
+  "clv": 0.0
  },
  {
   "market": "moneyline",
@@ -802,7 +902,11 @@
   "model_version": "1.2",
   "model_line": 0.744,
   "close_line": null,
-  "close_odds": -166.0
+  "close_odds": -166.0,
+  "result": "W",
+  "units": 0.602,
+  "final": "RID 54, L-MD 71",
+  "clv": 0.0
  },
  {
   "market": "spread",
@@ -825,7 +929,11 @@
   "model_version": "1.2",
   "model_line": -7.0,
   "close_line": -1.5,
-  "close_odds": -105.0
+  "close_odds": -105.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "MSM 75, MORG 74",
+  "clv": 0.0
  },
  {
   "market": "spread",
@@ -848,7 +956,11 @@
   "model_version": "1.2",
   "model_line": -11.0,
   "close_line": 20.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "UNH 27, HALL 73",
+  "clv": 0.0
  },
  {
   "market": "total",
@@ -871,7 +983,11 @@
   "model_version": "1.2",
   "model_line": 135.36,
   "close_line": 129.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "UNH 27, HALL 73",
+  "clv": 0.0
  },
  {
   "market": "spread",
@@ -894,7 +1010,11 @@
   "model_version": "1.2",
   "model_line": -16.5,
   "close_line": -12.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "W",
+  "units": 0.909,
+  "final": "GWEB 65, BGSU 91",
+  "clv": 0.0
  },
  {
   "market": "total",

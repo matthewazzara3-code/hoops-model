@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T18:50:36.720123-05:00",
+ "updated": "2026-11-25T00:00:24.696570-05:00",
  "slate": "2026-11-24",
  "model_version": "1.2",
  "sharp_markets": [
@@ -37,35 +37,7 @@
  },
  "market_weight": 0.7,
  "log": [
-  "New pick: Texas Tech @ Louisville Texas Tech -2.5 (-115) EV 9.8%",
-  "New pick: Texas Tech @ Louisville Under 153.5 (-112) EV 18.0%",
-  "Pass: Texas Tech @ Louisville Texas Tech ML: DK line moved 10.0% against it",
-  "New pick: Florida A&M @ South Alabama Over 142.5 (-108) EV 12.1%",
-  "Pass: Florida A&M @ South Alabama South Alabama -17.5: Sharp money on the other side (handle beats bets by 50)",
-  "New pick: Bucknell @ Cornell Cornell -11.5 (-115) EV 5.5%",
-  "Pass: Lipscomb @ Auburn Lipscomb +24.5: DK line moved 4.0 pts against it",
-  "New pick: Army @ Air Force Army ML (+142) EV 7.8%",
-  "Pass: Army @ Air Force Army +3.5: Sharp money on the other side (handle beats bets by 26)",
-  "Pass: Army @ Air Force Under 155.5: Sharp money on the other side (handle beats bets by 39)",
-  "New pick: C Michigan @ Notre Dame C Michigan +20.5 (-105) EV 5.6%",
-  "New pick: C Michigan @ Notre Dame Over 152.5 (-110) EV 8.0%",
-  "New pick: UTEP @ Charleston Under 149.5 (-108) EV 2.2%",
-  "New pick: UTEP @ Charleston Charleston ML (-125) EV 3.6%",
-  "New pick: Sam Houston @ Washington St Sam Houston +5.5 (-108) EV 9.7%",
-  "New pick: Sam Houston @ Washington St Over 156.5 (-105) EV 6.9%",
-  "New pick: Sam Houston @ Washington St Sam Houston ML (+190) EV 14.6%",
-  "Pass: UNC Greensboro @ Santa Barbara Over 145.5: DK line moved 4.0 pts against it",
-  "New pick: Idaho St @ Boise St Idaho St +18.5 (-105) EV 3.8%",
-  "Pass: UNC Asheville @ Florida St UNC Asheville +29.5: DK line moved 4.0 pts against it",
-  "New pick: Saint Louis @ Grand Canyon Saint Louis +1.5 (-105) EV 8.4%",
-  "New pick: Saint Louis @ Grand Canyon Under 163.5 (-110) EV 6.6%",
-  "New pick: Saint Louis @ Grand Canyon Saint Louis ML (+110) EV 7.0%",
-  "New pick: Baylor @ Alabama Baylor +1.5 (-110) EV 2.8%",
-  "New pick: Baylor @ Alabama Under 174.5 (-112) EV 7.3%",
-  "New pick: VCU @ Colorado St Under 149.5 (-108) EV 3.8%",
-  "New pick: Colorado @ Stanford Stanford +3.5 (-102) EV 6.4%",
-  "Pass: Colorado @ Stanford Stanford ML: DK line moved 7.1% against it",
-  "New pick: Gonzaga @ Kansas St Kansas St +15.5 (-115) EV 4.6%",
-  "New pick: Gonzaga @ Kansas St Under 157.5 (-110) EV 3.4%"
+  "Fit on 1271 games through 2026-11-23",
+  "Splits: 38 games, 19 sides with handle >= bets + 30"
  ]
 }

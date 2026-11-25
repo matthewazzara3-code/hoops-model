@@ -1,5 +1,24 @@
 [
  {
+  "id": "401909800-moneyline-home",
+  "game_id": "401909800",
+  "date": "2026-11-24",
+  "tip": "2026-11-25T05:30Z",
+  "matchup": "Gonzaga @ Kansas St",
+  "market": "moneyline",
+  "side": "home",
+  "line": null,
+  "odds": 950,
+  "label": "Kansas State",
+  "handle": 75,
+  "bets": 14,
+  "diff": 61,
+  "made_at": "2026-11-25T00:00:24.696570-05:00",
+  "model_agrees": true,
+  "close_line": null,
+  "close_odds": 950.0
+ },
+ {
   "id": "401928796-total-over",
   "game_id": "401928796",
   "date": "2026-11-24",
@@ -16,7 +35,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "True",
   "close_line": 156.5,
-  "close_odds": -105.0
+  "close_odds": -105.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "SHSU 73, WSU 80",
+  "clv": 0.0
  },
  {
   "id": "401922023-total-under",
@@ -35,7 +58,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "True",
   "close_line": 162.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "W",
+  "units": 0.926,
+  "final": "IDST 71, BOIS 88",
+  "clv": -0.0
  },
  {
   "id": "401926184-spread-away",
@@ -54,7 +81,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "True",
   "close_line": 18.5,
-  "close_odds": -115.0
+  "close_odds": -115.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "UNCG 65, UCSB 85",
+  "clv": 0.0
  },
  {
   "id": "401921184-total-over",
@@ -73,7 +104,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "True",
   "close_line": 142.5,
-  "close_odds": -112.0
+  "close_odds": -112.0,
+  "result": "W",
+  "units": 0.893,
+  "final": "DREX 74, PENN 89",
+  "clv": 0.0
  },
  {
   "id": "401924723-total-over",
@@ -92,7 +127,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "False",
   "close_line": 155.5,
-  "close_odds": -105.0
+  "close_odds": -105.0,
+  "result": "W",
+  "units": 0.952,
+  "final": "BUCK 71, COR 92",
+  "clv": 0.0
  },
  {
   "id": "401911026-total-over",
@@ -111,7 +150,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "True",
   "close_line": 152.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "W",
+  "units": 0.909,
+  "final": "CMU 70, ND 88",
+  "clv": 0.0
  },
  {
   "id": "401911338-total-over",
@@ -130,7 +173,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "False",
   "close_line": 155.5,
-  "close_odds": -112.0
+  "close_odds": -112.0,
+  "result": "W",
+  "units": 0.893,
+  "final": "ARMY 79, AF 88",
+  "clv": 0.0
  },
  {
   "id": "401929421-spread-away",
@@ -149,7 +196,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "False",
   "close_line": 17.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "FAMU 49, USA 74",
+  "clv": 0.0
  },
  {
   "id": "401929421-total-over",
@@ -168,7 +219,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "True",
   "close_line": 142.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "FAMU 49, USA 74",
+  "clv": 0.0
  },
  {
   "id": "401921008-spread-away",
@@ -187,7 +242,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "True",
   "close_line": 1.5,
-  "close_odds": -112.0
+  "close_odds": -112.0,
+  "result": "W",
+  "units": 0.893,
+  "final": "GB 77, KC 72",
+  "clv": 0.0
  },
  {
   "id": "401921008-total-over",
@@ -206,7 +265,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "True",
   "close_line": 145.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "W",
+  "units": 0.909,
+  "final": "GB 77, KC 72",
+  "clv": 0.0
  },
  {
   "id": "401926154-spread-home",
@@ -225,7 +288,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "True",
   "close_line": -3.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "PFW 80, SEMO 75",
+  "clv": 0.0
  },
  {
   "id": "401926154-total-over",
@@ -244,7 +311,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "True",
   "close_line": 149.5,
-  "close_odds": -112.0
+  "close_odds": -112.0,
+  "result": "W",
+  "units": 0.893,
+  "final": "PFW 80, SEMO 75",
+  "clv": 0.0
  },
  {
   "id": "401917904-total-over",
@@ -263,7 +334,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "False",
   "close_line": 163.5,
-  "close_odds": -112.0
+  "close_odds": -112.0,
+  "result": "W",
+  "units": 0.893,
+  "final": "WGA 85, TNTC 124",
+  "clv": 0.0
  },
  {
   "id": "401917983-spread-away",
@@ -282,7 +357,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "False",
   "close_line": -1.5,
-  "close_odds": 100.0
+  "close_odds": 100.0,
+  "result": "W",
+  "units": 1.0,
+  "final": "HCU 84, ULM 58",
+  "clv": 0.0
  },
  {
   "id": "401917983-total-over",
@@ -301,7 +380,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "True",
   "close_line": 150.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "HCU 84, ULM 58",
+  "clv": 0.0
  },
  {
   "id": "401920309-total-over",
@@ -320,7 +403,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "False",
   "close_line": 161.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "W",
+  "units": 0.926,
+  "final": "SAM 92, GT 81",
+  "clv": 0.0
  },
  {
   "id": "401920358-moneyline-away",
@@ -339,7 +426,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": true,
   "close_line": null,
-  "close_odds": 195.0
+  "close_odds": 195.0,
+  "result": "W",
+  "units": 1.95,
+  "final": "BU 81, HARV 72",
+  "clv": 0.0
  },
  {
   "id": "401920695-moneyline-away",
@@ -358,7 +449,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": false,
   "close_line": null,
-  "close_odds": 154.0
+  "close_odds": 154.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "UVM 88, SIE 98",
+  "clv": 2.3
  },
  {
   "id": "401920695-total-over",
@@ -377,7 +472,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "True",
   "close_line": 159.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "W",
+  "units": 0.926,
+  "final": "UVM 88, SIE 98",
+  "clv": 0.0
  },
  {
   "id": "401920742-spread-home",
@@ -396,7 +495,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "False",
   "close_line": -1.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "CAM 70, CCU 66",
+  "clv": 0.0
  },
  {
   "id": "401920742-total-over",
@@ -415,7 +518,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "True",
   "close_line": 148.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "CAM 70, CCU 66",
+  "clv": 0.0
  },
  {
   "id": "401916291-moneyline-away",
@@ -434,7 +541,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": true,
   "close_line": null,
-  "close_odds": 4000.0
+  "close_odds": 4000.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "JAX 64, IU 82",
+  "clv": 0.0
  },
  {
   "id": "401916291-total-over",
@@ -453,7 +564,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "True",
   "close_line": 146.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "JAX 64, IU 82",
+  "clv": 0.0
  },
  {
   "id": "401911027-total-over",
@@ -472,7 +587,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "True",
   "close_line": 143.5,
-  "close_odds": -112.0
+  "close_odds": -112.0,
+  "result": "W",
+  "units": 0.893,
+  "final": "GWEB 65, BGSU 91",
+  "clv": 0.0
  },
  {
   "id": "401906774-total-under",
@@ -491,7 +610,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "False",
   "close_line": 153.5,
-  "close_odds": -112.0
+  "close_odds": -112.0,
+  "result": "W",
+  "units": 0.893,
+  "final": "MILW 67, FLA 76",
+  "clv": -0.0
  },
  {
   "id": "401911379-spread-away",
@@ -510,7 +633,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "False",
   "close_line": 13.5,
-  "close_odds": -118.0
+  "close_odds": -118.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "CHSO 58, JMU 82",
+  "clv": -1.0
  },
  {
   "id": "401911379-total-over",
@@ -529,7 +656,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "False",
   "close_line": 157.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "CHSO 58, JMU 82",
+  "clv": 0.0
  },
  {
   "id": "401921266-spread-home",
@@ -548,7 +679,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "True",
   "close_line": -3.5,
-  "close_odds": -105.0
+  "close_odds": -105.0,
+  "result": "W",
+  "units": 0.952,
+  "final": "RID 54, L-MD 71",
+  "clv": 0.0
  },
  {
   "id": "401921266-total-under",
@@ -567,7 +702,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "False",
   "close_line": 138.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "W",
+  "units": 0.926,
+  "final": "RID 54, L-MD 71",
+  "clv": -0.0
  },
  {
   "id": "401920976-total-over",
@@ -586,7 +725,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "True",
   "close_line": 144.5,
-  "close_odds": -115.0
+  "close_odds": -115.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "DSU 66, UTC 79",
+  "clv": -1.0
  },
  {
   "id": "401920727-total-over",
@@ -605,7 +748,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "True",
   "close_line": 144.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "UMBC 48, IOWA 87",
+  "clv": 0.0
  },
  {
   "id": "401921777-total-over",
@@ -624,7 +771,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "False",
   "close_line": 142.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "COPP 52, VILL 70",
+  "clv": 0.0
  },
  {
   "id": "401920923-moneyline-away",
@@ -643,7 +794,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": false,
   "close_line": null,
-  "close_odds": -105.0
+  "close_odds": -105.0,
+  "result": "W",
+  "units": 0.952,
+  "final": "MSM 75, MORG 74",
+  "clv": 0.0
  },
  {
   "id": "401920923-spread-home",
@@ -662,7 +817,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "True",
   "close_line": -1.5,
-  "close_odds": -105.0
+  "close_odds": -105.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "MSM 75, MORG 74",
+  "clv": 0.0
  },
  {
   "id": "401920923-total-over",
@@ -681,7 +840,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "False",
   "close_line": 147.5,
-  "close_odds": -112.0
+  "close_odds": -112.0,
+  "result": "W",
+  "units": 0.893,
+  "final": "MSM 75, MORG 74",
+  "clv": 0.0
  },
  {
   "id": "401918996-spread-away",
@@ -700,7 +863,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "False",
   "close_line": 16.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "STET 67, USF 100",
+  "clv": 0.0
  },
  {
   "id": "401918996-total-over",
@@ -719,7 +886,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "True",
   "close_line": 153.5,
-  "close_odds": -115.0
+  "close_odds": -115.0,
+  "result": "W",
+  "units": 0.926,
+  "final": "STET 67, USF 100",
+  "clv": -1.0
  },
  {
   "id": "401923271-spread-home",
@@ -738,7 +909,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "True",
   "close_line": -2.5,
-  "close_odds": -112.0
+  "close_odds": -112.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "BRY 57, MRST 58",
+  "clv": 0.0
  },
  {
   "id": "401923271-total-over",
@@ -757,7 +932,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "True",
   "close_line": 130.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "BRY 57, MRST 58",
+  "clv": 0.0
  },
  {
   "id": "401925950-total-under",
@@ -776,7 +955,11 @@
   "made_at": "2026-11-24T18:50:36.720123-05:00",
   "model_agrees": "False",
   "close_line": 155.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "TAR 87, WEB 89",
+  "clv": 1.0
  },
  {
   "id": "401921664-moneyline-home",

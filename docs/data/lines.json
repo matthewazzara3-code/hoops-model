@@ -2760,15 +2760,15 @@
   "away_ml": -185.0,
   "date": "2026-11-24",
   "last": {
-   "provider": "DraftKings",
-   "home_spread": 3.5,
+   "provider": "Draft Kings",
+   "home_spread": -4.5,
    "home_spread_odds": -102.0,
    "away_spread_odds": -118.0,
    "total": 140.5,
-   "over_odds": -115.0,
-   "under_odds": -105.0,
-   "home_ml": 154.0,
-   "away_ml": -185.0
+   "over_odds": -112.0,
+   "under_odds": -108.0,
+   "home_ml": -180.0,
+   "away_ml": 150.0
   }
  },
  "401909800": {
@@ -2778,7 +2778,7 @@
   "away_ml": -1650.0,
   "date": "2026-11-24",
   "last": {
-   "provider": "DraftKings",
+   "provider": "Draft Kings",
    "home_spread": 15.5,
    "home_spread_odds": -115.0,
    "away_spread_odds": -105.0,

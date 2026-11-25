@@ -1,6 +1,6 @@
 {
  "date": "2026-11-24",
- "updated": "2026-11-24T18:50:36.720123-05:00",
+ "updated": "2026-11-25T00:00:24.696570-05:00",
  "games": [
   {
    "id": "401927398",
@@ -51,7 +51,11 @@
     "markets": {},
     "blend": {}
    },
-   "sharp": {},
+   "sharp": {
+    "spread": {
+     "home": 0
+    }
+   },
    "passes": [],
    "picks": []
   },
@@ -210,18 +214,7 @@
     "markets": {},
     "blend": {}
    },
-   "sharp": {
-    "moneyline": {
-     "home": 6
-    },
-    "spread": {
-     "home": -14
-    },
-    "total": {
-     "over": -55,
-     "under": 55
-    }
-   },
+   "sharp": {},
    "passes": [],
    "picks": []
   },
@@ -274,7 +267,16 @@
     "markets": {},
     "blend": {}
    },
-   "sharp": {},
+   "sharp": {
+    "moneyline": {
+     "home": 0,
+     "away": 0
+    },
+    "total": {
+     "over": 0,
+     "under": 0
+    }
+   },
    "passes": [],
    "picks": []
   },
@@ -933,7 +935,7 @@
    },
    "away": {
     "id": "124686",
-    "name": "Penn State Berks PENN STATE-LEHIGH VALLEY",
+    "name": "Penn State Berks Nittany Lions",
     "short": "PSU Berks",
     "abbr": "PSBK",
     "logo": "",
@@ -972,16 +974,16 @@
    "date": "2026-11-24T22:00Z",
    "neutral": true,
    "conf": false,
-   "state": "in",
-   "detail": "11:07 - 2nd",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "12",
     "name": "Arizona Wildcats",
     "short": "Arizona",
     "abbr": "ARIZ",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
-    "score": 62,
+    "score": 84,
     "rank": 8
    },
    "away": {
@@ -990,7 +992,7 @@
     "short": "Providence",
     "abbr": "PROV",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2507.png",
-    "score": 45,
+    "score": 66,
     "rank": null
    },
    "odds": null,
@@ -1016,7 +1018,14 @@
     "markets": {},
     "blend": {}
    },
-   "sharp": {},
+   "sharp": {
+    "moneyline": {
+     "home": 60
+    },
+    "spread": {
+     "home": -8
+    }
+   },
    "passes": [],
    "picks": []
   },
@@ -1078,16 +1087,16 @@
    "date": "2026-11-24T22:30Z",
    "neutral": false,
    "conf": false,
-   "state": "in",
-   "detail": "11:30 - 2nd",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2514",
     "name": "Quinnipiac Bobcats",
     "short": "Quinnipiac",
     "abbr": "QUIN",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2514.png",
-    "score": 63,
+    "score": 85,
     "rank": null
    },
    "away": {
@@ -1096,7 +1105,7 @@
     "short": "Emerson",
     "abbr": "EMRS",
     "logo": "",
-    "score": 37,
+    "score": 57,
     "rank": null
    },
    "odds": null,
@@ -1131,16 +1140,16 @@
    "date": "2026-11-24T22:30Z",
    "neutral": true,
    "conf": false,
-   "state": "in",
-   "detail": "15:09 - 2nd",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2751",
     "name": "Wyoming Cowboys",
     "short": "Wyoming",
     "abbr": "WYO",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2751.png",
-    "score": 42,
+    "score": 75,
     "rank": null
    },
    "away": {
@@ -1149,7 +1158,7 @@
     "short": "Kent State",
     "abbr": "KENT",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png",
-    "score": 43,
+    "score": 78,
     "rank": null
    },
    "odds": null,
@@ -1184,16 +1193,16 @@
    "date": "2026-11-24T22:30Z",
    "neutral": true,
    "conf": false,
-   "state": "in",
-   "detail": "Halftime",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "66",
     "name": "Iowa State Cyclones",
     "short": "Iowa State",
     "abbr": "ISU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png",
-    "score": 41,
+    "score": 81,
     "rank": null
    },
    "away": {
@@ -1202,7 +1211,7 @@
     "short": "San Diego St",
     "abbr": "SDSU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/21.png",
-    "score": 34,
+    "score": 68,
     "rank": null
    },
    "odds": null,
@@ -1237,16 +1246,16 @@
    "date": "2026-11-24T22:55Z",
    "neutral": true,
    "conf": false,
-   "state": "in",
-   "detail": "0:34 - 1st",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "130",
     "name": "Michigan Wolverines",
     "short": "Michigan",
     "abbr": "MICH",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
-    "score": 38,
+    "score": 73,
     "rank": null
    },
    "away": {
@@ -1255,7 +1264,7 @@
     "short": "Creighton",
     "abbr": "CREI",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/156.png",
-    "score": 59,
+    "score": 99,
     "rank": null
    },
    "odds": null,
@@ -1290,16 +1299,16 @@
    "date": "2026-11-24T23:00Z",
    "neutral": false,
    "conf": false,
-   "state": "in",
-   "detail": "0:40 - 1st",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "164",
     "name": "Rutgers Scarlet Knights",
     "short": "Rutgers",
     "abbr": "RUTG",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/164.png",
-    "score": 53,
+    "score": 106,
     "rank": null
    },
    "away": {
@@ -1308,7 +1317,7 @@
     "short": "Sacred Heart",
     "abbr": "SHU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2529.png",
-    "score": 46,
+    "score": 73,
     "rank": null
    },
    "odds": null,
@@ -1343,16 +1352,16 @@
    "date": "2026-11-24T23:00Z",
    "neutral": false,
    "conf": false,
-   "state": "in",
-   "detail": "Halftime",
-   "completed": false,
+   "state": "post",
+   "detail": "Final/OT",
+   "completed": true,
    "home": {
     "id": "2678",
     "name": "VMI Keydets",
     "short": "VMI",
     "abbr": "VMI",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2678.png",
-    "score": 40,
+    "score": 87,
     "rank": null
    },
    "away": {
@@ -1361,7 +1370,7 @@
     "short": "S Indiana",
     "abbr": "USI",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/88.png",
-    "score": 36,
+    "score": 83,
     "rank": null
    },
    "odds": null,
@@ -1396,16 +1405,16 @@
    "date": "2026-11-24T23:00Z",
    "neutral": false,
    "conf": false,
-   "state": "in",
-   "detail": "3:14 - 1st",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2226",
     "name": "Florida Atlantic Owls",
     "short": "FAU",
     "abbr": "FAU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2226.png",
-    "score": 46,
+    "score": 95,
     "rank": null
    },
    "away": {
@@ -1414,7 +1423,7 @@
     "short": "Mercer",
     "abbr": "MER",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2382.png",
-    "score": 33,
+    "score": 84,
     "rank": null
    },
    "odds": null,
@@ -1449,16 +1458,16 @@
    "date": "2026-11-24T23:00Z",
    "neutral": false,
    "conf": false,
-   "state": "in",
-   "detail": "Halftime",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2747",
     "name": "Wofford Terriers",
     "short": "Wofford",
     "abbr": "WOF",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2747.png",
-    "score": 39,
+    "score": 86,
     "rank": null
    },
    "away": {
@@ -1467,7 +1476,7 @@
     "short": "Queens",
     "abbr": "QUC",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2511.png",
-    "score": 35,
+    "score": 77,
     "rank": null
    },
    "odds": null,
@@ -1502,16 +1511,16 @@
    "date": "2026-11-24T23:00Z",
    "neutral": true,
    "conf": false,
-   "state": "in",
-   "detail": "1:48 - 1st",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "338",
     "name": "Kennesaw State Owls",
     "short": "Kennesaw St",
     "abbr": "KENN",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/338.png",
-    "score": 15,
+    "score": 56,
     "rank": null
    },
    "away": {
@@ -1520,7 +1529,7 @@
     "short": "E Michigan",
     "abbr": "EMU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
-    "score": 20,
+    "score": 60,
     "rank": null
    },
    "odds": null,
@@ -1555,16 +1564,16 @@
    "date": "2026-11-24T23:00Z",
    "neutral": true,
    "conf": false,
-   "state": "in",
-   "detail": "2:09 - 1st",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2509",
     "name": "Purdue Boilermakers",
     "short": "Purdue",
     "abbr": "PUR",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
-    "score": 31,
+    "score": 56,
     "rank": null
    },
    "away": {
@@ -1573,7 +1582,7 @@
     "short": "DePaul",
     "abbr": "DEP",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/305.png",
-    "score": 30,
+    "score": 65,
     "rank": null
    },
    "odds": null,
@@ -1608,16 +1617,16 @@
    "date": "2026-11-24T23:30Z",
    "neutral": true,
    "conf": false,
-   "state": "in",
-   "detail": "15:31 - 1st",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2320",
     "name": "Lamar Cardinals",
     "short": "Lamar",
     "abbr": "LAM",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2320.png",
-    "score": 13,
+    "score": 87,
     "rank": null
    },
    "away": {
@@ -1626,7 +1635,7 @@
     "short": "Robert Morris",
     "abbr": "RMU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2523.png",
-    "score": 8,
+    "score": 62,
     "rank": null
    },
    "odds": null,
@@ -1661,16 +1670,16 @@
    "date": "2026-11-24T23:30Z",
    "neutral": false,
    "conf": false,
-   "state": "in",
-   "detail": "10:17 - 1st",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "231",
     "name": "Furman Paladins",
     "short": "Furman",
     "abbr": "FUR",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/231.png",
-    "score": 22,
+    "score": 82,
     "rank": null
    },
    "away": {
@@ -1679,7 +1688,7 @@
     "short": "Elon",
     "abbr": "ELON",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2210.png",
-    "score": 7,
+    "score": 60,
     "rank": null
    },
    "odds": null,
@@ -1714,16 +1723,16 @@
    "date": "2026-11-25T00:00Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 7:00 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "57",
     "name": "Florida Gators",
     "short": "Florida",
     "abbr": "FLA",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
-    "score": 0,
+    "score": 76,
     "rank": 3
    },
    "away": {
@@ -1732,7 +1741,7 @@
     "short": "Milwaukee",
     "abbr": "MILW",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/270.png",
-    "score": 0,
+    "score": 67,
     "rank": null
    },
    "odds": {
@@ -1747,12 +1756,13 @@
     "away_ml": null
    },
    "open": {
-    "home_spread": -38.5,
-    "total": 158.5,
+    "home_spread": -35.5,
+    "total": 153.5,
     "home_ml": null,
     "away_ml": null
    },
    "tv": "SECN+",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 91.7,
@@ -1810,16 +1820,7 @@
      "weight": 0.7
     }
    },
-   "sharp": {
-    "spread": {
-     "home": 1,
-     "away": -1
-    },
-    "total": {
-     "over": -30,
-     "under": 30
-    }
-   },
+   "sharp": {},
    "passes": [],
    "picks": [
     "401906774-spread"
@@ -1830,16 +1831,16 @@
    "date": "2026-11-25T00:00Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 7:00 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "194",
     "name": "Ohio State Buckeyes",
     "short": "Ohio State",
     "abbr": "OSU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
-    "score": 0,
+    "score": 66,
     "rank": null
    },
    "away": {
@@ -1848,7 +1849,7 @@
     "short": "Vanderbilt",
     "abbr": "VAN",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png",
-    "score": 0,
+    "score": 72,
     "rank": 14
    },
    "odds": {
@@ -1863,12 +1864,13 @@
     "away_ml": -130.0
    },
    "open": {
-    "home_spread": 1.5,
+    "home_spread": 2.5,
     "total": 156.5,
-    "home_ml": 120.0,
-    "away_ml": -142.0
+    "home_ml": 110.0,
+    "away_ml": -130.0
    },
    "tv": "Peacock",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 74.9,
@@ -1941,16 +1943,14 @@
    },
    "sharp": {
     "moneyline": {
-     "home": 3,
-     "away": -3
+     "home": 59
     },
     "spread": {
-     "away": 6,
-     "home": -6
+     "home": 0
     },
     "total": {
-     "over": -15,
-     "under": 15
+     "over": 0,
+     "under": 0
     }
    },
    "passes": [],
@@ -1963,16 +1963,16 @@
    "date": "2026-11-25T00:00Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 7:00 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "84",
     "name": "Indiana Hoosiers",
     "short": "Indiana",
     "abbr": "IU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
-    "score": 0,
+    "score": 82,
     "rank": 23
    },
    "away": {
@@ -1981,7 +1981,7 @@
     "short": "Jacksonville",
     "abbr": "JAX",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/294.png",
-    "score": 0,
+    "score": 64,
     "rank": null
    },
    "odds": {
@@ -1996,12 +1996,13 @@
     "away_ml": 4000.0
    },
    "open": {
-    "home_spread": -28.5,
+    "home_spread": -27.5,
     "total": 146.5,
     "home_ml": -50000.0,
     "away_ml": 4000.0
    },
    "tv": "B1G+",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 89.0,
@@ -2072,20 +2073,7 @@
      "weight": 0.7
     }
    },
-   "sharp": {
-    "moneyline": {
-     "home": -92,
-     "away": 92
-    },
-    "spread": {
-     "home": 16,
-     "away": -16
-    },
-    "total": {
-     "over": 59,
-     "under": -59
-    }
-   },
+   "sharp": {},
    "passes": [],
    "picks": [
     "401916291-total"
@@ -2096,16 +2084,16 @@
    "date": "2026-11-25T00:00Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 7:00 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2506",
     "name": "Presbyterian Blue Hose",
     "short": "Presbyterian",
     "abbr": "PRES",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2506.png",
-    "score": 0,
+    "score": 123,
     "rank": null
    },
    "away": {
@@ -2114,7 +2102,7 @@
     "short": "Car Christian",
     "abbr": "NCCC",
     "logo": "",
-    "score": 0,
+    "score": 46,
     "rank": null
    },
    "odds": null,
@@ -2149,16 +2137,16 @@
    "date": "2026-11-25T00:00Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 7:00 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "295",
     "name": "Old Dominion Monarchs",
     "short": "Old Dominion",
     "abbr": "ODU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png",
-    "score": 0,
+    "score": 71,
     "rank": null
    },
    "away": {
@@ -2167,7 +2155,7 @@
     "short": "Hampton",
     "abbr": "HAMP",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2261.png",
-    "score": 0,
+    "score": 59,
     "rank": null
    },
    "odds": {
@@ -2182,12 +2170,13 @@
     "away_ml": 280.0
    },
    "open": {
-    "home_spread": -8.5,
+    "home_spread": -7.5,
     "total": 129.5,
-    "home_ml": -425.0,
-    "away_ml": 330.0
+    "home_ml": -355.0,
+    "away_ml": 280.0
    },
    "tv": "ESPN+",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 75.2,
@@ -2258,50 +2247,8 @@
      "weight": 0.7
     }
    },
-   "sharp": {
-    "moneyline": {
-     "home": 0,
-     "away": 0
-    },
-    "spread": {
-     "home": -16,
-     "away": 16
-    },
-    "total": {
-     "over": -16,
-     "under": 16
-    }
-   },
-   "passes": [
-    {
-     "market": "spread",
-     "side": "home",
-     "line": -7.5,
-     "odds": -115.0,
-     "p": 0.57,
-     "ev": 0.065,
-     "edge": 7.62,
-     "label": "Old Dominion -7.5",
-     "blend_line": -9.8,
-     "sharp": "opposed",
-     "moved": 1.0,
-     "reason": "Sharp money on the other side (handle beats bets by 16)"
-    },
-    {
-     "market": "total",
-     "side": "over",
-     "line": 129.5,
-     "odds": -105.0,
-     "p": 0.538,
-     "ev": 0.051,
-     "edge": 5.69,
-     "label": "Over 129.5",
-     "blend_line": 131.2,
-     "sharp": "opposed",
-     "moved": -0.0,
-     "reason": "Sharp money on the other side (handle beats bets by 16)"
-    }
-   ],
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -2309,16 +2256,16 @@
    "date": "2026-11-25T00:00Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 7:00 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final/OT",
+   "completed": true,
    "home": {
     "id": "2692",
     "name": "Weber State Wildcats",
     "short": "Weber St",
     "abbr": "WEB",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2692.png",
-    "score": 0,
+    "score": 89,
     "rank": null
    },
    "away": {
@@ -2327,7 +2274,7 @@
     "short": "Tarleton St",
     "abbr": "TAR",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2627.png",
-    "score": 0,
+    "score": 87,
     "rank": null
    },
    "odds": {
@@ -2343,11 +2290,12 @@
    },
    "open": {
     "home_spread": -1.5,
-    "total": 160.5,
-    "home_ml": -115.0,
-    "away_ml": -105.0
+    "total": 155.5,
+    "home_ml": -122.0,
+    "away_ml": 102.0
    },
    "tv": "ESPN+",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 79.4,
@@ -2420,16 +2368,11 @@
    },
    "sharp": {
     "moneyline": {
-     "home": -26,
-     "away": 26
-    },
-    "spread": {
-     "home": -22,
-     "away": 22
+     "home": 0
     },
     "total": {
-     "over": -38,
-     "under": 38
+     "over": 0,
+     "under": 0
     }
    },
    "passes": [],
@@ -2440,16 +2383,16 @@
    "date": "2026-11-25T00:00Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 7:00 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2368",
     "name": "Marist Red Foxes",
     "short": "Marist",
     "abbr": "MRST",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2368.png",
-    "score": 0,
+    "score": 58,
     "rank": null
    },
    "away": {
@@ -2458,7 +2401,7 @@
     "short": "Bryant",
     "abbr": "BRY",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2803.png",
-    "score": 0,
+    "score": 57,
     "rank": null
    },
    "odds": {
@@ -2473,12 +2416,13 @@
     "away_ml": 124.0
    },
    "open": {
-    "home_spread": -4.5,
-    "total": 131.5,
-    "home_ml": -218.0,
-    "away_ml": 180.0
+    "home_spread": -2.5,
+    "total": 130.5,
+    "home_ml": -148.0,
+    "away_ml": 124.0
    },
    "tv": "ESPN+",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 72.3,
@@ -2549,36 +2493,8 @@
      "weight": 0.7
     }
    },
-   "sharp": {
-    "moneyline": {
-     "home": 7,
-     "away": -7
-    },
-    "spread": {
-     "home": 37,
-     "away": -37
-    },
-    "total": {
-     "over": 44,
-     "under": -44
-    }
-   },
-   "passes": [
-    {
-     "market": "moneyline",
-     "side": "home",
-     "line": null,
-     "odds": -148.0,
-     "p": 0.653,
-     "ev": 0.094,
-     "edge": 0.231,
-     "label": "Marist ML",
-     "blend_line": 0.653,
-     "sharp": null,
-     "moved": 0.085,
-     "reason": "DK line moved 8.5% against it"
-    }
-   ],
+   "sharp": {},
+   "passes": [],
    "picks": [
     "401923271-spread"
    ]
@@ -2588,16 +2504,16 @@
    "date": "2026-11-25T00:00Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 7:00 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "222",
     "name": "Villanova Wildcats",
     "short": "Villanova",
     "abbr": "VILL",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/222.png",
-    "score": 0,
+    "score": 70,
     "rank": null
    },
    "away": {
@@ -2606,7 +2522,7 @@
     "short": "Coppin St",
     "abbr": "COPP",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2154.png",
-    "score": 0,
+    "score": 52,
     "rank": null
    },
    "odds": {
@@ -2621,12 +2537,13 @@
     "away_ml": null
    },
    "open": {
-    "home_spread": -32.5,
-    "total": 141.5,
+    "home_spread": -34.5,
+    "total": 142.5,
     "home_ml": null,
     "away_ml": null
    },
    "tv": "truTV",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 80.2,
@@ -2684,16 +2601,7 @@
      "weight": 0.7
     }
    },
-   "sharp": {
-    "spread": {
-     "home": -7,
-     "away": 6
-    },
-    "total": {
-     "over": 60,
-     "under": -60
-    }
-   },
+   "sharp": {},
    "passes": [],
    "picks": [
     "401921777-spread"
@@ -2704,16 +2612,16 @@
    "date": "2026-11-25T00:00Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 7:00 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2352",
     "name": "Loyola Maryland Greyhounds",
     "short": "Loyola MD",
     "abbr": "L-MD",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2352.png",
-    "score": 0,
+    "score": 71,
     "rank": null
    },
    "away": {
@@ -2722,7 +2630,7 @@
     "short": "Rider",
     "abbr": "RID",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2520.png",
-    "score": 0,
+    "score": 54,
     "rank": null
    },
    "odds": {
@@ -2738,11 +2646,12 @@
    },
    "open": {
     "home_spread": -3.5,
-    "total": 140.5,
-    "home_ml": -192.0,
-    "away_ml": 160.0
+    "total": 138.5,
+    "home_ml": -166.0,
+    "away_ml": 140.0
    },
    "tv": "ESPN+, Patriot League TV",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 77.0,
@@ -2813,36 +2722,8 @@
      "weight": 0.7
     }
    },
-   "sharp": {
-    "moneyline": {
-     "home": 2,
-     "away": -2
-    },
-    "spread": {
-     "home": 49,
-     "away": -49
-    },
-    "total": {
-     "over": -42,
-     "under": 42
-    }
-   },
-   "passes": [
-    {
-     "market": "total",
-     "side": "over",
-     "line": 138.5,
-     "odds": -112.0,
-     "p": 0.55,
-     "ev": 0.041,
-     "edge": 7.32,
-     "label": "Over 138.5",
-     "blend_line": 140.7,
-     "sharp": "opposed",
-     "moved": 2.0,
-     "reason": "Sharp money on the other side (handle beats bets by 42)"
-    }
-   ],
+   "sharp": {},
+   "passes": [],
    "picks": [
     "401921266-spread",
     "401921266-moneyline"
@@ -2853,16 +2734,16 @@
    "date": "2026-11-25T00:00Z",
    "neutral": true,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 7:00 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "91",
     "name": "Bellarmine Knights",
     "short": "Bellarmine",
     "abbr": "BELL",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/91.png",
-    "score": 0,
+    "score": 82,
     "rank": null
    },
    "away": {
@@ -2871,7 +2752,7 @@
     "short": "GA Southern",
     "abbr": "GASO",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png",
-    "score": 0,
+    "score": 67,
     "rank": null
    },
    "odds": {
@@ -2886,12 +2767,13 @@
     "away_ml": -142.0
    },
    "open": {
-    "home_spread": -2.5,
-    "total": 154.5,
-    "home_ml": 114.0,
-    "away_ml": -135.0
+    "home_spread": 2.5,
+    "total": 152.5,
+    "home_ml": 120.0,
+    "away_ml": -142.0
    },
    "tv": "ESPN+",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 73.9,
@@ -2971,16 +2853,16 @@
    "date": "2026-11-25T00:00Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 7:00 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "236",
     "name": "Chattanooga Mocs",
     "short": "Chattanooga",
     "abbr": "UTC",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/236.png",
-    "score": 0,
+    "score": 79,
     "rank": null
    },
    "away": {
@@ -2989,7 +2871,7 @@
     "short": "Delaware St",
     "abbr": "DSU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2169.png",
-    "score": 0,
+    "score": 66,
     "rank": null
    },
    "odds": {
@@ -3004,12 +2886,13 @@
     "away_ml": 1100.0
    },
    "open": {
-    "home_spread": -15.5,
-    "total": 149.5,
-    "home_ml": -1600.0,
-    "away_ml": 900.0
+    "home_spread": -16.5,
+    "total": 144.5,
+    "home_ml": -2100.0,
+    "away_ml": 1100.0
    },
    "tv": "ESPN+",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 85.8,
@@ -3080,36 +2963,8 @@
      "weight": 0.7
     }
    },
-   "sharp": {
-    "moneyline": {
-     "home": 0,
-     "away": 0
-    },
-    "spread": {
-     "home": 26,
-     "away": -26
-    },
-    "total": {
-     "over": 60,
-     "under": -61
-    }
-   },
-   "passes": [
-    {
-     "market": "total",
-     "side": "over",
-     "line": 144.5,
-     "odds": -115.0,
-     "p": 0.564,
-     "ev": 0.054,
-     "edge": 9.31,
-     "label": "Over 144.5",
-     "blend_line": 147.3,
-     "sharp": "agrees",
-     "moved": 5.0,
-     "reason": "DK line moved 5.0 pts against it"
-    }
-   ],
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -3117,16 +2972,16 @@
    "date": "2026-11-25T00:00Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 7:00 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2415",
     "name": "Morgan State Bears",
     "short": "Morgan St",
     "abbr": "MORG",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2415.png",
-    "score": 0,
+    "score": 74,
     "rank": null
    },
    "away": {
@@ -3135,7 +2990,7 @@
     "short": "Mount St Marys",
     "abbr": "MSM",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/116.png",
-    "score": 0,
+    "score": 75,
     "rank": null
    },
    "odds": {
@@ -3151,11 +3006,12 @@
    },
    "open": {
     "home_spread": -1.5,
-    "total": 145.5,
+    "total": 147.5,
     "home_ml": -115.0,
     "away_ml": -105.0
    },
    "tv": "MEAC Network",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 74.4,
@@ -3226,50 +3082,8 @@
      "weight": 0.7
     }
    },
-   "sharp": {
-    "moneyline": {
-     "home": -45,
-     "away": 45
-    },
-    "spread": {
-     "home": 32,
-     "away": -32
-    },
-    "total": {
-     "over": 57,
-     "under": -57
-    }
-   },
-   "passes": [
-    {
-     "market": "total",
-     "side": "under",
-     "line": 147.5,
-     "odds": -108.0,
-     "p": 0.539,
-     "ev": 0.038,
-     "edge": 5.7,
-     "label": "Under 147.5",
-     "blend_line": 145.8,
-     "sharp": "opposed",
-     "moved": 2.0,
-     "reason": "Sharp money on the other side (handle beats bets by 57)"
-    },
-    {
-     "market": "moneyline",
-     "side": "home",
-     "line": null,
-     "odds": -115.0,
-     "p": 0.598,
-     "ev": 0.119,
-     "edge": 0.2,
-     "label": "Morgan St ML",
-     "blend_line": 0.598,
-     "sharp": "opposed",
-     "moved": 0.0,
-     "reason": "Sharp money on the other side (handle beats bets by 45)"
-    }
-   ],
+   "sharp": {},
+   "passes": [],
    "picks": [
     "401920923-spread"
    ]
@@ -3279,16 +3093,16 @@
    "date": "2026-11-25T00:00Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 7:00 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2550",
     "name": "Seton Hall Pirates",
     "short": "Seton Hall",
     "abbr": "HALL",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2550.png",
-    "score": 0,
+    "score": 73,
     "rank": null
    },
    "away": {
@@ -3297,7 +3111,7 @@
     "short": "New Hampshire",
     "abbr": "UNH",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png",
-    "score": 0,
+    "score": 27,
     "rank": null
    },
    "odds": {
@@ -3312,12 +3126,13 @@
     "away_ml": 2000.0
    },
    "open": {
-    "home_spread": -19.5,
-    "total": 125.5,
-    "home_ml": -3600.0,
-    "away_ml": 1500.0
+    "home_spread": -20.5,
+    "total": 129.5,
+    "home_ml": -6500.0,
+    "away_ml": 2000.0
    },
    "tv": "ESPN+",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 73.3,
@@ -3400,16 +3215,16 @@
    "date": "2026-11-25T00:00Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 7:00 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "324",
     "name": "Coastal Carolina Chanticleers",
     "short": "Coastal",
     "abbr": "CCU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/324.png",
-    "score": 0,
+    "score": 66,
     "rank": null
    },
    "away": {
@@ -3418,7 +3233,7 @@
     "short": "Campbell",
     "abbr": "CAM",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2097.png",
-    "score": 0,
+    "score": 70,
     "rank": null
    },
    "odds": {
@@ -3434,11 +3249,12 @@
    },
    "open": {
     "home_spread": -1.5,
-    "total": 149.5,
-    "home_ml": -148.0,
-    "away_ml": 124.0
+    "total": 148.5,
+    "home_ml": -118.0,
+    "away_ml": -102.0
    },
    "tv": "ESPN+",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 74.7,
@@ -3509,20 +3325,7 @@
      "weight": 0.7
     }
    },
-   "sharp": {
-    "moneyline": {
-     "home": 15,
-     "away": -15
-    },
-    "spread": {
-     "home": 36,
-     "away": -36
-    },
-    "total": {
-     "over": 64,
-     "under": -64
-    }
-   },
+   "sharp": {},
    "passes": [],
    "picks": []
   },
@@ -3531,16 +3334,16 @@
    "date": "2026-11-25T00:00Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 7:00 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2294",
     "name": "Iowa Hawkeyes",
     "short": "Iowa",
     "abbr": "IOWA",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
-    "score": 0,
+    "score": 87,
     "rank": null
    },
    "away": {
@@ -3549,7 +3352,7 @@
     "short": "UMBC",
     "abbr": "UMBC",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2378.png",
-    "score": 0,
+    "score": 48,
     "rank": null
    },
    "odds": {
@@ -3564,12 +3367,13 @@
     "away_ml": 5000.0
    },
    "open": {
-    "home_spread": -26.5,
+    "home_spread": -28.5,
     "total": 144.5,
-    "home_ml": -50000.0,
-    "away_ml": 4000.0
+    "home_ml": -100000.0,
+    "away_ml": 5000.0
    },
    "tv": "B1G+",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 87.3,
@@ -3640,20 +3444,7 @@
      "weight": 0.7
     }
    },
-   "sharp": {
-    "moneyline": {
-     "home": 0,
-     "away": 0
-    },
-    "spread": {
-     "home": 18,
-     "away": -18
-    },
-    "total": {
-     "over": 61,
-     "under": -61
-    }
-   },
+   "sharp": {},
    "passes": [],
    "picks": []
   },
@@ -3662,16 +3453,16 @@
    "date": "2026-11-25T00:00Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 7:00 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2561",
     "name": "Siena Saints",
     "short": "Siena",
     "abbr": "SIE",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2561.png",
-    "score": 0,
+    "score": 98,
     "rank": null
    },
    "away": {
@@ -3680,7 +3471,7 @@
     "short": "Vermont",
     "abbr": "UVM",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/261.png",
-    "score": 0,
+    "score": 88,
     "rank": null
    },
    "odds": {
@@ -3696,11 +3487,12 @@
    },
    "open": {
     "home_spread": -3.5,
-    "total": 156.5,
-    "home_ml": -142.0,
-    "away_ml": 120.0
+    "total": 159.5,
+    "home_ml": -185.0,
+    "away_ml": 154.0
    },
    "tv": "ESPN+",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 82.9,
@@ -3771,20 +3563,7 @@
      "weight": 0.7
     }
    },
-   "sharp": {
-    "moneyline": {
-     "home": -36,
-     "away": 36
-    },
-    "spread": {
-     "home": -15,
-     "away": 15
-    },
-    "total": {
-     "over": 35,
-     "under": -35
-    }
-   },
+   "sharp": {},
    "passes": [],
    "picks": []
   },
@@ -3793,16 +3572,16 @@
    "date": "2026-11-25T00:00Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 7:00 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "108",
     "name": "Harvard Crimson",
     "short": "Harvard",
     "abbr": "HARV",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/108.png",
-    "score": 0,
+    "score": 72,
     "rank": null
    },
    "away": {
@@ -3811,7 +3590,7 @@
     "short": "Boston U",
     "abbr": "BU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/104.png",
-    "score": 0,
+    "score": 81,
     "rank": null
    },
    "odds": {
@@ -3827,11 +3606,12 @@
    },
    "open": {
     "home_spread": -5.5,
-    "total": 138.5,
-    "home_ml": -225.0,
-    "away_ml": 185.0
+    "total": 134.5,
+    "home_ml": -238.0,
+    "away_ml": 195.0
    },
    "tv": "ESPN+, Patriot League TV",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 73.1,
@@ -3902,36 +3682,8 @@
      "weight": 0.7
     }
    },
-   "sharp": {
-    "moneyline": {
-     "home": -32,
-     "away": 32
-    },
-    "spread": {
-     "home": 7,
-     "away": -7
-    },
-    "total": {
-     "over": 0,
-     "under": 0
-    }
-   },
-   "passes": [
-    {
-     "market": "total",
-     "side": "over",
-     "line": 134.5,
-     "odds": -115.0,
-     "p": 0.547,
-     "ev": 0.023,
-     "edge": 6.82,
-     "label": "Over 134.5",
-     "blend_line": 136.6,
-     "sharp": null,
-     "moved": 4.0,
-     "reason": "DK line moved 4.0 pts against it"
-    }
-   ],
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -3939,16 +3691,16 @@
    "date": "2026-11-25T00:00Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 7:00 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "59",
     "name": "Georgia Tech Yellow Jackets",
     "short": "Georgia Tech",
     "abbr": "GT",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
-    "score": 0,
+    "score": 81,
     "rank": null
    },
    "away": {
@@ -3957,7 +3709,7 @@
     "short": "Samford",
     "abbr": "SAM",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2535.png",
-    "score": 0,
+    "score": 92,
     "rank": null
    },
    "odds": {
@@ -3972,12 +3724,13 @@
     "away_ml": 400.0
    },
    "open": {
-    "home_spread": -10.5,
-    "total": 160.5,
-    "home_ml": -520.0,
-    "away_ml": 390.0
+    "home_spread": -9.5,
+    "total": 161.5,
+    "home_ml": -535.0,
+    "away_ml": 400.0
    },
    "tv": "ACCNX",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 82.2,
@@ -4048,20 +3801,7 @@
      "weight": 0.7
     }
    },
-   "sharp": {
-    "moneyline": {
-     "home": 1,
-     "away": -1
-    },
-    "spread": {
-     "home": 26,
-     "away": -26
-    },
-    "total": {
-     "over": 60,
-     "under": -60
-    }
-   },
+   "sharp": {},
    "passes": [],
    "picks": []
   },
@@ -4070,16 +3810,16 @@
    "date": "2026-11-25T00:00Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 7:00 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2385",
     "name": "Mercyhurst Lakers",
     "short": "Mercyhurst",
     "abbr": "MERC",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2385.png",
-    "score": 0,
+    "score": 95,
     "rank": null
    },
    "away": {
@@ -4088,7 +3828,7 @@
     "short": "SUNY Fredonia",
     "abbr": "SNYF",
     "logo": "",
-    "score": 0,
+    "score": 56,
     "rank": null
    },
    "odds": null,
@@ -4123,16 +3863,16 @@
    "date": "2026-11-25T00:00Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 7:00 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "58",
     "name": "South Florida Bulls",
     "short": "South Florida",
     "abbr": "USF",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png",
-    "score": 0,
+    "score": 100,
     "rank": null
    },
    "away": {
@@ -4141,7 +3881,7 @@
     "short": "Stetson",
     "abbr": "STET",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/56.png",
-    "score": 0,
+    "score": 67,
     "rank": null
    },
    "odds": {
@@ -4156,12 +3896,13 @@
     "away_ml": null
    },
    "open": {
-    "home_spread": -18.5,
-    "total": 152.5,
+    "home_spread": -16.5,
+    "total": 153.5,
     "home_ml": null,
     "away_ml": null
    },
    "tv": "ESPN+",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 88.7,
@@ -4219,16 +3960,7 @@
      "weight": 0.7
     }
    },
-   "sharp": {
-    "spread": {
-     "home": -36,
-     "away": 36
-    },
-    "total": {
-     "over": 54,
-     "under": -54
-    }
-   },
+   "sharp": {},
    "passes": [],
    "picks": []
   },
@@ -4237,16 +3969,16 @@
    "date": "2026-11-25T00:00Z",
    "neutral": true,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 7:00 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2440",
     "name": "Nevada Wolf Pack",
     "short": "Nevada",
     "abbr": "NEV",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2440.png",
-    "score": 0,
+    "score": 85,
     "rank": null
    },
    "away": {
@@ -4255,7 +3987,7 @@
     "short": "Santa Clara",
     "abbr": "SCU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2541.png",
-    "score": 0,
+    "score": 66,
     "rank": null
    },
    "odds": {
@@ -4271,11 +4003,12 @@
    },
    "open": {
     "home_spread": 1.5,
-    "total": 155.5,
-    "home_ml": -122.0,
-    "away_ml": 102.0
+    "total": 159.5,
+    "home_ml": -105.0,
+    "away_ml": -115.0
    },
    "tv": "CBSSN",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 78.9,
@@ -4355,16 +4088,16 @@
    "date": "2026-11-25T00:00Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 7:00 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "256",
     "name": "James Madison Dukes",
     "short": "James Madison",
     "abbr": "JMU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
-    "score": 0,
+    "score": 82,
     "rank": null
    },
    "away": {
@@ -4373,7 +4106,7 @@
     "short": "Charleston So",
     "abbr": "CHSO",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2127.png",
-    "score": 0,
+    "score": 58,
     "rank": null
    },
    "odds": {
@@ -4389,11 +4122,12 @@
    },
    "open": {
     "home_spread": -13.5,
-    "total": 151.5,
-    "home_ml": -1000.0,
-    "away_ml": 650.0
+    "total": 157.5,
+    "home_ml": -1050.0,
+    "away_ml": 675.0
    },
    "tv": "ESPN+",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 82.6,
@@ -4464,36 +4198,8 @@
      "weight": 0.7
     }
    },
-   "sharp": {
-    "moneyline": {
-     "home": -3,
-     "away": 3
-    },
-    "spread": {
-     "home": -14,
-     "away": 14
-    },
-    "total": {
-     "over": 24,
-     "under": -24
-    }
-   },
-   "passes": [
-    {
-     "market": "total",
-     "side": "under",
-     "line": 157.5,
-     "odds": -110.0,
-     "p": 0.543,
-     "ev": 0.036,
-     "edge": 6.25,
-     "label": "Under 157.5",
-     "blend_line": 155.6,
-     "sharp": "opposed",
-     "moved": 6.0,
-     "reason": "DK line moved 6.0 pts against it"
-    }
-   ],
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
@@ -4501,16 +4207,16 @@
    "date": "2026-11-25T00:00Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 7:00 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2329",
     "name": "Lehigh Mountain Hawks",
     "short": "Lehigh",
     "abbr": "LEH",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2329.png",
-    "score": 0,
+    "score": 83,
     "rank": null
    },
    "away": {
@@ -4519,7 +4225,7 @@
     "short": "Binghamton",
     "abbr": "BING",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2066.png",
-    "score": 0,
+    "score": 90,
     "rank": null
    },
    "odds": {
@@ -4535,11 +4241,12 @@
    },
    "open": {
     "home_spread": -8.5,
-    "total": 134.5,
+    "total": 137.5,
     "home_ml": -410.0,
     "away_ml": 320.0
    },
    "tv": "ESPN+",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 74.6,
@@ -4610,20 +4317,7 @@
      "weight": 0.7
     }
    },
-   "sharp": {
-    "moneyline": {
-     "home": 0,
-     "away": 0
-    },
-    "spread": {
-     "home": 19,
-     "away": -20
-    },
-    "total": {
-     "over": 2,
-     "under": -2
-    }
-   },
+   "sharp": {},
    "passes": [],
    "picks": []
   },
@@ -4632,16 +4326,16 @@
    "date": "2026-11-25T00:00Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 7:00 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "189",
     "name": "Bowling Green Falcons",
     "short": "Bowling Green",
     "abbr": "BGSU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/189.png",
-    "score": 0,
+    "score": 91,
     "rank": null
    },
    "away": {
@@ -4650,7 +4344,7 @@
     "short": "Gardner-Webb",
     "abbr": "GWEB",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2241.png",
-    "score": 0,
+    "score": 65,
     "rank": null
    },
    "odds": {
@@ -4666,11 +4360,12 @@
    },
    "open": {
     "home_spread": -12.5,
-    "total": 149.5,
-    "home_ml": -800.0,
-    "away_ml": 550.0
+    "total": 143.5,
+    "home_ml": -900.0,
+    "away_ml": 600.0
    },
    "tv": "ESPN+",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 84.2,
@@ -4741,36 +4436,8 @@
      "weight": 0.7
     }
    },
-   "sharp": {
-    "moneyline": {
-     "home": -22,
-     "away": 22
-    },
-    "spread": {
-     "home": 24,
-     "away": -24
-    },
-    "total": {
-     "over": 54,
-     "under": -54
-    }
-   },
-   "passes": [
-    {
-     "market": "total",
-     "side": "over",
-     "line": 143.5,
-     "odds": -112.0,
-     "p": 0.557,
-     "ev": 0.054,
-     "edge": 8.41,
-     "label": "Over 143.5",
-     "blend_line": 146.0,
-     "sharp": "agrees",
-     "moved": 6.0,
-     "reason": "DK line moved 6.0 pts against it"
-    }
-   ],
+   "sharp": {},
+   "passes": [],
    "picks": [
     "401911027-spread"
    ]
@@ -4780,16 +4447,16 @@
    "date": "2026-11-25T00:30Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 7:30 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2837",
     "name": "East Texas A&M Lions",
     "short": "East Texas A&M",
     "abbr": "ETAM",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2837.png",
-    "score": 0,
+    "score": 79,
     "rank": null
    },
    "away": {
@@ -4798,7 +4465,7 @@
     "short": "Arlington Bapt",
     "abbr": "ABU",
     "logo": "",
-    "score": 0,
+    "score": 51,
     "rank": null
    },
    "odds": null,
@@ -4833,16 +4500,16 @@
    "date": "2026-11-25T00:30Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 7:30 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2546",
     "name": "Southeast Missouri State Redhawks",
     "short": "SE Missouri",
     "abbr": "SEMO",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2546.png",
-    "score": 0,
+    "score": 75,
     "rank": null
    },
    "away": {
@@ -4851,7 +4518,7 @@
     "short": "Purdue FW",
     "abbr": "PFW",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2870.png",
-    "score": 0,
+    "score": 80,
     "rank": null
    },
    "odds": {
@@ -4866,12 +4533,13 @@
     "away_ml": 130.0
    },
    "open": {
-    "home_spread": -2.5,
-    "total": 150.5,
-    "home_ml": -162.0,
-    "away_ml": 136.0
+    "home_spread": -3.5,
+    "total": 149.5,
+    "home_ml": -155.0,
+    "away_ml": 130.0
    },
    "tv": "ESPN+",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 82.1,
@@ -4942,20 +4610,7 @@
      "weight": 0.7
     }
    },
-   "sharp": {
-    "moneyline": {
-     "home": 10,
-     "away": -10
-    },
-    "spread": {
-     "home": 44,
-     "away": -44
-    },
-    "total": {
-     "over": 50,
-     "under": -50
-    }
-   },
+   "sharp": {},
    "passes": [],
    "picks": [
     "401926154-spread",
@@ -4968,16 +4623,16 @@
    "date": "2026-11-25T00:30Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 7:30 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2348",
     "name": "Louisiana Tech Bulldogs",
     "short": "Louisiana Tech",
     "abbr": "LT",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png",
-    "score": 0,
+    "score": 83,
     "rank": null
    },
    "away": {
@@ -4986,7 +4641,7 @@
     "short": "Alcorn St",
     "abbr": "ALCN",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2016.png",
-    "score": 0,
+    "score": 41,
     "rank": null
    },
    "odds": {
@@ -5002,11 +4657,12 @@
    },
    "open": {
     "home_spread": -16.5,
-    "total": 146.5,
-    "home_ml": -2100.0,
-    "away_ml": 1100.0
+    "total": 144.5,
+    "home_ml": -1800.0,
+    "away_ml": 1000.0
    },
    "tv": "ESPN+",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 81.8,
@@ -5077,20 +4733,7 @@
      "weight": 0.7
     }
    },
-   "sharp": {
-    "moneyline": {
-     "home": 0,
-     "away": 0
-    },
-    "spread": {
-     "home": 12,
-     "away": -13
-    },
-    "total": {
-     "over": -4,
-     "under": 4
-    }
-   },
+   "sharp": {},
    "passes": [],
    "picks": [
     "401925687-spread",
@@ -5098,20 +4741,1687 @@
    ]
   },
   {
-   "id": "401920414",
+   "id": "401917983",
    "date": "2026-11-25T00:30Z",
+   "neutral": false,
+   "conf": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
+   "home": {
+    "id": "2433",
+    "name": "UL Monroe Warhawks",
+    "short": "UL Monroe",
+    "abbr": "ULM",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
+    "score": 58,
+    "rank": null
+   },
+   "away": {
+    "id": "2277",
+    "name": "Houston Christian Huskies",
+    "short": "Hou Christian",
+    "abbr": "HCU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2277.png",
+    "score": 84,
+    "rank": null
+   },
+   "odds": {
+    "provider": "DraftKings",
+    "home_spread": 1.5,
+    "home_spread_odds": -120.0,
+    "away_spread_odds": 100.0,
+    "total": 150.5,
+    "over_odds": -108.0,
+    "under_odds": -112.0,
+    "home_ml": 102.0,
+    "away_ml": -122.0
+   },
+   "open": {
+    "home_spread": 1.5,
+    "total": 150.5,
+    "home_ml": 102.0,
+    "away_ml": -122.0
+   },
+   "tv": "ESPN+",
+   "odds_closed": true,
+   "eval": {
+    "model": {
+     "home_pts": 78.9,
+     "away_pts": 79.5,
+     "margin": -0.62,
+     "total": 158.46,
+     "pace": 73.8,
+     "home_spread": 0.5,
+     "home_win": 0.481,
+     "home_ml": 108,
+     "away_ml": -108
+    },
+    "known": true,
+    "games_played": [
+     8,
+     5
+    ],
+    "markets": {
+     "spread": {
+      "edge": 0.88,
+      "home": {
+       "line": 1.5,
+       "odds": -120.0,
+       "p": 0.508,
+       "ev": -0.068
+      },
+      "away": {
+       "line": -1.5,
+       "odds": 100.0,
+       "p": 0.492,
+       "ev": -0.017
+      }
+     },
+     "total": {
+      "edge": 7.96,
+      "over": {
+       "line": 150.5,
+       "odds": -108.0,
+       "p": 0.554,
+       "ev": 0.067
+      },
+      "under": {
+       "line": 150.5,
+       "odds": -112.0,
+       "p": 0.446,
+       "ev": -0.156
+      }
+     },
+     "moneyline": {
+      "edge": 0.007,
+      "home": {
+       "odds": 102.0,
+       "p": 0.461,
+       "ev": -0.068
+      },
+      "away": {
+       "odds": -122.0,
+       "p": 0.539,
+       "ev": -0.02
+      }
+     }
+    },
+    "blend": {
+     "margin": -1.24,
+     "total": 152.89,
+     "home_spread": 1.0,
+     "home_win": 0.461,
+     "weight": 0.7
+    }
+   },
+   "sharp": {},
+   "passes": [],
+   "picks": [
+    "401917983-total"
+   ]
+  },
+  {
+   "id": "401917904",
+   "date": "2026-11-25T00:30Z",
+   "neutral": false,
+   "conf": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
+   "home": {
+    "id": "2635",
+    "name": "Tennessee Tech Golden Eagles",
+    "short": "Tennessee Tech",
+    "abbr": "TNTC",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2635.png",
+    "score": 124,
+    "rank": null
+   },
+   "away": {
+    "id": "2698",
+    "name": "West Georgia Wolves",
+    "short": "West Georgia",
+    "abbr": "WGA",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2698.png",
+    "score": 85,
+    "rank": null
+   },
+   "odds": {
+    "provider": "DraftKings",
+    "home_spread": -14.5,
+    "home_spread_odds": -110.0,
+    "away_spread_odds": -110.0,
+    "total": 163.5,
+    "over_odds": -112.0,
+    "under_odds": -108.0,
+    "home_ml": -1650.0,
+    "away_ml": 950.0
+   },
+   "open": {
+    "home_spread": -14.5,
+    "total": 163.5,
+    "home_ml": -1650.0,
+    "away_ml": 950.0
+   },
+   "tv": "ESPN+",
+   "odds_closed": true,
+   "eval": {
+    "model": {
+     "home_pts": 87.2,
+     "away_pts": 68.9,
+     "margin": 18.28,
+     "total": 156.18,
+     "pace": 77.8,
+     "home_spread": -18.5,
+     "home_win": 0.929,
+     "home_ml": -1302,
+     "away_ml": 1302
+    },
+    "known": true,
+    "games_played": [
+     7,
+     6
+    ],
+    "markets": {
+     "spread": {
+      "edge": 3.78,
+      "home": {
+       "line": -14.5,
+       "odds": -110.0,
+       "p": 0.536,
+       "ev": 0.024
+      },
+      "away": {
+       "line": 14.5,
+       "odds": -110.0,
+       "p": 0.464,
+       "ev": -0.115
+      }
+     },
+     "total": {
+      "edge": -7.32,
+      "over": {
+       "line": 163.5,
+       "odds": -112.0,
+       "p": 0.45,
+       "ev": -0.149
+      },
+      "under": {
+       "line": 163.5,
+       "odds": -108.0,
+       "p": 0.55,
+       "ev": 0.06
+      }
+     },
+     "moneyline": {
+      "edge": 0.02,
+      "home": {
+       "odds": -1650.0,
+       "p": 0.895,
+       "ev": -0.051
+      },
+      "away": {
+       "odds": 950.0,
+       "p": 0.105,
+       "ev": 0.102
+      }
+     }
+    },
+    "blend": {
+     "margin": 15.63,
+     "total": 161.3,
+     "home_spread": -15.5,
+     "home_win": 0.895,
+     "weight": 0.7
+    }
+   },
+   "sharp": {},
+   "passes": [],
+   "picks": []
+  },
+  {
+   "id": "401929421",
+   "date": "2026-11-25T01:00Z",
+   "neutral": false,
+   "conf": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
+   "home": {
+    "id": "6",
+    "name": "South Alabama Jaguars",
+    "short": "South Alabama",
+    "abbr": "USA",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
+    "score": 74,
+    "rank": null
+   },
+   "away": {
+    "id": "50",
+    "name": "Florida A&M Rattlers",
+    "short": "Florida A&M",
+    "abbr": "FAMU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/50.png",
+    "score": 49,
+    "rank": null
+   },
+   "odds": {
+    "provider": "DraftKings",
+    "home_spread": -17.5,
+    "home_spread_odds": -112.0,
+    "away_spread_odds": -108.0,
+    "total": 142.5,
+    "over_odds": -108.0,
+    "under_odds": -112.0,
+    "home_ml": -2400.0,
+    "away_ml": 1200.0
+   },
+   "open": {
+    "home_spread": -17.5,
+    "total": 142.5,
+    "home_ml": -2400.0,
+    "away_ml": 1200.0
+   },
+   "tv": "ESPN+",
+   "odds_closed": true,
+   "eval": {
+    "model": {
+     "home_pts": 89.2,
+     "away_pts": 65.3,
+     "margin": 23.9,
+     "total": 154.53,
+     "pace": 69.8,
+     "home_spread": -24.0,
+     "home_win": 0.972,
+     "home_ml": -3516,
+     "away_ml": 3516
+    },
+    "known": true,
+    "games_played": [
+     8,
+     6
+    ],
+    "markets": {
+     "spread": {
+      "edge": 6.4,
+      "home": {
+       "line": -17.5,
+       "odds": -112.0,
+       "p": 0.561,
+       "ev": 0.062
+      },
+      "away": {
+       "line": 17.5,
+       "odds": -108.0,
+       "p": 0.439,
+       "ev": -0.155
+      }
+     },
+     "total": {
+      "edge": 12.03,
+      "over": {
+       "line": 142.5,
+       "odds": -108.0,
+       "p": 0.582,
+       "ev": 0.121
+      },
+      "under": {
+       "line": 142.5,
+       "odds": -112.0,
+       "p": 0.418,
+       "ev": -0.209
+      }
+     },
+     "moneyline": {
+      "edge": 0.047,
+      "home": {
+       "odds": -2400.0,
+       "p": 0.94,
+       "ev": -0.021
+      },
+      "away": {
+       "odds": 1200.0,
+       "p": 0.06,
+       "ev": -0.224
+      }
+     }
+    },
+    "blend": {
+     "margin": 19.42,
+     "total": 146.11,
+     "home_spread": -19.5,
+     "home_win": 0.94,
+     "weight": 0.7
+    }
+   },
+   "sharp": {},
+   "passes": [],
+   "picks": [
+    "401929421-total"
+   ]
+  },
+  {
+   "id": "401929380",
+   "date": "2026-11-25T01:00Z",
+   "neutral": false,
+   "conf": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
+   "home": {
+    "id": "2031",
+    "name": "Little Rock Trojans",
+    "short": "Little Rock",
+    "abbr": "LR",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2031.png",
+    "score": 82,
+    "rank": null
+   },
+   "away": {
+    "id": "2027",
+    "name": "Arkansas Baptist Buffaloes",
+    "short": "Ark Baptist",
+    "abbr": "ARBA",
+    "logo": "",
+    "score": 47,
+    "rank": null
+   },
+   "odds": null,
+   "open": null,
+   "tv": "ESPN+",
+   "eval": {
+    "model": {
+     "home_pts": 87.6,
+     "away_pts": 67.5,
+     "margin": 20.08,
+     "total": 155.09,
+     "pace": 71.1,
+     "home_spread": -20.0,
+     "home_win": 0.91,
+     "home_ml": -1007,
+     "away_ml": 1007
+    },
+    "known": false,
+    "games_played": [
+     6,
+     0
+    ],
+    "markets": {},
+    "blend": {}
+   },
+   "sharp": {},
+   "passes": [],
+   "picks": []
+  },
+  {
+   "id": "401929359",
+   "date": "2026-11-25T01:00Z",
+   "neutral": false,
+   "conf": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
+   "home": {
+    "id": "250",
+    "name": "UT Arlington Mavericks",
+    "short": "UT Arlington",
+    "abbr": "UTA",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/250.png",
+    "score": 80,
+    "rank": null
+   },
+   "away": {
+    "id": "198",
+    "name": "Oral Roberts Golden Eagles",
+    "short": "Oral Roberts",
+    "abbr": "ORU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/198.png",
+    "score": 84,
+    "rank": null
+   },
+   "odds": {
+    "provider": "DraftKings",
+    "home_spread": -4.5,
+    "home_spread_odds": -118.0,
+    "away_spread_odds": -102.0,
+    "total": 150.5,
+    "over_odds": -108.0,
+    "under_odds": -112.0,
+    "home_ml": -205.0,
+    "away_ml": 170.0
+   },
+   "open": {
+    "home_spread": -4.5,
+    "total": 150.5,
+    "home_ml": -205.0,
+    "away_ml": 170.0
+   },
+   "tv": "ESPN+",
+   "odds_closed": true,
+   "eval": {
+    "model": {
+     "home_pts": 74.9,
+     "away_pts": 70.4,
+     "margin": 4.5,
+     "total": 145.28,
+     "pace": 71.1,
+     "home_spread": -4.5,
+     "home_win": 0.641,
+     "home_ml": -179,
+     "away_ml": 179
+    },
+    "known": true,
+    "games_played": [
+     7,
+     6
+    ],
+    "markets": {
+     "spread": {
+      "edge": 0.0,
+      "home": {
+       "line": -4.5,
+       "odds": -118.0,
+       "p": 0.5,
+       "ev": -0.076
+      },
+      "away": {
+       "line": 4.5,
+       "odds": -102.0,
+       "p": 0.5,
+       "ev": -0.01
+      }
+     },
+     "total": {
+      "edge": -5.22,
+      "over": {
+       "line": 150.5,
+       "odds": -108.0,
+       "p": 0.464,
+       "ev": -0.106
+      },
+      "under": {
+       "line": 150.5,
+       "odds": -112.0,
+       "p": 0.536,
+       "ev": 0.014
+      }
+     },
+     "moneyline": {
+      "edge": -0.004,
+      "home": {
+       "odds": -205.0,
+       "p": 0.641,
+       "ev": -0.046
+      },
+      "away": {
+       "odds": 170.0,
+       "p": 0.359,
+       "ev": -0.03
+      }
+     }
+    },
+    "blend": {
+     "margin": 4.5,
+     "total": 148.93,
+     "home_spread": -4.5,
+     "home_win": 0.641,
+     "weight": 0.7
+    }
+   },
+   "sharp": {},
+   "passes": [],
+   "picks": []
+  },
+  {
+   "id": "401925642",
+   "date": "2026-11-25T01:00Z",
+   "neutral": false,
+   "conf": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
+   "home": {
+    "id": "2453",
+    "name": "North Alabama Lions",
+    "short": "North Alabama",
+    "abbr": "UNA",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2453.png",
+    "score": 77,
+    "rank": null
+   },
+   "away": {
+    "id": "2010",
+    "name": "Alabama A&M Bulldogs",
+    "short": "Alabama A&M",
+    "abbr": "AAMU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2010.png",
+    "score": 74,
+    "rank": null
+   },
+   "odds": {
+    "provider": "DraftKings",
+    "home_spread": -3.5,
+    "home_spread_odds": -115.0,
+    "away_spread_odds": -105.0,
+    "total": 142.5,
+    "over_odds": -108.0,
+    "under_odds": -112.0,
+    "home_ml": -170.0,
+    "away_ml": 142.0
+   },
+   "open": {
+    "home_spread": -3.5,
+    "total": 142.5,
+    "home_ml": -170.0,
+    "away_ml": 142.0
+   },
+   "tv": "ESPN+",
+   "odds_closed": true,
+   "eval": {
+    "model": {
+     "home_pts": 72.7,
+     "away_pts": 72.1,
+     "margin": 0.68,
+     "total": 144.8,
+     "pace": 71.8,
+     "home_spread": -0.5,
+     "home_win": 0.522,
+     "home_ml": -109,
+     "away_ml": 109
+    },
+    "known": true,
+    "games_played": [
+     6,
+     6
+    ],
+    "markets": {
+     "spread": {
+      "edge": -2.82,
+      "home": {
+       "line": -3.5,
+       "odds": -115.0,
+       "p": 0.473,
+       "ev": -0.116
+      },
+      "away": {
+       "line": 3.5,
+       "odds": -105.0,
+       "p": 0.527,
+       "ev": 0.029
+      }
+     },
+     "total": {
+      "edge": 2.3,
+      "over": {
+       "line": 142.5,
+       "odds": -108.0,
+       "p": 0.516,
+       "ev": -0.007
+      },
+      "under": {
+       "line": 142.5,
+       "odds": -112.0,
+       "p": 0.484,
+       "ev": -0.083
+      }
+     },
+     "moneyline": {
+      "edge": -0.082,
+      "home": {
+       "odds": -170.0,
+       "p": 0.584,
+       "ev": -0.072
+      },
+      "away": {
+       "odds": 142.0,
+       "p": 0.416,
+       "ev": 0.006
+      }
+     }
+    },
+    "blend": {
+     "margin": 2.65,
+     "total": 143.19,
+     "home_spread": -2.5,
+     "home_win": 0.584,
+     "weight": 0.7
+    }
+   },
+   "sharp": {},
+   "passes": [],
+   "picks": []
+  },
+  {
+   "id": "401921711",
+   "date": "2026-11-25T01:00Z",
    "neutral": true,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 7:30 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
+   "home": {
+    "id": "264",
+    "name": "Washington Huskies",
+    "short": "Washington",
+    "abbr": "WASH",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
+    "score": 64,
+    "rank": null
+   },
+   "away": {
+    "id": "228",
+    "name": "Clemson Tigers",
+    "short": "Clemson",
+    "abbr": "CLEM",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
+    "score": 63,
+    "rank": null
+   },
+   "odds": {
+    "provider": "DraftKings",
+    "home_spread": 1.5,
+    "home_spread_odds": -110.0,
+    "away_spread_odds": -110.0,
+    "total": 150.5,
+    "over_odds": -115.0,
+    "under_odds": -105.0,
+    "home_ml": 105.0,
+    "away_ml": -125.0
+   },
+   "open": {
+    "home_spread": 1.5,
+    "total": 150.5,
+    "home_ml": 105.0,
+    "away_ml": -125.0
+   },
+   "tv": "ESPNU",
+   "odds_closed": true,
+   "eval": {
+    "model": {
+     "home_pts": 74.8,
+     "away_pts": 76.1,
+     "margin": -1.31,
+     "total": 150.87,
+     "pace": 66.6,
+     "home_spread": 1.5,
+     "home_win": 0.459,
+     "home_ml": 118,
+     "away_ml": -118
+    },
+    "known": true,
+    "games_played": [
+     5,
+     6
+    ],
+    "markets": {
+     "spread": {
+      "edge": 0.19,
+      "home": {
+       "line": 1.5,
+       "odds": -110.0,
+       "p": 0.502,
+       "ev": -0.042
+      },
+      "away": {
+       "line": -1.5,
+       "odds": -110.0,
+       "p": 0.498,
+       "ev": -0.049
+      }
+     },
+     "total": {
+      "edge": 0.37,
+      "over": {
+       "line": 150.5,
+       "odds": -115.0,
+       "p": 0.503,
+       "ev": -0.061
+      },
+      "under": {
+       "line": 150.5,
+       "odds": -105.0,
+       "p": 0.497,
+       "ev": -0.029
+      }
+     },
+     "moneyline": {
+      "edge": -0.008,
+      "home": {
+       "odds": 105.0,
+       "p": 0.455,
+       "ev": -0.067
+      },
+      "away": {
+       "odds": -125.0,
+       "p": 0.545,
+       "ev": -0.019
+      }
+     }
+    },
+    "blend": {
+     "margin": -1.44,
+     "total": 150.61,
+     "home_spread": 1.5,
+     "home_win": 0.455,
+     "weight": 0.7
+    }
+   },
+   "sharp": {},
+   "passes": [],
+   "picks": []
+  },
+  {
+   "id": "401921184",
+   "date": "2026-11-25T01:00Z",
+   "neutral": false,
+   "conf": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
+   "home": {
+    "id": "219",
+    "name": "Pennsylvania Quakers",
+    "short": "Penn",
+    "abbr": "PENN",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/219.png",
+    "score": 89,
+    "rank": null
+   },
+   "away": {
+    "id": "2182",
+    "name": "Drexel Dragons",
+    "short": "Drexel",
+    "abbr": "DREX",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2182.png",
+    "score": 74,
+    "rank": null
+   },
+   "odds": {
+    "provider": "DraftKings",
+    "home_spread": -6.5,
+    "home_spread_odds": -108.0,
+    "away_spread_odds": -112.0,
+    "total": 142.5,
+    "over_odds": -112.0,
+    "under_odds": -108.0,
+    "home_ml": -265.0,
+    "away_ml": 215.0
+   },
+   "open": {
+    "home_spread": -6.5,
+    "total": 142.5,
+    "home_ml": -265.0,
+    "away_ml": 215.0
+   },
+   "tv": "ESPN+, NBC Sports Phil",
+   "odds_closed": true,
+   "eval": {
+    "model": {
+     "home_pts": 76.8,
+     "away_pts": 69.0,
+     "margin": 7.72,
+     "total": 145.81,
+     "pace": 70.8,
+     "home_spread": -7.5,
+     "home_win": 0.728,
+     "home_ml": -267,
+     "away_ml": 267
+    },
+    "known": true,
+    "games_played": [
+     6,
+     5
+    ],
+    "markets": {
+     "spread": {
+      "edge": 1.22,
+      "home": {
+       "line": -6.5,
+       "odds": -108.0,
+       "p": 0.511,
+       "ev": -0.015
+      },
+      "away": {
+       "line": 6.5,
+       "odds": -112.0,
+       "p": 0.489,
+       "ev": -0.075
+      }
+     },
+     "total": {
+      "edge": 3.31,
+      "over": {
+       "line": 142.5,
+       "odds": -112.0,
+       "p": 0.523,
+       "ev": -0.011
+      },
+      "under": {
+       "line": 142.5,
+       "odds": -108.0,
+       "p": 0.477,
+       "ev": -0.08
+      }
+     },
+     "moneyline": {
+      "edge": 0.032,
+      "home": {
+       "odds": -265.0,
+       "p": 0.705,
+       "ev": -0.029
+      },
+      "away": {
+       "odds": 215.0,
+       "p": 0.295,
+       "ev": -0.071
+      }
+     }
+    },
+    "blend": {
+     "margin": 6.87,
+     "total": 143.49,
+     "home_spread": -7.0,
+     "home_win": 0.705,
+     "weight": 0.7
+    }
+   },
+   "sharp": {},
+   "passes": [],
+   "picks": []
+  },
+  {
+   "id": "401921008",
+   "date": "2026-11-25T01:00Z",
+   "neutral": false,
+   "conf": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
+   "home": {
+    "id": "140",
+    "name": "Kansas City Roos",
+    "short": "Kansas City",
+    "abbr": "KC",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/140.png",
+    "score": 72,
+    "rank": null
+   },
+   "away": {
+    "id": "2739",
+    "name": "Green Bay Phoenix",
+    "short": "Green Bay",
+    "abbr": "GB",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2739.png",
+    "score": 77,
+    "rank": null
+   },
+   "odds": {
+    "provider": "DraftKings",
+    "home_spread": -1.5,
+    "home_spread_odds": -108.0,
+    "away_spread_odds": -112.0,
+    "total": 145.5,
+    "over_odds": -110.0,
+    "under_odds": -110.0,
+    "home_ml": -115.0,
+    "away_ml": -105.0
+   },
+   "open": {
+    "home_spread": -1.5,
+    "total": 145.5,
+    "home_ml": -115.0,
+    "away_ml": -105.0
+   },
+   "tv": "Summit League Network",
+   "odds_closed": true,
+   "eval": {
+    "model": {
+     "home_pts": 72.9,
+     "away_pts": 74.6,
+     "margin": -1.63,
+     "total": 147.51,
+     "pace": 67.5,
+     "home_spread": 1.5,
+     "home_win": 0.447,
+     "home_ml": 124,
+     "away_ml": -124
+    },
+    "known": true,
+    "games_played": [
+     7,
+     7
+    ],
+    "markets": {
+     "spread": {
+      "edge": -3.13,
+      "home": {
+       "line": -1.5,
+       "odds": -108.0,
+       "p": 0.469,
+       "ev": -0.096
+      },
+      "away": {
+       "line": 1.5,
+       "odds": -112.0,
+       "p": 0.531,
+       "ev": 0.004
+      }
+     },
+     "total": {
+      "edge": 2.01,
+      "over": {
+       "line": 145.5,
+       "odds": -110.0,
+       "p": 0.514,
+       "ev": -0.019
+      },
+      "under": {
+       "line": 145.5,
+       "odds": -110.0,
+       "p": 0.486,
+       "ev": -0.072
+      }
+     },
+     "moneyline": {
+      "edge": -0.064,
+      "home": {
+       "odds": -115.0,
+       "p": 0.518,
+       "ev": -0.031
+      },
+      "away": {
+       "odds": -105.0,
+       "p": 0.482,
+       "ev": -0.059
+      }
+     }
+    },
+    "blend": {
+     "margin": 0.56,
+     "total": 146.1,
+     "home_spread": -0.5,
+     "home_win": 0.518,
+     "weight": 0.7
+    }
+   },
+   "sharp": {},
+   "passes": [],
+   "picks": []
+  },
+  {
+   "id": "401920709",
+   "date": "2026-11-25T01:00Z",
+   "neutral": false,
+   "conf": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
+   "home": {
+    "id": "2",
+    "name": "Auburn Tigers",
+    "short": "Auburn",
+    "abbr": "AUB",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png",
+    "score": 101,
+    "rank": null
+   },
+   "away": {
+    "id": "288",
+    "name": "Lipscomb Bisons",
+    "short": "Lipscomb",
+    "abbr": "LIP",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/288.png",
+    "score": 66,
+    "rank": null
+   },
+   "odds": {
+    "provider": "DraftKings",
+    "home_spread": -24.5,
+    "home_spread_odds": -110.0,
+    "away_spread_odds": -110.0,
+    "total": 158.5,
+    "over_odds": -110.0,
+    "under_odds": -110.0,
+    "home_ml": -9000.0,
+    "away_ml": 2500.0
+   },
+   "open": {
+    "home_spread": -24.5,
+    "total": 158.5,
+    "home_ml": -9000.0,
+    "away_ml": 2500.0
+   },
+   "tv": "SECN+",
+   "odds_closed": true,
+   "eval": {
+    "model": {
+     "home_pts": 86.8,
+     "away_pts": 70.5,
+     "margin": 16.33,
+     "total": 157.27,
+     "pace": 72.1,
+     "home_spread": -16.5,
+     "home_win": 0.905,
+     "home_ml": -950,
+     "away_ml": 950
+    },
+    "known": true,
+    "games_played": [
+     6,
+     8
+    ],
+    "markets": {
+     "spread": {
+      "edge": -8.17,
+      "home": {
+       "line": -24.5,
+       "odds": -110.0,
+       "p": 0.422,
+       "ev": -0.194
+      },
+      "away": {
+       "line": 24.5,
+       "odds": -110.0,
+       "p": 0.578,
+       "ev": 0.103
+      }
+     },
+     "total": {
+      "edge": -1.23,
+      "over": {
+       "line": 158.5,
+       "odds": -110.0,
+       "p": 0.492,
+       "ev": -0.062
+      },
+      "under": {
+       "line": 158.5,
+       "odds": -110.0,
+       "p": 0.508,
+       "ev": -0.029
+      }
+     },
+     "moneyline": {
+      "edge": -0.058,
+      "home": {
+       "odds": -9000.0,
+       "p": 0.961,
+       "ev": -0.028
+      },
+      "away": {
+       "odds": 2500.0,
+       "p": 0.039,
+       "ev": 0.001
+      }
+     }
+    },
+    "blend": {
+     "margin": 22.05,
+     "total": 158.13,
+     "home_spread": -22.0,
+     "home_win": 0.961,
+     "weight": 0.7
+    }
+   },
+   "sharp": {},
+   "passes": [],
+   "picks": []
+  },
+  {
+   "id": "401911338",
+   "date": "2026-11-25T01:00Z",
+   "neutral": true,
+   "conf": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
+   "home": {
+    "id": "2005",
+    "name": "Air Force Falcons",
+    "short": "Air Force",
+    "abbr": "AF",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
+    "score": 88,
+    "rank": null
+   },
+   "away": {
+    "id": "349",
+    "name": "Army Black Knights",
+    "short": "Army",
+    "abbr": "ARMY",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
+    "score": 79,
+    "rank": null
+   },
+   "odds": {
+    "provider": "DraftKings",
+    "home_spread": -3.5,
+    "home_spread_odds": -112.0,
+    "away_spread_odds": -108.0,
+    "total": 155.5,
+    "over_odds": -112.0,
+    "under_odds": -108.0,
+    "home_ml": -170.0,
+    "away_ml": 142.0
+   },
+   "open": {
+    "home_spread": -3.5,
+    "total": 155.5,
+    "home_ml": -170.0,
+    "away_ml": 142.0
+   },
+   "tv": "ESPN+",
+   "odds_closed": true,
+   "eval": {
+    "model": {
+     "home_pts": 73.7,
+     "away_pts": 76.2,
+     "margin": -2.48,
+     "total": 149.87,
+     "pace": 72.0,
+     "home_spread": 2.5,
+     "home_win": 0.421,
+     "home_ml": 137,
+     "away_ml": -137
+    },
+    "known": true,
+    "games_played": [
+     6,
+     6
+    ],
+    "markets": {
+     "spread": {
+      "edge": -5.98,
+      "home": {
+       "line": -3.5,
+       "odds": -112.0,
+       "p": 0.443,
+       "ev": -0.162
+      },
+      "away": {
+       "line": 3.5,
+       "odds": -108.0,
+       "p": 0.557,
+       "ev": 0.073
+      }
+     },
+     "total": {
+      "edge": -5.63,
+      "over": {
+       "line": 155.5,
+       "odds": -112.0,
+       "p": 0.461,
+       "ev": -0.127
+      },
+      "under": {
+       "line": 155.5,
+       "odds": -108.0,
+       "p": 0.539,
+       "ev": 0.037
+      }
+     },
+     "moneyline": {
+      "edge": -0.182,
+      "home": {
+       "odds": -170.0,
+       "p": 0.554,
+       "ev": -0.119
+      },
+      "away": {
+       "odds": 142.0,
+       "p": 0.446,
+       "ev": 0.078
+      }
+     }
+    },
+    "blend": {
+     "margin": 1.71,
+     "total": 153.81,
+     "home_spread": -1.5,
+     "home_win": 0.554,
+     "weight": 0.7
+    }
+   },
+   "sharp": {},
+   "passes": [],
+   "picks": [
+    "401911338-moneyline"
+   ]
+  },
+  {
+   "id": "401911026",
+   "date": "2026-11-25T01:00Z",
+   "neutral": false,
+   "conf": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
+   "home": {
+    "id": "87",
+    "name": "Notre Dame Fighting Irish",
+    "short": "Notre Dame",
+    "abbr": "ND",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
+    "score": 88,
+    "rank": null
+   },
+   "away": {
+    "id": "2117",
+    "name": "Central Michigan Chippewas",
+    "short": "C Michigan",
+    "abbr": "CMU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png",
+    "score": 70,
+    "rank": null
+   },
+   "odds": {
+    "provider": "DraftKings",
+    "home_spread": -20.5,
+    "home_spread_odds": -115.0,
+    "away_spread_odds": -105.0,
+    "total": 152.5,
+    "over_odds": -110.0,
+    "under_odds": -110.0,
+    "home_ml": -4000.0,
+    "away_ml": 1600.0
+   },
+   "open": {
+    "home_spread": -20.5,
+    "total": 152.5,
+    "home_ml": -4000.0,
+    "away_ml": 1600.0
+   },
+   "tv": "ACCNX",
+   "odds_closed": true,
+   "eval": {
+    "model": {
+     "home_pts": 89.2,
+     "away_pts": 72.9,
+     "margin": 16.24,
+     "total": 162.09,
+     "pace": 71.3,
+     "home_spread": -16.0,
+     "home_win": 0.904,
+     "home_ml": -937,
+     "away_ml": 937
+    },
+    "known": true,
+    "games_played": [
+     7,
+     6
+    ],
+    "markets": {
+     "spread": {
+      "edge": -4.26,
+      "home": {
+       "line": -20.5,
+       "odds": -115.0,
+       "p": 0.459,
+       "ev": -0.142
+      },
+      "away": {
+       "line": 20.5,
+       "odds": -105.0,
+       "p": 0.541,
+       "ev": 0.056
+      }
+     },
+     "total": {
+      "edge": 9.59,
+      "over": {
+       "line": 152.5,
+       "odds": -110.0,
+       "p": 0.566,
+       "ev": 0.08
+      },
+      "under": {
+       "line": 152.5,
+       "odds": -110.0,
+       "p": 0.434,
+       "ev": -0.171
+      }
+     },
+     "moneyline": {
+      "edge": -0.04,
+      "home": {
+       "odds": -4000.0,
+       "p": 0.938,
+       "ev": -0.038
+      },
+      "away": {
+       "odds": 1600.0,
+       "p": 0.062,
+       "ev": 0.047
+      }
+     }
+    },
+    "blend": {
+     "margin": 19.22,
+     "total": 155.38,
+     "home_spread": -19.0,
+     "home_win": 0.938,
+     "weight": 0.7
+    }
+   },
+   "sharp": {},
+   "passes": [],
+   "picks": [
+    "401911026-spread",
+    "401911026-total"
+   ]
+  },
+  {
+   "id": "401929456",
+   "date": "2026-11-25T01:30Z",
+   "neutral": false,
+   "conf": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
+   "home": {
+    "id": "309",
+    "name": "Louisiana Ragin' Cajuns",
+    "short": "Louisiana",
+    "abbr": "UL",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
+    "score": 91,
+    "rank": null
+   },
+   "away": {
+    "id": "2347",
+    "name": "Louisiana Christian Wildcats",
+    "short": "LA Christian",
+    "abbr": "LCHR",
+    "logo": "",
+    "score": 24,
+    "rank": null
+   },
+   "odds": null,
+   "open": null,
+   "tv": "ESPN+",
+   "eval": {
+    "model": {
+     "home_pts": 79.1,
+     "away_pts": 54.0,
+     "margin": 25.19,
+     "total": 133.1,
+     "pace": 69.2,
+     "home_spread": -25.0,
+     "home_win": 0.965,
+     "home_ml": -2786,
+     "away_ml": 2786
+    },
+    "known": true,
+    "games_played": [
+     5,
+     2
+    ],
+    "markets": {},
+    "blend": {}
+   },
+   "sharp": {},
+   "passes": [],
+   "picks": []
+  },
+  {
+   "id": "401924723",
+   "date": "2026-11-25T01:30Z",
+   "neutral": false,
+   "conf": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
+   "home": {
+    "id": "172",
+    "name": "Cornell Big Red",
+    "short": "Cornell",
+    "abbr": "COR",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/172.png",
+    "score": 92,
+    "rank": null
+   },
+   "away": {
+    "id": "2083",
+    "name": "Bucknell Bison",
+    "short": "Bucknell",
+    "abbr": "BUCK",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2083.png",
+    "score": 71,
+    "rank": null
+   },
+   "odds": {
+    "provider": "DraftKings",
+    "home_spread": -11.5,
+    "home_spread_odds": -115.0,
+    "away_spread_odds": -105.0,
+    "total": 155.5,
+    "over_odds": -105.0,
+    "under_odds": -115.0,
+    "home_ml": -700.0,
+    "away_ml": 500.0
+   },
+   "open": {
+    "home_spread": -11.5,
+    "total": 155.5,
+    "home_ml": -700.0,
+    "away_ml": 500.0
+   },
+   "tv": "ESPN+",
+   "odds_closed": true,
+   "eval": {
+    "model": {
+     "home_pts": 85.7,
+     "away_pts": 67.5,
+     "margin": 18.24,
+     "total": 153.16,
+     "pace": 72.2,
+     "home_spread": -18.0,
+     "home_win": 0.928,
+     "home_ml": -1293,
+     "away_ml": 1293
+    },
+    "known": true,
+    "games_played": [
+     6,
+     6
+    ],
+    "markets": {
+     "spread": {
+      "edge": 6.74,
+      "home": {
+       "line": -11.5,
+       "odds": -115.0,
+       "p": 0.564,
+       "ev": 0.055
+      },
+      "away": {
+       "line": 11.5,
+       "odds": -105.0,
+       "p": 0.436,
+       "ev": -0.15
+      }
+     },
+     "total": {
+      "edge": -2.34,
+      "over": {
+       "line": 155.5,
+       "odds": -105.0,
+       "p": 0.484,
+       "ev": -0.055
+      },
+      "under": {
+       "line": 155.5,
+       "odds": -115.0,
+       "p": 0.516,
+       "ev": -0.035
+      }
+     },
+     "moneyline": {
+      "edge": 0.088,
+      "home": {
+       "odds": -700.0,
+       "p": 0.861,
+       "ev": -0.016
+      },
+      "away": {
+       "odds": 500.0,
+       "p": 0.139,
+       "ev": -0.165
+      }
+     }
+    },
+    "blend": {
+     "margin": 13.52,
+     "total": 154.8,
+     "home_spread": -13.5,
+     "home_win": 0.861,
+     "weight": 0.7
+    }
+   },
+   "sharp": {},
+   "passes": [],
+   "picks": [
+    "401924723-spread"
+   ]
+  },
+  {
+   "id": "401915942",
+   "date": "2026-11-25T01:37Z",
+   "neutral": true,
+   "conf": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
+   "home": {
+    "id": "97",
+    "name": "Louisville Cardinals",
+    "short": "Louisville",
+    "abbr": "LOU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+    "score": 72,
+    "rank": 25
+   },
+   "away": {
+    "id": "2641",
+    "name": "Texas Tech Red Raiders",
+    "short": "Texas Tech",
+    "abbr": "TTU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+    "score": 64,
+    "rank": 5
+   },
+   "odds": {
+    "provider": "DraftKings",
+    "home_spread": 2.5,
+    "home_spread_odds": -105.0,
+    "away_spread_odds": -115.0,
+    "total": 153.5,
+    "over_odds": -108.0,
+    "under_odds": -112.0,
+    "home_ml": 120.0,
+    "away_ml": -142.0
+   },
+   "open": {
+    "home_spread": 2.5,
+    "total": 153.5,
+    "home_ml": 120.0,
+    "away_ml": -142.0
+   },
+   "tv": "ESPN",
+   "odds_closed": true,
+   "eval": {
+    "model": {
+     "home_pts": 61.4,
+     "away_pts": 73.5,
+     "margin": -12.12,
+     "total": 134.86,
+     "pace": 71.0,
+     "home_spread": 12.0,
+     "home_win": 0.177,
+     "home_ml": 466,
+     "away_ml": -466
+    },
+    "known": true,
+    "games_played": [
+     4,
+     5
+    ],
+    "markets": {
+     "spread": {
+      "edge": -9.62,
+      "home": {
+       "line": 2.5,
+       "odds": -105.0,
+       "p": 0.412,
+       "ev": -0.195
+      },
+      "away": {
+       "line": -2.5,
+       "odds": -115.0,
+       "p": 0.588,
+       "ev": 0.098
+      }
+     },
+     "total": {
+      "edge": -18.64,
+      "over": {
+       "line": 153.5,
+       "odds": -108.0,
+       "p": 0.377,
+       "ev": -0.275
+      },
+      "under": {
+       "line": 153.5,
+       "odds": -112.0,
+       "p": 0.623,
+       "ev": 0.18
+      }
+     },
+     "moneyline": {
+      "edge": -0.26,
+      "home": {
+       "odds": 120.0,
+       "p": 0.34,
+       "ev": -0.252
+      },
+      "away": {
+       "odds": -142.0,
+       "p": 0.66,
+       "ev": 0.125
+      }
+     }
+    },
+    "blend": {
+     "margin": -5.39,
+     "total": 147.91,
+     "home_spread": 5.5,
+     "home_win": 0.34,
+     "weight": 0.7
+    }
+   },
+   "sharp": {},
+   "passes": [],
+   "picks": [
+    "401915942-spread",
+    "401915942-total"
+   ]
+  },
+  {
+   "id": "401920414",
+   "date": "2026-11-25T01:45Z",
+   "neutral": true,
+   "conf": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2272",
     "name": "High Point Panthers",
     "short": "High Point",
     "abbr": "HPU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2272.png",
-    "score": 0,
+    "score": 75,
     "rank": null
    },
    "away": {
@@ -5120,7 +6430,7 @@
     "short": "Duquesne",
     "abbr": "DUQ",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2184.png",
-    "score": 0,
+    "score": 70,
     "rank": null
    },
    "odds": {
@@ -5135,12 +6445,13 @@
     "away_ml": 410.0
    },
    "open": {
-    "home_spread": -9.5,
-    "total": 140.5,
-    "home_ml": -470.0,
-    "away_ml": 360.0
+    "home_spread": -10.5,
+    "total": 141.5,
+    "home_ml": -550.0,
+    "away_ml": 410.0
    },
    "tv": "FloSports",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 74.5,
@@ -5216,1623 +6527,424 @@
    "picks": []
   },
   {
-   "id": "401917983",
-   "date": "2026-11-25T00:30Z",
+   "id": "401928796",
+   "date": "2026-11-25T02:00Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 7:30 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
-    "id": "2433",
-    "name": "UL Monroe Warhawks",
-    "short": "UL Monroe",
-    "abbr": "ULM",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2433.png",
-    "score": 0,
+    "id": "265",
+    "name": "Washington State Cougars",
+    "short": "Washington St",
+    "abbr": "WSU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/265.png",
+    "score": 80,
     "rank": null
    },
    "away": {
-    "id": "2277",
-    "name": "Houston Christian Huskies",
-    "short": "Hou Christian",
-    "abbr": "HCU",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2277.png",
-    "score": 0,
+    "id": "2534",
+    "name": "Sam Houston Bearkats",
+    "short": "Sam Houston",
+    "abbr": "SHSU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2534.png",
+    "score": 73,
     "rank": null
    },
    "odds": {
     "provider": "DraftKings",
-    "home_spread": 1.5,
-    "home_spread_odds": -120.0,
-    "away_spread_odds": 100.0,
-    "total": 150.5,
-    "over_odds": -108.0,
-    "under_odds": -112.0,
-    "home_ml": 102.0,
-    "away_ml": -122.0
-   },
-   "open": {
-    "home_spread": 2.5,
-    "total": 151.5,
-    "home_ml": 110.0,
-    "away_ml": -130.0
-   },
-   "tv": "ESPN+",
-   "eval": {
-    "model": {
-     "home_pts": 78.9,
-     "away_pts": 79.5,
-     "margin": -0.62,
-     "total": 158.46,
-     "pace": 73.8,
-     "home_spread": 0.5,
-     "home_win": 0.481,
-     "home_ml": 108,
-     "away_ml": -108
-    },
-    "known": true,
-    "games_played": [
-     8,
-     5
-    ],
-    "markets": {
-     "spread": {
-      "edge": 0.88,
-      "home": {
-       "line": 1.5,
-       "odds": -120.0,
-       "p": 0.508,
-       "ev": -0.068
-      },
-      "away": {
-       "line": -1.5,
-       "odds": 100.0,
-       "p": 0.492,
-       "ev": -0.017
-      }
-     },
-     "total": {
-      "edge": 7.96,
-      "over": {
-       "line": 150.5,
-       "odds": -108.0,
-       "p": 0.554,
-       "ev": 0.067
-      },
-      "under": {
-       "line": 150.5,
-       "odds": -112.0,
-       "p": 0.446,
-       "ev": -0.156
-      }
-     },
-     "moneyline": {
-      "edge": 0.007,
-      "home": {
-       "odds": 102.0,
-       "p": 0.461,
-       "ev": -0.068
-      },
-      "away": {
-       "odds": -122.0,
-       "p": 0.539,
-       "ev": -0.02
-      }
-     }
-    },
-    "blend": {
-     "margin": -1.24,
-     "total": 152.89,
-     "home_spread": 1.0,
-     "home_win": 0.461,
-     "weight": 0.7
-    }
-   },
-   "sharp": {
-    "moneyline": {
-     "home": 12,
-     "away": -12
-    },
-    "spread": {
-     "away": 36,
-     "home": -36
-    },
-    "total": {
-     "over": 56,
-     "under": -56
-    }
-   },
-   "passes": [],
-   "picks": [
-    "401917983-total"
-   ]
-  },
-  {
-   "id": "401917904",
-   "date": "2026-11-25T00:30Z",
-   "neutral": false,
-   "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 7:30 PM EST",
-   "completed": false,
-   "home": {
-    "id": "2635",
-    "name": "Tennessee Tech Golden Eagles",
-    "short": "Tennessee Tech",
-    "abbr": "TNTC",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2635.png",
-    "score": 0,
-    "rank": null
-   },
-   "away": {
-    "id": "2698",
-    "name": "West Georgia Wolves",
-    "short": "West Georgia",
-    "abbr": "WGA",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2698.png",
-    "score": 0,
-    "rank": null
-   },
-   "odds": {
-    "provider": "DraftKings",
-    "home_spread": -14.5,
-    "home_spread_odds": -110.0,
-    "away_spread_odds": -110.0,
-    "total": 163.5,
-    "over_odds": -112.0,
-    "under_odds": -108.0,
-    "home_ml": -1650.0,
-    "away_ml": 950.0
-   },
-   "open": {
-    "home_spread": -17.5,
-    "total": 164.5,
-    "home_ml": -1650.0,
-    "away_ml": 950.0
-   },
-   "tv": "ESPN+",
-   "eval": {
-    "model": {
-     "home_pts": 87.2,
-     "away_pts": 68.9,
-     "margin": 18.28,
-     "total": 156.18,
-     "pace": 77.8,
-     "home_spread": -18.5,
-     "home_win": 0.929,
-     "home_ml": -1302,
-     "away_ml": 1302
-    },
-    "known": true,
-    "games_played": [
-     7,
-     6
-    ],
-    "markets": {
-     "spread": {
-      "edge": 3.78,
-      "home": {
-       "line": -14.5,
-       "odds": -110.0,
-       "p": 0.536,
-       "ev": 0.024
-      },
-      "away": {
-       "line": 14.5,
-       "odds": -110.0,
-       "p": 0.464,
-       "ev": -0.115
-      }
-     },
-     "total": {
-      "edge": -7.32,
-      "over": {
-       "line": 163.5,
-       "odds": -112.0,
-       "p": 0.45,
-       "ev": -0.149
-      },
-      "under": {
-       "line": 163.5,
-       "odds": -108.0,
-       "p": 0.55,
-       "ev": 0.06
-      }
-     },
-     "moneyline": {
-      "edge": 0.02,
-      "home": {
-       "odds": -1650.0,
-       "p": 0.895,
-       "ev": -0.051
-      },
-      "away": {
-       "odds": 950.0,
-       "p": 0.105,
-       "ev": 0.102
-      }
-     }
-    },
-    "blend": {
-     "margin": 15.63,
-     "total": 161.3,
-     "home_spread": -15.5,
-     "home_win": 0.895,
-     "weight": 0.7
-    }
-   },
-   "sharp": {
-    "moneyline": {
-     "home": 0,
-     "away": 0
-    },
-    "spread": {
-     "home": 6,
-     "away": -6
-    },
-    "total": {
-     "over": 40,
-     "under": -40
-    }
-   },
-   "passes": [
-    {
-     "market": "total",
-     "side": "under",
-     "line": 163.5,
-     "odds": -108.0,
-     "p": 0.55,
-     "ev": 0.06,
-     "edge": 7.32,
-     "label": "Under 163.5",
-     "blend_line": 161.3,
-     "sharp": "opposed",
-     "moved": -1.0,
-     "reason": "Sharp money on the other side (handle beats bets by 40)"
-    }
-   ],
-   "picks": []
-  },
-  {
-   "id": "401915942",
-   "date": "2026-11-25T01:00Z",
-   "neutral": true,
-   "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 8:00 PM EST",
-   "completed": false,
-   "home": {
-    "id": "97",
-    "name": "Louisville Cardinals",
-    "short": "Louisville",
-    "abbr": "LOU",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
-    "score": 0,
-    "rank": 25
-   },
-   "away": {
-    "id": "2641",
-    "name": "Texas Tech Red Raiders",
-    "short": "Texas Tech",
-    "abbr": "TTU",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
-    "score": 0,
-    "rank": 5
-   },
-   "odds": {
-    "provider": "DraftKings",
-    "home_spread": 2.5,
-    "home_spread_odds": -105.0,
-    "away_spread_odds": -115.0,
-    "total": 153.5,
-    "over_odds": -108.0,
-    "under_odds": -112.0,
-    "home_ml": 120.0,
-    "away_ml": -142.0
-   },
-   "open": {
-    "home_spread": 5.5,
-    "total": 153.5,
-    "home_ml": 185.0,
-    "away_ml": -225.0
-   },
-   "tv": "ESPN",
-   "eval": {
-    "model": {
-     "home_pts": 61.4,
-     "away_pts": 73.5,
-     "margin": -12.12,
-     "total": 134.86,
-     "pace": 71.0,
-     "home_spread": 12.0,
-     "home_win": 0.177,
-     "home_ml": 466,
-     "away_ml": -466
-    },
-    "known": true,
-    "games_played": [
-     4,
-     5
-    ],
-    "markets": {
-     "spread": {
-      "edge": -9.62,
-      "home": {
-       "line": 2.5,
-       "odds": -105.0,
-       "p": 0.412,
-       "ev": -0.195
-      },
-      "away": {
-       "line": -2.5,
-       "odds": -115.0,
-       "p": 0.588,
-       "ev": 0.098
-      }
-     },
-     "total": {
-      "edge": -18.64,
-      "over": {
-       "line": 153.5,
-       "odds": -108.0,
-       "p": 0.377,
-       "ev": -0.275
-      },
-      "under": {
-       "line": 153.5,
-       "odds": -112.0,
-       "p": 0.623,
-       "ev": 0.18
-      }
-     },
-     "moneyline": {
-      "edge": -0.26,
-      "home": {
-       "odds": 120.0,
-       "p": 0.34,
-       "ev": -0.252
-      },
-      "away": {
-       "odds": -142.0,
-       "p": 0.66,
-       "ev": 0.125
-      }
-     }
-    },
-    "blend": {
-     "margin": -5.39,
-     "total": 147.91,
-     "home_spread": 5.5,
-     "home_win": 0.34,
-     "weight": 0.7
-    }
-   },
-   "sharp": {
-    "moneyline": {
-     "home": 3,
-     "away": -3
-    },
-    "spread": {
-     "away": -2,
-     "home": 2
-    },
-    "total": {
-     "over": 9,
-     "under": -9
-    }
-   },
-   "passes": [
-    {
-     "market": "moneyline",
-     "side": "away",
-     "line": null,
-     "odds": -142.0,
-     "p": 0.66,
-     "ev": 0.125,
-     "edge": 0.26,
-     "label": "Texas Tech ML",
-     "blend_line": 0.66,
-     "sharp": null,
-     "moved": 0.1,
-     "reason": "DK line moved 10.0% against it"
-    }
-   ],
-   "picks": [
-    "401915942-spread",
-    "401915942-total"
-   ]
-  },
-  {
-   "id": "401929421",
-   "date": "2026-11-25T01:00Z",
-   "neutral": false,
-   "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 8:00 PM EST",
-   "completed": false,
-   "home": {
-    "id": "6",
-    "name": "South Alabama Jaguars",
-    "short": "South Alabama",
-    "abbr": "USA",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
-    "score": 0,
-    "rank": null
-   },
-   "away": {
-    "id": "50",
-    "name": "Florida A&M Rattlers",
-    "short": "Florida A&M",
-    "abbr": "FAMU",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/50.png",
-    "score": 0,
-    "rank": null
-   },
-   "odds": {
-    "provider": "DraftKings",
-    "home_spread": -17.5,
+    "home_spread": -5.5,
     "home_spread_odds": -112.0,
     "away_spread_odds": -108.0,
-    "total": 142.5,
-    "over_odds": -108.0,
-    "under_odds": -112.0,
-    "home_ml": -2400.0,
-    "away_ml": 1200.0
+    "total": 156.5,
+    "over_odds": -105.0,
+    "under_odds": -115.0,
+    "home_ml": -230.0,
+    "away_ml": 190.0
    },
    "open": {
-    "home_spread": -16.5,
-    "total": 143.5,
-    "home_ml": -1650.0,
-    "away_ml": 950.0
+    "home_spread": -5.5,
+    "total": 156.5,
+    "home_ml": -230.0,
+    "away_ml": 190.0
    },
-   "tv": "ESPN+",
+   "tv": "YouTube",
+   "odds_closed": true,
    "eval": {
     "model": {
-     "home_pts": 89.2,
-     "away_pts": 65.3,
-     "margin": 23.9,
-     "total": 154.53,
-     "pace": 69.8,
-     "home_spread": -24.0,
-     "home_win": 0.972,
-     "home_ml": -3516,
-     "away_ml": 3516
+     "home_pts": 80.8,
+     "away_pts": 82.6,
+     "margin": -1.78,
+     "total": 163.42,
+     "pace": 73.6,
+     "home_spread": 2.0,
+     "home_win": 0.443,
+     "home_ml": 126,
+     "away_ml": -126
     },
     "known": true,
     "games_played": [
-     8,
+     6,
      6
     ],
     "markets": {
      "spread": {
-      "edge": 6.4,
+      "edge": -7.28,
       "home": {
-       "line": -17.5,
+       "line": -5.5,
        "odds": -112.0,
-       "p": 0.561,
-       "ev": 0.062
+       "p": 0.43,
+       "ev": -0.185
       },
       "away": {
-       "line": 17.5,
+       "line": 5.5,
        "odds": -108.0,
-       "p": 0.439,
-       "ev": -0.155
+       "p": 0.57,
+       "ev": 0.097
       }
      },
      "total": {
-      "edge": 12.03,
+      "edge": 6.92,
       "over": {
-       "line": 142.5,
-       "odds": -108.0,
-       "p": 0.582,
-       "ev": 0.121
+       "line": 156.5,
+       "odds": -105.0,
+       "p": 0.547,
+       "ev": 0.069
       },
       "under": {
-       "line": 142.5,
-       "odds": -112.0,
-       "p": 0.418,
-       "ev": -0.209
+       "line": 156.5,
+       "odds": -115.0,
+       "p": 0.453,
+       "ev": -0.154
       }
      },
      "moneyline": {
-      "edge": 0.047,
+      "edge": -0.226,
       "home": {
-       "odds": -2400.0,
-       "p": 0.94,
-       "ev": -0.021
+       "odds": -230.0,
+       "p": 0.605,
+       "ev": -0.132
       },
       "away": {
-       "odds": 1200.0,
-       "p": 0.06,
-       "ev": -0.224
+       "odds": 190.0,
+       "p": 0.395,
+       "ev": 0.146
       }
      }
     },
     "blend": {
-     "margin": 19.42,
-     "total": 146.11,
-     "home_spread": -19.5,
-     "home_win": 0.94,
+     "margin": 3.32,
+     "total": 158.58,
+     "home_spread": -3.5,
+     "home_win": 0.605,
      "weight": 0.7
     }
    },
-   "sharp": {
-    "moneyline": {
-     "home": 0,
-     "away": 0
-    },
-    "spread": {
-     "home": -50,
-     "away": 50
-    },
-    "total": {
-     "over": 46,
-     "under": -46
-    }
-   },
-   "passes": [
-    {
-     "market": "spread",
-     "side": "home",
-     "line": -17.5,
-     "odds": -112.0,
-     "p": 0.561,
-     "ev": 0.062,
-     "edge": 6.4,
-     "label": "South Alabama -17.5",
-     "blend_line": -19.4,
-     "sharp": "opposed",
-     "moved": -1.0,
-     "reason": "Sharp money on the other side (handle beats bets by 50)"
-    }
-   ],
+   "sharp": {},
+   "passes": [],
    "picks": [
-    "401929421-total"
+    "401928796-spread",
+    "401928796-total",
+    "401928796-moneyline"
    ]
   },
   {
-   "id": "401929380",
-   "date": "2026-11-25T01:00Z",
+   "id": "401926184",
+   "date": "2026-11-25T02:00Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 8:00 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
-    "id": "2031",
-    "name": "Little Rock Trojans",
-    "short": "Little Rock",
-    "abbr": "LR",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2031.png",
-    "score": 0,
+    "id": "2540",
+    "name": "UC Santa Barbara Gauchos",
+    "short": "Santa Barbara",
+    "abbr": "UCSB",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2540.png",
+    "score": 85,
     "rank": null
    },
    "away": {
-    "id": "2027",
-    "name": "Arkansas Baptist Buffaloes",
-    "short": "Ark Baptist",
-    "abbr": "ARBA",
-    "logo": "",
-    "score": 0,
+    "id": "2430",
+    "name": "UNC Greensboro Spartans",
+    "short": "UNC Greensboro",
+    "abbr": "UNCG",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2430.png",
+    "score": 65,
     "rank": null
    },
-   "odds": null,
-   "open": null,
+   "odds": {
+    "provider": "DraftKings",
+    "home_spread": -18.5,
+    "home_spread_odds": -105.0,
+    "away_spread_odds": -115.0,
+    "total": 145.5,
+    "over_odds": -110.0,
+    "under_odds": -110.0,
+    "home_ml": -2800.0,
+    "away_ml": 1300.0
+   },
+   "open": {
+    "home_spread": -18.5,
+    "total": 145.5,
+    "home_ml": -2800.0,
+    "away_ml": 1300.0
+   },
    "tv": "ESPN+",
+   "odds_closed": true,
    "eval": {
     "model": {
-     "home_pts": 87.6,
-     "away_pts": 67.5,
-     "margin": 20.08,
-     "total": 155.09,
-     "pace": 71.1,
-     "home_spread": -20.0,
-     "home_win": 0.91,
-     "home_ml": -1007,
-     "away_ml": 1007
+     "home_pts": 85.5,
+     "away_pts": 69.0,
+     "margin": 16.55,
+     "total": 154.52,
+     "pace": 68.0,
+     "home_spread": -16.5,
+     "home_win": 0.903,
+     "home_ml": -931,
+     "away_ml": 931
     },
-    "known": false,
+    "known": true,
     "games_played": [
-     6,
-     0
+     5,
+     7
     ],
-    "markets": {},
-    "blend": {}
+    "markets": {
+     "spread": {
+      "edge": -1.95,
+      "home": {
+       "line": -18.5,
+       "odds": -105.0,
+       "p": 0.482,
+       "ev": -0.06
+      },
+      "away": {
+       "line": 18.5,
+       "odds": -115.0,
+       "p": 0.518,
+       "ev": -0.031
+      }
+     },
+     "total": {
+      "edge": 9.02,
+      "over": {
+       "line": 145.5,
+       "odds": -110.0,
+       "p": 0.561,
+       "ev": 0.071
+      },
+      "under": {
+       "line": 145.5,
+       "odds": -110.0,
+       "p": 0.439,
+       "ev": -0.162
+      }
+     },
+     "moneyline": {
+      "edge": -0.028,
+      "home": {
+       "odds": -2800.0,
+       "p": 0.92,
+       "ev": -0.047
+      },
+      "away": {
+       "odds": 1300.0,
+       "p": 0.08,
+       "ev": 0.118
+      }
+     }
+    },
+    "blend": {
+     "margin": 17.92,
+     "total": 148.21,
+     "home_spread": -18.0,
+     "home_win": 0.92,
+     "weight": 0.7
+    }
    },
    "sharp": {},
    "passes": [],
    "picks": []
   },
   {
-   "id": "401929359",
-   "date": "2026-11-25T01:00Z",
+   "id": "401922023",
+   "date": "2026-11-25T02:00Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 8:00 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
-    "id": "250",
-    "name": "UT Arlington Mavericks",
-    "short": "UT Arlington",
-    "abbr": "UTA",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/250.png",
-    "score": 0,
+    "id": "68",
+    "name": "Boise State Broncos",
+    "short": "Boise St",
+    "abbr": "BOIS",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+    "score": 88,
     "rank": null
    },
    "away": {
-    "id": "198",
-    "name": "Oral Roberts Golden Eagles",
-    "short": "Oral Roberts",
-    "abbr": "ORU",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/198.png",
-    "score": 0,
+    "id": "304",
+    "name": "Idaho State Bengals",
+    "short": "Idaho St",
+    "abbr": "IDST",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/304.png",
+    "score": 71,
     "rank": null
    },
    "odds": {
     "provider": "DraftKings",
-    "home_spread": -4.5,
-    "home_spread_odds": -118.0,
-    "away_spread_odds": -102.0,
-    "total": 150.5,
-    "over_odds": -108.0,
-    "under_odds": -112.0,
-    "home_ml": -205.0,
-    "away_ml": 170.0
-   },
-   "open": {
-    "home_spread": -4.5,
-    "total": 147.5,
-    "home_ml": -250.0,
-    "away_ml": 205.0
-   },
-   "tv": "ESPN+",
-   "eval": {
-    "model": {
-     "home_pts": 74.9,
-     "away_pts": 70.4,
-     "margin": 4.5,
-     "total": 145.28,
-     "pace": 71.1,
-     "home_spread": -4.5,
-     "home_win": 0.641,
-     "home_ml": -179,
-     "away_ml": 179
-    },
-    "known": true,
-    "games_played": [
-     7,
-     6
-    ],
-    "markets": {
-     "spread": {
-      "edge": 0.0,
-      "home": {
-       "line": -4.5,
-       "odds": -118.0,
-       "p": 0.5,
-       "ev": -0.076
-      },
-      "away": {
-       "line": 4.5,
-       "odds": -102.0,
-       "p": 0.5,
-       "ev": -0.01
-      }
-     },
-     "total": {
-      "edge": -5.22,
-      "over": {
-       "line": 150.5,
-       "odds": -108.0,
-       "p": 0.464,
-       "ev": -0.106
-      },
-      "under": {
-       "line": 150.5,
-       "odds": -112.0,
-       "p": 0.536,
-       "ev": 0.014
-      }
-     },
-     "moneyline": {
-      "edge": -0.004,
-      "home": {
-       "odds": -205.0,
-       "p": 0.641,
-       "ev": -0.046
-      },
-      "away": {
-       "odds": 170.0,
-       "p": 0.359,
-       "ev": -0.03
-      }
-     }
-    },
-    "blend": {
-     "margin": 4.5,
-     "total": 148.93,
-     "home_spread": -4.5,
-     "home_win": 0.641,
-     "weight": 0.7
-    }
-   },
-   "sharp": {
-    "moneyline": {
-     "home": 0,
-     "away": 0
-    },
-    "spread": {
-     "home": 17,
-     "away": -17
-    },
-    "total": {
-     "over": 0,
-     "under": 0
-    }
-   },
-   "passes": [],
-   "picks": []
-  },
-  {
-   "id": "401925642",
-   "date": "2026-11-25T01:00Z",
-   "neutral": false,
-   "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 8:00 PM EST",
-   "completed": false,
-   "home": {
-    "id": "2453",
-    "name": "North Alabama Lions",
-    "short": "North Alabama",
-    "abbr": "UNA",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2453.png",
-    "score": 0,
-    "rank": null
-   },
-   "away": {
-    "id": "2010",
-    "name": "Alabama A&M Bulldogs",
-    "short": "Alabama A&M",
-    "abbr": "AAMU",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2010.png",
-    "score": 0,
-    "rank": null
-   },
-   "odds": {
-    "provider": "DraftKings",
-    "home_spread": -3.5,
+    "home_spread": -18.5,
     "home_spread_odds": -115.0,
     "away_spread_odds": -105.0,
-    "total": 142.5,
-    "over_odds": -108.0,
-    "under_odds": -112.0,
-    "home_ml": -170.0,
-    "away_ml": 142.0
+    "total": 162.5,
+    "over_odds": -112.0,
+    "under_odds": -108.0,
+    "home_ml": -2800.0,
+    "away_ml": 1300.0
    },
    "open": {
-    "home_spread": -3.5,
-    "total": 142.5,
-    "home_ml": -155.0,
-    "away_ml": 130.0
+    "home_spread": -18.5,
+    "total": 162.5,
+    "home_ml": -2800.0,
+    "away_ml": 1300.0
    },
-   "tv": "ESPN+",
+   "tv": "YouTube",
+   "odds_closed": true,
    "eval": {
     "model": {
-     "home_pts": 72.7,
-     "away_pts": 72.1,
-     "margin": 0.68,
-     "total": 144.8,
-     "pace": 71.8,
-     "home_spread": -0.5,
-     "home_win": 0.522,
-     "home_ml": -109,
-     "away_ml": 109
-    },
-    "known": true,
-    "games_played": [
-     6,
-     6
-    ],
-    "markets": {
-     "spread": {
-      "edge": -2.82,
-      "home": {
-       "line": -3.5,
-       "odds": -115.0,
-       "p": 0.473,
-       "ev": -0.116
-      },
-      "away": {
-       "line": 3.5,
-       "odds": -105.0,
-       "p": 0.527,
-       "ev": 0.029
-      }
-     },
-     "total": {
-      "edge": 2.3,
-      "over": {
-       "line": 142.5,
-       "odds": -108.0,
-       "p": 0.516,
-       "ev": -0.007
-      },
-      "under": {
-       "line": 142.5,
-       "odds": -112.0,
-       "p": 0.484,
-       "ev": -0.083
-      }
-     },
-     "moneyline": {
-      "edge": -0.082,
-      "home": {
-       "odds": -170.0,
-       "p": 0.584,
-       "ev": -0.072
-      },
-      "away": {
-       "odds": 142.0,
-       "p": 0.416,
-       "ev": 0.006
-      }
-     }
-    },
-    "blend": {
-     "margin": 2.65,
-     "total": 143.19,
-     "home_spread": -2.5,
-     "home_win": 0.584,
-     "weight": 0.7
-    }
-   },
-   "sharp": {
-    "moneyline": {
-     "home": 25,
-     "away": -25
-    },
-    "spread": {
-     "home": 12,
-     "away": -12
-    },
-    "total": {
-     "over": 27,
-     "under": -27
-    }
-   },
-   "passes": [],
-   "picks": []
-  },
-  {
-   "id": "401924723",
-   "date": "2026-11-25T01:00Z",
-   "neutral": false,
-   "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 8:00 PM EST",
-   "completed": false,
-   "home": {
-    "id": "172",
-    "name": "Cornell Big Red",
-    "short": "Cornell",
-    "abbr": "COR",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/172.png",
-    "score": 0,
-    "rank": null
-   },
-   "away": {
-    "id": "2083",
-    "name": "Bucknell Bison",
-    "short": "Bucknell",
-    "abbr": "BUCK",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2083.png",
-    "score": 0,
-    "rank": null
-   },
-   "odds": {
-    "provider": "DraftKings",
-    "home_spread": -11.5,
-    "home_spread_odds": -115.0,
-    "away_spread_odds": -105.0,
-    "total": 155.5,
-    "over_odds": -105.0,
-    "under_odds": -115.0,
-    "home_ml": -700.0,
-    "away_ml": 500.0
-   },
-   "open": {
-    "home_spread": -10.5,
-    "total": 153.5,
-    "home_ml": -575.0,
-    "away_ml": 425.0
-   },
-   "tv": "ESPN+",
-   "eval": {
-    "model": {
-     "home_pts": 85.7,
-     "away_pts": 67.5,
-     "margin": 18.24,
-     "total": 153.16,
-     "pace": 72.2,
-     "home_spread": -18.0,
-     "home_win": 0.928,
-     "home_ml": -1293,
-     "away_ml": 1293
-    },
-    "known": true,
-    "games_played": [
-     6,
-     6
-    ],
-    "markets": {
-     "spread": {
-      "edge": 6.74,
-      "home": {
-       "line": -11.5,
-       "odds": -115.0,
-       "p": 0.564,
-       "ev": 0.055
-      },
-      "away": {
-       "line": 11.5,
-       "odds": -105.0,
-       "p": 0.436,
-       "ev": -0.15
-      }
-     },
-     "total": {
-      "edge": -2.34,
-      "over": {
-       "line": 155.5,
-       "odds": -105.0,
-       "p": 0.484,
-       "ev": -0.055
-      },
-      "under": {
-       "line": 155.5,
-       "odds": -115.0,
-       "p": 0.516,
-       "ev": -0.035
-      }
-     },
-     "moneyline": {
-      "edge": 0.088,
-      "home": {
-       "odds": -700.0,
-       "p": 0.861,
-       "ev": -0.016
-      },
-      "away": {
-       "odds": 500.0,
-       "p": 0.139,
-       "ev": -0.165
-      }
-     }
-    },
-    "blend": {
-     "margin": 13.52,
-     "total": 154.8,
-     "home_spread": -13.5,
-     "home_win": 0.861,
-     "weight": 0.7
-    }
-   },
-   "sharp": {
-    "moneyline": {
-     "home": 0,
-     "away": 0
-    },
-    "spread": {
-     "home": 17,
-     "away": -17
-    },
-    "total": {
-     "over": 50,
-     "under": -50
-    }
-   },
-   "passes": [],
-   "picks": [
-    "401924723-spread"
-   ]
-  },
-  {
-   "id": "401921711",
-   "date": "2026-11-25T01:00Z",
-   "neutral": true,
-   "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 8:00 PM EST",
-   "completed": false,
-   "home": {
-    "id": "264",
-    "name": "Washington Huskies",
-    "short": "Washington",
-    "abbr": "WASH",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
-    "score": 0,
-    "rank": null
-   },
-   "away": {
-    "id": "228",
-    "name": "Clemson Tigers",
-    "short": "Clemson",
-    "abbr": "CLEM",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
-    "score": 0,
-    "rank": null
-   },
-   "odds": {
-    "provider": "DraftKings",
-    "home_spread": 1.5,
-    "home_spread_odds": -110.0,
-    "away_spread_odds": -110.0,
-    "total": 150.5,
-    "over_odds": -115.0,
-    "under_odds": -105.0,
-    "home_ml": 105.0,
-    "away_ml": -125.0
-   },
-   "open": {
-    "home_spread": 1.5,
-    "total": 153.5,
-    "home_ml": 114.0,
-    "away_ml": -135.0
-   },
-   "tv": "ESPNU",
-   "eval": {
-    "model": {
-     "home_pts": 74.8,
-     "away_pts": 76.1,
-     "margin": -1.31,
-     "total": 150.87,
-     "pace": 66.6,
-     "home_spread": 1.5,
-     "home_win": 0.459,
-     "home_ml": 118,
-     "away_ml": -118
+     "home_pts": 88.6,
+     "away_pts": 73.4,
+     "margin": 15.13,
+     "total": 162.02,
+     "pace": 75.4,
+     "home_spread": -15.0,
+     "home_win": 0.883,
+     "home_ml": -751,
+     "away_ml": 751
     },
     "known": true,
     "games_played": [
      5,
-     6
-    ],
-    "markets": {
-     "spread": {
-      "edge": 0.19,
-      "home": {
-       "line": 1.5,
-       "odds": -110.0,
-       "p": 0.502,
-       "ev": -0.042
-      },
-      "away": {
-       "line": -1.5,
-       "odds": -110.0,
-       "p": 0.498,
-       "ev": -0.049
-      }
-     },
-     "total": {
-      "edge": 0.37,
-      "over": {
-       "line": 150.5,
-       "odds": -115.0,
-       "p": 0.503,
-       "ev": -0.061
-      },
-      "under": {
-       "line": 150.5,
-       "odds": -105.0,
-       "p": 0.497,
-       "ev": -0.029
-      }
-     },
-     "moneyline": {
-      "edge": -0.008,
-      "home": {
-       "odds": 105.0,
-       "p": 0.455,
-       "ev": -0.067
-      },
-      "away": {
-       "odds": -125.0,
-       "p": 0.545,
-       "ev": -0.019
-      }
-     }
-    },
-    "blend": {
-     "margin": -1.44,
-     "total": 150.61,
-     "home_spread": 1.5,
-     "home_win": 0.455,
-     "weight": 0.7
-    }
-   },
-   "sharp": {
-    "moneyline": {
-     "home": 6,
-     "away": -6
-    },
-    "spread": {
-     "away": 6,
-     "home": -6
-    },
-    "total": {
-     "over": -6,
-     "under": 6
-    }
-   },
-   "passes": [],
-   "picks": []
-  },
-  {
-   "id": "401921184",
-   "date": "2026-11-25T01:00Z",
-   "neutral": false,
-   "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 8:00 PM EST",
-   "completed": false,
-   "home": {
-    "id": "219",
-    "name": "Pennsylvania Quakers",
-    "short": "Penn",
-    "abbr": "PENN",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/219.png",
-    "score": 0,
-    "rank": null
-   },
-   "away": {
-    "id": "2182",
-    "name": "Drexel Dragons",
-    "short": "Drexel",
-    "abbr": "DREX",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2182.png",
-    "score": 0,
-    "rank": null
-   },
-   "odds": {
-    "provider": "DraftKings",
-    "home_spread": -6.5,
-    "home_spread_odds": -108.0,
-    "away_spread_odds": -112.0,
-    "total": 142.5,
-    "over_odds": -112.0,
-    "under_odds": -108.0,
-    "home_ml": -265.0,
-    "away_ml": 215.0
-   },
-   "open": {
-    "home_spread": -6.5,
-    "total": 144.5,
-    "home_ml": -298.0,
-    "away_ml": 240.0
-   },
-   "tv": "ESPN+, NBC Sports Phil",
-   "eval": {
-    "model": {
-     "home_pts": 76.8,
-     "away_pts": 69.0,
-     "margin": 7.72,
-     "total": 145.81,
-     "pace": 70.8,
-     "home_spread": -7.5,
-     "home_win": 0.728,
-     "home_ml": -267,
-     "away_ml": 267
-    },
-    "known": true,
-    "games_played": [
-     6,
      5
     ],
     "markets": {
      "spread": {
-      "edge": 1.22,
+      "edge": -3.37,
       "home": {
-       "line": -6.5,
-       "odds": -108.0,
-       "p": 0.511,
-       "ev": -0.015
+       "line": -18.5,
+       "odds": -115.0,
+       "p": 0.468,
+       "ev": -0.124
       },
       "away": {
-       "line": 6.5,
-       "odds": -112.0,
-       "p": 0.489,
-       "ev": -0.075
+       "line": 18.5,
+       "odds": -105.0,
+       "p": 0.532,
+       "ev": 0.038
       }
      },
      "total": {
-      "edge": 3.31,
+      "edge": -0.48,
       "over": {
-       "line": 142.5,
+       "line": 162.5,
        "odds": -112.0,
-       "p": 0.523,
-       "ev": -0.011
+       "p": 0.497,
+       "ev": -0.06
       },
       "under": {
-       "line": 142.5,
+       "line": 162.5,
        "odds": -108.0,
-       "p": 0.477,
-       "ev": -0.08
+       "p": 0.503,
+       "ev": -0.031
       }
      },
      "moneyline": {
-      "edge": 0.032,
+      "edge": -0.049,
       "home": {
-       "odds": -265.0,
-       "p": 0.705,
-       "ev": -0.029
+       "odds": -2800.0,
+       "p": 0.915,
+       "ev": -0.052
       },
       "away": {
-       "odds": 215.0,
-       "p": 0.295,
-       "ev": -0.071
+       "odds": 1300.0,
+       "p": 0.085,
+       "ev": 0.189
       }
      }
     },
     "blend": {
-     "margin": 6.87,
-     "total": 143.49,
-     "home_spread": -7.0,
-     "home_win": 0.705,
+     "margin": 17.49,
+     "total": 162.36,
+     "home_spread": -17.5,
+     "home_win": 0.915,
      "weight": 0.7
     }
    },
-   "sharp": {
-    "moneyline": {
-     "home": 0,
-     "away": 0
-    },
-    "spread": {
-     "home": 26,
-     "away": -26
-    },
-    "total": {
-     "over": 37,
-     "under": -37
-    }
-   },
+   "sharp": {},
    "passes": [],
-   "picks": []
+   "picks": [
+    "401922023-spread"
+   ]
   },
   {
-   "id": "401921008",
-   "date": "2026-11-25T01:00Z",
+   "id": "401921817",
+   "date": "2026-11-25T02:00Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 8:00 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
-    "id": "140",
-    "name": "Kansas City Roos",
-    "short": "Kansas City",
-    "abbr": "KC",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/140.png",
-    "score": 0,
+    "id": "142",
+    "name": "Missouri Tigers",
+    "short": "Missouri",
+    "abbr": "MIZ",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
+    "score": 78,
     "rank": null
    },
    "away": {
-    "id": "2739",
-    "name": "Green Bay Phoenix",
-    "short": "Green Bay",
-    "abbr": "GB",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2739.png",
-    "score": 0,
+    "id": "339",
+    "name": "Evansville Purple Aces",
+    "short": "Evansville",
+    "abbr": "EVAN",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/339.png",
+    "score": 67,
     "rank": null
    },
    "odds": {
     "provider": "DraftKings",
-    "home_spread": -1.5,
+    "home_spread": -30.5,
     "home_spread_odds": -108.0,
     "away_spread_odds": -112.0,
-    "total": 145.5,
-    "over_odds": -110.0,
-    "under_odds": -110.0,
-    "home_ml": -115.0,
-    "away_ml": -105.0
+    "total": 148.5,
+    "over_odds": -115.0,
+    "under_odds": -105.0,
+    "home_ml": null,
+    "away_ml": null
    },
    "open": {
-    "home_spread": 1.5,
-    "total": 143.5,
-    "home_ml": -110.0,
-    "away_ml": -110.0
-   },
-   "tv": "Summit League Network",
-   "eval": {
-    "model": {
-     "home_pts": 72.9,
-     "away_pts": 74.6,
-     "margin": -1.63,
-     "total": 147.51,
-     "pace": 67.5,
-     "home_spread": 1.5,
-     "home_win": 0.447,
-     "home_ml": 124,
-     "away_ml": -124
-    },
-    "known": true,
-    "games_played": [
-     7,
-     7
-    ],
-    "markets": {
-     "spread": {
-      "edge": -3.13,
-      "home": {
-       "line": -1.5,
-       "odds": -108.0,
-       "p": 0.469,
-       "ev": -0.096
-      },
-      "away": {
-       "line": 1.5,
-       "odds": -112.0,
-       "p": 0.531,
-       "ev": 0.004
-      }
-     },
-     "total": {
-      "edge": 2.01,
-      "over": {
-       "line": 145.5,
-       "odds": -110.0,
-       "p": 0.514,
-       "ev": -0.019
-      },
-      "under": {
-       "line": 145.5,
-       "odds": -110.0,
-       "p": 0.486,
-       "ev": -0.072
-      }
-     },
-     "moneyline": {
-      "edge": -0.064,
-      "home": {
-       "odds": -115.0,
-       "p": 0.518,
-       "ev": -0.031
-      },
-      "away": {
-       "odds": -105.0,
-       "p": 0.482,
-       "ev": -0.059
-      }
-     }
-    },
-    "blend": {
-     "margin": 0.56,
-     "total": 146.1,
-     "home_spread": -0.5,
-     "home_win": 0.518,
-     "weight": 0.7
-    }
-   },
-   "sharp": {
-    "moneyline": {
-     "home": 6,
-     "away": -6
-    },
-    "spread": {
-     "home": -50,
-     "away": 50
-    },
-    "total": {
-     "over": 50,
-     "under": -50
-    }
-   },
-   "passes": [],
-   "picks": []
-  },
-  {
-   "id": "401920709",
-   "date": "2026-11-25T01:00Z",
-   "neutral": false,
-   "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 8:00 PM EST",
-   "completed": false,
-   "home": {
-    "id": "2",
-    "name": "Auburn Tigers",
-    "short": "Auburn",
-    "abbr": "AUB",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png",
-    "score": 0,
-    "rank": null
-   },
-   "away": {
-    "id": "288",
-    "name": "Lipscomb Bisons",
-    "short": "Lipscomb",
-    "abbr": "LIP",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/288.png",
-    "score": 0,
-    "rank": null
-   },
-   "odds": {
-    "provider": "DraftKings",
-    "home_spread": -24.5,
-    "home_spread_odds": -110.0,
-    "away_spread_odds": -110.0,
-    "total": 158.5,
-    "over_odds": -110.0,
-    "under_odds": -110.0,
-    "home_ml": -9000.0,
-    "away_ml": 2500.0
-   },
-   "open": {
-    "home_spread": -20.5,
-    "total": 155.5,
-    "home_ml": -8000.0,
-    "away_ml": 2200.0
+    "home_spread": -30.5,
+    "total": 148.5,
+    "home_ml": null,
+    "away_ml": null
    },
    "tv": "SECN+",
+   "odds_closed": true,
    "eval": {
     "model": {
-     "home_pts": 86.8,
-     "away_pts": 70.5,
-     "margin": 16.33,
-     "total": 157.27,
-     "pace": 72.1,
-     "home_spread": -16.5,
-     "home_win": 0.905,
-     "home_ml": -950,
-     "away_ml": 950
-    },
-    "known": true,
-    "games_played": [
-     6,
-     8
-    ],
-    "markets": {
-     "spread": {
-      "edge": -8.17,
-      "home": {
-       "line": -24.5,
-       "odds": -110.0,
-       "p": 0.422,
-       "ev": -0.194
-      },
-      "away": {
-       "line": 24.5,
-       "odds": -110.0,
-       "p": 0.578,
-       "ev": 0.103
-      }
-     },
-     "total": {
-      "edge": -1.23,
-      "over": {
-       "line": 158.5,
-       "odds": -110.0,
-       "p": 0.492,
-       "ev": -0.062
-      },
-      "under": {
-       "line": 158.5,
-       "odds": -110.0,
-       "p": 0.508,
-       "ev": -0.029
-      }
-     },
-     "moneyline": {
-      "edge": -0.058,
-      "home": {
-       "odds": -9000.0,
-       "p": 0.961,
-       "ev": -0.028
-      },
-      "away": {
-       "odds": 2500.0,
-       "p": 0.039,
-       "ev": 0.001
-      }
-     }
-    },
-    "blend": {
-     "margin": 22.05,
-     "total": 158.13,
-     "home_spread": -22.0,
-     "home_win": 0.961,
-     "weight": 0.7
-    }
-   },
-   "sharp": {
-    "moneyline": {
-     "home": 0,
-     "away": 0
-    },
-    "spread": {
-     "home": 6,
-     "away": -6
-    },
-    "total": {
-     "over": -9,
-     "under": 9
-    }
-   },
-   "passes": [
-    {
-     "market": "spread",
-     "side": "away",
-     "line": 24.5,
-     "odds": -110.0,
-     "p": 0.578,
-     "ev": 0.103,
-     "edge": 8.17,
-     "label": "Lipscomb +24.5",
-     "blend_line": 22.0,
-     "sharp": null,
-     "moved": 4.0,
-     "reason": "DK line moved 4.0 pts against it"
-    }
-   ],
-   "picks": []
-  },
-  {
-   "id": "401911338",
-   "date": "2026-11-25T01:00Z",
-   "neutral": true,
-   "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 8:00 PM EST",
-   "completed": false,
-   "home": {
-    "id": "2005",
-    "name": "Air Force Falcons",
-    "short": "Air Force",
-    "abbr": "AF",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
-    "score": 0,
-    "rank": null
-   },
-   "away": {
-    "id": "349",
-    "name": "Army Black Knights",
-    "short": "Army",
-    "abbr": "ARMY",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
-    "score": 0,
-    "rank": null
-   },
-   "odds": {
-    "provider": "DraftKings",
-    "home_spread": -3.5,
-    "home_spread_odds": -112.0,
-    "away_spread_odds": -108.0,
-    "total": 155.5,
-    "over_odds": -112.0,
-    "under_odds": -108.0,
-    "home_ml": -170.0,
-    "away_ml": 142.0
-   },
-   "open": {
-    "home_spread": -3.5,
-    "total": 155.5,
-    "home_ml": -170.0,
-    "away_ml": 142.0
-   },
-   "tv": "ESPN+",
-   "eval": {
-    "model": {
-     "home_pts": 73.7,
-     "away_pts": 76.2,
-     "margin": -2.48,
-     "total": 149.87,
-     "pace": 72.0,
-     "home_spread": 2.5,
-     "home_win": 0.421,
-     "home_ml": 137,
-     "away_ml": -137
+     "home_pts": 90.9,
+     "away_pts": 61.0,
+     "margin": 29.92,
+     "total": 151.86,
+     "pace": 69.6,
+     "home_spread": -30.0,
+     "home_win": 0.992,
+     "home_ml": -12077,
+     "away_ml": 12077
     },
     "known": true,
     "games_played": [
@@ -6841,287 +6953,43 @@
     ],
     "markets": {
      "spread": {
-      "edge": -5.98,
+      "edge": -0.58,
       "home": {
-       "line": -3.5,
-       "odds": -112.0,
-       "p": 0.443,
-       "ev": -0.162
+       "line": -30.5,
+       "odds": -108.0,
+       "p": 0.494,
+       "ev": -0.048
       },
       "away": {
-       "line": 3.5,
-       "odds": -108.0,
-       "p": 0.557,
-       "ev": 0.073
+       "line": 30.5,
+       "odds": -112.0,
+       "p": 0.506,
+       "ev": -0.043
       }
      },
      "total": {
-      "edge": -5.63,
+      "edge": 3.36,
       "over": {
-       "line": 155.5,
-       "odds": -112.0,
-       "p": 0.461,
-       "ev": -0.127
-      },
-      "under": {
-       "line": 155.5,
-       "odds": -108.0,
-       "p": 0.539,
-       "ev": 0.037
-      }
-     },
-     "moneyline": {
-      "edge": -0.182,
-      "home": {
-       "odds": -170.0,
-       "p": 0.554,
-       "ev": -0.119
-      },
-      "away": {
-       "odds": 142.0,
-       "p": 0.446,
-       "ev": 0.078
-      }
-     }
-    },
-    "blend": {
-     "margin": 1.71,
-     "total": 153.81,
-     "home_spread": -1.5,
-     "home_win": 0.554,
-     "weight": 0.7
-    }
-   },
-   "sharp": {
-    "moneyline": {
-     "home": -12,
-     "away": 12
-    },
-    "spread": {
-     "home": 26,
-     "away": -26
-    },
-    "total": {
-     "over": 39,
-     "under": -39
-    }
-   },
-   "passes": [
-    {
-     "market": "spread",
-     "side": "away",
-     "line": 3.5,
-     "odds": -108.0,
-     "p": 0.557,
-     "ev": 0.073,
-     "edge": 5.98,
-     "label": "Army +3.5",
-     "blend_line": 1.7,
-     "sharp": "opposed",
-     "moved": -0.0,
-     "reason": "Sharp money on the other side (handle beats bets by 26)"
-    },
-    {
-     "market": "total",
-     "side": "under",
-     "line": 155.5,
-     "odds": -108.0,
-     "p": 0.539,
-     "ev": 0.037,
-     "edge": 5.63,
-     "label": "Under 155.5",
-     "blend_line": 153.8,
-     "sharp": "opposed",
-     "moved": 0.0,
-     "reason": "Sharp money on the other side (handle beats bets by 39)"
-    }
-   ],
-   "picks": [
-    "401911338-moneyline"
-   ]
-  },
-  {
-   "id": "401911026",
-   "date": "2026-11-25T01:00Z",
-   "neutral": false,
-   "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 8:00 PM EST",
-   "completed": false,
-   "home": {
-    "id": "87",
-    "name": "Notre Dame Fighting Irish",
-    "short": "Notre Dame",
-    "abbr": "ND",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
-    "score": 0,
-    "rank": null
-   },
-   "away": {
-    "id": "2117",
-    "name": "Central Michigan Chippewas",
-    "short": "C Michigan",
-    "abbr": "CMU",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png",
-    "score": 0,
-    "rank": null
-   },
-   "odds": {
-    "provider": "DraftKings",
-    "home_spread": -20.5,
-    "home_spread_odds": -115.0,
-    "away_spread_odds": -105.0,
-    "total": 152.5,
-    "over_odds": -110.0,
-    "under_odds": -110.0,
-    "home_ml": -4000.0,
-    "away_ml": 1600.0
-   },
-   "open": {
-    "home_spread": -20.5,
-    "total": 151.5,
-    "home_ml": -4500.0,
-    "away_ml": 1700.0
-   },
-   "tv": "ACCNX",
-   "eval": {
-    "model": {
-     "home_pts": 89.2,
-     "away_pts": 72.9,
-     "margin": 16.24,
-     "total": 162.09,
-     "pace": 71.3,
-     "home_spread": -16.0,
-     "home_win": 0.904,
-     "home_ml": -937,
-     "away_ml": 937
-    },
-    "known": true,
-    "games_played": [
-     7,
-     6
-    ],
-    "markets": {
-     "spread": {
-      "edge": -4.26,
-      "home": {
-       "line": -20.5,
+       "line": 148.5,
        "odds": -115.0,
-       "p": 0.459,
-       "ev": -0.142
-      },
-      "away": {
-       "line": 20.5,
-       "odds": -105.0,
-       "p": 0.541,
-       "ev": 0.056
-      }
-     },
-     "total": {
-      "edge": 9.59,
-      "over": {
-       "line": 152.5,
-       "odds": -110.0,
-       "p": 0.566,
-       "ev": 0.08
+       "p": 0.523,
+       "ev": -0.022
       },
       "under": {
-       "line": 152.5,
-       "odds": -110.0,
-       "p": 0.434,
-       "ev": -0.171
-      }
-     },
-     "moneyline": {
-      "edge": -0.04,
-      "home": {
-       "odds": -4000.0,
-       "p": 0.938,
-       "ev": -0.038
-      },
-      "away": {
-       "odds": 1600.0,
-       "p": 0.062,
-       "ev": 0.047
+       "line": 148.5,
+       "odds": -105.0,
+       "p": 0.477,
+       "ev": -0.069
       }
      }
     },
     "blend": {
-     "margin": 19.22,
-     "total": 155.38,
-     "home_spread": -19.0,
-     "home_win": 0.938,
+     "margin": 30.33,
+     "total": 149.51,
+     "home_spread": -30.5,
+     "home_win": 0.992,
      "weight": 0.7
     }
-   },
-   "sharp": {
-    "moneyline": {
-     "home": 0,
-     "away": 0
-    },
-    "spread": {
-     "home": -8,
-     "away": 8
-    },
-    "total": {
-     "over": 55,
-     "under": -55
-    }
-   },
-   "passes": [],
-   "picks": [
-    "401911026-spread",
-    "401911026-total"
-   ]
-  },
-  {
-   "id": "401929456",
-   "date": "2026-11-25T01:30Z",
-   "neutral": false,
-   "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 8:30 PM EST",
-   "completed": false,
-   "home": {
-    "id": "309",
-    "name": "Louisiana Ragin' Cajuns",
-    "short": "Louisiana",
-    "abbr": "UL",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
-    "score": 0,
-    "rank": null
-   },
-   "away": {
-    "id": "2347",
-    "name": "Louisiana Christian Wildcats",
-    "short": "LA Christian",
-    "abbr": "LCHR",
-    "logo": "",
-    "score": 0,
-    "rank": null
-   },
-   "odds": null,
-   "open": null,
-   "tv": "ESPN+",
-   "eval": {
-    "model": {
-     "home_pts": 79.1,
-     "away_pts": 54.0,
-     "margin": 25.19,
-     "total": 133.1,
-     "pace": 69.2,
-     "home_spread": -25.0,
-     "home_win": 0.965,
-     "home_ml": -2786,
-     "away_ml": 2786
-    },
-    "known": true,
-    "games_played": [
-     5,
-     2
-    ],
-    "markets": {},
-    "blend": {}
    },
    "sharp": {},
    "passes": [],
@@ -7129,19 +6997,19 @@
   },
   {
    "id": "401911535",
-   "date": "2026-11-25T01:30Z",
+   "date": "2026-11-25T02:00Z",
    "neutral": true,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 8:30 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "232",
     "name": "Charleston Cougars",
     "short": "Charleston",
     "abbr": "COFC",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/232.png",
-    "score": 0,
+    "score": 69,
     "rank": null
    },
    "away": {
@@ -7150,7 +7018,7 @@
     "short": "UTEP",
     "abbr": "UTEP",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2638.png",
-    "score": 0,
+    "score": 80,
     "rank": null
    },
    "odds": {
@@ -7166,11 +7034,12 @@
    },
    "open": {
     "home_spread": -1.5,
-    "total": 150.5,
-    "home_ml": -110.0,
-    "away_ml": -110.0
+    "total": 149.5,
+    "home_ml": -125.0,
+    "away_ml": 105.0
    },
    "tv": "FloSports",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 74.8,
@@ -7249,548 +7118,20 @@
    ]
   },
   {
-   "id": "401928796",
-   "date": "2026-11-25T02:00Z",
-   "neutral": false,
-   "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 9:00 PM EST",
-   "completed": false,
-   "home": {
-    "id": "265",
-    "name": "Washington State Cougars",
-    "short": "Washington St",
-    "abbr": "WSU",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/265.png",
-    "score": 0,
-    "rank": null
-   },
-   "away": {
-    "id": "2534",
-    "name": "Sam Houston Bearkats",
-    "short": "Sam Houston",
-    "abbr": "SHSU",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2534.png",
-    "score": 0,
-    "rank": null
-   },
-   "odds": {
-    "provider": "DraftKings",
-    "home_spread": -5.5,
-    "home_spread_odds": -112.0,
-    "away_spread_odds": -108.0,
-    "total": 156.5,
-    "over_odds": -105.0,
-    "under_odds": -115.0,
-    "home_ml": -230.0,
-    "away_ml": 190.0
-   },
-   "open": {
-    "home_spread": -4.5,
-    "total": 153.5,
-    "home_ml": -218.0,
-    "away_ml": 180.0
-   },
-   "tv": "YouTube",
-   "eval": {
-    "model": {
-     "home_pts": 80.8,
-     "away_pts": 82.6,
-     "margin": -1.78,
-     "total": 163.42,
-     "pace": 73.6,
-     "home_spread": 2.0,
-     "home_win": 0.443,
-     "home_ml": 126,
-     "away_ml": -126
-    },
-    "known": true,
-    "games_played": [
-     6,
-     6
-    ],
-    "markets": {
-     "spread": {
-      "edge": -7.28,
-      "home": {
-       "line": -5.5,
-       "odds": -112.0,
-       "p": 0.43,
-       "ev": -0.185
-      },
-      "away": {
-       "line": 5.5,
-       "odds": -108.0,
-       "p": 0.57,
-       "ev": 0.097
-      }
-     },
-     "total": {
-      "edge": 6.92,
-      "over": {
-       "line": 156.5,
-       "odds": -105.0,
-       "p": 0.547,
-       "ev": 0.069
-      },
-      "under": {
-       "line": 156.5,
-       "odds": -115.0,
-       "p": 0.453,
-       "ev": -0.154
-      }
-     },
-     "moneyline": {
-      "edge": -0.226,
-      "home": {
-       "odds": -230.0,
-       "p": 0.605,
-       "ev": -0.132
-      },
-      "away": {
-       "odds": 190.0,
-       "p": 0.395,
-       "ev": 0.146
-      }
-     }
-    },
-    "blend": {
-     "margin": 3.32,
-     "total": 158.58,
-     "home_spread": -3.5,
-     "home_win": 0.605,
-     "weight": 0.7
-    }
-   },
-   "sharp": {
-    "moneyline": {
-     "home": -5,
-     "away": 5
-    },
-    "spread": {
-     "home": -22,
-     "away": 21
-    },
-    "total": {
-     "over": 49,
-     "under": -49
-    }
-   },
-   "passes": [],
-   "picks": [
-    "401928796-spread",
-    "401928796-total",
-    "401928796-moneyline"
-   ]
-  },
-  {
-   "id": "401926184",
-   "date": "2026-11-25T02:00Z",
-   "neutral": false,
-   "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 9:00 PM EST",
-   "completed": false,
-   "home": {
-    "id": "2540",
-    "name": "UC Santa Barbara Gauchos",
-    "short": "Santa Barbara",
-    "abbr": "UCSB",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2540.png",
-    "score": 0,
-    "rank": null
-   },
-   "away": {
-    "id": "2430",
-    "name": "UNC Greensboro Spartans",
-    "short": "UNC Greensboro",
-    "abbr": "UNCG",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2430.png",
-    "score": 0,
-    "rank": null
-   },
-   "odds": {
-    "provider": "DraftKings",
-    "home_spread": -18.5,
-    "home_spread_odds": -105.0,
-    "away_spread_odds": -115.0,
-    "total": 145.5,
-    "over_odds": -110.0,
-    "under_odds": -110.0,
-    "home_ml": -2800.0,
-    "away_ml": 1300.0
-   },
-   "open": {
-    "home_spread": -19.5,
-    "total": 149.5,
-    "home_ml": -3200.0,
-    "away_ml": 1400.0
-   },
-   "tv": "ESPN+",
-   "eval": {
-    "model": {
-     "home_pts": 85.5,
-     "away_pts": 69.0,
-     "margin": 16.55,
-     "total": 154.52,
-     "pace": 68.0,
-     "home_spread": -16.5,
-     "home_win": 0.903,
-     "home_ml": -931,
-     "away_ml": 931
-    },
-    "known": true,
-    "games_played": [
-     5,
-     7
-    ],
-    "markets": {
-     "spread": {
-      "edge": -1.95,
-      "home": {
-       "line": -18.5,
-       "odds": -105.0,
-       "p": 0.482,
-       "ev": -0.06
-      },
-      "away": {
-       "line": 18.5,
-       "odds": -115.0,
-       "p": 0.518,
-       "ev": -0.031
-      }
-     },
-     "total": {
-      "edge": 9.02,
-      "over": {
-       "line": 145.5,
-       "odds": -110.0,
-       "p": 0.561,
-       "ev": 0.071
-      },
-      "under": {
-       "line": 145.5,
-       "odds": -110.0,
-       "p": 0.439,
-       "ev": -0.162
-      }
-     },
-     "moneyline": {
-      "edge": -0.028,
-      "home": {
-       "odds": -2800.0,
-       "p": 0.92,
-       "ev": -0.047
-      },
-      "away": {
-       "odds": 1300.0,
-       "p": 0.08,
-       "ev": 0.118
-      }
-     }
-    },
-    "blend": {
-     "margin": 17.92,
-     "total": 148.21,
-     "home_spread": -18.0,
-     "home_win": 0.92,
-     "weight": 0.7
-    }
-   },
-   "sharp": {
-    "moneyline": {
-     "home": 0,
-     "away": 0
-    },
-    "spread": {
-     "home": -47,
-     "away": 47
-    },
-    "total": {
-     "over": 23,
-     "under": -23
-    }
-   },
-   "passes": [
-    {
-     "market": "total",
-     "side": "over",
-     "line": 145.5,
-     "odds": -110.0,
-     "p": 0.561,
-     "ev": 0.071,
-     "edge": 9.02,
-     "label": "Over 145.5",
-     "blend_line": 148.2,
-     "sharp": null,
-     "moved": 4.0,
-     "reason": "DK line moved 4.0 pts against it"
-    }
-   ],
-   "picks": []
-  },
-  {
-   "id": "401922023",
-   "date": "2026-11-25T02:00Z",
-   "neutral": false,
-   "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 9:00 PM EST",
-   "completed": false,
-   "home": {
-    "id": "68",
-    "name": "Boise State Broncos",
-    "short": "Boise St",
-    "abbr": "BOIS",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
-    "score": 0,
-    "rank": null
-   },
-   "away": {
-    "id": "304",
-    "name": "Idaho State Bengals",
-    "short": "Idaho St",
-    "abbr": "IDST",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/304.png",
-    "score": 0,
-    "rank": null
-   },
-   "odds": {
-    "provider": "DraftKings",
-    "home_spread": -18.5,
-    "home_spread_odds": -115.0,
-    "away_spread_odds": -105.0,
-    "total": 162.5,
-    "over_odds": -112.0,
-    "under_odds": -108.0,
-    "home_ml": -2800.0,
-    "away_ml": 1300.0
-   },
-   "open": {
-    "home_spread": -19.5,
-    "total": 163.5,
-    "home_ml": -3600.0,
-    "away_ml": 1500.0
-   },
-   "tv": "YouTube",
-   "eval": {
-    "model": {
-     "home_pts": 88.6,
-     "away_pts": 73.4,
-     "margin": 15.13,
-     "total": 162.02,
-     "pace": 75.4,
-     "home_spread": -15.0,
-     "home_win": 0.883,
-     "home_ml": -751,
-     "away_ml": 751
-    },
-    "known": true,
-    "games_played": [
-     5,
-     5
-    ],
-    "markets": {
-     "spread": {
-      "edge": -3.37,
-      "home": {
-       "line": -18.5,
-       "odds": -115.0,
-       "p": 0.468,
-       "ev": -0.124
-      },
-      "away": {
-       "line": 18.5,
-       "odds": -105.0,
-       "p": 0.532,
-       "ev": 0.038
-      }
-     },
-     "total": {
-      "edge": -0.48,
-      "over": {
-       "line": 162.5,
-       "odds": -112.0,
-       "p": 0.497,
-       "ev": -0.06
-      },
-      "under": {
-       "line": 162.5,
-       "odds": -108.0,
-       "p": 0.503,
-       "ev": -0.031
-      }
-     },
-     "moneyline": {
-      "edge": -0.049,
-      "home": {
-       "odds": -2800.0,
-       "p": 0.915,
-       "ev": -0.052
-      },
-      "away": {
-       "odds": 1300.0,
-       "p": 0.085,
-       "ev": 0.189
-      }
-     }
-    },
-    "blend": {
-     "margin": 17.49,
-     "total": 162.36,
-     "home_spread": -17.5,
-     "home_win": 0.915,
-     "weight": 0.7
-    }
-   },
-   "sharp": {
-    "moneyline": {
-     "home": 0,
-     "away": 0
-    },
-    "spread": {
-     "home": 14,
-     "away": -14
-    },
-    "total": {
-     "over": -50,
-     "under": 50
-    }
-   },
-   "passes": [],
-   "picks": [
-    "401922023-spread"
-   ]
-  },
-  {
-   "id": "401921817",
-   "date": "2026-11-25T02:00Z",
-   "neutral": false,
-   "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 9:00 PM EST",
-   "completed": false,
-   "home": {
-    "id": "142",
-    "name": "Missouri Tigers",
-    "short": "Missouri",
-    "abbr": "MIZ",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
-    "score": 0,
-    "rank": null
-   },
-   "away": {
-    "id": "339",
-    "name": "Evansville Purple Aces",
-    "short": "Evansville",
-    "abbr": "EVAN",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/339.png",
-    "score": 0,
-    "rank": null
-   },
-   "odds": {
-    "provider": "DraftKings",
-    "home_spread": -30.5,
-    "home_spread_odds": -108.0,
-    "away_spread_odds": -112.0,
-    "total": 148.5,
-    "over_odds": -115.0,
-    "under_odds": -105.0,
-    "home_ml": null,
-    "away_ml": null
-   },
-   "open": {
-    "home_spread": -31.5,
-    "total": 147.5,
-    "home_ml": null,
-    "away_ml": null
-   },
-   "tv": "SECN+",
-   "eval": {
-    "model": {
-     "home_pts": 90.9,
-     "away_pts": 61.0,
-     "margin": 29.92,
-     "total": 151.86,
-     "pace": 69.6,
-     "home_spread": -30.0,
-     "home_win": 0.992,
-     "home_ml": -12077,
-     "away_ml": 12077
-    },
-    "known": true,
-    "games_played": [
-     6,
-     6
-    ],
-    "markets": {
-     "spread": {
-      "edge": -0.58,
-      "home": {
-       "line": -30.5,
-       "odds": -108.0,
-       "p": 0.494,
-       "ev": -0.048
-      },
-      "away": {
-       "line": 30.5,
-       "odds": -112.0,
-       "p": 0.506,
-       "ev": -0.043
-      }
-     },
-     "total": {
-      "edge": 3.36,
-      "over": {
-       "line": 148.5,
-       "odds": -115.0,
-       "p": 0.523,
-       "ev": -0.022
-      },
-      "under": {
-       "line": 148.5,
-       "odds": -105.0,
-       "p": 0.477,
-       "ev": -0.069
-      }
-     }
-    },
-    "blend": {
-     "margin": 30.33,
-     "total": 149.51,
-     "home_spread": -30.5,
-     "home_win": 0.992,
-     "weight": 0.7
-    }
-   },
-   "sharp": {
-    "spread": {
-     "home": -21,
-     "away": 21
-    },
-    "total": {
-     "over": 19,
-     "under": -20
-    }
-   },
-   "passes": [],
-   "picks": []
-  },
-  {
    "id": "401909699",
    "date": "2026-11-25T02:00Z",
    "neutral": false,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 9:00 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "52",
     "name": "Florida State Seminoles",
     "short": "Florida St",
     "abbr": "FSU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
-    "score": 0,
+    "score": 97,
     "rank": null
    },
    "away": {
@@ -7799,7 +7140,7 @@
     "short": "UNC Asheville",
     "abbr": "UNCA",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2427.png",
-    "score": 0,
+    "score": 61,
     "rank": null
    },
    "odds": {
@@ -7814,12 +7155,13 @@
     "away_ml": 5000.0
    },
    "open": {
-    "home_spread": -25.5,
+    "home_spread": -29.5,
     "total": 159.5,
-    "home_ml": -10000.0,
-    "away_ml": 3000.0
+    "home_ml": -100000.0,
+    "away_ml": 5000.0
    },
    "tv": "ACC Network",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 91.4,
@@ -7890,45 +7232,17 @@
      "weight": 0.7
     }
    },
-   "sharp": {
-    "moneyline": {
-     "home": 0,
-     "away": 0
-    },
-    "spread": {
-     "home": -4,
-     "away": 4
-    },
-    "total": {
-     "over": -8,
-     "under": 8
-    }
-   },
-   "passes": [
-    {
-     "market": "spread",
-     "side": "away",
-     "line": 29.5,
-     "odds": -108.0,
-     "p": 0.579,
-     "ev": 0.115,
-     "edge": 8.3,
-     "label": "UNC Asheville +29.5",
-     "blend_line": 27.0,
-     "sharp": null,
-     "moved": 4.0,
-     "reason": "DK line moved 4.0 pts against it"
-    }
-   ],
+   "sharp": {},
+   "passes": [],
    "picks": []
   },
   {
    "id": "401911253",
-   "date": "2026-11-25T02:30Z",
+   "date": "2026-11-25T02:55Z",
    "neutral": true,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 9:30 PM EST",
+   "state": "in",
+   "detail": "5:22 - 2nd",
    "completed": false,
    "home": {
     "id": "2253",
@@ -7936,7 +7250,7 @@
     "short": "Grand Canyon",
     "abbr": "GCU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2253.png",
-    "score": 0,
+    "score": 76,
     "rank": null
    },
    "away": {
@@ -7945,7 +7259,7 @@
     "short": "Saint Louis",
     "abbr": "SLU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/139.png",
-    "score": 0,
+    "score": 70,
     "rank": null
    },
    "odds": {
@@ -7961,11 +7275,12 @@
    },
    "open": {
     "home_spread": -1.5,
-    "total": 164.5,
+    "total": 163.5,
     "home_ml": -130.0,
     "away_ml": 110.0
    },
    "tv": "CBSSN",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 75.1,
@@ -8046,11 +7361,11 @@
   },
   {
    "id": "401906762",
-   "date": "2026-11-25T03:00Z",
+   "date": "2026-11-25T03:05Z",
    "neutral": true,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 10:00 PM EST",
+   "state": "in",
+   "detail": "3:35 - 2nd",
    "completed": false,
    "home": {
     "id": "333",
@@ -8058,7 +7373,7 @@
     "short": "Alabama",
     "abbr": "ALA",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
-    "score": 0,
+    "score": 52,
     "rank": 15
    },
    "away": {
@@ -8067,7 +7382,7 @@
     "short": "Baylor",
     "abbr": "BAY",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
-    "score": 0,
+    "score": 60,
     "rank": null
    },
    "odds": {
@@ -8083,11 +7398,12 @@
    },
    "open": {
     "home_spread": -1.5,
-    "total": 178.5,
+    "total": 174.5,
     "home_ml": -125.0,
     "away_ml": 105.0
    },
    "tv": "ESPN2",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 81.0,
@@ -8158,20 +7474,7 @@
      "weight": 0.7
     }
    },
-   "sharp": {
-    "moneyline": {
-     "home": 0,
-     "away": 0
-    },
-    "spread": {
-     "home": 13,
-     "away": -13
-    },
-    "total": {
-     "over": -24,
-     "under": 24
-    }
-   },
+   "sharp": {},
    "passes": [],
    "picks": [
     "401906762-spread",
@@ -8179,143 +7482,12 @@
    ]
   },
   {
-   "id": "401915943",
-   "date": "2026-11-25T03:30Z",
-   "neutral": true,
-   "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 10:30 PM EST",
-   "completed": false,
-   "home": {
-    "id": "2599",
-    "name": "St. John's Red Storm",
-    "short": "St John's",
-    "abbr": "SJU",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png",
-    "score": 0,
-    "rank": 13
-   },
-   "away": {
-    "id": "2483",
-    "name": "Oregon Ducks",
-    "short": "Oregon",
-    "abbr": "ORE",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
-    "score": 0,
-    "rank": null
-   },
-   "odds": {
-    "provider": "DraftKings",
-    "home_spread": -10.5,
-    "home_spread_odds": -115.0,
-    "away_spread_odds": -105.0,
-    "total": 156.5,
-    "over_odds": -108.0,
-    "under_odds": -112.0,
-    "home_ml": -600.0,
-    "away_ml": 440.0
-   },
-   "open": {
-    "home_spread": -8.5,
-    "total": 158.5,
-    "home_ml": -410.0,
-    "away_ml": 320.0
-   },
-   "tv": "ESPN",
-   "eval": {
-    "model": {
-     "home_pts": 83.6,
-     "away_pts": 70.3,
-     "margin": 13.23,
-     "total": 153.92,
-     "pace": 72.7,
-     "home_spread": -13.0,
-     "home_win": 0.845,
-     "home_ml": -544,
-     "away_ml": 544
-    },
-    "known": true,
-    "games_played": [
-     5,
-     4
-    ],
-    "markets": {
-     "spread": {
-      "edge": 2.73,
-      "home": {
-       "line": -10.5,
-       "odds": -115.0,
-       "p": 0.525,
-       "ev": -0.018
-      },
-      "away": {
-       "line": 10.5,
-       "odds": -105.0,
-       "p": 0.475,
-       "ev": -0.073
-      }
-     },
-     "total": {
-      "edge": -2.58,
-      "over": {
-       "line": 156.5,
-       "odds": -108.0,
-       "p": 0.483,
-       "ev": -0.07
-      },
-      "under": {
-       "line": 156.5,
-       "odds": -112.0,
-       "p": 0.517,
-       "ev": -0.021
-      }
-     },
-     "moneyline": {
-      "edge": 0.022,
-      "home": {
-       "odds": -600.0,
-       "p": 0.807,
-       "ev": -0.058
-      },
-      "away": {
-       "odds": 440.0,
-       "p": 0.193,
-       "ev": 0.042
-      }
-     }
-    },
-    "blend": {
-     "margin": 11.32,
-     "total": 155.73,
-     "home_spread": -11.5,
-     "home_win": 0.807,
-     "weight": 0.7
-    }
-   },
-   "sharp": {
-    "moneyline": {
-     "home": -23,
-     "away": 23
-    },
-    "spread": {
-     "home": 6,
-     "away": -6
-    },
-    "total": {
-     "over": 13,
-     "under": -13
-    }
-   },
-   "passes": [],
-   "picks": []
-  },
-  {
    "id": "401921712",
    "date": "2026-11-25T03:30Z",
    "neutral": true,
    "conf": false,
-   "state": "pre",
-   "detail": "11/24 - 10:30 PM EST",
+   "state": "in",
+   "detail": "15:55 - 2nd",
    "completed": false,
    "home": {
     "id": "36",
@@ -8323,7 +7495,7 @@
     "short": "Colorado St",
     "abbr": "CSU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png",
-    "score": 0,
+    "score": 49,
     "rank": null
    },
    "away": {
@@ -8332,7 +7504,7 @@
     "short": "VCU",
     "abbr": "VCU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2670.png",
-    "score": 0,
+    "score": 58,
     "rank": null
    },
    "odds": {
@@ -8349,10 +7521,11 @@
    "open": {
     "home_spread": 5.5,
     "total": 149.5,
-    "home_ml": 200.0,
-    "away_ml": -245.0
+    "home_ml": 190.0,
+    "away_ml": -230.0
    },
    "tv": "ESPNU",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 68.9,
@@ -8423,24 +7596,130 @@
      "weight": 0.7
     }
    },
-   "sharp": {
-    "moneyline": {
-     "home": -2,
-     "away": 2
-    },
-    "spread": {
-     "away": 7,
-     "home": -8
-    },
-    "total": {
-     "over": -23,
-     "under": 22
-    }
-   },
+   "sharp": {},
    "passes": [],
    "picks": [
     "401921712-total"
    ]
+  },
+  {
+   "id": "401915943",
+   "date": "2026-11-25T04:18Z",
+   "neutral": true,
+   "conf": false,
+   "state": "in",
+   "detail": "5:43 - 1st",
+   "completed": false,
+   "home": {
+    "id": "2599",
+    "name": "St. John's Red Storm",
+    "short": "St John's",
+    "abbr": "SJU",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2599.png",
+    "score": 31,
+    "rank": 13
+   },
+   "away": {
+    "id": "2483",
+    "name": "Oregon Ducks",
+    "short": "Oregon",
+    "abbr": "ORE",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+    "score": 22,
+    "rank": null
+   },
+   "odds": {
+    "provider": "DraftKings",
+    "home_spread": -10.5,
+    "home_spread_odds": -115.0,
+    "away_spread_odds": -105.0,
+    "total": 156.5,
+    "over_odds": -108.0,
+    "under_odds": -112.0,
+    "home_ml": -600.0,
+    "away_ml": 440.0
+   },
+   "open": {
+    "home_spread": -10.5,
+    "total": 156.5,
+    "home_ml": -600.0,
+    "away_ml": 440.0
+   },
+   "tv": "ESPN",
+   "odds_closed": true,
+   "eval": {
+    "model": {
+     "home_pts": 83.6,
+     "away_pts": 70.3,
+     "margin": 13.23,
+     "total": 153.92,
+     "pace": 72.7,
+     "home_spread": -13.0,
+     "home_win": 0.845,
+     "home_ml": -544,
+     "away_ml": 544
+    },
+    "known": true,
+    "games_played": [
+     5,
+     4
+    ],
+    "markets": {
+     "spread": {
+      "edge": 2.73,
+      "home": {
+       "line": -10.5,
+       "odds": -115.0,
+       "p": 0.525,
+       "ev": -0.018
+      },
+      "away": {
+       "line": 10.5,
+       "odds": -105.0,
+       "p": 0.475,
+       "ev": -0.073
+      }
+     },
+     "total": {
+      "edge": -2.58,
+      "over": {
+       "line": 156.5,
+       "odds": -108.0,
+       "p": 0.483,
+       "ev": -0.07
+      },
+      "under": {
+       "line": 156.5,
+       "odds": -112.0,
+       "p": 0.517,
+       "ev": -0.021
+      }
+     },
+     "moneyline": {
+      "edge": 0.022,
+      "home": {
+       "odds": -600.0,
+       "p": 0.807,
+       "ev": -0.058
+      },
+      "away": {
+       "odds": 440.0,
+       "p": 0.193,
+       "ev": 0.042
+      }
+     }
+    },
+    "blend": {
+     "margin": 11.32,
+     "total": 155.73,
+     "home_spread": -11.5,
+     "home_win": 0.807,
+     "weight": 0.7
+    }
+   },
+   "sharp": {},
+   "passes": [],
+   "picks": []
   },
   {
    "id": "401909763",
@@ -8469,21 +7748,21 @@
     "rank": null
    },
    "odds": {
-    "provider": "DraftKings",
-    "home_spread": 3.5,
+    "provider": "Draft Kings",
+    "home_spread": -4.5,
     "home_spread_odds": -102.0,
     "away_spread_odds": -118.0,
     "total": 140.5,
-    "over_odds": -115.0,
-    "under_odds": -105.0,
-    "home_ml": 154.0,
-    "away_ml": -185.0
+    "over_odds": -112.0,
+    "under_odds": -108.0,
+    "home_ml": -180.0,
+    "away_ml": 150.0
    },
    "open": {
     "home_spread": 2.5,
     "total": 143.5,
-    "home_ml": 114.0,
-    "away_ml": -135.0
+    "home_ml": -135.0,
+    "away_ml": 114.0
    },
    "tv": "CBSSN",
    "eval": {
@@ -8505,74 +7784,59 @@
     ],
     "markets": {
      "spread": {
-      "edge": 3.96,
+      "edge": -4.04,
       "home": {
-       "line": 3.5,
+       "line": -4.5,
        "odds": -102.0,
-       "p": 0.537,
-       "ev": 0.064
+       "p": 0.462,
+       "ev": -0.085
       },
       "away": {
-       "line": -3.5,
+       "line": 4.5,
        "odds": -118.0,
-       "p": 0.463,
-       "ev": -0.145
+       "p": 0.538,
+       "ev": -0.006
       }
      },
      "total": {
       "edge": -0.64,
       "over": {
        "line": 140.5,
-       "odds": -115.0,
+       "odds": -112.0,
        "p": 0.496,
-       "ev": -0.073
+       "ev": -0.062
       },
       "under": {
        "line": 140.5,
-       "odds": -105.0,
+       "odds": -108.0,
        "p": 0.504,
-       "ev": -0.015
+       "ev": -0.029
       }
      },
      "moneyline": {
-      "edge": 0.137,
+      "edge": -0.102,
       "home": {
-       "odds": 154.0,
-       "p": 0.428,
-       "ev": 0.087
+       "odds": -180.0,
+       "p": 0.602,
+       "ev": -0.064
       },
       "away": {
-       "odds": -185.0,
-       "p": 0.572,
-       "ev": -0.119
+       "odds": 150.0,
+       "p": 0.398,
+       "ev": -0.005
       }
      }
     },
     "blend": {
-     "margin": -2.31,
+     "margin": 3.29,
      "total": 140.31,
-     "home_spread": 2.5,
-     "home_win": 0.428,
+     "home_spread": -3.5,
+     "home_win": 0.602,
      "weight": 0.7
     }
    },
    "sharp": {},
-   "passes": [
-    {
-     "market": "moneyline",
-     "side": "home",
-     "line": null,
-     "odds": 154.0,
-     "p": 0.428,
-     "ev": 0.087,
-     "edge": 0.137,
-     "label": "Stanford ML",
-     "blend_line": 0.428,
-     "sharp": null,
-     "moved": 0.071,
-     "reason": "DK line moved 7.1% against it"
-    }
-   ],
+   "passes": [],
    "picks": [
     "401909763-spread"
    ]
@@ -8604,7 +7868,7 @@
     "rank": 22
    },
    "odds": {
-    "provider": "DraftKings",
+    "provider": "Draft Kings",
     "home_spread": 15.5,
     "home_spread_odds": -115.0,
     "away_spread_odds": -105.0,
@@ -8691,7 +7955,20 @@
      "weight": 0.7
     }
    },
-   "sharp": {},
+   "sharp": {
+    "moneyline": {
+     "home": 61,
+     "away": -61
+    },
+    "spread": {
+     "away": -17,
+     "home": 17
+    },
+    "total": {
+     "over": -29,
+     "under": 29
+    }
+   },
    "passes": [],
    "picks": [
     "401909800-spread",

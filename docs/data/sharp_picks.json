@@ -16,7 +16,11 @@
   "made_at": "2026-11-25T00:00:24.696570-05:00",
   "model_agrees": true,
   "close_line": null,
-  "close_odds": 950.0
+  "close_odds": 950.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "GONZ 101, KSU 61",
+  "clv": 0.0
  },
  {
   "id": "401928796-total-over",

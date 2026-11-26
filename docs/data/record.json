@@ -1,44 +1,44 @@
 {
  "overall": {
-  "w": 70,
-  "l": 64,
+  "w": 75,
+  "l": 69,
   "p": 0,
-  "units": 3.85,
-  "roi": 2.9,
-  "win_pct": 52.2,
-  "avg_clv": 0.19,
-  "clv_n": 134
+  "units": 4.53,
+  "roi": 3.1,
+  "win_pct": 52.1,
+  "avg_clv": 0.17,
+  "clv_n": 144
  },
  "by_market": {
   "spread": {
-   "w": 31,
-   "l": 31,
+   "w": 33,
+   "l": 33,
    "p": 0,
-   "units": -2.28,
-   "roi": -3.7,
+   "units": -2.49,
+   "roi": -3.8,
    "win_pct": 50.0,
-   "avg_clv": 0.44,
-   "clv_n": 62
+   "avg_clv": 0.41,
+   "clv_n": 66
   },
   "total": {
-   "w": 21,
-   "l": 21,
+   "w": 22,
+   "l": 24,
    "p": 0,
-   "units": -1.87,
-   "roi": -4.4,
-   "win_pct": 50.0,
+   "units": -3.92,
+   "roi": -8.5,
+   "win_pct": 47.8,
    "avg_clv": 0.0,
-   "clv_n": 42
+   "clv_n": 46
   },
   "moneyline": {
-   "w": 18,
+   "w": 20,
    "l": 12,
    "p": 0,
-   "units": 8.0,
-   "roi": 26.7,
-   "win_pct": 60.0,
-   "avg_clv": -0.07,
-   "clv_n": 30
+   "units": 10.94,
+   "roi": 34.2,
+   "win_pct": 62.5,
+   "avg_clv": -0.06,
+   "clv_n": 32
   }
  },
  "curve": [
@@ -71,54 +71,59 @@
    "date": "2026-11-24",
    "units": 3.85,
    "day": -7.01
+  },
+  {
+   "date": "2026-11-25",
+   "units": 4.53,
+   "day": 0.68
   }
  ],
- "pending": 13,
+ "pending": 3,
  "today": {
-  "w": 0,
-  "l": 0,
+  "w": 5,
+  "l": 5,
   "p": 0,
-  "units": 0,
-  "roi": 0.0,
-  "win_pct": 0.0,
-  "avg_clv": null,
-  "clv_n": 0,
+  "units": 0.68,
+  "roi": 6.8,
+  "win_pct": 50.0,
+  "avg_clv": 0.0,
+  "clv_n": 10,
   "date": "2026-11-25",
-  "pending": 13
+  "pending": 3
  },
  "model_sharp_agree": {
-  "w": 13,
-  "l": 14,
+  "w": 15,
+  "l": 16,
   "p": 0,
-  "units": -2.22,
-  "roi": -8.2,
-  "win_pct": 48.1,
-  "avg_clv": 0.44,
-  "clv_n": 27
+  "units": -2.43,
+  "roi": -7.8,
+  "win_pct": 48.4,
+  "avg_clv": 0.39,
+  "clv_n": 31
  },
  "sharp_sides": {
   "overall": {
-   "w": 16,
-   "l": 34,
+   "w": 18,
+   "l": 37,
    "p": 0,
-   "units": -19.27,
-   "roi": -38.5,
-   "win_pct": 32.0,
-   "avg_clv": -0.14,
-   "clv_n": 50
+   "units": -20.48,
+   "roi": -37.2,
+   "win_pct": 32.7,
+   "avg_clv": -0.13,
+   "clv_n": 55
   },
   "by_market": {
    "spread": {
-    "w": 16,
-    "l": 34,
+    "w": 18,
+    "l": 37,
     "p": 0,
-    "units": -19.27,
-    "roi": -38.5,
-    "win_pct": 32.0,
-    "avg_clv": -0.14,
-    "clv_n": 50
+    "units": -20.48,
+    "roi": -37.2,
+    "win_pct": 32.7,
+    "avg_clv": -0.13,
+    "clv_n": 55
    }
   },
-  "pending": 5
+  "pending": 0
  }
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T18:34:10.872668-05:00",
+ "updated": "2026-11-25T23:19:44.096451-05:00",
  "slate": "2026-11-25",
  "model_version": "1.2",
  "sharp_markets": [
@@ -38,22 +38,6 @@
  "market_weight": 0.7,
  "log": [
   "Fit on 1357 games through 2026-11-24",
-  "Splits: 21 games, 10 sides with handle >= bets + 30",
-  "New pick: UConn @ Duke Under 145.5 (-105) EV 6.9%",
-  "New pick: SC Upstate @ The Citadel The Citadel -3.5 (-112) EV 3.8%",
-  "New pick: SC Upstate @ The Citadel The Citadel ML (-170) EV 4.2%",
-  "New pick: Bellarmine @ N Kentucky Bellarmine ML (+235) EV 6.2%",
-  "Pass: Bellarmine @ N Kentucky Over 146.5: DK line moved 3.0 pts against it",
-  "New pick: N Illinois @ SIUE Over 137.5 (-112) EV 2.4%",
-  "Pass: St Thomas @ UNC Wilmington Over 156.5: Sharp money on the other side (handle beats bets by 23)",
-  "New pick: Longwood @ George Mason Longwood +16.5 (-108) EV 10.7%",
-  "New pick: Norfolk St @ NC State Over 150.5 (-112) EV 7.1%",
-  "New pick: Northeastern @ Wisconsin Northeastern +20.5 (-115) EV 3.4%",
-  "Pass: Northeastern @ Wisconsin Over 153.5: DK line moved 5.0 pts against it",
-  "New pick: Omaha @ UC Davis Under 146.5 (-110) EV 5.2%",
-  "New pick: Miss Valley St @ New Mexico Miss Valley St +36.5 (-112) EV 9.4%",
-  "New pick: Grand Canyon @ Colorado Under 153.5 (-108) EV 4.0%",
-  "New pick: Stanford @ Saint Louis Saint Louis -4.5 (-102) EV 7.7%",
-  "New pick: Stanford @ Saint Louis Saint Louis ML (-180) EV 6.0%"
+  "Splits: 2 games, 0 sides with handle >= bets + 30"
  ]
 }

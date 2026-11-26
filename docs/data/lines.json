@@ -3138,10 +3138,10 @@
   "away_ml": 1100.0,
   "date": "2026-11-25",
   "last": {
-   "provider": "DraftKings",
+   "provider": "Draft Kings",
    "home_spread": -16.5,
-   "home_spread_odds": -110.0,
-   "away_spread_odds": -110.0,
+   "home_spread_odds": -115.0,
+   "away_spread_odds": -105.0,
    "total": 139.5,
    "over_odds": -110.0,
    "under_odds": -110.0,
@@ -3156,15 +3156,15 @@
   "away_ml": 150.0,
   "date": "2026-11-25",
   "last": {
-   "provider": "DraftKings",
-   "home_spread": -4.5,
-   "home_spread_odds": -102.0,
-   "away_spread_odds": -118.0,
+   "provider": "Draft Kings",
+   "home_spread": -3.5,
+   "home_spread_odds": -110.0,
+   "away_spread_odds": -110.0,
    "total": 152.5,
    "over_odds": -110.0,
    "under_odds": -110.0,
-   "home_ml": -180.0,
-   "away_ml": 150.0
+   "home_ml": -166.0,
+   "away_ml": 140.0
   }
  },
  "401921714": {
@@ -3174,15 +3174,15 @@
   "away_ml": -166.0,
   "date": "2026-11-25",
   "last": {
-   "provider": "DraftKings",
+   "provider": "Draft Kings",
    "home_spread": 3.5,
-   "home_spread_odds": -115.0,
-   "away_spread_odds": -105.0,
-   "total": 148.5,
+   "home_spread_odds": -105.0,
+   "away_spread_odds": -115.0,
+   "total": 147.5,
    "over_odds": -110.0,
    "under_odds": -110.0,
-   "home_ml": 140.0,
-   "away_ml": -166.0
+   "home_ml": 145.0,
+   "away_ml": -175.0
   }
  }
 }

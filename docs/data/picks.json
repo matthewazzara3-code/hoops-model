@@ -19,8 +19,8 @@
   "matchup": "Stanford @ Saint Louis",
   "model_version": "1.2",
   "model_line": -9.0,
-  "close_line": -4.5,
-  "close_odds": -102.0
+  "close_line": -3.5,
+  "close_odds": -110.0
  },
  {
   "market": "moneyline",
@@ -43,7 +43,7 @@
   "model_version": "1.2",
   "model_line": 0.767,
   "close_line": null,
-  "close_odds": -180.0
+  "close_odds": -166.0
  },
  {
   "market": "total",
@@ -89,7 +89,11 @@
   "model_version": "1.2",
   "model_line": -28.0,
   "close_line": 36.5,
-  "close_odds": -112.0
+  "close_odds": -112.0,
+  "result": "W",
+  "units": 0.893,
+  "final": "MVSU 77, UNM 100",
+  "clv": 0.0
  },
  {
   "market": "total",
@@ -112,7 +116,11 @@
   "model_version": "1.2",
   "model_line": 139.0,
   "close_line": 146.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "OMA 78, UCD 80",
+  "clv": -0.0
  },
  {
   "market": "total",
@@ -135,7 +143,11 @@
   "model_version": "1.2",
   "model_line": 138.51,
   "close_line": 145.5,
-  "close_odds": -105.0
+  "close_odds": -105.0,
+  "result": "W",
+  "units": 0.952,
+  "final": "DUKE 77, CONN 63",
+  "clv": -0.0
  },
  {
   "market": "spread",
@@ -158,7 +170,11 @@
   "model_version": "1.2",
   "model_line": -8.5,
   "close_line": -3.5,
-  "close_odds": -112.0
+  "close_odds": -112.0,
+  "result": "W",
+  "units": 0.893,
+  "final": "UPST 54, CIT 72",
+  "clv": 0.0
  },
  {
   "market": "moneyline",
@@ -181,7 +197,11 @@
   "model_version": "1.2",
   "model_line": 0.753,
   "close_line": null,
-  "close_odds": -170.0
+  "close_odds": -170.0,
+  "result": "W",
+  "units": 0.588,
+  "final": "UPST 54, CIT 72",
+  "clv": 0.0
  },
  {
   "market": "moneyline",
@@ -204,7 +224,11 @@
   "model_version": "1.2",
   "model_line": 0.364,
   "close_line": null,
-  "close_odds": 235.0
+  "close_odds": 235.0,
+  "result": "W",
+  "units": 2.35,
+  "final": "BELL 66, NKU 52",
+  "clv": 0.0
  },
  {
   "market": "total",
@@ -227,7 +251,11 @@
   "model_version": "1.2",
   "model_line": 143.41,
   "close_line": 137.5,
-  "close_odds": -112.0
+  "close_odds": -112.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "NIU 68, SIUE 65",
+  "clv": 0.0
  },
  {
   "market": "spread",
@@ -250,7 +278,11 @@
   "model_version": "1.2",
   "model_line": -8.5,
   "close_line": 16.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "LONG 58, GMU 93",
+  "clv": 0.0
  },
  {
   "market": "total",
@@ -273,7 +305,11 @@
   "model_version": "1.2",
   "model_line": 160.11,
   "close_line": 150.5,
-  "close_odds": -112.0
+  "close_odds": -112.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "NORF 49, NCSU 80",
+  "clv": 0.0
  },
  {
   "market": "spread",
@@ -296,7 +332,11 @@
   "model_version": "1.2",
   "model_line": -15.0,
   "close_line": 20.5,
-  "close_odds": -115.0
+  "close_odds": -115.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "NE 54, WIS 91",
+  "clv": 0.0
  },
  {
   "market": "spread",

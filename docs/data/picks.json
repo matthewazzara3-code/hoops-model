@@ -20,7 +20,11 @@
   "model_version": "1.2",
   "model_line": -9.0,
   "close_line": -3.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "STAN 64, SLU 66",
+  "clv": -1.0
  },
  {
   "market": "moneyline",
@@ -43,7 +47,11 @@
   "model_version": "1.2",
   "model_line": 0.767,
   "close_line": null,
-  "close_odds": -166.0
+  "close_odds": -166.0,
+  "result": "W",
+  "units": 0.556,
+  "final": "STAN 64, SLU 66",
+  "clv": -1.9
  },
  {
   "market": "total",

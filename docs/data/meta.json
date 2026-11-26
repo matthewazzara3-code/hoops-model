@@ -1,17 +1,17 @@
 {
- "updated": "2026-11-26T03:51:03.505474-05:00",
- "slate": "2026-11-25",
+ "updated": "2026-11-26T18:42:52.309497-05:00",
+ "slate": "2026-11-26",
  "model_version": "1.2",
  "sharp_markets": [
   "spread"
  ],
- "games_fit": 1357,
- "data_through": "2026-11-24",
+ "games_fit": 1426,
+ "data_through": "2026-11-25",
  "hca_pts": {
   "conference": 2.9,
-  "non_conference": 4.9
+  "non_conference": 4.8
  },
- "league_total": 150.4,
+ "league_total": 150.3,
  "rules": {
   "spread": {
    "min_edge": 3.0,
@@ -37,7 +37,13 @@
  },
  "market_weight": 0.7,
  "log": [
-  "Fit on 1357 games through 2026-11-24",
-  "Splits: 21 games, 16 sides with handle >= bets + 30"
+  "Fit on 1426 games through 2026-11-25",
+  "Splits: 8 games, 1 sides with handle >= bets + 30",
+  "New pick: DePaul @ Pitt DePaul ML (-112) EV 8.2%",
+  "New pick: Jax State @ UC Davis Over 137.5 (-110) EV 6.2%",
+  "Pass: Louisville @ St John's Under 160.5: DK line moved 3.0 pts against it",
+  "Pass: Louisville @ St John's St John's ML: DK line moved 11.2% against it",
+  "New pick: Alabama @ Kansas St Under 169.5 (-105) EV 8.9%",
+  "New pick: Texas Tech @ Oregon Under 148.5 (-108) EV 9.2%"
  ]
 }

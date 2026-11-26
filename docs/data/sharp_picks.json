@@ -16,7 +16,11 @@
   "made_at": "2026-11-25T18:34:10.872668-05:00",
   "model_agrees": true,
   "close_line": null,
-  "close_odds": 1100.0
+  "close_odds": 1100.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "UIW 81, HAW 83",
+  "clv": 0.0
  },
  {
   "id": "401917545-spread-away",

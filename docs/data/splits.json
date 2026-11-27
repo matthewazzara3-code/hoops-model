@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T03:06:29.758037-05:00",
+ "updated": "2026-11-27T03:59:45.405388-05:00",
  "error": null,
  "games": [
   {
@@ -27,13 +27,13 @@
       "label": "Virginia -7.5",
       "odds": -115,
       "handle": 99,
-      "bets": 94
+      "bets": 95
      },
      {
       "label": "Xavier +7.5",
       "odds": -105,
       "handle": 1,
-      "bets": 6
+      "bets": 5
      }
     ],
     "total": [
@@ -167,41 +167,41 @@
     "moneyline": [
      {
       "label": "St. Johns",
-      "odds": -148,
+      "odds": -162,
       "handle": 100,
       "bets": 100
      },
      {
       "label": "Iowa State",
-      "odds": 124,
+      "odds": 136,
       "handle": 0,
       "bets": 0
      }
     ],
     "spread": [
      {
-      "label": "St. Johns -3.5",
-      "odds": -105,
+      "label": "St. Johns -4.5",
+      "odds": -110,
       "handle": 76,
       "bets": 80
      },
      {
-      "label": "Iowa State +3.5",
-      "odds": -115,
+      "label": "Iowa State +4.5",
+      "odds": -110,
       "handle": 24,
       "bets": 20
      }
     ],
     "total": [
      {
-      "label": "Over 149.5",
-      "odds": -115,
+      "label": "Over 150.5",
+      "odds": -108,
       "handle": 0,
       "bets": 0
      },
      {
-      "label": "Under 149.5",
-      "odds": -105,
+      "label": "Under 150.5",
+      "odds": -112,
       "handle": 100,
       "bets": 100
      }
@@ -235,25 +235,25 @@
       "label": "UMass Lowell -2.5",
       "odds": -110,
       "handle": 100,
-      "bets": 100
+      "bets": 80
      },
      {
       "label": "Hampton +2.5",
       "odds": -110,
       "handle": 0,
-      "bets": 0
+      "bets": 20
      }
     ],
     "total": [
      {
-      "label": "Over 140.5",
-      "odds": -110,
+      "label": "Over 139.5",
+      "odds": -115,
       "handle": 0,
       "bets": 0
      },
      {
-      "label": "Under 140.5",
-      "odds": -110,
+      "label": "Under 139.5",
+      "odds": -105,
       "handle": 100,
       "bets": 100
      }
@@ -287,13 +287,13 @@
       "label": "Memphis -2.5",
       "odds": -105,
       "handle": 99,
-      "bets": 87
+      "bets": 83
      },
      {
       "label": "Wake Forest +2.5",
       "odds": -115,
       "handle": 1,
-      "bets": 13
+      "bets": 17
      }
     ],
     "total": [
@@ -341,14 +341,14 @@
       "label": "South Alabama -1.5",
       "odds": 105,
       "handle": 56,
-      "bets": 25,
+      "bets": 22,
       "model_agrees": "False"
      },
      {
       "label": "Fresno State +1.5",
       "odds": -125,
       "handle": 44,
-      "bets": 75,
+      "bets": 78,
       "model_agrees": "True"
      }
     ],
@@ -398,14 +398,14 @@
     ],
     "total": [
      {
-      "label": "Over 140.5",
-      "odds": -105,
+      "label": "Over 139.5",
+      "odds": -115,
       "handle": 0,
       "bets": 0
      },
      {
-      "label": "Under 140.5",
-      "odds": -115,
+      "label": "Under 139.5",
+      "odds": -105,
       "handle": 100,
       "bets": 100
      }
@@ -422,14 +422,14 @@
    "markets": {
     "spread": [
      {
-      "label": "Fairfield -5.5",
-      "odds": -110,
+      "label": "Fairfield -4.5",
+      "odds": -112,
       "handle": 100,
       "bets": 100
      },
      {
-      "label": "Navy +5.5",
-      "odds": -110,
+      "label": "Navy +4.5",
+      "odds": -108,
       "handle": 0,
       "bets": 0
      }
@@ -438,14 +438,14 @@
      {
       "label": "Over 136.5",
       "odds": -112,
-      "handle": 0,
-      "bets": 0
+      "handle": 9,
+      "bets": 33
      },
      {
       "label": "Under 136.5",
       "odds": -108,
-      "handle": 100,
-      "bets": 100
+      "handle": 91,
+      "bets": 67
      }
     ]
    },
@@ -697,44 +697,6 @@
    "model": null
   },
   {
-   "event_id": "35095755",
-   "away": "Colgate",
-   "home": "Hofstra",
-   "when": "Fri 11/27 \u00b7 3:30 PM ET",
-   "markets": {
-    "spread": [
-     {
-      "label": "Hofstra -3.5",
-      "odds": -110,
-      "handle": 100,
-      "bets": 100
-     },
-     {
-      "label": "Colgate +3.5",
-      "odds": -110,
-      "handle": 0,
-      "bets": 0
-     }
-    ],
-    "total": [
-     {
-      "label": "Over 140.5",
-      "odds": -108,
-      "handle": 0,
-      "bets": 0
-     },
-     {
-      "label": "Under 140.5",
-      "odds": -112,
-      "handle": 100,
-      "bets": 100
-     }
-    ]
-   },
-   "espn_id": null,
-   "model": null
-  },
-  {
    "event_id": "35095756",
    "away": "La Salle",
    "home": "Bucknell",
@@ -787,6 +749,44 @@
    "model": null
   },
   {
+   "event_id": "35095755",
+   "away": "Colgate",
+   "home": "Hofstra",
+   "when": "Fri 11/27 \u00b7 3:30 PM ET",
+   "markets": {
+    "spread": [
+     {
+      "label": "Hofstra -3.5",
+      "odds": -110,
+      "handle": 100,
+      "bets": 100
+     },
+     {
+      "label": "Colgate +3.5",
+      "odds": -110,
+      "handle": 0,
+      "bets": 0
+     }
+    ],
+    "total": [
+     {
+      "label": "Over 140.5",
+      "odds": -108,
+      "handle": 0,
+      "bets": 0
+     },
+     {
+      "label": "Under 140.5",
+      "odds": -112,
+      "handle": 100,
+      "bets": 100
+     }
+    ]
+   },
+   "espn_id": null,
+   "model": null
+  },
+  {
    "event_id": "35095757",
    "away": "Arkansas-Pine Bluff",
    "home": "Missouri",
@@ -818,6 +818,30 @@
       "odds": -112,
       "handle": 100,
       "bets": 100
+     }
+    ]
+   },
+   "espn_id": null,
+   "model": null
+  },
+  {
+   "event_id": "35095758",
+   "away": "Radford",
+   "home": "American",
+   "when": "Fri 11/27 \u00b7 4:00 PM ET",
+   "markets": {
+    "moneyline": [
+     {
+      "label": "American",
+      "odds": -340,
+      "handle": 100,
+      "bets": 100
+     },
+     {
+      "label": "Radford",
+      "odds": 270,
+      "handle": 0,
+      "bets": 0
      }
     ]
    },
@@ -859,13 +883,13 @@
       "label": "Boston College",
       "odds": 320,
       "handle": 92,
-      "bets": 25
+      "bets": 22
      },
      {
       "label": "Cincinnati",
       "odds": -410,
       "handle": 8,
-      "bets": 75
+      "bets": 78
      }
     ],
     "spread": [
@@ -934,14 +958,14 @@
      {
       "label": "Texas A&M",
       "odds": -130,
-      "handle": 72,
-      "bets": 33
+      "handle": 84,
+      "bets": 43
      },
      {
       "label": "Marquette",
       "odds": 110,
-      "handle": 28,
-      "bets": 67
+      "handle": 16,
+      "bets": 57
      }
     ],
     "spread": [
@@ -1331,13 +1355,13 @@
       "label": "North Carolina",
       "odds": 124,
       "handle": 1,
-      "bets": 38
+      "bets": 33
      },
      {
       "label": "West Virginia",
       "odds": -148,
       "handle": 99,
-      "bets": 63
+      "bets": 67
      }
     ],
     "spread": [
@@ -1345,13 +1369,13 @@
       "label": "West Virginia -2.5",
       "odds": -118,
       "handle": 5,
-      "bets": 33
+      "bets": 31
      },
      {
       "label": "North Carolina +2.5",
       "odds": -102,
       "handle": 95,
-      "bets": 67
+      "bets": 69
      }
     ],
     "total": [
@@ -1446,13 +1470,13 @@
     ],
     "total": [
      {
-      "label": "Over 145.5",
+      "label": "Over 141.5",
       "odds": -110,
       "handle": 0,
       "bets": 0
      },
      {
-      "label": "Under 145.5",
+      "label": "Under 141.5",
       "odds": -110,
       "handle": 100,
       "bets": 100
@@ -1509,13 +1533,13 @@
     "moneyline": [
      {
       "label": "Mississippi State",
-      "odds": -265,
+      "odds": -278,
       "handle": 100,
       "bets": 100
      },
      {
       "label": "Penn State",
-      "odds": 215,
+      "odds": 225,
       "handle": 0,
       "bets": 0
      }
@@ -1575,53 +1599,15 @@
     "total": [
      {
       "label": "Over 146.5",
-      "odds": -105,
+      "odds": -110,
       "handle": 0,
       "bets": 0
      },
      {
       "label": "Under 146.5",
-      "odds": -115,
-      "handle": 100,
-      "bets": 100
-     }
-    ]
-   },
-   "espn_id": null,
-   "model": null
-  },
-  {
-   "event_id": "35095714",
-   "away": "North Dakota State",
-   "home": "North Texas",
-   "when": "Fri 11/27 \u00b7 8:00 PM ET",
-   "markets": {
-    "spread": [
-     {
-      "label": "North Texas -6.5",
-      "odds": -108,
-      "handle": 100,
-      "bets": 100
-     },
-     {
-      "label": "North Dakota State +6.5",
-      "odds": -112,
-      "handle": 0,
-      "bets": 0
-     }
-    ],
-    "total": [
-     {
-      "label": "Over 143.5",
       "odds": -110,
       "handle": 100,
-      "bets": 50
-     },
-     {
-      "label": "Under 143.5",
-      "odds": -110,
-      "handle": 0,
-      "bets": 50
+      "bets": 100
      }
     ]
    },
@@ -1653,13 +1639,13 @@
       "label": "Oral Roberts -3.5",
       "odds": -110,
       "handle": 0,
-      "bets": 25
+      "bets": 20
      },
      {
       "label": "Missouri State +3.5",
       "odds": -110,
       "handle": 100,
-      "bets": 75
+      "bets": 80
      }
     ],
     "total": [
@@ -1674,6 +1660,44 @@
       "odds": -112,
       "handle": 100,
       "bets": 100
+     }
+    ]
+   },
+   "espn_id": null,
+   "model": null
+  },
+  {
+   "event_id": "35095714",
+   "away": "North Dakota State",
+   "home": "North Texas",
+   "when": "Fri 11/27 \u00b7 8:00 PM ET",
+   "markets": {
+    "spread": [
+     {
+      "label": "North Texas -6.5",
+      "odds": -108,
+      "handle": 100,
+      "bets": 100
+     },
+     {
+      "label": "North Dakota State +6.5",
+      "odds": -112,
+      "handle": 0,
+      "bets": 0
+     }
+    ],
+    "total": [
+     {
+      "label": "Over 142.5",
+      "odds": -112,
+      "handle": 100,
+      "bets": 50
+     },
+     {
+      "label": "Under 142.5",
+      "odds": -108,
+      "handle": 0,
+      "bets": 50
      }
     ]
    },
@@ -1773,13 +1797,13 @@
     "spread": [
      {
       "label": "Miami FL -2.5",
-      "odds": 102,
+      "odds": -102,
       "handle": 0,
       "bets": 0
      },
      {
       "label": "Alabama +2.5",
-      "odds": -122,
+      "odds": -118,
       "handle": 100,
       "bets": 100
      }
@@ -1851,28 +1875,28 @@
       "label": "Tennessee -1.5",
       "odds": -102,
       "handle": 95,
-      "bets": 67,
+      "bets": 50,
       "model_agrees": null
      },
      {
       "label": "Louisville +1.5",
       "odds": -118,
       "handle": 5,
-      "bets": 33,
+      "bets": 50,
       "model_agrees": null
      }
     ],
     "total": [
      {
       "label": "Over 149.5",
-      "odds": -115,
+      "odds": -110,
       "handle": 0,
       "bets": 0,
       "model_agrees": null
      },
      {
       "label": "Under 149.5",
-      "odds": -105,
+      "odds": -110,
       "handle": 100,
       "bets": 100,
       "model_agrees": null

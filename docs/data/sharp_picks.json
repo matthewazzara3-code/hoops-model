@@ -16,7 +16,11 @@
   "made_at": "2026-11-26T23:30:03.152328-05:00",
   "model_agrees": "True",
   "close_line": 2.5,
-  "close_odds": -105.0
+  "close_odds": -105.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "BAY 64, GONZ 72",
+  "clv": 0.0
  },
  {
   "id": "401911523-spread-away",

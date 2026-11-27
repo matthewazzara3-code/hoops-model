@@ -1,6 +1,6 @@
 {
  "date": "2026-11-26",
- "updated": "2026-11-26T23:30:03.152328-05:00",
+ "updated": "2026-11-27T03:06:29.758037-05:00",
  "games": [
   {
    "id": "401929281",
@@ -369,7 +369,16 @@
     "markets": {},
     "blend": {}
    },
-   "sharp": {},
+   "sharp": {
+    "moneyline": {
+     "home": 0,
+     "away": 0
+    },
+    "spread": {
+     "home": 8,
+     "away": -8
+    }
+   },
    "passes": [],
    "picks": []
   },
@@ -422,7 +431,16 @@
     "markets": {},
     "blend": {}
    },
-   "sharp": {},
+   "sharp": {
+    "spread": {
+     "away": 28,
+     "home": -28
+    },
+    "total": {
+     "over": 0,
+     "under": 0
+    }
+   },
    "passes": [],
    "picks": []
   },
@@ -687,7 +705,16 @@
     "markets": {},
     "blend": {}
    },
-   "sharp": {},
+   "sharp": {
+    "spread": {
+     "home": 0,
+     "away": 0
+    },
+    "total": {
+     "over": 0,
+     "under": 0
+    }
+   },
    "passes": [],
    "picks": []
   },
@@ -1286,7 +1313,20 @@
      "weight": 0.7
     }
    },
-   "sharp": {},
+   "sharp": {
+    "moneyline": {
+     "home": 0,
+     "away": -25
+    },
+    "spread": {
+     "away": 31,
+     "home": 0
+    },
+    "total": {
+     "over": 0,
+     "under": 0
+    }
+   },
    "passes": [],
    "picks": [
     "401920539-total"
@@ -1297,16 +1337,16 @@
    "date": "2026-11-27T03:30Z",
    "neutral": true,
    "conf": false,
-   "state": "in",
-   "detail": "18:41 - 2nd",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2437",
     "name": "Omaha Mavericks",
     "short": "Omaha",
     "abbr": "OMA",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2437.png",
-    "score": 28,
+    "score": 62,
     "rank": null
    },
    "away": {
@@ -1315,7 +1355,7 @@
     "short": "Pacific",
     "abbr": "PAC",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/279.png",
-    "score": 34,
+    "score": 71,
     "rank": null
    },
    "odds": {
@@ -1407,25 +1447,160 @@
      "weight": 0.7
     }
    },
-   "sharp": {},
+   "sharp": {
+    "moneyline": {
+     "home": 0,
+     "away": 0
+    },
+    "total": {
+     "over": 0,
+     "under": 0
+    },
+    "spread": {
+     "home": 0
+    }
+   },
+   "passes": [],
+   "picks": []
+  },
+  {
+   "id": "401920540",
+   "date": "2026-11-27T04:53Z",
+   "neutral": true,
+   "conf": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
+   "home": {
+    "id": "2250",
+    "name": "Gonzaga Bulldogs",
+    "short": "Gonzaga",
+    "abbr": "GONZ",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2250.png",
+    "score": 72,
+    "rank": 22
+   },
+   "away": {
+    "id": "239",
+    "name": "Baylor Bears",
+    "short": "Baylor",
+    "abbr": "BAY",
+    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
+    "score": 64,
+    "rank": null
+   },
+   "odds": {
+    "provider": "Draft Kings",
+    "home_spread": -2.5,
+    "home_spread_odds": -115.0,
+    "away_spread_odds": -105.0,
+    "total": 153.5,
+    "over_odds": -108.0,
+    "under_odds": -112.0,
+    "home_ml": -148.0,
+    "away_ml": 124.0
+   },
+   "open": {
+    "home_spread": -3.5,
+    "total": 153.5,
+    "home_ml": -166.0,
+    "away_ml": 140.0
+   },
+   "tv": "ESPN",
+   "odds_closed": true,
+   "eval": {
+    "model": {
+     "home_pts": 76.3,
+     "away_pts": 73.9,
+     "margin": 2.41,
+     "total": 150.23,
+     "pace": 71.2,
+     "home_spread": -2.5,
+     "home_win": 0.575,
+     "home_ml": -135,
+     "away_ml": 135
+    },
+    "known": true,
+    "games_played": [
+     5,
+     6
+    ],
+    "markets": {
+     "spread": {
+      "edge": -0.09,
+      "home": {
+       "line": -2.5,
+       "odds": -115.0,
+       "p": 0.499,
+       "ev": -0.067
+      },
+      "away": {
+       "line": 2.5,
+       "odds": -105.0,
+       "p": 0.501,
+       "ev": -0.022
+      }
+     },
+     "total": {
+      "edge": -3.27,
+      "over": {
+       "line": 153.5,
+       "odds": -108.0,
+       "p": 0.478,
+       "ev": -0.08
+      },
+      "under": {
+       "line": 153.5,
+       "odds": -112.0,
+       "p": 0.522,
+       "ev": -0.011
+      }
+     },
+     "moneyline": {
+      "edge": 0.003,
+      "home": {
+       "odds": -148.0,
+       "p": 0.577,
+       "ev": -0.033
+      },
+      "away": {
+       "odds": 124.0,
+       "p": 0.423,
+       "ev": -0.052
+      }
+     }
+    },
+    "blend": {
+     "margin": 2.47,
+     "total": 152.52,
+     "home_spread": -2.5,
+     "home_win": 0.577,
+     "weight": 0.7
+    }
+   },
+   "sharp": {
+    "spread": {
+     "home": -29
+    }
+   },
    "passes": [],
    "picks": []
   },
   {
    "id": "401920531",
-   "date": "2026-11-27T04:30Z",
+   "date": "2026-11-27T04:57Z",
    "neutral": true,
    "conf": false,
-   "state": "pre",
-   "detail": "11/26 - 11:30 PM EST",
-   "completed": false,
+   "state": "post",
+   "detail": "Final",
+   "completed": true,
    "home": {
     "id": "2483",
     "name": "Oregon Ducks",
     "short": "Oregon",
     "abbr": "ORE",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
-    "score": 0,
+    "score": 59,
     "rank": null
    },
    "away": {
@@ -1434,7 +1609,7 @@
     "short": "Texas Tech",
     "abbr": "TTU",
     "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
-    "score": 0,
+    "score": 62,
     "rank": 5
    },
    "odds": {
@@ -1449,12 +1624,13 @@
     "away_ml": -550.0
    },
    "open": {
-    "home_spread": 8.5,
-    "total": 153.5,
-    "home_ml": 340.0,
-    "away_ml": -440.0
+    "home_spread": 10.5,
+    "total": 148.5,
+    "home_ml": 400.0,
+    "away_ml": -535.0
    },
    "tv": "ESPN2",
+   "odds_closed": true,
    "eval": {
     "model": {
      "home_pts": 62.5,
@@ -1531,149 +1707,14 @@
      "away": 0
     },
     "spread": {
-     "away": 7,
-     "home": -7
-    },
-    "total": {
-     "over": 6,
-     "under": -6
+     "away": 0,
+     "home": 0
     }
    },
    "passes": [],
    "picks": [
     "401920531-total"
    ]
-  },
-  {
-   "id": "401920540",
-   "date": "2026-11-27T04:30Z",
-   "neutral": true,
-   "conf": false,
-   "state": "pre",
-   "detail": "11/26 - 11:30 PM EST",
-   "completed": false,
-   "home": {
-    "id": "2250",
-    "name": "Gonzaga Bulldogs",
-    "short": "Gonzaga",
-    "abbr": "GONZ",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/2250.png",
-    "score": 0,
-    "rank": 22
-   },
-   "away": {
-    "id": "239",
-    "name": "Baylor Bears",
-    "short": "Baylor",
-    "abbr": "BAY",
-    "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
-    "score": 0,
-    "rank": null
-   },
-   "odds": {
-    "provider": "Draft Kings",
-    "home_spread": -2.5,
-    "home_spread_odds": -115.0,
-    "away_spread_odds": -105.0,
-    "total": 153.5,
-    "over_odds": -108.0,
-    "under_odds": -112.0,
-    "home_ml": -148.0,
-    "away_ml": 124.0
-   },
-   "open": {
-    "home_spread": 4.5,
-    "total": 166.5,
-    "home_ml": -218.0,
-    "away_ml": 180.0
-   },
-   "tv": "ESPN",
-   "eval": {
-    "model": {
-     "home_pts": 76.3,
-     "away_pts": 73.9,
-     "margin": 2.41,
-     "total": 150.23,
-     "pace": 71.2,
-     "home_spread": -2.5,
-     "home_win": 0.575,
-     "home_ml": -135,
-     "away_ml": 135
-    },
-    "known": true,
-    "games_played": [
-     5,
-     6
-    ],
-    "markets": {
-     "spread": {
-      "edge": -0.09,
-      "home": {
-       "line": -2.5,
-       "odds": -115.0,
-       "p": 0.499,
-       "ev": -0.067
-      },
-      "away": {
-       "line": 2.5,
-       "odds": -105.0,
-       "p": 0.501,
-       "ev": -0.022
-      }
-     },
-     "total": {
-      "edge": -3.27,
-      "over": {
-       "line": 153.5,
-       "odds": -108.0,
-       "p": 0.478,
-       "ev": -0.08
-      },
-      "under": {
-       "line": 153.5,
-       "odds": -112.0,
-       "p": 0.522,
-       "ev": -0.011
-      }
-     },
-     "moneyline": {
-      "edge": 0.003,
-      "home": {
-       "odds": -148.0,
-       "p": 0.577,
-       "ev": -0.033
-      },
-      "away": {
-       "odds": 124.0,
-       "p": 0.423,
-       "ev": -0.052
-      }
-     }
-    },
-    "blend": {
-     "margin": 2.47,
-     "total": 152.52,
-     "home_spread": -2.5,
-     "home_win": 0.577,
-     "weight": 0.7
-    }
-   },
-   "sharp": {
-    "moneyline": {
-     "home": -20,
-     "away": 20
-    },
-    "spread": {
-     "home": -32,
-     "away": 32
-    },
-    "total": {
-     "over": -2,
-     "under": 2
-    }
-   },
-   "passes": [],
-   "picks": []
   }
  ]
 }

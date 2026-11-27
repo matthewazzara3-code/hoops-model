@@ -20,7 +20,11 @@
   "model_version": "1.2",
   "model_line": 138.62,
   "close_line": 149.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "W",
+  "units": 0.926,
+  "final": "TTU 62, ORE 59",
+  "clv": -1.0
  },
  {
   "market": "total",

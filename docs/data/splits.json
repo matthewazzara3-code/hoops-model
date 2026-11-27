@@ -1,1348 +1,68 @@
 {
- "updated": "2026-11-27T03:59:45.405388-05:00",
+ "updated": "2026-11-27T18:22:29.971441-05:00",
  "error": null,
  "games": [
-  {
-   "event_id": "35095429",
-   "away": "Virginia",
-   "home": "Xavier",
-   "when": "Fri 11/27 \u00b7 11:00 AM ET",
-   "markets": {
-    "moneyline": [
-     {
-      "label": "Xavier",
-      "odds": 270,
-      "handle": 1,
-      "bets": 2
-     },
-     {
-      "label": "Virginia",
-      "odds": -340,
-      "handle": 99,
-      "bets": 98
-     }
-    ],
-    "spread": [
-     {
-      "label": "Virginia -7.5",
-      "odds": -115,
-      "handle": 99,
-      "bets": 95
-     },
-     {
-      "label": "Xavier +7.5",
-      "odds": -105,
-      "handle": 1,
-      "bets": 5
-     }
-    ],
-    "total": [
-     {
-      "label": "Over 156.5",
-      "odds": -115,
-      "handle": 100,
-      "bets": 83
-     },
-     {
-      "label": "Under 156.5",
-      "odds": -105,
-      "handle": 0,
-      "bets": 17
-     }
-    ]
-   },
-   "espn_id": null,
-   "model": null
-  },
-  {
-   "event_id": "35095424",
-   "away": "Liberty",
-   "home": "Saint Thomas MN",
-   "when": "Fri 11/27 \u00b7 12:00 PM ET",
-   "markets": {
-    "moneyline": [
-     {
-      "label": "Saint Thomas MN",
-      "odds": -108,
-      "handle": 18,
-      "bets": 44
-     },
-     {
-      "label": "Liberty",
-      "odds": -112,
-      "handle": 82,
-      "bets": 56
-     }
-    ],
-    "spread": [
-     {
-      "label": "Liberty -1.5",
-      "odds": 110,
-      "handle": 39,
-      "bets": 75
-     },
-     {
-      "label": "Saint Thomas MN +1.5",
-      "odds": -130,
-      "handle": 61,
-      "bets": 25
-     }
-    ],
-    "total": [
-     {
-      "label": "Over 146.5",
-      "odds": -110,
-      "handle": 100,
-      "bets": 50
-     },
-     {
-      "label": "Under 146.5",
-      "odds": -110,
-      "handle": 0,
-      "bets": 50
-     }
-    ]
-   },
-   "espn_id": null,
-   "model": null
-  },
-  {
-   "event_id": "35095750",
-   "away": "Vermont",
-   "home": "Merrimack",
-   "when": "Fri 11/27 \u00b7 1:00 PM ET",
-   "markets": {
-    "moneyline": [
-     {
-      "label": "Merrimack",
-      "odds": 130,
-      "handle": 0,
-      "bets": 0
-     },
-     {
-      "label": "Vermont",
-      "odds": -155,
-      "handle": 100,
-      "bets": 100
-     }
-    ],
-    "spread": [
-     {
-      "label": "Vermont -2.5",
-      "odds": -112,
-      "handle": 61,
-      "bets": 78
-     },
-     {
-      "label": "Merrimack +2.5",
-      "odds": -108,
-      "handle": 39,
-      "bets": 22
-     }
-    ],
-    "total": [
-     {
-      "label": "Over 129.5",
-      "odds": -110,
-      "handle": 0,
-      "bets": 0
-     },
-     {
-      "label": "Under 129.5",
-      "odds": -110,
-      "handle": 100,
-      "bets": 100
-     }
-    ]
-   },
-   "espn_id": null,
-   "model": null
-  },
-  {
-   "event_id": "35095955",
-   "away": "Iowa State",
-   "home": "St. Johns",
-   "when": "Fri 11/27 \u00b7 1:00 PM ET",
-   "markets": {
-    "moneyline": [
-     {
-      "label": "St. Johns",
-      "odds": -162,
-      "handle": 100,
-      "bets": 100
-     },
-     {
-      "label": "Iowa State",
-      "odds": 136,
-      "handle": 0,
-      "bets": 0
-     }
-    ],
-    "spread": [
-     {
-      "label": "St. Johns -4.5",
-      "odds": -110,
-      "handle": 76,
-      "bets": 80
-     },
-     {
-      "label": "Iowa State +4.5",
-      "odds": -110,
-      "handle": 24,
-      "bets": 20
-     }
-    ],
-    "total": [
-     {
-      "label": "Over 150.5",
-      "odds": -108,
-      "handle": 0,
-      "bets": 0
-     },
-     {
-      "label": "Under 150.5",
-      "odds": -112,
-      "handle": 100,
-      "bets": 100
-     }
-    ]
-   },
-   "espn_id": null,
-   "model": null
-  },
-  {
-   "event_id": "35095749",
-   "away": "Hampton",
-   "home": "UMass Lowell",
-   "when": "Fri 11/27 \u00b7 1:00 PM ET",
-   "markets": {
-    "moneyline": [
-     {
-      "label": "UMass Lowell",
-      "odds": -135,
-      "handle": 100,
-      "bets": 100
-     },
-     {
-      "label": "Hampton",
-      "odds": 114,
-      "handle": 0,
-      "bets": 0
-     }
-    ],
-    "spread": [
-     {
-      "label": "UMass Lowell -2.5",
-      "odds": -110,
-      "handle": 100,
-      "bets": 80
-     },
-     {
-      "label": "Hampton +2.5",
-      "odds": -110,
-      "handle": 0,
-      "bets": 20
-     }
-    ],
-    "total": [
-     {
-      "label": "Over 139.5",
-      "odds": -115,
-      "handle": 0,
-      "bets": 0
-     },
-     {
-      "label": "Under 139.5",
-      "odds": -105,
-      "handle": 100,
-      "bets": 100
-     }
-    ]
-   },
-   "espn_id": null,
-   "model": null
-  },
-  {
-   "event_id": "35095440",
-   "away": "Wake Forest",
-   "home": "Memphis",
-   "when": "Fri 11/27 \u00b7 1:30 PM ET",
-   "markets": {
-    "moneyline": [
-     {
-      "label": "Memphis",
-      "odds": -135,
-      "handle": 100,
-      "bets": 80
-     },
-     {
-      "label": "Wake Forest",
-      "odds": 114,
-      "handle": 0,
-      "bets": 20
-     }
-    ],
-    "spread": [
-     {
-      "label": "Memphis -2.5",
-      "odds": -105,
-      "handle": 99,
-      "bets": 83
-     },
-     {
-      "label": "Wake Forest +2.5",
-      "odds": -115,
-      "handle": 1,
-      "bets": 17
-     }
-    ],
-    "total": [
-     {
-      "label": "Over 154.5",
-      "odds": -110,
-      "handle": 0,
-      "bets": 0
-     },
-     {
-      "label": "Under 154.5",
-      "odds": -110,
-      "handle": 100,
-      "bets": 100
-     }
-    ]
-   },
-   "espn_id": null,
-   "model": null
-  },
-  {
-   "event_id": "35095716",
-   "away": "South Alabama",
-   "home": "Fresno State",
-   "when": "Fri 11/27 \u00b7 2:00 PM ET",
-   "markets": {
-    "moneyline": [
-     {
-      "label": "Fresno State",
-      "odds": -108,
-      "handle": 85,
-      "bets": 60,
-      "model_agrees": true
-     },
-     {
-      "label": "South Alabama",
-      "odds": -112,
-      "handle": 15,
-      "bets": 40,
-      "model_agrees": false
-     }
-    ],
-    "spread": [
-     {
-      "label": "South Alabama -1.5",
-      "odds": 105,
-      "handle": 56,
-      "bets": 22,
-      "model_agrees": "False"
-     },
-     {
-      "label": "Fresno State +1.5",
-      "odds": -125,
-      "handle": 44,
-      "bets": 78,
-      "model_agrees": "True"
-     }
-    ],
-    "total": [
-     {
-      "label": "Over 144.5",
-      "odds": -112,
-      "handle": 0,
-      "bets": 0,
-      "model_agrees": "False"
-     },
-     {
-      "label": "Under 144.5",
-      "odds": -108,
-      "handle": 100,
-      "bets": 100,
-      "model_agrees": "True"
-     }
-    ]
-   },
-   "espn_id": "401920539",
-   "model": {
-    "margin": -11.08,
-    "total": 161.04,
-    "home_spread": 11.0
-   }
-  },
-  {
-   "event_id": "35095751",
-   "away": "Maine",
-   "home": "Le Moyne",
-   "when": "Fri 11/27 \u00b7 2:00 PM ET",
-   "markets": {
-    "spread": [
-     {
-      "label": "Maine -1.5",
-      "odds": -105,
-      "handle": 3,
-      "bets": 17
-     },
-     {
-      "label": "Le Moyne +1.5",
-      "odds": -115,
-      "handle": 97,
-      "bets": 83
-     }
-    ],
-    "total": [
-     {
-      "label": "Over 139.5",
-      "odds": -115,
-      "handle": 0,
-      "bets": 0
-     },
-     {
-      "label": "Under 139.5",
-      "odds": -105,
-      "handle": 100,
-      "bets": 100
-     }
-    ]
-   },
-   "espn_id": null,
-   "model": null
-  },
-  {
-   "event_id": "35095752",
-   "away": "Navy",
-   "home": "Fairfield",
-   "when": "Fri 11/27 \u00b7 2:00 PM ET",
-   "markets": {
-    "spread": [
-     {
-      "label": "Fairfield -4.5",
-      "odds": -112,
-      "handle": 100,
-      "bets": 100
-     },
-     {
-      "label": "Navy +4.5",
-      "odds": -108,
-      "handle": 0,
-      "bets": 0
-     }
-    ],
-    "total": [
-     {
-      "label": "Over 136.5",
-      "odds": -112,
-      "handle": 9,
-      "bets": 33
-     },
-     {
-      "label": "Under 136.5",
-      "odds": -108,
-      "handle": 91,
-      "bets": 67
-     }
-    ]
-   },
-   "espn_id": null,
-   "model": null
-  },
-  {
-   "event_id": "35095753",
-   "away": "Southern University",
-   "home": "Vanderbilt",
-   "when": "Fri 11/27 \u00b7 2:00 PM ET",
-   "markets": {
-    "spread": [
-     {
-      "label": "Vanderbilt -37.5",
-      "odds": -110,
-      "handle": 0,
-      "bets": 0
-     },
-     {
-      "label": "Southern University +37.5",
-      "odds": -110,
-      "handle": 100,
-      "bets": 100
-     }
-    ],
-    "total": [
-     {
-      "label": "Over 151.5",
-      "odds": -115,
-      "handle": 0,
-      "bets": 0
-     },
-     {
-      "label": "Under 151.5",
-      "odds": -105,
-      "handle": 100,
-      "bets": 100
-     }
-    ]
-   },
-   "espn_id": null,
-   "model": null
-  },
-  {
-   "event_id": "35095812",
-   "away": "Georgetown",
-   "home": "UCLA",
-   "when": "Fri 11/27 \u00b7 2:30 PM ET",
-   "markets": {
-    "moneyline": [
-     {
-      "label": "UCLA",
-      "odds": -360,
-      "handle": 100,
-      "bets": 100,
-      "model_agrees": null
-     },
-     {
-      "label": "Georgetown",
-      "odds": 285,
-      "handle": 0,
-      "bets": 0,
-      "model_agrees": null
-     }
-    ],
-    "spread": [
-     {
-      "label": "UCLA -8.5",
-      "odds": -110,
-      "handle": 75,
-      "bets": 67,
-      "model_agrees": null
-     },
-     {
-      "label": "Georgetown +8.5",
-      "odds": -110,
-      "handle": 25,
-      "bets": 33,
-      "model_agrees": null
-     }
-    ]
-   },
-   "espn_id": "401906869",
-   "model": {
-    "margin": 9.95,
-    "total": 151.11,
-    "home_spread": -10.0
-   }
-  },
-  {
-   "event_id": "35095434",
-   "away": "Texas State",
-   "home": "Louisiana Tech",
-   "when": "Fri 11/27 \u00b7 3:00 PM ET",
-   "markets": {
-    "moneyline": [
-     {
-      "label": "Louisiana Tech",
-      "odds": 180,
-      "handle": 0,
-      "bets": 0
-     },
-     {
-      "label": "Texas State",
-      "odds": -218,
-      "handle": 100,
-      "bets": 100
-     }
-    ],
-    "spread": [
-     {
-      "label": "Texas State -4.5",
-      "odds": -118,
-      "handle": 100,
-      "bets": 100
-     },
-     {
-      "label": "Louisiana Tech +4.5",
-      "odds": -102,
-      "handle": 0,
-      "bets": 0
-     }
-    ]
-   },
-   "espn_id": null,
-   "model": null
-  },
-  {
-   "event_id": "35095436",
-   "away": "Princeton",
-   "home": "UNC Wilmington",
-   "when": "Fri 11/27 \u00b7 3:00 PM ET",
-   "markets": {
-    "moneyline": [
-     {
-      "label": "UNC Wilmington",
-      "odds": -360,
-      "handle": 100,
-      "bets": 100
-     },
-     {
-      "label": "Princeton",
-      "odds": 285,
-      "handle": 0,
-      "bets": 0
-     }
-    ],
-    "spread": [
-     {
-      "label": "UNC Wilmington -8.5",
-      "odds": -102,
-      "handle": 100,
-      "bets": 100
-     },
-     {
-      "label": "Princeton +8.5",
-      "odds": -118,
-      "handle": 0,
-      "bets": 0
-     }
-    ],
-    "total": [
-     {
-      "label": "Over 152.5",
-      "odds": -110,
-      "handle": 0,
-      "bets": 0
-     },
-     {
-      "label": "Under 152.5",
-      "odds": -110,
-      "handle": 100,
-      "bets": 100
-     }
-    ]
-   },
-   "espn_id": null,
-   "model": null
-  },
-  {
-   "event_id": "35096271",
-   "away": "TCU",
-   "home": "Baylor",
-   "when": "Fri 11/27 \u00b7 3:00 PM ET",
-   "markets": {
-    "spread": [
-     {
-      "label": "Baylor -4.5",
-      "odds": -102,
-      "handle": 100,
-      "bets": 100,
-      "model_agrees": null
-     },
-     {
-      "label": "TCU +4.5",
-      "odds": -118,
-      "handle": 0,
-      "bets": 0,
-      "model_agrees": null
-     }
-    ],
-    "total": [
-     {
-      "label": "Over 154.5",
-      "odds": -105,
-      "handle": 0,
-      "bets": 0,
-      "model_agrees": null
-     },
-     {
-      "label": "Under 154.5",
-      "odds": -115,
-      "handle": 100,
-      "bets": 100,
-      "model_agrees": null
-     }
-    ]
-   },
-   "espn_id": "401920538",
-   "model": {
-    "margin": -1.19,
-    "total": 151.44,
-    "home_spread": 1.0
-   }
-  },
-  {
-   "event_id": "35095754",
-   "away": "Bellarmine",
-   "home": "Butler",
-   "when": "Fri 11/27 \u00b7 3:00 PM ET",
-   "markets": {
-    "total": [
-     {
-      "label": "Over 151.5",
-      "odds": -115,
-      "handle": 0,
-      "bets": 0
-     },
-     {
-      "label": "Under 151.5",
-      "odds": -105,
-      "handle": 100,
-      "bets": 100
-     }
-    ]
-   },
-   "espn_id": null,
-   "model": null
-  },
-  {
-   "event_id": "35095756",
-   "away": "La Salle",
-   "home": "Bucknell",
-   "when": "Fri 11/27 \u00b7 3:30 PM ET",
-   "markets": {
-    "moneyline": [
-     {
-      "label": "Bucknell",
-      "odds": 330,
-      "handle": 0,
-      "bets": 0
-     },
-     {
-      "label": "La Salle",
-      "odds": -425,
-      "handle": 100,
-      "bets": 100
-     }
-    ],
-    "spread": [
-     {
-      "label": "La Salle -9.5",
-      "odds": -112,
-      "handle": 100,
-      "bets": 100
-     },
-     {
-      "label": "Bucknell +9.5",
-      "odds": -108,
-      "handle": 0,
-      "bets": 0
-     }
-    ],
-    "total": [
-     {
-      "label": "Over 147.5",
-      "odds": -115,
-      "handle": 0,
-      "bets": 0
-     },
-     {
-      "label": "Under 147.5",
-      "odds": -105,
-      "handle": 100,
-      "bets": 100
-     }
-    ]
-   },
-   "espn_id": null,
-   "model": null
-  },
-  {
-   "event_id": "35095755",
-   "away": "Colgate",
-   "home": "Hofstra",
-   "when": "Fri 11/27 \u00b7 3:30 PM ET",
-   "markets": {
-    "spread": [
-     {
-      "label": "Hofstra -3.5",
-      "odds": -110,
-      "handle": 100,
-      "bets": 100
-     },
-     {
-      "label": "Colgate +3.5",
-      "odds": -110,
-      "handle": 0,
-      "bets": 0
-     }
-    ],
-    "total": [
-     {
-      "label": "Over 140.5",
-      "odds": -108,
-      "handle": 0,
-      "bets": 0
-     },
-     {
-      "label": "Under 140.5",
-      "odds": -112,
-      "handle": 100,
-      "bets": 100
-     }
-    ]
-   },
-   "espn_id": null,
-   "model": null
-  },
-  {
-   "event_id": "35095757",
-   "away": "Arkansas-Pine Bluff",
-   "home": "Missouri",
-   "when": "Fri 11/27 \u00b7 4:00 PM ET",
-   "markets": {
-    "spread": [
-     {
-      "label": "Missouri -48.5",
-      "odds": -110,
-      "handle": 0,
-      "bets": 0
-     },
-     {
-      "label": "Arkansas-Pine Bluff +48.5",
-      "odds": -110,
-      "handle": 100,
-      "bets": 100
-     }
-    ],
-    "total": [
-     {
-      "label": "Over 155.5",
-      "odds": -108,
-      "handle": 0,
-      "bets": 0
-     },
-     {
-      "label": "Under 155.5",
-      "odds": -112,
-      "handle": 100,
-      "bets": 100
-     }
-    ]
-   },
-   "espn_id": null,
-   "model": null
-  },
-  {
-   "event_id": "35095758",
-   "away": "Radford",
-   "home": "American",
-   "when": "Fri 11/27 \u00b7 4:00 PM ET",
-   "markets": {
-    "moneyline": [
-     {
-      "label": "American",
-      "odds": -340,
-      "handle": 100,
-      "bets": 100
-     },
-     {
-      "label": "Radford",
-      "odds": 270,
-      "handle": 0,
-      "bets": 0
-     }
-    ]
-   },
-   "espn_id": null,
-   "model": null
-  },
-  {
-   "event_id": "35095759",
-   "away": "UMBC",
-   "home": "George Washington",
-   "when": "Fri 11/27 \u00b7 4:00 PM ET",
-   "markets": {
-    "total": [
-     {
-      "label": "Over 152.5",
-      "odds": -108,
-      "handle": 0,
-      "bets": 0
-     },
-     {
-      "label": "Under 152.5",
-      "odds": -112,
-      "handle": 100,
-      "bets": 100
-     }
-    ]
-   },
-   "espn_id": null,
-   "model": null
-  },
-  {
-   "event_id": "35095713",
-   "away": "Cincinnati",
-   "home": "Boston College",
-   "when": "Fri 11/27 \u00b7 4:30 PM ET",
-   "markets": {
-    "moneyline": [
-     {
-      "label": "Boston College",
-      "odds": 320,
-      "handle": 92,
-      "bets": 22
-     },
-     {
-      "label": "Cincinnati",
-      "odds": -410,
-      "handle": 8,
-      "bets": 78
-     }
-    ],
-    "spread": [
-     {
-      "label": "Cincinnati -8.5",
-      "odds": -118,
-      "handle": 14,
-      "bets": 50
-     },
-     {
-      "label": "Boston College +8.5",
-      "odds": -102,
-      "handle": 86,
-      "bets": 50
-     }
-    ],
-    "total": [
-     {
-      "label": "Over 140.5",
-      "odds": -112,
-      "handle": 0,
-      "bets": 0
-     },
-     {
-      "label": "Under 140.5",
-      "odds": -108,
-      "handle": 100,
-      "bets": 100
-     }
-    ]
-   },
-   "espn_id": null,
-   "model": null
-  },
-  {
-   "event_id": "35095760",
-   "away": "Niagara",
-   "home": "Lafayette",
-   "when": "Fri 11/27 \u00b7 4:30 PM ET",
-   "markets": {
-    "total": [
-     {
-      "label": "Over 141.5",
-      "odds": -112,
-      "handle": 0,
-      "bets": 0
-     },
-     {
-      "label": "Under 141.5",
-      "odds": -108,
-      "handle": 100,
-      "bets": 100
-     }
-    ]
-   },
-   "espn_id": null,
-   "model": null
-  },
-  {
-   "event_id": "35095427",
-   "away": "Marquette",
-   "home": "Texas A&M",
-   "when": "Fri 11/27 \u00b7 5:00 PM ET",
-   "markets": {
-    "moneyline": [
-     {
-      "label": "Texas A&M",
-      "odds": -130,
-      "handle": 84,
-      "bets": 43
-     },
-     {
-      "label": "Marquette",
-      "odds": 110,
-      "handle": 16,
-      "bets": 57
-     }
-    ],
-    "spread": [
-     {
-      "label": "Texas A&M -1.5",
-      "odds": -118,
-      "handle": 86,
-      "bets": 80
-     },
-     {
-      "label": "Marquette +1.5",
-      "odds": -102,
-      "handle": 14,
-      "bets": 20
-     }
-    ],
-    "total": [
-     {
-      "label": "Over 157.5",
-      "odds": -112,
-      "handle": 0,
-      "bets": 0
-     },
-     {
-      "label": "Under 157.5",
-      "odds": -108,
-      "handle": 100,
-      "bets": 100
-     }
-    ]
-   },
-   "espn_id": null,
-   "model": null
-  },
-  {
-   "event_id": "35095426",
-   "away": "Villanova",
-   "home": "Kansas",
-   "when": "Fri 11/27 \u00b7 5:00 PM ET",
-   "markets": {
-    "moneyline": [
-     {
-      "label": "Kansas",
-      "odds": -900,
-      "handle": 100,
-      "bets": 100,
-      "model_agrees": true
-     },
-     {
-      "label": "Villanova",
-      "odds": 600,
-      "handle": 0,
-      "bets": 0,
-      "model_agrees": true
-     }
-    ],
-    "spread": [
-     {
-      "label": "Kansas -12.5",
-      "odds": -110,
-      "handle": 100,
-      "bets": 100,
-      "model_agrees": "True"
-     },
-     {
-      "label": "Villanova +12.5",
-      "odds": -110,
-      "handle": 0,
-      "bets": 0,
-      "model_agrees": "True"
-     }
-    ],
-    "total": [
-     {
-      "label": "Over 159.5",
-      "odds": -110,
-      "handle": 0,
-      "bets": 0,
-      "model_agrees": "False"
-     },
-     {
-      "label": "Under 159.5",
-      "odds": -110,
-      "handle": 100,
-      "bets": 100,
-      "model_agrees": "True"
-     }
-    ]
-   },
-   "espn_id": "401920539",
-   "model": {
-    "margin": -11.08,
-    "total": 161.04,
-    "home_spread": 11.0
-   }
-  },
-  {
-   "event_id": "35095813",
-   "away": "Texas",
-   "home": "Saint Marys",
-   "when": "Fri 11/27 \u00b7 5:00 PM ET",
-   "markets": {
-    "moneyline": [
-     {
-      "label": "Saint Marys",
-      "odds": 275,
-      "handle": 0,
-      "bets": 0,
-      "model_agrees": false
-     },
-     {
-      "label": "Texas",
-      "odds": -345,
-      "handle": 100,
-      "bets": 100,
-      "model_agrees": true
-     }
-    ],
-    "spread": [
-     {
-      "label": "Texas -7.5",
-      "odds": -115,
-      "handle": 100,
-      "bets": 100,
-      "model_agrees": "True"
-     },
-     {
-      "label": "Saint Marys +7.5",
-      "odds": -105,
-      "handle": 0,
-      "bets": 0,
-      "model_agrees": "False"
-     }
-    ]
-   },
-   "espn_id": "401920531",
-   "model": {
-    "margin": -13.65,
-    "total": 138.62,
-    "home_spread": 13.5
-   }
-  },
-  {
-   "event_id": "35095715",
-   "away": "Old Dominion",
-   "home": "Virginia Tech",
-   "when": "Fri 11/27 \u00b7 5:00 PM ET",
-   "markets": {
-    "moneyline": [
-     {
-      "label": "Virginia Tech",
-      "odds": -3600,
-      "handle": 100,
-      "bets": 100
-     },
-     {
-      "label": "Old Dominion",
-      "odds": 1500,
-      "handle": 0,
-      "bets": 0
-     }
-    ],
-    "total": [
-     {
-      "label": "Over 144.5",
-      "odds": -115,
-      "handle": 100,
-      "bets": 100
-     },
-     {
-      "label": "Under 144.5",
-      "odds": -105,
-      "handle": 0,
-      "bets": 0
-     }
-    ]
-   },
-   "espn_id": null,
-   "model": null
-  },
-  {
-   "event_id": "35095425",
-   "away": "Drake",
-   "home": "Boise State",
-   "when": "Fri 11/27 \u00b7 5:30 PM ET",
-   "markets": {
-    "moneyline": [
-     {
-      "label": "Boise State",
-      "odds": -245,
-      "handle": 100,
-      "bets": 100
-     },
-     {
-      "label": "Drake",
-      "odds": 200,
-      "handle": 0,
-      "bets": 0
-     }
-    ],
-    "spread": [
-     {
-      "label": "Boise State -5.5",
-      "odds": -108,
-      "handle": 92,
-      "bets": 90
-     },
-     {
-      "label": "Drake +5.5",
-      "odds": -112,
-      "handle": 8,
-      "bets": 10
-     }
-    ]
-   },
-   "espn_id": null,
-   "model": null
-  },
-  {
-   "event_id": "35095985",
-   "away": "Michigan",
-   "home": "Kansas State",
-   "when": "Fri 11/27 \u00b7 5:30 PM ET",
-   "markets": {
-    "moneyline": [
-     {
-      "label": "Kansas State",
-      "odds": 285,
-      "handle": 0,
-      "bets": 0,
-      "model_agrees": true
-     },
-     {
-      "label": "Michigan",
-      "odds": -360,
-      "handle": 100,
-      "bets": 100,
-      "model_agrees": true
-     }
-    ],
-    "spread": [
-     {
-      "label": "Michigan -7.5",
-      "odds": -112,
-      "handle": 100,
-      "bets": 100,
-      "model_agrees": "True"
-     },
-     {
-      "label": "Kansas State +7.5",
-      "odds": -108,
-      "handle": 0,
-      "bets": 0,
-      "model_agrees": "True"
-     }
-    ]
-   },
-   "espn_id": "401920539",
-   "model": {
-    "margin": -11.08,
-    "total": 161.04,
-    "home_spread": 11.0
-   }
-  },
   {
    "event_id": "35095431",
    "away": "Towson",
    "home": "Pennsylvania",
-   "when": "Fri 11/27 \u00b7 6:00 PM ET",
+   "when": "Fri 11/27 \u00b7 6:35 PM ET",
    "markets": {
     "moneyline": [
      {
       "label": "Pennsylvania",
-      "odds": -185,
-      "handle": 100,
-      "bets": 100
+      "odds": -170,
+      "handle": 99,
+      "bets": 85,
+      "model_agrees": true
      },
      {
       "label": "Towson",
-      "odds": 154,
-      "handle": 0,
-      "bets": 0
+      "odds": 142,
+      "handle": 1,
+      "bets": 15,
+      "model_agrees": false
      }
     ],
     "spread": [
      {
-      "label": "Pennsylvania -4.5",
-      "odds": -110,
-      "handle": 100,
-      "bets": 86
+      "label": "Pennsylvania -3.5",
+      "odds": -109,
+      "handle": 96,
+      "bets": 60,
+      "model_agrees": "True"
      },
      {
-      "label": "Towson +4.5",
-      "odds": -110,
-      "handle": 0,
-      "bets": 14
-     }
-    ]
-   },
-   "espn_id": null,
-   "model": null
-  },
-  {
-   "event_id": "35095428",
-   "away": "Bowling Green",
-   "home": "Indiana",
-   "when": "Fri 11/27 \u00b7 6:00 PM ET",
-   "markets": {
-    "moneyline": [
-     {
-      "label": "Indiana",
-      "odds": -5000,
-      "handle": 100,
-      "bets": 100
-     },
-     {
-      "label": "Bowling Green",
-      "odds": 1800,
-      "handle": 0,
-      "bets": 0
-     }
-    ],
-    "spread": [
-     {
-      "label": "Indiana -22.5",
-      "odds": -112,
-      "handle": 0,
-      "bets": 0
-     },
-     {
-      "label": "Bowling Green +22.5",
-      "odds": -108,
-      "handle": 100,
-      "bets": 100
-     }
-    ]
-   },
-   "espn_id": null,
-   "model": null
-  },
-  {
-   "event_id": "35095430",
-   "away": "Western Kentucky",
-   "home": "Illinois",
-   "when": "Fri 11/27 \u00b7 6:00 PM ET",
-   "markets": {
-    "moneyline": [
-     {
-      "label": "Illinois",
-      "odds": -20000,
-      "handle": 100,
-      "bets": 100
-     },
-     {
-      "label": "Western Kentucky",
-      "odds": 3500,
-      "handle": 0,
-      "bets": 0
+      "label": "Towson +3.5",
+      "odds": -111,
+      "handle": 4,
+      "bets": 40,
+      "model_agrees": "False"
      }
     ],
     "total": [
      {
-      "label": "Over 176.5",
-      "odds": -108,
-      "handle": 0,
-      "bets": 0
+      "label": "Over 143.5",
+      "odds": -115,
+      "handle": 23,
+      "bets": 69,
+      "model_agrees": "False"
      },
      {
-      "label": "Under 176.5",
-      "odds": -112,
-      "handle": 100,
-      "bets": 100
+      "label": "Under 143.5",
+      "odds": -105,
+      "handle": 77,
+      "bets": 31,
+      "model_agrees": "True"
      }
     ]
    },
-   "espn_id": null,
-   "model": null
+   "espn_id": "401921185",
+   "model": {
+    "margin": 5.67,
+    "total": 141.73,
+    "home_spread": -5.5
+   }
   },
   {
    "event_id": "35095423",
@@ -1353,48 +73,58 @@
     "moneyline": [
      {
       "label": "North Carolina",
-      "odds": 124,
-      "handle": 1,
-      "bets": 33
+      "odds": 130,
+      "handle": 76,
+      "bets": 46,
+      "model_agrees": true
      },
      {
       "label": "West Virginia",
-      "odds": -148,
-      "handle": 99,
-      "bets": 67
+      "odds": -155,
+      "handle": 24,
+      "bets": 54,
+      "model_agrees": false
      }
     ],
     "spread": [
      {
-      "label": "West Virginia -2.5",
-      "odds": -118,
-      "handle": 5,
-      "bets": 31
+      "label": "West Virginia -3.5",
+      "odds": -106,
+      "handle": 36,
+      "bets": 36,
+      "model_agrees": "False"
      },
      {
-      "label": "North Carolina +2.5",
-      "odds": -102,
-      "handle": 95,
-      "bets": 69
+      "label": "North Carolina +3.5",
+      "odds": -114,
+      "handle": 64,
+      "bets": 64,
+      "model_agrees": "True"
      }
     ],
     "total": [
      {
       "label": "Over 148.5",
-      "odds": -115,
-      "handle": 0,
-      "bets": 0
+      "odds": -114,
+      "handle": 30,
+      "bets": 55,
+      "model_agrees": "False"
      },
      {
       "label": "Under 148.5",
-      "odds": -105,
-      "handle": 100,
-      "bets": 100
+      "odds": -106,
+      "handle": 70,
+      "bets": 45,
+      "model_agrees": "True"
      }
     ]
    },
-   "espn_id": null,
-   "model": null
+   "espn_id": "401912711",
+   "model": {
+    "margin": -0.6,
+    "total": 140.14,
+    "home_spread": 0.5
+   }
   },
   {
    "event_id": "35095437",
@@ -1405,48 +135,58 @@
     "moneyline": [
      {
       "label": "Georgia",
-      "odds": -225,
-      "handle": 100,
-      "bets": 100
+      "odds": -230,
+      "handle": 98,
+      "bets": 94,
+      "model_agrees": true
      },
      {
       "label": "UCF",
-      "odds": 185,
-      "handle": 0,
-      "bets": 0
+      "odds": 190,
+      "handle": 2,
+      "bets": 6,
+      "model_agrees": false
      }
     ],
     "spread": [
      {
       "label": "Georgia -5.5",
       "odds": -108,
-      "handle": 100,
-      "bets": 100
+      "handle": 94,
+      "bets": 70,
+      "model_agrees": "True"
      },
      {
       "label": "UCF +5.5",
       "odds": -112,
-      "handle": 0,
-      "bets": 0
+      "handle": 6,
+      "bets": 30,
+      "model_agrees": "False"
      }
     ],
     "total": [
      {
-      "label": "Over 164.5",
-      "odds": -105,
-      "handle": 0,
-      "bets": 0
+      "label": "Over 161.5",
+      "odds": -112,
+      "handle": 40,
+      "bets": 75,
+      "model_agrees": "True"
      },
      {
-      "label": "Under 164.5",
-      "odds": -115,
-      "handle": 100,
-      "bets": 100
+      "label": "Under 161.5",
+      "odds": -108,
+      "handle": 60,
+      "bets": 25,
+      "model_agrees": "False"
      }
     ]
    },
-   "espn_id": null,
-   "model": null
+   "espn_id": "401929284",
+   "model": {
+    "margin": 7.16,
+    "total": 163.81,
+    "home_spread": -7.0
+   }
   },
   {
    "event_id": "35095761",
@@ -1457,34 +197,58 @@
     "moneyline": [
      {
       "label": "ETSU",
-      "odds": -675,
-      "handle": 100,
-      "bets": 100
+      "odds": -575,
+      "handle": 88,
+      "bets": 96,
+      "model_agrees": false
      },
      {
       "label": "Charleston Southern",
-      "odds": 490,
-      "handle": 0,
-      "bets": 0
+      "odds": 425,
+      "handle": 12,
+      "bets": 4,
+      "model_agrees": true
+     }
+    ],
+    "spread": [
+     {
+      "label": "ETSU -9.5",
+      "odds": -112,
+      "handle": 41,
+      "bets": 36,
+      "model_agrees": "False"
+     },
+     {
+      "label": "Charleston Southern +9.5",
+      "odds": -108,
+      "handle": 59,
+      "bets": 64,
+      "model_agrees": "True"
      }
     ],
     "total": [
      {
-      "label": "Over 141.5",
-      "odds": -110,
-      "handle": 0,
-      "bets": 0
+      "label": "Over 142.5",
+      "odds": -109,
+      "handle": 1,
+      "bets": 50,
+      "model_agrees": "False"
      },
      {
-      "label": "Under 141.5",
+      "label": "Under 142.5",
       "odds": -110,
-      "handle": 100,
-      "bets": 100
+      "handle": 99,
+      "bets": 50,
+      "model_agrees": "True"
      }
     ]
    },
-   "espn_id": null,
-   "model": null
+   "espn_id": "401911380",
+   "model": {
+    "margin": 9.23,
+    "total": 140.74,
+    "home_spread": -9.0
+   }
   },
   {
    "event_id": "35095762",
@@ -1492,37 +256,61 @@
    "home": "UC Santa Barbara",
    "when": "Fri 11/27 \u00b7 7:00 PM ET",
    "markets": {
-    "spread": [
+    "moneyline": [
      {
-      "label": "UC Santa Barbara -14.5",
-      "odds": -105,
-      "handle": 0,
-      "bets": 0
+      "label": "UC Santa Barbara",
+      "odds": -1200,
+      "handle": 42,
+      "bets": 92,
+      "model_agrees": false
      },
      {
-      "label": "Lehigh +14.5",
-      "odds": -115,
+      "label": "Lehigh",
+      "odds": 750,
+      "handle": 58,
+      "bets": 8,
+      "model_agrees": true
+     }
+    ],
+    "spread": [
+     {
+      "label": "UC Santa Barbara -13.5",
+      "odds": -113,
       "handle": 100,
-      "bets": 100
+      "bets": 59,
+      "model_agrees": "False"
+     },
+     {
+      "label": "Lehigh +13.5",
+      "odds": -107,
+      "handle": 0,
+      "bets": 41,
+      "model_agrees": "True"
      }
     ],
     "total": [
      {
       "label": "Over 143.5",
-      "odds": -110,
-      "handle": 100,
-      "bets": 100
+      "odds": -115,
+      "handle": 62,
+      "bets": 75,
+      "model_agrees": "False"
      },
      {
       "label": "Under 143.5",
-      "odds": -110,
-      "handle": 0,
-      "bets": 0
+      "odds": -105,
+      "handle": 38,
+      "bets": 25,
+      "model_agrees": "True"
      }
     ]
    },
-   "espn_id": null,
-   "model": null
+   "espn_id": "401926756",
+   "model": {
+    "margin": 9.1,
+    "total": 142.18,
+    "home_spread": -9.0
+   }
   },
   {
    "event_id": "35095441",
@@ -1533,48 +321,58 @@
     "moneyline": [
      {
       "label": "Mississippi State",
-      "odds": -278,
-      "handle": 100,
-      "bets": 100
+      "odds": -298,
+      "handle": 78,
+      "bets": 95,
+      "model_agrees": false
      },
      {
       "label": "Penn State",
-      "odds": 225,
-      "handle": 0,
-      "bets": 0
+      "odds": 240,
+      "handle": 22,
+      "bets": 5,
+      "model_agrees": true
      }
     ],
     "spread": [
      {
       "label": "Mississippi State -6.5",
       "odds": -112,
-      "handle": 100,
-      "bets": 80
+      "handle": 73,
+      "bets": 65,
+      "model_agrees": "False"
      },
      {
       "label": "Penn State +6.5",
       "odds": -108,
-      "handle": 0,
-      "bets": 20
+      "handle": 27,
+      "bets": 35,
+      "model_agrees": "True"
      }
     ],
     "total": [
      {
       "label": "Over 156.5",
-      "odds": -110,
-      "handle": 0,
-      "bets": 0
+      "odds": -111,
+      "handle": 63,
+      "bets": 43,
+      "model_agrees": "False"
      },
      {
       "label": "Under 156.5",
-      "odds": -110,
-      "handle": 100,
-      "bets": 100
+      "odds": -109,
+      "handle": 37,
+      "bets": 57,
+      "model_agrees": "True"
      }
     ]
    },
-   "espn_id": null,
-   "model": null
+   "espn_id": "401929289",
+   "model": {
+    "margin": 5.03,
+    "total": 151.4,
+    "home_spread": -5.0
+   }
   },
   {
    "event_id": "35095712",
@@ -1585,34 +383,42 @@
     "spread": [
      {
       "label": "Houston -36.5",
-      "odds": -108,
-      "handle": 100,
-      "bets": 100
+      "odds": -104,
+      "handle": 69,
+      "bets": 60,
+      "model_agrees": "False"
      },
      {
       "label": "Oakland +36.5",
-      "odds": -112,
-      "handle": 0,
-      "bets": 0
+      "odds": -116,
+      "handle": 31,
+      "bets": 40,
+      "model_agrees": "True"
      }
     ],
     "total": [
      {
-      "label": "Over 146.5",
-      "odds": -110,
-      "handle": 0,
-      "bets": 0
+      "label": "Over 143.5",
+      "odds": -116,
+      "handle": 62,
+      "bets": 69,
+      "model_agrees": "True"
      },
      {
-      "label": "Under 146.5",
-      "odds": -110,
-      "handle": 100,
-      "bets": 100
+      "label": "Under 143.5",
+      "odds": -104,
+      "handle": 38,
+      "bets": 31,
+      "model_agrees": "False"
      }
     ]
    },
-   "espn_id": null,
-   "model": null
+   "espn_id": "401925703",
+   "model": {
+    "margin": 35.21,
+    "total": 154.63,
+    "home_spread": -35.0
+   }
   },
   {
    "event_id": "35095438",
@@ -1623,48 +429,58 @@
     "moneyline": [
      {
       "label": "Oral Roberts",
-      "odds": -166,
-      "handle": 0,
-      "bets": 0
+      "odds": -192,
+      "handle": 63,
+      "bets": 63,
+      "model_agrees": true
      },
      {
       "label": "Missouri State",
-      "odds": 140,
-      "handle": 100,
-      "bets": 100
+      "odds": 160,
+      "handle": 37,
+      "bets": 38,
+      "model_agrees": false
      }
     ],
     "spread": [
      {
-      "label": "Oral Roberts -3.5",
-      "odds": -110,
-      "handle": 0,
-      "bets": 20
+      "label": "Oral Roberts -4.5",
+      "odds": -106,
+      "handle": 2,
+      "bets": 47,
+      "model_agrees": "True"
      },
      {
-      "label": "Missouri State +3.5",
-      "odds": -110,
-      "handle": 100,
-      "bets": 80
+      "label": "Missouri State +4.5",
+      "odds": -114,
+      "handle": 98,
+      "bets": 53,
+      "model_agrees": "False"
      }
     ],
     "total": [
      {
       "label": "Over 142.5",
-      "odds": -108,
+      "odds": -107,
       "handle": 0,
-      "bets": 0
+      "bets": 0,
+      "model_agrees": "True"
      },
      {
       "label": "Under 142.5",
-      "odds": -112,
+      "odds": -113,
       "handle": 100,
-      "bets": 100
+      "bets": 100,
+      "model_agrees": "False"
      }
     ]
    },
-   "espn_id": null,
-   "model": null
+   "espn_id": "401928624",
+   "model": {
+    "margin": 9.04,
+    "total": 143.56,
+    "home_spread": -9.0
+   }
   },
   {
    "event_id": "35095714",
@@ -1672,75 +488,123 @@
    "home": "North Texas",
    "when": "Fri 11/27 \u00b7 8:00 PM ET",
    "markets": {
-    "spread": [
+    "moneyline": [
      {
-      "label": "North Texas -6.5",
-      "odds": -108,
-      "handle": 100,
-      "bets": 100
+      "label": "North Texas",
+      "odds": -250,
+      "handle": 80,
+      "bets": 95,
+      "model_agrees": false
      },
      {
-      "label": "North Dakota State +6.5",
+      "label": "North Dakota State",
+      "odds": 205,
+      "handle": 20,
+      "bets": 5,
+      "model_agrees": true
+     }
+    ],
+    "spread": [
+     {
+      "label": "North Texas -5.5",
       "odds": -112,
-      "handle": 0,
-      "bets": 0
+      "handle": 96,
+      "bets": 70,
+      "model_agrees": "False"
+     },
+     {
+      "label": "North Dakota State +5.5",
+      "odds": -107,
+      "handle": 4,
+      "bets": 30,
+      "model_agrees": "True"
      }
     ],
     "total": [
      {
       "label": "Over 142.5",
-      "odds": -112,
-      "handle": 100,
-      "bets": 50
+      "odds": -106,
+      "handle": 55,
+      "bets": 44,
+      "model_agrees": "False"
      },
      {
       "label": "Under 142.5",
-      "odds": -108,
-      "handle": 0,
-      "bets": 50
+      "odds": -114,
+      "handle": 45,
+      "bets": 56,
+      "model_agrees": "True"
      }
     ]
    },
-   "espn_id": null,
-   "model": null
+   "espn_id": "401925829",
+   "model": {
+    "margin": 3.87,
+    "total": 141.14,
+    "home_spread": -4.0
+   }
   },
   {
-   "event_id": "35095433",
-   "away": "Idaho",
-   "home": "Washington State",
+   "event_id": "35095432",
+   "away": "Northeastern",
+   "home": "Northwestern",
    "when": "Fri 11/27 \u00b7 8:00 PM ET",
    "markets": {
     "moneyline": [
      {
-      "label": "Washington State",
-      "odds": -750,
-      "handle": 100,
-      "bets": 100
+      "label": "Northwestern",
+      "odds": -950,
+      "handle": 97,
+      "bets": 98,
+      "model_agrees": false
      },
      {
-      "label": "Idaho",
-      "odds": 525,
-      "handle": 0,
-      "bets": 0
+      "label": "Northeastern",
+      "odds": 625,
+      "handle": 3,
+      "bets": 3,
+      "model_agrees": true
+     }
+    ],
+    "spread": [
+     {
+      "label": "Northwestern -12.5",
+      "odds": -114,
+      "handle": 55,
+      "bets": 58,
+      "model_agrees": "True"
+     },
+     {
+      "label": "Northeastern +12.5",
+      "odds": -106,
+      "handle": 45,
+      "bets": 42,
+      "model_agrees": "False"
      }
     ],
     "total": [
      {
-      "label": "Over 148.5",
-      "odds": -112,
+      "label": "Over 147.5",
+      "odds": -107,
       "handle": 0,
-      "bets": 0
+      "bets": 0,
+      "model_agrees": "True"
      },
      {
-      "label": "Under 148.5",
-      "odds": -108,
+      "label": "Under 147.5",
+      "odds": -113,
       "handle": 100,
-      "bets": 100
+      "bets": 100,
+      "model_agrees": "False"
      }
     ]
    },
-   "espn_id": null,
-   "model": null
+   "espn_id": "401920737",
+   "model": {
+    "margin": 12.54,
+    "total": 151.22,
+    "home_spread": -12.5
+   }
   },
   {
    "event_id": "35095435",
@@ -1751,41 +615,119 @@
     "moneyline": [
      {
       "label": "UC Davis",
-      "odds": 180,
+      "odds": 230,
+      "handle": 98,
+      "bets": 39,
+      "model_agrees": true
+     },
+     {
+      "label": "Pacific",
+      "odds": -285,
+      "handle": 2,
+      "bets": 61,
+      "model_agrees": false
+     }
+    ],
+    "spread": [
+     {
+      "label": "Pacific -6.5",
+      "odds": -108,
+      "handle": 2,
+      "bets": 52,
+      "model_agrees": "False"
+     },
+     {
+      "label": "UC Davis +6.5",
+      "odds": -112,
+      "handle": 98,
+      "bets": 48,
+      "model_agrees": "True"
+     }
+    ],
+    "total": [
+     {
+      "label": "Over 137.5",
+      "odds": -116,
+      "handle": 100,
+      "bets": 80,
+      "model_agrees": "False"
+     },
+     {
+      "label": "Under 137.5",
+      "odds": -105,
+      "handle": 0,
+      "bets": 20,
+      "model_agrees": "True"
+     }
+    ]
+   },
+   "espn_id": "401911524",
+   "model": {
+    "margin": -6.04,
+    "total": 135.14,
+    "home_spread": 6.0
+   }
+  },
+  {
+   "event_id": "35095433",
+   "away": "Idaho",
+   "home": "Washington State",
+   "when": "Fri 11/27 \u00b7 8:00 PM ET",
+   "markets": {
+    "moneyline": [
+     {
+      "label": "Washington State",
+      "odds": -800,
       "handle": 100,
       "bets": 100,
       "model_agrees": false
      },
      {
-      "label": "Pacific",
-      "odds": -218,
+      "label": "Idaho",
+      "odds": 550,
       "handle": 0,
       "bets": 0,
       "model_agrees": true
      }
     ],
-    "total": [
+    "spread": [
      {
-      "label": "Over 138.5",
-      "odds": -110,
-      "handle": 0,
-      "bets": 0,
+      "label": "Washington State -11.5",
+      "odds": -117,
+      "handle": 95,
+      "bets": 48,
       "model_agrees": "False"
      },
      {
-      "label": "Under 138.5",
-      "odds": -110,
-      "handle": 100,
-      "bets": 100,
+      "label": "Idaho +11.5",
+      "odds": -103,
+      "handle": 5,
+      "bets": 52,
       "model_agrees": "True"
+     }
+    ],
+    "total": [
+     {
+      "label": "Over 148.5",
+      "odds": -111,
+      "handle": 100,
+      "bets": 60,
+      "model_agrees": "True"
+     },
+     {
+      "label": "Under 148.5",
+      "odds": -108,
+      "handle": 0,
+      "bets": 40,
+      "model_agrees": "False"
      }
     ]
    },
-   "espn_id": "401917546",
+   "espn_id": "401922264",
    "model": {
-    "margin": -11.57,
-    "total": 137.95,
-    "home_spread": 11.5
+    "margin": 9.76,
+    "total": 161.83,
+    "home_spread": -10.0
    }
   },
   {
@@ -1794,37 +736,123 @@
    "home": "Alabama",
    "when": "Fri 11/27 \u00b7 8:30 PM ET",
    "markets": {
-    "spread": [
+    "moneyline": [
      {
-      "label": "Miami FL -2.5",
-      "odds": -102,
-      "handle": 0,
-      "bets": 0
+      "label": "Alabama",
+      "odds": 114,
+      "handle": 41,
+      "bets": 48,
+      "model_agrees": false
      },
      {
-      "label": "Alabama +2.5",
-      "odds": -118,
-      "handle": 100,
-      "bets": 100
+      "label": "Miami FL",
+      "odds": -135,
+      "handle": 59,
+      "bets": 52,
+      "model_agrees": true
+     }
+    ],
+    "spread": [
+     {
+      "label": "Miami FL -1.5",
+      "odds": -116,
+      "handle": 14,
+      "bets": 42,
+      "model_agrees": "True"
+     },
+     {
+      "label": "Alabama +1.5",
+      "odds": -104,
+      "handle": 86,
+      "bets": 58,
+      "model_agrees": "False"
      }
     ],
     "total": [
      {
       "label": "Over 170.5",
       "odds": -110,
-      "handle": 100,
-      "bets": 100
+      "handle": 96,
+      "bets": 81,
+      "model_agrees": "False"
      },
      {
       "label": "Under 170.5",
       "odds": -110,
-      "handle": 0,
-      "bets": 0
+      "handle": 4,
+      "bets": 19,
+      "model_agrees": "True"
      }
     ]
    },
-   "espn_id": null,
-   "model": null
+   "espn_id": "401920543",
+   "model": {
+    "margin": -5.88,
+    "total": 158.44,
+    "home_spread": 6.0
+   }
+  },
+  {
+   "event_id": "35095954",
+   "away": "Tennessee",
+   "home": "Louisville",
+   "when": "Fri 11/27 \u00b7 9:00 PM ET",
+   "markets": {
+    "moneyline": [
+     {
+      "label": "Louisville",
+      "odds": -170,
+      "handle": 48,
+      "bets": 47,
+      "model_agrees": false
+     },
+     {
+      "label": "Tennessee",
+      "odds": 142,
+      "handle": 52,
+      "bets": 53,
+      "model_agrees": true
+     }
+    ],
+    "spread": [
+     {
+      "label": "Louisville -3.5",
+      "odds": -113,
+      "handle": 21,
+      "bets": 23,
+      "model_agrees": "False"
+     },
+     {
+      "label": "Tennessee +3.5",
+      "odds": -107,
+      "handle": 79,
+      "bets": 77,
+      "model_agrees": "True"
+     }
+    ],
+    "total": [
+     {
+      "label": "Over 148.5",
+      "odds": -116,
+      "handle": 75,
+      "bets": 64,
+      "model_agrees": "False"
+     },
+     {
+      "label": "Under 148.5",
+      "odds": -105,
+      "handle": 25,
+      "bets": 36,
+      "model_agrees": "True"
+     }
+    ]
+   },
+   "espn_id": "401920534",
+   "model": {
+    "margin": -3.68,
+    "total": 142.43,
+    "home_spread": 3.5
+   }
   },
   {
    "event_id": "35095439",
@@ -1835,79 +863,57 @@
     "moneyline": [
      {
       "label": "Kentucky",
-      "odds": -175,
-      "handle": 58,
-      "bets": 50
+      "odds": -205,
+      "handle": 97,
+      "bets": 83,
+      "model_agrees": false
      },
      {
       "label": "Wichita State",
-      "odds": 145,
-      "handle": 42,
-      "bets": 50
+      "odds": 170,
+      "handle": 3,
+      "bets": 17,
+      "model_agrees": true
      }
     ],
     "spread": [
      {
-      "label": "Kentucky -3.5",
+      "label": "Kentucky -4.5",
       "odds": -112,
-      "handle": 100,
-      "bets": 100
+      "handle": 16,
+      "bets": 65,
+      "model_agrees": "False"
      },
      {
-      "label": "Wichita State +3.5",
+      "label": "Wichita State +4.5",
       "odds": -108,
-      "handle": 0,
-      "bets": 0
-     }
-    ]
-   },
-   "espn_id": null,
-   "model": null
-  },
-  {
-   "event_id": "35095954",
-   "away": "Tennessee",
-   "home": "Louisville",
-   "when": "Fri 11/27 \u00b7 9:00 PM ET",
-   "markets": {
-    "spread": [
-     {
-      "label": "Tennessee -1.5",
-      "odds": -102,
-      "handle": 95,
-      "bets": 50,
-      "model_agrees": null
-     },
-     {
-      "label": "Louisville +1.5",
-      "odds": -118,
-      "handle": 5,
-      "bets": 50,
-      "model_agrees": null
+      "handle": 84,
+      "bets": 35,
+      "model_agrees": "True"
      }
     ],
     "total": [
      {
-      "label": "Over 149.5",
-      "odds": -110,
-      "handle": 0,
-      "bets": 0,
-      "model_agrees": null
+      "label": "Over 157.5",
+      "odds": -112,
+      "handle": 100,
+      "bets": 88,
+      "model_agrees": "False"
      },
      {
-      "label": "Under 149.5",
-      "odds": -110,
-      "handle": 100,
-      "bets": 100,
-      "model_agrees": null
+      "label": "Under 157.5",
+      "odds": -108,
+      "handle": 0,
+      "bets": 13,
+      "model_agrees": "True"
      }
     ]
    },
-   "espn_id": "401920529",
+   "espn_id": "401919033",
    "model": {
-    "margin": 0.53,
-    "total": 125.16,
-    "home_spread": -0.5
+    "margin": -0.08,
+    "total": 156.66,
+    "home_spread": 0.0
    }
   },
   {
@@ -1919,57 +925,57 @@
     "moneyline": [
      {
       "label": "Omaha",
-      "odds": 220,
-      "handle": 0,
-      "bets": 0,
+      "odds": 180,
+      "handle": 1,
+      "bets": 3,
       "model_agrees": false
      },
      {
       "label": "Jacksonville State",
-      "odds": -270,
-      "handle": 100,
-      "bets": 100,
-      "model_agrees": false
+      "odds": -218,
+      "handle": 99,
+      "bets": 97,
+      "model_agrees": true
      }
     ],
     "spread": [
      {
       "label": "Jacksonville State -5.5",
-      "odds": -112,
-      "handle": 100,
-      "bets": 100,
-      "model_agrees": "False"
+      "odds": -102,
+      "handle": 64,
+      "bets": 60,
+      "model_agrees": "True"
      },
      {
       "label": "Omaha +5.5",
-      "odds": -108,
-      "handle": 0,
-      "bets": 0,
+      "odds": -118,
+      "handle": 36,
+      "bets": 40,
       "model_agrees": "False"
      }
     ],
     "total": [
      {
-      "label": "Over 144.5",
-      "odds": -115,
-      "handle": 100,
-      "bets": 100,
-      "model_agrees": "False"
+      "label": "Over 138.5",
+      "odds": -111,
+      "handle": 60,
+      "bets": 60,
+      "model_agrees": "True"
      },
      {
-      "label": "Under 144.5",
-      "odds": -105,
-      "handle": 0,
-      "bets": 0,
-      "model_agrees": "True"
+      "label": "Under 138.5",
+      "odds": -109,
+      "handle": 40,
+      "bets": 40,
+      "model_agrees": "False"
      }
     ]
    },
-   "espn_id": "401917546",
+   "espn_id": "401926783",
    "model": {
-    "margin": -11.57,
-    "total": 137.95,
-    "home_spread": 11.5
+    "margin": -7.99,
+    "total": 147.5,
+    "home_spread": 8.0
    }
   },
   {
@@ -1978,29 +984,113 @@
    "home": "Gonzaga",
    "when": "Fri 11/27 \u00b7 11:00 PM ET",
    "markets": {
+    "moneyline": [
+     {
+      "label": "Gonzaga",
+      "odds": -250,
+      "handle": 45,
+      "bets": 95,
+      "model_agrees": false
+     },
+     {
+      "label": "Creighton",
+      "odds": 205,
+      "handle": 55,
+      "bets": 5,
+      "model_agrees": true
+     }
+    ],
     "spread": [
      {
-      "label": "Gonzaga -5.5",
-      "odds": -110,
-      "handle": 79,
-      "bets": 50,
+      "label": "Gonzaga -6.5",
+      "odds": -105,
+      "handle": 66,
+      "bets": 61,
       "model_agrees": "False"
      },
      {
-      "label": "Creighton +5.5",
-      "odds": -110,
-      "handle": 21,
-      "bets": 50,
+      "label": "Creighton +6.5",
+      "odds": -115,
+      "handle": 34,
+      "bets": 39,
+      "model_agrees": "True"
+     }
+    ],
+    "total": [
+     {
+      "label": "Over 160.5",
+      "odds": -109,
+      "handle": 95,
+      "bets": 71,
       "model_agrees": "False"
+     },
+     {
+      "label": "Under 160.5",
+      "odds": -111,
+      "handle": 5,
+      "bets": 29,
+      "model_agrees": "True"
      }
     ]
    },
-   "espn_id": "401920540",
+   "espn_id": "401920544",
    "model": {
-    "margin": 2.41,
-    "total": 150.23,
-    "home_spread": -2.5
+    "margin": 5.92,
+    "total": 150.65,
+    "home_spread": -6.0
    }
+  },
+  {
+   "event_id": "35096348",
+   "away": "Texas Tech",
+   "home": "San Diego State",
+   "when": "Fri 11/27 \u00b7 11:30 PM ET",
+   "markets": {
+    "moneyline": [
+     {
+      "label": "San Diego State",
+      "odds": 300,
+      "handle": 20,
+      "bets": 1
+     },
+     {
+      "label": "Texas Tech",
+      "odds": -380,
+      "handle": 80,
+      "bets": 99
+     }
+    ],
+    "spread": [
+     {
+      "label": "Texas Tech -8.5",
+      "odds": -115,
+      "handle": 39,
+      "bets": 57
+     },
+     {
+      "label": "San Diego State +8.5",
+      "odds": -105,
+      "handle": 61,
+      "bets": 43
+     }
+    ],
+    "total": [
+     {
+      "label": "Over 142.5",
+      "odds": -110,
+      "handle": 46,
+      "bets": 17
+     },
+     {
+      "label": "Under 142.5",
+      "odds": -110,
+      "handle": 54,
+      "bets": 83
+     }
+    ]
+   },
+   "espn_id": null,
+   "model": null
   }
  ]
 }

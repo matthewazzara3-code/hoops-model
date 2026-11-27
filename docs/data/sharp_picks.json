@@ -1,5 +1,24 @@
 [
  {
+  "id": "401920540-spread-away",
+  "game_id": "401920540",
+  "date": "2026-11-26",
+  "tip": "2026-11-27T04:30Z",
+  "matchup": "Baylor @ Gonzaga",
+  "market": "spread",
+  "side": "away",
+  "line": 2.5,
+  "odds": -115,
+  "label": "Baylor +2.5",
+  "handle": 72,
+  "bets": 40,
+  "diff": 32,
+  "made_at": "2026-11-26T23:30:03.152328-05:00",
+  "model_agrees": "True",
+  "close_line": 2.5,
+  "close_odds": -105.0
+ },
+ {
   "id": "401911523-spread-away",
   "game_id": "401911523",
   "date": "2026-11-26",
@@ -16,7 +35,11 @@
   "made_at": "2026-11-26T18:42:52.309497-05:00",
   "model_agrees": "True",
   "close_line": -2.5,
-  "close_odds": -118.0
+  "close_odds": -118.0,
+  "result": "W",
+  "units": 0.847,
+  "final": "UCD 68, JXST 63",
+  "clv": 0.0
  },
  {
   "id": "401929005-moneyline-away",

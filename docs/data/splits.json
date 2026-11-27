@@ -1,410 +1,58 @@
 {
- "updated": "2026-11-26T18:42:52.309497-05:00",
+ "updated": "2026-11-26T23:30:03.152328-05:00",
  "error": null,
  "games": [
-  {
-   "event_id": "35089788",
-   "away": "SMU",
-   "home": "LSU",
-   "when": "Thu 11/26 \u00b7 7:05 PM ET",
-   "markets": {
-    "moneyline": [
-     {
-      "label": "LSU",
-      "odds": -310,
-      "handle": 91,
-      "bets": 96,
-      "model_agrees": false
-     },
-     {
-      "label": "SMU",
-      "odds": 250,
-      "handle": 9,
-      "bets": 4,
-      "model_agrees": true
-     }
-    ],
-    "spread": [
-     {
-      "label": "LSU -7.5",
-      "odds": -105,
-      "handle": 62,
-      "bets": 63,
-      "model_agrees": "False"
-     },
-     {
-      "label": "SMU +7.5",
-      "odds": -115,
-      "handle": 38,
-      "bets": 37,
-      "model_agrees": "True"
-     }
-    ],
-    "total": [
-     {
-      "label": "Over 155.5",
-      "odds": -108,
-      "handle": 53,
-      "bets": 46,
-      "model_agrees": "False"
-     },
-     {
-      "label": "Under 155.5",
-      "odds": -112,
-      "handle": 47,
-      "bets": 54,
-      "model_agrees": "True"
-     }
-    ]
-   },
-   "espn_id": "401918972",
-   "model": {
-    "margin": 6.85,
-    "total": 152.79,
-    "home_spread": -7.0
-   }
-  },
-  {
-   "event_id": "35089945",
-   "away": "DePaul",
-   "home": "Pittsburgh",
-   "when": "Thu 11/26 \u00b7 7:05 PM ET",
-   "markets": {
-    "moneyline": [
-     {
-      "label": "Pittsburgh",
-      "odds": -108,
-      "handle": 66,
-      "bets": 58,
-      "model_agrees": false
-     },
-     {
-      "label": "DePaul",
-      "odds": -112,
-      "handle": 34,
-      "bets": 42,
-      "model_agrees": true
-     }
-    ],
-    "spread": [
-     {
-      "label": "DePaul -1.5",
-      "odds": 105,
-      "handle": 20,
-      "bets": 43,
-      "model_agrees": "True"
-     },
-     {
-      "label": "Pittsburgh +1.5",
-      "odds": -125,
-      "handle": 80,
-      "bets": 57,
-      "model_agrees": "False"
-     }
-    ],
-    "total": [
-     {
-      "label": "Over 137.5",
-      "odds": -105,
-      "handle": 28,
-      "bets": 52,
-      "model_agrees": "False"
-     },
-     {
-      "label": "Under 137.5",
-      "odds": -115,
-      "handle": 72,
-      "bets": 48,
-      "model_agrees": "True"
-     }
-    ]
-   },
-   "espn_id": "401909506",
-   "model": {
-    "margin": -3.98,
-    "total": 133.07,
-    "home_spread": 4.0
-   }
-  },
-  {
-   "event_id": "35089784",
-   "away": "Jacksonville State",
-   "home": "UC Davis",
-   "when": "Thu 11/26 \u00b7 8:00 PM ET",
-   "markets": {
-    "moneyline": [
-     {
-      "label": "UC Davis",
-      "odds": 130,
-      "handle": 40,
-      "bets": 40,
-      "model_agrees": false
-     },
-     {
-      "label": "Jacksonville State",
-      "odds": -155,
-      "handle": 60,
-      "bets": 60,
-      "model_agrees": true
-     }
-    ],
-    "spread": [
-     {
-      "label": "Jacksonville State -2.5",
-      "odds": -118,
-      "handle": 96,
-      "bets": 51,
-      "model_agrees": "True"
-     },
-     {
-      "label": "UC Davis +2.5",
-      "odds": -102,
-      "handle": 4,
-      "bets": 49,
-      "model_agrees": "False"
-     }
-    ],
-    "total": [
-     {
-      "label": "Over 137.5",
-      "odds": -110,
-      "handle": 94,
-      "bets": 74,
-      "model_agrees": "True"
-     },
-     {
-      "label": "Under 137.5",
-      "odds": -110,
-      "handle": 6,
-      "bets": 26,
-      "model_agrees": "False"
-     }
-    ]
-   },
-   "espn_id": "401911523",
-   "model": {
-    "margin": -5.77,
-    "total": 145.73,
-    "home_spread": 6.0
-   }
-  },
-  {
-   "event_id": "35084587",
-   "away": "St. Johns",
-   "home": "Louisville",
-   "when": "Thu 11/26 \u00b7 9:00 PM ET",
-   "markets": {
-    "moneyline": [
-     {
-      "label": "Louisville",
-      "odds": 105,
-      "handle": 11,
-      "bets": 27
-     },
-     {
-      "label": "St. Johns",
-      "odds": -125,
-      "handle": 89,
-      "bets": 73
-     }
-    ],
-    "spread": [
-     {
-      "label": "St. Johns -1.5",
-      "odds": -110,
-      "handle": 81,
-      "bets": 74
-     },
-     {
-      "label": "Louisville +1.5",
-      "odds": -110,
-      "handle": 19,
-      "bets": 26
-     }
-    ],
-    "total": [
-     {
-      "label": "Over 160.5",
-      "odds": -115,
-      "handle": 76,
-      "bets": 71
-     },
-     {
-      "label": "Under 160.5",
-      "odds": -105,
-      "handle": 24,
-      "bets": 29
-     }
-    ]
-   },
-   "espn_id": null,
-   "model": null
-  },
-  {
-   "event_id": "35085108",
-   "away": "Kansas State",
-   "home": "Alabama",
-   "when": "Thu 11/26 \u00b7 9:00 PM ET",
-   "markets": {
-    "moneyline": [
-     {
-      "label": "Alabama",
-      "odds": -1100,
-      "handle": 89,
-      "bets": 99
-     },
-     {
-      "label": "Kansas State",
-      "odds": 700,
-      "handle": 11,
-      "bets": 1
-     }
-    ],
-    "spread": [
-     {
-      "label": "Alabama -13.5",
-      "odds": -112,
-      "handle": 59,
-      "bets": 74
-     },
-     {
-      "label": "Kansas State +13.5",
-      "odds": -108,
-      "handle": 41,
-      "bets": 26
-     }
-    ],
-    "total": [
-     {
-      "label": "Over 169.5",
-      "odds": -115,
-      "handle": 89,
-      "bets": 70
-     },
-     {
-      "label": "Under 169.5",
-      "odds": -105,
-      "handle": 11,
-      "bets": 30
-     }
-    ]
-   },
-   "espn_id": null,
-   "model": null
-  },
-  {
-   "event_id": "35089787",
-   "away": "Pacific",
-   "home": "Omaha",
-   "when": "Thu 11/26 \u00b7 10:30 PM ET",
-   "markets": {
-    "moneyline": [
-     {
-      "label": "Omaha",
-      "odds": 275,
-      "handle": 8,
-      "bets": 9,
-      "model_agrees": false
-     },
-     {
-      "label": "Pacific",
-      "odds": -345,
-      "handle": 92,
-      "bets": 91,
-      "model_agrees": true
-     }
-    ],
-    "spread": [
-     {
-      "label": "Pacific -7.5",
-      "odds": -112,
-      "handle": 76,
-      "bets": 67,
-      "model_agrees": "True"
-     },
-     {
-      "label": "Omaha +7.5",
-      "odds": -108,
-      "handle": 24,
-      "bets": 33,
-      "model_agrees": "False"
-     }
-    ],
-    "total": [
-     {
-      "label": "Over 139.5",
-      "odds": -110,
-      "handle": 76,
-      "bets": 53,
-      "model_agrees": "False"
-     },
-     {
-      "label": "Under 139.5",
-      "odds": -110,
-      "handle": 24,
-      "bets": 47,
-      "model_agrees": "True"
-     }
-    ]
-   },
-   "espn_id": "401917546",
-   "model": {
-    "margin": -11.57,
-    "total": 137.95,
-    "home_spread": 11.5
-   }
-  },
   {
    "event_id": "35084608",
    "away": "Texas Tech",
    "home": "Oregon",
-   "when": "Thu 11/26 \u00b7 11:30 PM ET",
+   "when": "Thu 11/26 \u00b7 11:50 PM ET",
    "markets": {
     "moneyline": [
      {
       "label": "Oregon",
-      "odds": 400,
+      "odds": 410,
       "handle": 5,
-      "bets": 4,
+      "bets": 5,
       "model_agrees": false
      },
      {
       "label": "Texas Tech",
-      "odds": -535,
+      "odds": -550,
       "handle": 95,
-      "bets": 96,
+      "bets": 95,
       "model_agrees": true
      }
     ],
     "spread": [
      {
       "label": "Texas Tech -10.5",
-      "odds": -108,
-      "handle": 95,
-      "bets": 84,
+      "odds": -115,
+      "handle": 87,
+      "bets": 80,
       "model_agrees": "True"
      },
      {
       "label": "Oregon +10.5",
-      "odds": -112,
-      "handle": 5,
-      "bets": 16,
+      "odds": -105,
+      "handle": 13,
+      "bets": 20,
       "model_agrees": "False"
      }
     ],
     "total": [
      {
-      "label": "Over 148.5",
-      "odds": -112,
-      "handle": 83,
-      "bets": 70,
+      "label": "Over 149.5",
+      "odds": -110,
+      "handle": 80,
+      "bets": 74,
       "model_agrees": "False"
      },
      {
-      "label": "Under 148.5",
-      "odds": -108,
-      "handle": 17,
-      "bets": 30,
+      "label": "Under 149.5",
+      "odds": -110,
+      "handle": 20,
+      "bets": 26,
       "model_agrees": "True"
      }
     ]
@@ -420,37 +68,37 @@
    "event_id": "35085107",
    "away": "Baylor",
    "home": "Gonzaga",
-   "when": "Thu 11/26 \u00b7 11:30 PM ET",
+   "when": "Thu 11/26 \u00b7 11:50 PM ET",
    "markets": {
     "moneyline": [
      {
       "label": "Gonzaga",
-      "odds": -166,
-      "handle": 86,
-      "bets": 84,
-      "model_agrees": false
+      "odds": -142,
+      "handle": 59,
+      "bets": 79,
+      "model_agrees": true
      },
      {
       "label": "Baylor",
-      "odds": 140,
-      "handle": 14,
-      "bets": 16,
-      "model_agrees": true
+      "odds": 120,
+      "handle": 41,
+      "bets": 21,
+      "model_agrees": false
      }
     ],
     "spread": [
      {
-      "label": "Gonzaga -3.5",
-      "odds": 100,
-      "handle": 60,
-      "bets": 57,
+      "label": "Gonzaga -2.5",
+      "odds": -105,
+      "handle": 28,
+      "bets": 60,
       "model_agrees": "False"
      },
      {
-      "label": "Baylor +3.5",
-      "odds": -120,
-      "handle": 40,
-      "bets": 43,
+      "label": "Baylor +2.5",
+      "odds": -115,
+      "handle": 72,
+      "bets": 40,
       "model_agrees": "True"
      }
     ],
@@ -458,15 +106,15 @@
      {
       "label": "Over 153.5",
       "odds": -108,
-      "handle": 35,
-      "bets": 54,
+      "handle": 55,
+      "bets": 57,
       "model_agrees": "False"
      },
      {
       "label": "Under 153.5",
       "odds": -112,
-      "handle": 65,
-      "bets": 46,
+      "handle": 45,
+      "bets": 43,
       "model_agrees": "True"
      }
     ]

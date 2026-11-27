@@ -19,8 +19,8 @@
   "matchup": "Texas Tech @ Oregon",
   "model_version": "1.2",
   "model_line": 138.62,
-  "close_line": 148.5,
-  "close_odds": -108.0
+  "close_line": 149.5,
+  "close_odds": -110.0
  },
  {
   "market": "total",
@@ -43,7 +43,11 @@
   "model_version": "1.2",
   "model_line": 161.04,
   "close_line": 169.5,
-  "close_odds": -105.0
+  "close_odds": -105.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "ALA 104, KSU 91",
+  "clv": -0.0
  },
  {
   "market": "total",
@@ -66,7 +70,11 @@
   "model_version": "1.2",
   "model_line": 145.73,
   "close_line": 137.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "UCD 68, JXST 63",
+  "clv": 0.0
  },
  {
   "market": "moneyline",
@@ -89,7 +97,11 @@
   "model_version": "1.2",
   "model_line": 0.625,
   "close_line": null,
-  "close_odds": -112.0
+  "close_odds": -112.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "DEP 64, PITT 71",
+  "clv": 0.0
  },
  {
   "market": "spread",

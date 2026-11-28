@@ -20,7 +20,11 @@
   "model_version": "1.2",
   "model_line": 132.36,
   "close_line": 142.5,
-  "close_odds": -113.0
+  "close_odds": -113.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "SDSU 75, TTU 78",
+  "clv": -0.0
  },
  {
   "market": "total",
@@ -43,7 +47,11 @@
   "model_version": "1.2",
   "model_line": 142.43,
   "close_line": 148.5,
-  "close_odds": -105.0
+  "close_odds": -105.0,
+  "result": "W",
+  "units": 0.952,
+  "final": "TENN 64, LOU 84",
+  "clv": -0.0
  },
  {
   "market": "spread",
@@ -66,7 +74,11 @@
   "model_version": "1.2",
   "model_line": 0.0,
   "close_line": 4.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "W",
+  "units": 0.926,
+  "final": "WICH 73, UK 71",
+  "clv": 0.0
  },
  {
   "market": "moneyline",
@@ -89,7 +101,11 @@
   "model_version": "1.2",
   "model_line": 0.503,
   "close_line": null,
-  "close_odds": 170.0
+  "close_odds": 170.0,
+  "result": "W",
+  "units": 1.7,
+  "final": "WICH 73, UK 71",
+  "clv": 0.0
  },
  {
   "market": "moneyline",

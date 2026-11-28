@@ -16,7 +16,11 @@
   "made_at": "2026-11-27T23:10:45.176245-05:00",
   "model_agrees": "False",
   "close_line": 160.5,
-  "close_odds": -109.0
+  "close_odds": -109.0,
+  "result": "W",
+  "units": 0.917,
+  "final": "CREI 97, GONZ 89",
+  "clv": 0.0
  },
  {
   "id": "401920544-moneyline-away",
@@ -35,7 +39,11 @@
   "made_at": "2026-11-27T18:22:29.971441-05:00",
   "model_agrees": true,
   "close_line": null,
-  "close_odds": 215.0
+  "close_odds": 215.0,
+  "result": "W",
+  "units": 2.05,
+  "final": "CREI 97, GONZ 89",
+  "clv": -1.0
  },
  {
   "id": "401919033-spread-away",
@@ -54,7 +62,11 @@
   "made_at": "2026-11-27T18:22:29.971441-05:00",
   "model_agrees": "True",
   "close_line": 4.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "W",
+  "units": 0.926,
+  "final": "WICH 73, UK 71",
+  "clv": 0.0
  },
  {
   "id": "401928624-spread-away",

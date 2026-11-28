@@ -1,5 +1,24 @@
 [
  {
+  "id": "401920544-total-over",
+  "game_id": "401920544",
+  "date": "2026-11-27",
+  "tip": "2026-11-28T04:15Z",
+  "matchup": "Creighton @ Gonzaga",
+  "market": "total",
+  "side": "over",
+  "line": 160.5,
+  "odds": -109,
+  "label": "Over 160.5",
+  "handle": 99,
+  "bets": 55,
+  "diff": 44,
+  "made_at": "2026-11-27T23:10:45.176245-05:00",
+  "model_agrees": "False",
+  "close_line": 160.5,
+  "close_odds": -109.0
+ },
+ {
   "id": "401920544-moneyline-away",
   "game_id": "401920544",
   "date": "2026-11-27",
@@ -16,7 +35,7 @@
   "made_at": "2026-11-27T18:22:29.971441-05:00",
   "model_agrees": true,
   "close_line": null,
-  "close_odds": 205.0
+  "close_odds": 215.0
  },
  {
   "id": "401919033-spread-away",
@@ -54,7 +73,11 @@
   "made_at": "2026-11-27T18:22:29.971441-05:00",
   "model_agrees": "False",
   "close_line": 4.5,
-  "close_odds": -114.0
+  "close_odds": -114.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "MOST 66, ORU 72",
+  "clv": 0.0
  },
  {
   "id": "401911524-moneyline-home",
@@ -73,7 +96,11 @@
   "made_at": "2026-11-27T18:22:29.971441-05:00",
   "model_agrees": true,
   "close_line": null,
-  "close_odds": 230.0
+  "close_odds": 230.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "PAC 78, UCD 61",
+  "clv": 0.0
  },
  {
   "id": "401911524-spread-home",
@@ -92,7 +119,11 @@
   "made_at": "2026-11-27T18:22:29.971441-05:00",
   "model_agrees": "True",
   "close_line": 6.5,
-  "close_odds": -112.0
+  "close_odds": -112.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "PAC 78, UCD 61",
+  "clv": 0.0
  },
  {
   "id": "401922264-spread-home",
@@ -111,7 +142,11 @@
   "made_at": "2026-11-27T18:22:29.971441-05:00",
   "model_agrees": "False",
   "close_line": -11.5,
-  "close_odds": -117.0
+  "close_odds": -117.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "IDHO 61, WSU 69",
+  "clv": 0.0
  },
  {
   "id": "401922264-total-over",
@@ -130,7 +165,11 @@
   "made_at": "2026-11-27T18:22:29.971441-05:00",
   "model_agrees": "True",
   "close_line": 148.5,
-  "close_odds": -111.0
+  "close_odds": -111.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "IDHO 61, WSU 69",
+  "clv": 0.0
  },
  {
   "id": "401912711-moneyline-home",
@@ -149,7 +188,11 @@
   "made_at": "2026-11-27T18:22:29.971441-05:00",
   "model_agrees": true,
   "close_line": null,
-  "close_odds": 130.0
+  "close_odds": 130.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "WVU 72, UNC 59",
+  "clv": 0.0
  },
  {
   "id": "401929284-total-under",
@@ -168,7 +211,11 @@
   "made_at": "2026-11-27T18:22:29.971441-05:00",
   "model_agrees": "False",
   "close_line": 161.5,
-  "close_odds": -108.0
+  "close_odds": -108.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "UCF 88, UGA 76",
+  "clv": -0.0
  },
  {
   "id": "401911380-total-under",
@@ -187,7 +234,11 @@
   "made_at": "2026-11-27T18:22:29.971441-05:00",
   "model_agrees": "True",
   "close_line": 142.5,
-  "close_odds": -110.0
+  "close_odds": -110.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "CHSO 76, ETSU 67",
+  "clv": -0.0
  },
  {
   "id": "401926756-moneyline-away",
@@ -206,7 +257,11 @@
   "made_at": "2026-11-27T18:22:29.971441-05:00",
   "model_agrees": true,
   "close_line": null,
-  "close_odds": 750.0
+  "close_odds": 750.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "LEH 43, UCSB 75",
+  "clv": 0.0
  },
  {
   "id": "401926756-spread-home",
@@ -225,7 +280,11 @@
   "made_at": "2026-11-27T18:22:29.971441-05:00",
   "model_agrees": "False",
   "close_line": -13.5,
-  "close_odds": -113.0
+  "close_odds": -113.0,
+  "result": "W",
+  "units": 0.885,
+  "final": "LEH 43, UCSB 75",
+  "clv": 0.0
  },
  {
   "id": "401921185-spread-home",
@@ -244,7 +303,11 @@
   "made_at": "2026-11-27T18:22:29.971441-05:00",
   "model_agrees": "True",
   "close_line": -3.5,
-  "close_odds": -109.0
+  "close_odds": -109.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "TOW 72, PENN 61",
+  "clv": 0.0
  },
  {
   "id": "401921185-total-under",
@@ -263,7 +326,11 @@
   "made_at": "2026-11-27T18:22:29.971441-05:00",
   "model_agrees": "True",
   "close_line": 143.5,
-  "close_odds": -105.0
+  "close_odds": -105.0,
+  "result": "W",
+  "units": 0.952,
+  "final": "TOW 72, PENN 61",
+  "clv": -0.0
  },
  {
   "id": "401920540-spread-away",

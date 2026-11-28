@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T18:22:29.971441-05:00",
+ "updated": "2026-11-27T23:10:45.176245-05:00",
  "slate": "2026-11-27",
  "model_version": "1.2",
  "sharp_markets": [
@@ -38,24 +38,7 @@
  "market_weight": 0.7,
  "log": [
   "Fit on 1449 games through 2026-11-26",
-  "Splits: 18 games, 14 sides with handle >= bets + 30",
-  "Pass: Lehigh @ Santa Barbara Lehigh +13.5: Sharp money on the other side (handle beats bets by 41)",
-  "New pick: West Virginia @ North Carolina Under 148.5 (-106) EV 8.3%",
-  "Pass: Oakland @ Houston Over 143.5: DK line moved 7.0 pts against it",
-  "New pick: Penn State @ Mississippi St Penn State ML (+240) EV 5.5%",
-  "Pass: Penn State @ Mississippi St Under 156.5: Sharp money on the other side (handle beats bets by 20)",
-  "New pick: Missouri St @ Oral Roberts Oral Roberts ML (-192) EV 3.0%",
-  "Pass: Missouri St @ Oral Roberts Oral Roberts -4.5: Sharp money on the other side (handle beats bets by 45)",
-  "New pick: N Dakota St @ North Texas N Dakota St ML (+205) EV 5.8%",
-  "New pick: Idaho @ Washington St Over 148.5 (-111) EV 12.4%",
-  "Pass: Miami @ Alabama Under 170.5: Sharp money on the other side (handle beats bets by 15)",
-  "New pick: Tennessee @ Louisville Under 148.5 (-105) EV 5.8%",
-  "Pass: Tennessee @ Louisville Tennessee +3.5: DK line moved 5.0 pts against it",
-  "Pass: Tennessee @ Louisville Tennessee ML: DK line moved 13.0% against it",
-  "New pick: Wichita St @ Kentucky Wichita St +4.5 (-108) EV 4.7%",
-  "New pick: Wichita St @ Kentucky Wichita St ML (+170) EV 8.3%",
-  "Pass: Jax State @ Omaha Over 138.5: DK line moved 6.0 pts against it",
-  "Pass: Creighton @ Gonzaga Under 160.5: Sharp money on the other side (handle beats bets by 24)",
-  "New pick: San Diego St @ Texas Tech Under 142.5 (-110) EV 8.8%"
+  "Splits: 2 games, 1 sides with handle >= bets + 30",
+  "Pass: Creighton @ Gonzaga Under 160.5: Sharp money on the other side (handle beats bets by 44)"
  ]
 }

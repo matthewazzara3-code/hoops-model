@@ -20,7 +20,7 @@
   "model_version": "1.2",
   "model_line": 132.36,
   "close_line": 142.5,
-  "close_odds": -110.0
+  "close_odds": -113.0
  },
  {
   "market": "total",
@@ -112,7 +112,11 @@
   "model_version": "1.2",
   "model_line": 0.761,
   "close_line": null,
-  "close_odds": -192.0
+  "close_odds": -192.0,
+  "result": "W",
+  "units": 0.521,
+  "final": "MOST 66, ORU 72",
+  "clv": 0.0
  },
  {
   "market": "moneyline",
@@ -135,7 +139,11 @@
   "model_version": "1.2",
   "model_line": 0.381,
   "close_line": null,
-  "close_odds": 205.0
+  "close_odds": 205.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "NDSU 73, UNT 75",
+  "clv": 0.0
  },
  {
   "market": "total",
@@ -158,7 +166,11 @@
   "model_version": "1.2",
   "model_line": 161.83,
   "close_line": 148.5,
-  "close_odds": -111.0
+  "close_odds": -111.0,
+  "result": "L",
+  "units": -1.0,
+  "final": "IDHO 61, WSU 69",
+  "clv": 0.0
  },
  {
   "market": "moneyline",
@@ -181,7 +193,11 @@
   "model_version": "1.2",
   "model_line": 0.34,
   "close_line": null,
-  "close_odds": 240.0
+  "close_odds": 240.0,
+  "result": "W",
+  "units": 2.4,
+  "final": "PSU 68, MSST 63",
+  "clv": 0.0
  },
  {
   "market": "total",
@@ -204,7 +220,11 @@
   "model_version": "1.2",
   "model_line": 140.14,
   "close_line": 148.5,
-  "close_odds": -106.0
+  "close_odds": -106.0,
+  "result": "W",
+  "units": 0.943,
+  "final": "WVU 72, UNC 59",
+  "clv": -0.0
  },
  {
   "market": "total",

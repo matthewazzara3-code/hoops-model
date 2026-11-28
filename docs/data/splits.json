@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T02:32:51.038830-05:00",
+ "updated": "2026-11-28T03:22:24.205666-05:00",
  "error": null,
  "games": [
   {
@@ -28,29 +28,29 @@
      {
       "label": "Saint Thomas MN -2.5",
       "odds": -109,
-      "handle": 100,
-      "bets": 100,
+      "handle": 96,
+      "bets": 75,
       "model_agrees": null
      },
      {
       "label": "Princeton +2.5",
       "odds": -111,
-      "handle": 0,
-      "bets": 0,
+      "handle": 4,
+      "bets": 25,
       "model_agrees": null
      }
     ],
     "total": [
      {
-      "label": "Over 142.5",
-      "odds": -114,
+      "label": "Over 143.5",
+      "odds": -106,
       "handle": 0,
       "bets": 0,
       "model_agrees": null
      },
      {
-      "label": "Under 142.5",
-      "odds": -106,
+      "label": "Under 143.5",
+      "odds": -114,
       "handle": 100,
       "bets": 100,
       "model_agrees": null
@@ -89,13 +89,13 @@
       "label": "Seton Hall -17.5",
       "odds": -107,
       "handle": 82,
-      "bets": 40
+      "bets": 33
      },
      {
       "label": "Siena +17.5",
       "odds": -113,
       "handle": 18,
-      "bets": 60
+      "bets": 67
      }
     ],
     "total": [
@@ -177,13 +177,13 @@
     "spread": [
      {
       "label": "Gardner-Webb -1.5",
-      "odds": -118,
+      "odds": -104,
       "handle": 6,
       "bets": 10
      },
      {
       "label": "NC Central +1.5",
-      "odds": -102,
+      "odds": -116,
       "handle": 94,
       "bets": 90
      }
@@ -215,29 +215,29 @@
     "moneyline": [
      {
       "label": "Radford",
-      "odds": -105,
+      "odds": -120,
       "handle": 94,
       "bets": 50
      },
      {
       "label": "Hampton",
-      "odds": -115,
+      "odds": 100,
       "handle": 6,
       "bets": 50
      }
     ],
     "spread": [
      {
-      "label": "Hampton -1.5",
-      "odds": 102,
-      "handle": 2,
-      "bets": 13
-     },
-     {
-      "label": "Radford +1.5",
-      "odds": -123,
+      "label": "Radford -1.5",
+      "odds": -114,
       "handle": 98,
       "bets": 88
+     },
+     {
+      "label": "Hampton +1.5",
+      "odds": -106,
+      "handle": 2,
+      "bets": 13
      }
     ],
     "total": [
@@ -334,14 +334,14 @@
      {
       "label": "Purdue Fort Wayne -2.5",
       "odds": -108,
-      "handle": 97,
-      "bets": 33
+      "handle": 94,
+      "bets": 25
      },
      {
       "label": "Wofford +2.5",
       "odds": -112,
-      "handle": 3,
-      "bets": 67
+      "handle": 6,
+      "bets": 75
      }
     ],
     "total": [
@@ -371,27 +371,27 @@
     "moneyline": [
      {
       "label": "Colgate",
-      "odds": -130,
+      "odds": -135,
       "handle": 2,
-      "bets": 50
+      "bets": 57
      },
      {
       "label": "Vermont",
-      "odds": 110,
+      "odds": 114,
       "handle": 98,
-      "bets": 50
+      "bets": 43
      }
     ],
     "spread": [
      {
-      "label": "Colgate -1.5",
-      "odds": -110,
+      "label": "Colgate -2.5",
+      "odds": -106,
       "handle": 3,
       "bets": 50
      },
      {
-      "label": "Vermont +1.5",
-      "odds": -110,
+      "label": "Vermont +2.5",
+      "odds": -114,
       "handle": 97,
       "bets": 50
      }
@@ -405,7 +405,7 @@
      },
      {
       "label": "Under 142.5",
-      "odds": -104,
+      "odds": -105,
       "handle": 0,
       "bets": 0
      }
@@ -1015,13 +1015,13 @@
     "total": [
      {
       "label": "Over 157.5",
-      "odds": -110,
+      "odds": -109,
       "handle": 100,
       "bets": 100
      },
      {
       "label": "Under 157.5",
-      "odds": -110,
+      "odds": -111,
       "handle": 0,
       "bets": 0
      }
@@ -1568,16 +1568,30 @@
    "home": "Utah Valley",
    "when": "Sat 11/28 \u00b7 4:00 PM ET",
    "markets": {
+    "moneyline": [
+     {
+      "label": "Utah Valley",
+      "odds": -270,
+      "handle": 100,
+      "bets": 100
+     },
+     {
+      "label": "San Jose State",
+      "odds": 220,
+      "handle": 0,
+      "bets": 0
+     }
+    ],
     "spread": [
      {
-      "label": "Utah Valley -5.5",
-      "odds": -114,
+      "label": "Utah Valley -6.5",
+      "odds": -103,
       "handle": 98,
       "bets": 75
      },
      {
-      "label": "San Jose State +5.5",
-      "odds": -106,
+      "label": "San Jose State +6.5",
+      "odds": -117,
       "handle": 2,
       "bets": 25
      }
@@ -1585,13 +1599,13 @@
     "total": [
      {
       "label": "Over 154.5",
-      "odds": -106,
+      "odds": -110,
       "handle": 0,
       "bets": 67
      },
      {
       "label": "Under 154.5",
-      "odds": -114,
+      "odds": -110,
       "handle": 100,
       "bets": 33
      }
@@ -1807,14 +1821,14 @@
     "total": [
      {
       "label": "Over 138.5",
-      "odds": -116,
+      "odds": -111,
       "handle": 57,
       "bets": 50,
       "model_agrees": null
      },
      {
       "label": "Under 138.5",
-      "odds": -104,
+      "odds": -109,
       "handle": 43,
       "bets": 50,
       "model_agrees": null
@@ -1916,14 +1930,14 @@
     ],
     "total": [
      {
-      "label": "Over 146.5",
-      "odds": -113,
+      "label": "Over 145.5",
+      "odds": -108,
       "handle": 0,
       "bets": 33
      },
      {
-      "label": "Under 146.5",
-      "odds": -107,
+      "label": "Under 145.5",
+      "odds": -112,
       "handle": 100,
       "bets": 67
      }
@@ -2426,14 +2440,14 @@
     ],
     "total": [
      {
-      "label": "Over 144.5",
-      "odds": -106,
+      "label": "Over 143.5",
+      "odds": -115,
       "handle": 100,
       "bets": 100
      },
      {
-      "label": "Under 144.5",
-      "odds": -114,
+      "label": "Under 143.5",
+      "odds": -105,
       "handle": 0,
       "bets": 0
      }
